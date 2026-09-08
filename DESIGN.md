@@ -181,6 +181,9 @@ Pages は `main:/docs` を自動デプロイ。両ワークフローに `permiss
 - **`claude-code-action` はスケジュール実行に human-actor チェックを適用**し、cron を最後に編集した
   ユーザーに実行を帰属させる。通常は本人なので通るが、通らないとデイリーレポートが止まり、
   症状は「ワークフロー失敗」だけ。初回のスケジュール実行で明示的に確認する。
+- **`claude-code-action` は git 認証情報を書き換える**。後続ステップの素の `git push` は
+  checkout のトークンを失って認証失敗するため、`daily.yml` の commit ステップは
+  `https://x-access-token:${GITHUB_TOKEN}@github.com/...` の明示 URL で push する。
 
 ## ディレクトリ構成
 
