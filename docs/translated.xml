@@ -4,11 +4,56 @@
         <title>翻訳フィード — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>購読フィードの新着エントリのタイトルと概要を日本語化した統合フィード</description>
-        <lastBuildDate>Tue, 08 Sep 2026 14:05:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2026 18:37:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[ChatGPT Images 2.5 — Hacker News (200+ points)]]></title>
+            <link>https://openai.com/index/introducing-chatgpt-images-2-5/</link>
+            <guid>https://news.ycombinator.com/item?id=49614720</guid>
+            <pubDate>Tue, 08 Sep 2026 18:37:51 GMT</pubDate>
+            <description><![CDATA[記事URL：https://openai.com/index/introducing-chatgpt-images-2-5/ コメントURL：https://news.ycombinator.com/item?id=49614720 ポイント：205 コメント数：263]]></description>
+            <content:encoded><![CDATA[<p><a href="https://openai.com/index/introducing-chatgpt-images-2-5/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-chatgpt-images-2-5%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[ナビエ・ストークスのミレニアム賞問題について — Hacker News (200+ points)]]></title>
+            <link>https://openai.com/index/navier-stokes-solution/</link>
+            <guid>https://news.ycombinator.com/item?id=49613262</guid>
+            <pubDate>Tue, 08 Sep 2026 17:13:21 GMT</pubDate>
+            <description><![CDATA[記事URL：https://openai.com/index/navier-stokes-solution/ コメントURL：https://news.ycombinator.com/item?id=49613262 ポイント：791 コメント数：582]]></description>
+            <content:encoded><![CDATA[<p><a href="https://openai.com/index/navier-stokes-solution/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fopenai.com%2Findex%2Fnavier-stokes-solution%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[Google DeepMindが「AlphaGenome Atlas」を公開 — Hacker News (200+ points)]]></title>
+            <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/</link>
+            <guid>https://news.ycombinator.com/item?id=49611251</guid>
+            <pubDate>Tue, 08 Sep 2026 14:55:45 GMT</pubDate>
+            <description><![CDATA[記事のURL： https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/ コメントURL: https://news.ycombinator.com/item?id=49611251 ポイント: 394 # コメント数: 101]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-deepmind%2Falphagenome-atlas%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[パラマウント、合併への偽の支持を集めるために「アストロターフ」団体を利用していたことが発覚 — Hacker News (200+ points)]]></title>
+            <link>https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/</link>
+            <guid>https://news.ycombinator.com/item?id=49610900</guid>
+            <pubDate>Tue, 08 Sep 2026 14:33:52 GMT</pubDate>
+            <description><![CDATA[記事URL：https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/ コメントURL： https://news.ycombinator.com/item?id=49610900 ポイント: 287 コメント数: 95]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.techdirt.com%2F2026%2F09%2F08%2Fparamount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[I-have-ADHD：エージェントが答えを隠してしまうのを防ぐテクニック — Hacker News (200+ points)]]></title>
+            <link>https://github.com/ayghri/i-have-adhd</link>
+            <guid>https://news.ycombinator.com/item?id=49610631</guid>
+            <pubDate>Tue, 08 Sep 2026 14:13:26 GMT</pubDate>
+            <description><![CDATA[記事URL：https://github.com/ayghri/i-have-adhd コメントURL：https://news.ycombinator.com/item?id=49610631 ポイント：205 コメント数：158]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/ayghri/i-have-adhd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
         <item>
             <title><![CDATA[LibreOffice、AI機能がないと発表した後、ダウンロード数が過去最高を記録 — Hacker News (200+ points)]]></title>
             <link>https://manualdousuario.net/en/libreoffice-download-record-no-ai/</link>
@@ -862,51 +907,6 @@
             <pubDate>Thu, 23 Apr 2026 18:35:00 GMT</pubDate>
             <description><![CDATA[数年にわたる開発を経て、Kubernetesの「ユーザーネームスペース」サポートはv1.36のリリースに伴い、一般提供（GA）に至りました。これはLinux専用の機能です。低レベルのコンテナランタイムやルートレス技術に携わる私たちにとって、これは待ち望んでいたマイルストーンです。 ついに、Kubernetesのワークロードに対して「rootless」なセキュリティ分離を利用できる段階に至りました。この機能により、特権を持ってワークロードを実行しつつ、依然として]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F23%2Fkubernetes-v1-36-userns-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[SELinuxのボリュームラベル変更機能が一般提供開始（v1.37における影響も予想される） — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/</link>
-            <guid>https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/</guid>
-            <pubDate>Wed, 22 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[SELinuxがenforcingモードになっているLinux環境でKubernetesを実行する場合は、事前の計画が必要です。今後のリリース（v1.37と予想されます）では、SELinuxMount機能ゲートがデフォルトで有効になる見込みです。 これにより、ほとんどのワークロードにおいてボリュームの設定が高速化されますが、依然として旧式の再帰的リラベリングモデルに依存しているアプリケーションでは、微妙な形で動作しなくなる可能性があります（例えば、同じノード上の特権ポッドと非特権ポッド間で 1 つのボリュームを共有している場合など）。Kubernetes v1.36 は、クラスタを監査し、修正または]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F22%2Fbreaking-changes-in-selinux-volume-labeling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36: ハル (Haru) — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/</link>
-            <guid>https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/</guid>
-            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[編集者：チャド・M・クロウェル、キルティ・ゴヤル、ソフィア・ウゴチュクウ、スワティ・ラオ、ウトカルシュ・ウムレ これまでのリリースと同様、Kubernetes v1.36のリリースでは、新しい安定版、ベータ版、アルファ版の機能が導入されています。 高品質なリリースを継続的に提供できていることは、当社の開発サイクルの強みと、コミュニティからの活発なサポートを裏付けています。今回のリリースには70件の機能強化が含まれています。そのうち、18件が安定版（Stable）に昇格し、25件がベータ版（Beta）となり、25件がアルファ版（Alpha）に昇格しました。また、s]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F22%2Fkubernetes-v1-36-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Gateway API v1.5：機能の安定版への移行 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/</link>
-            <guid>https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/</guid>
-            <pubDate>Tue, 21 Apr 2026 16:30:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes SIG Network コミュニティは、Gateway API (v1.5) のリリースを発表します！2026年2月27日にリリースされたバージョン1.5は、これまでで最大規模のリリースであり、既存の実験的（Experimental）機能を標準（Stable）に移行することに重点を置いています。 Gateway API v1.5.1のパッチリリースはすでに利用可能です。Gateway API v1.5では、広く要望のあった6つの機能がStandardチャネル（Gateway APIのGAリリースチャネル）に昇格しました。それらは、ListenerSet、TLSRoute、HTTPRoute、CORS Filter、Client Certificate Validation、Certificです。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F21%2Fgateway-api-v1-5%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36 先行情報 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/</link>
-            <guid>https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/</guid>
-            <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes v1.36は2026年4月末にリリースされる予定です。このリリースには機能の削除や非推奨化が含まれるほか、数多くの機能強化が盛り込まれています。ここでは、今回のリリースサイクルで特に注目すべき機能の一部をご紹介します！ なお、この情報は v1.36 の開発の現時点での状況を反映したものであり、リリースまでに変更される可能性がある点にご留意ください。Kubernetes API の削除および非推奨化プロセス Kubernetes プロジェクトには、機能に関する非推奨化ポリシーが明確に文書化されています。このポリシーでは、]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F30%2Fkubernetes-v1-36-sneak-peek%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Ingress2Gateway 1.0 のリリースのお知らせ：Gateway API への道 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/</link>
-            <guid>https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/</guid>
-            <pubDate>Fri, 20 Mar 2026 19:00:00 GMT</pubDate>
-            <description><![CDATA[2026年3月にIngress-NGINXのサポート終了が予定されていることから、Kubernetesのネットワーク環境は転換点を迎えています。多くの組織にとって、問題は「Gateway APIへ移行すべきかどうか」ではなく、「いかにして安全に移行するか」です。 IngressからGateway APIへの移行は、API設計における根本的な転換です。Gateway APIは、KubernetesネイティブのRBACを強力にサポートする、モジュール式で拡張性の高いAPIを提供します。一方、Ingress APIはシンプルであり、Ingress-NGINXなどの実装では、esoを通じてAPIを拡張しています。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F20%2Fingress2gateway-1-0-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>infra</category>
         </item>
     </channel>
