@@ -173,11 +173,10 @@ Pages は `main:/docs` を自動デプロイ。両ワークフローに `permiss
 
 ### 既知の運用リスク（再設計不要、症状を認識できるようにするための記録）
 
-- **`GITHUB_TOKEN` による push が Pages のビルドを起動するか未検証。** 起動しない場合、
-  全ワークフローが success のままサイトだけ永久に更新されない、という最悪の失敗形になる。
-  実装の最初のステップで、`workflow_dispatch` から `docs/` に 1 ファイル commit → `pages-build-deployment`
-  が走り公開 URL が変わるかを確認する。走らなければ deploy key / PAT で push、または
-  `actions/deploy-pages` に戻して状態ファイルだけ別途 commit する方式にフォールバック。
+- **`GITHUB_TOKEN` による push が Pages のビルドを起動するか → 検証済み・起動する。**
+  bot（`github-actions[bot]`）が `docs/` を push すると `pages-build-deployment` が自動で走り
+  公開 URL が更新されることを初回運用で確認した。deploy key / `actions/deploy-pages` への
+  フォールバックは不要。
 - **`claude-code-action` はスケジュール実行に human-actor チェックを適用**し、cron を最後に編集した
   ユーザーに実行を帰属させる。通常は本人なので通るが、通らないとデイリーレポートが止まり、
   症状は「ワークフロー失敗」だけ。初回のスケジュール実行で明示的に確認する。
@@ -225,9 +224,13 @@ mise タスク: `translate` / `report:collect` / `report:render` / `build` / `im
 - 状態管理用の DB / 台帳ファイル。
 - 例外処理・リトライの作り込み。失敗は落として通知する方針。
 
-## 実装着手時に確認・確定すること
+## 初回運用で確認済み
 
-1. **`GITHUB_TOKEN` push で Pages ビルドが起動するか**を最初に検証（起動しなければ deploy 方式をフォールバック）。
-2. DeepL API Free の登録要件と無料枠。使えなければフォールバック MT を確定。
-3. 初期テストフィードでの動作確認後、実フィードリスト（OPML）を差し替え。差し替え時に truncate 100 件を再検討。
-4. `report-criteria.md` の関心領域を本人の内容に更新。
+- `translate.yml` / `daily.yml` とも CI で成功。DeepL 翻訳・claude-code-action のキュレーション・
+  bot による `docs/` コミット・`pages-build-deployment` の自動起動まで一通り確認。
+- 公開先 <https://ogontaro.github.io/rss/>（`translated.xml` / `daily.xml` / `daily/*.html` すべて 200）。
+
+## 残タスク
+
+1. 実フィードリスト（Inoreader OPML）への差し替え。差し替え時に truncate 100 件を再検討。
+2. `report-criteria.md` の関心領域を本人の内容に更新。

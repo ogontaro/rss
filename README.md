@@ -3,8 +3,15 @@
 英語フィードを日本語で追うための個人用 RSS 基盤。GitHub Actions で更新し、GitHub Pages で公開する。
 設計の詳細は [DESIGN.md](./DESIGN.md)。
 
+**公開先**: <https://ogontaro.github.io/rss/>
+
+| フィード | URL | 更新 |
+| --- | --- | --- |
+| 翻訳フィード | `https://ogontaro.github.io/rss/translated.xml` | 6 時間ごと |
+| デイリーレポート | `https://ogontaro.github.io/rss/daily.xml` | 毎日 07:00 JST |
+
 - **翻訳フィード** (`docs/translated.xml`) — 購読フィードの新着エントリのタイトル・概要を日本語化した統合フィード。本文は「原文」＋「Google 翻訳」リンクで代替。
-- **デイリーレポート** (`docs/daily.xml`, `docs/daily/*.html`) — 過去24時間の新着から Claude が重要な 5〜10 件を選び、日本語コメントを付けて 1 日 1 回配信。
+- **デイリーレポート** (`docs/daily.xml`, `docs/daily/*.html`) — 過去 24 時間の新着から Claude が重要な 5〜10 件を選び、日本語コメントを付けて 1 日 1 回配信。
 
 ## セットアップ
 
@@ -13,16 +20,23 @@ mise install      # bun
 bun install
 ```
 
-### 必要な Secrets（GitHub リポジトリ）
+### Secrets（設定済み）
 
 | 名前 | 用途 |
 | --- | --- |
 | `DEEPL_API_KEY` | タイトル・概要の翻訳（DeepL API。Free キーは末尾 `:fx`）。未設定なら未翻訳のまま通す |
-| `CLAUDE_CODE_OAUTH_TOKEN` | デイリーレポートのキュレーション。`claude setup-token` で生成、約 1 年有効・自動更新なし |
+| `CLAUDE_CODE_OAUTH_TOKEN` | デイリーレポートのキュレーション。`claude setup-token` で生成、約 1 年有効・自動更新なし。401 で落ちたら再生成して差し替える |
 
-### GitHub Pages
+### GitHub Pages（設定済み）
 
-Settings → Pages → Source を **Deploy from a branch**、Branch を `main` / `/docs` に設定する。
+Source は **Deploy from a branch** / `main` / `/docs`。ワークフローが `docs/` をコミットすると
+`pages-build-deployment` が自動で走り公開される。
+
+## フィード一覧
+
+`feeds.yaml` が購読リストの正。現状は動作確認用の暫定 5 フィード。
+Inoreader の OPML エクスポートがあれば `mise run import:opml -- <export.opml>` で置き換える。
+デイリーレポートの選定基準・関心領域は `report-criteria.md` を編集する。
 
 ## タスク
 
@@ -45,5 +59,7 @@ translate.yml (6h ごと)   fetch → translate → build → commit docs/
 daily.yml     (07:00 JST) translate → collect → claude-code-action → render → build → commit docs/
 ```
 
-状態は `docs/` の生成物そのもの。翻訳済みは `translated.xml` の guid 集合で判定し、
-デイリーは `docs/daily/YYYY-MM-DD.html` の有無で判定する。専用の状態ストアは持たない。
+- 状態は `docs/` の生成物そのもの。翻訳済みは `translated.xml` の guid 集合、デイリーは
+  `docs/daily/YYYY-MM-DD.html` の有無で判定する。専用の状態ストアは持たない。
+- `translated.xml` / `daily.xml` は **CI でのみ生成する**。ローカル生成物（特に翻訳エンジン未設定の
+  パススルー実行の結果）をコミットしない。guid は永続で、一度入ると本番でも再翻訳されない。
