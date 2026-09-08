@@ -28,6 +28,15 @@
             <category>general</category>
         </item>
         <item>
+            <title><![CDATA[ナビエ・ストークス – トリスタン・バックマスター [pdf] — Hacker News (200+ points)]]></title>
+            <link>https://cims.nyu.edu/~tristanb/statement.pdf</link>
+            <guid>https://news.ycombinator.com/item?id=49605915</guid>
+            <pubDate>Tue, 08 Sep 2026 05:42:28 GMT</pubDate>
+            <description><![CDATA[記事のURL：https://cims.nyu.edu/~tristanb/statement.pdf コメントのURL：https://news.ycombinator.com/item?id=49605915 ポイント：450 コメント数：271]]></description>
+            <content:encoded><![CDATA[<p><a href="https://cims.nyu.edu/~tristanb/statement.pdf">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fcims.nyu.edu%2F~tristanb%2Fstatement.pdf">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
             <title><![CDATA[ミストラルが30億ユーロを調達 — Hacker News (200+ points)]]></title>
             <link>https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</link>
             <guid>https://news.ycombinator.com/item?id=49605767</guid>
@@ -149,7 +158,7 @@
             <link>https://simonwillison.net/2026/Sep/6/zach-kehs/</link>
             <guid>https://simonwillison.net/2026/Sep/6/zach-kehs/</guid>
             <pubDate>Sun, 06 Sep 2026 08:42:49 GMT</pubDate>
-            <description><![CDATA[建物に階や部屋を際限なく増やし続ければ、やがて倒壊してしまいます。しかし、ソフトウェアにはそのような制約はありません。コードは常に悪化し続ける可能性があります。間接化の層が新たに追加されたり、パフォーマンスが低下したりすることは、いつでも起こり得るのです。&mdash; ザック・ケス、『コードの悪さには限界がない』 タグ：技術的負債]]></description>
+            <description><![CDATA[建物に階や部屋を際限なく増やし続ければ、やがて倒壊してしまいます。しかし、ソフトウェアにはそのような制約はありません。コードは常に悪化し続ける可能性があります。間接化の層が新たに追加されたり、パフォーマンスが低下したりすることは、いつでも起こり得るのです。— ザック・ケス、『コードの悪さには限界がない』 タグ：技術的負債]]></description>
             <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/zach-kehs/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fzach-kehs%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>ai</category>
         </item>
@@ -356,7 +365,7 @@
             <link>https://simonwillison.net/2026/Sep/1/datasette-mcp/</link>
             <guid>https://simonwillison.net/2026/Sep/1/datasette-mcp/</guid>
             <pubDate>Tue, 01 Sep 2026 15:30:12 GMT</pubDate>
-            <description><![CDATA[リリース：datasette-mcp 0.2。execute_sql からの「rows」は、オブジェクトの配列になりました。以前は配列の配列でした。これにより、処理能力の低いモデルでも、配列のどの位置の要素がどの列に対応しているかを把握し損なうことを防げるはずです。 #1 mcp&gt;=2.1.1 を依存関係に追加しました。これは、このプラグインの最初の非アルファ版リリースです。私自身もかなり使用してきたため、リリース準備が整っていることを確信しています。タグ: datasette , model-context-protocol]]></description>
+            <description><![CDATA[リリース：datasette-mcp 0.2。execute_sql からの「rows」は、オブジェクトの配列になりました。以前は配列の配列でした。これにより、処理能力の低いモデルでも、配列のどの位置の要素がどの列に対応しているかを把握し損なうことを防げるはずです。 #1 mcp>=2.1.1 を依存関係に追加しました。これは、このプラグインの最初の非アルファ版リリースです。私自身もかなり使用してきたため、リリース準備が整っていることを確信しています。タグ: datasette , model-context-protocol]]></description>
             <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/datasette-mcp/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Fdatasette-mcp%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>ai</category>
         </item>
@@ -392,7 +401,7 @@
             <link>https://simonwillison.net/2026/Aug/31/andrew-digby/</link>
             <guid>https://simonwillison.net/2026/Aug/31/andrew-digby/</guid>
             <pubDate>Mon, 31 Aug 2026 22:25:02 GMT</pubDate>
-            <description><![CDATA[325 #カカポ！今年の記録的な繁殖期に生まれたヒナたちは、今では若鳥となり、個体数に加わりました。1995年には、カカポはわずか51羽しか残っていませんでした。 絶滅危惧種でも、継続的な取り組みがあれば個体数の回復は可能です。&mdash; アンドルー・ディグビー、今年最高のニュースを届けてくれた人物 タグ：カカポ]]></description>
+            <description><![CDATA[325 #カカポ！今年の記録的な繁殖期に生まれたヒナたちは、今では若鳥となり、個体数に加わりました。1995年には、カカポはわずか51羽しか残っていませんでした。 絶滅危惧種でも、継続的な取り組みがあれば個体数の回復は可能です。— アンドルー・ディグビー、今年最高のニュースを届けてくれた人物 タグ：カカポ]]></description>
             <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Aug/31/andrew-digby/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FAug%2F31%2Fandrew-digby%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>ai</category>
         </item>
@@ -898,15 +907,6 @@
             <pubDate>Fri, 20 Mar 2026 19:00:00 GMT</pubDate>
             <description><![CDATA[2026年3月にIngress-NGINXのサポート終了が予定されていることから、Kubernetesのネットワーク環境は転換点を迎えています。多くの組織にとって、問題は「Gateway APIへ移行すべきかどうか」ではなく、「いかにして安全に移行するか」です。 IngressからGateway APIへの移行は、API設計における根本的な転換です。Gateway APIは、KubernetesネイティブのRBACを強力にサポートする、モジュール式で拡張性の高いAPIを提供します。一方、Ingress APIはシンプルであり、Ingress-NGINXなどの実装では、esoを通じてAPIを拡張しています。]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F20%2Fingress2gateway-1-0-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Agent Sandbox を使用した Kubernetes でのエージェントの実行 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/</link>
-            <guid>https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/</guid>
-            <pubDate>Fri, 20 Mar 2026 18:00:00 GMT</pubDate>
-            <description><![CDATA[人工知能（AI）の分野では、現在、アーキテクチャの大きな変革が進行中です。生成AIの黎明期には、モデルとのやり取りは、多くの場合、一時的でステートレスな関数呼び出しとして扱われていました。つまり、リクエストが起動し、おそらく50ミリ秒ほど実行された後、終了するというものでした。 今日、世界は「AI v2」が「AI v1」を飲み込んでいく様を目の当たりにしている。エコシステムは、短命で孤立したタスクから、絶えず稼働する複数の協調的なAIエージェントの展開へと移行しつつある。これらの自律型エージェントは、c]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F20%2Frunning-agents-on-kubernetes-with-agent-sandbox%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>infra</category>
         </item>
     </channel>
