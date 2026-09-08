@@ -1,0 +1,34 @@
+name: translate
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-write
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - run: bun install --frozen-lockfile
+
+      - run: bun run src/translate.ts
+        env:
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+      - run: bun run src/build.ts
+
+      - name: commit docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "translate: refresh feed"
+          git push

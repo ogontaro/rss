@@ -1,0 +1,24 @@
+# Source of truth for subscribed feeds.
+# Real list is imported later from an Inoreader OPML export via `mise run import:opml`.
+# This is a small test set.
+feeds:
+  - url: https://simonwillison.net/atom/everything/
+    name: Simon Willison's Weblog
+    category: ai
+    enabled: true
+  - url: https://jvns.ca/atom.xml
+    name: Julia Evans
+    category: infra
+    enabled: true
+  - url: https://blog.rust-lang.org/feed.xml
+    name: Rust Blog
+    category: rust
+    enabled: true
+  - url: https://kubernetes.io/feed.xml
+    name: Kubernetes Blog
+    category: infra
+    enabled: true
+  - url: https://hnrss.org/frontpage?points=200
+    name: Hacker News (200+ points)
+    category: general
+    enabled: true
