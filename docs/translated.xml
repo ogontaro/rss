@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>翻訳フィード — ogontaro/rss</title>
+        <link>https://ogontaro.github.io/rss/</link>
+        <description>購読フィードの新着エントリのタイトルと概要を日本語化した統合フィード</description>
+        <lastBuildDate>Tue, 08 Sep 2026 14:05:57 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ja</language>
+        <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[LibreOffice、AI機能がないと発表した後、ダウンロード数が過去最高を記録 — Hacker News (200+ points)]]></title>
+            <link>https://manualdousuario.net/en/libreoffice-download-record-no-ai/</link>
+            <guid>https://news.ycombinator.com/item?id=49610538</guid>
+            <pubDate>Tue, 08 Sep 2026 14:05:57 GMT</pubDate>
+            <description><![CDATA[記事URL：https://manualdousuario.net/en/libreoffice-download-record-no-ai/ コメントURL：https://news.ycombinator.com/item?id=49610538 ポイント：553 コメント数：176]]></description>
+            <content:encoded><![CDATA[<p><a href="https://manualdousuario.net/en/libreoffice-download-record-no-ai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fmanualdousuario.net%2Fen%2Flibreoffice-download-record-no-ai%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[DaVinci Resolve 21.1 — Hacker News (200+ points)]]></title>
+            <link>https://www.blackmagicdesign.com/media/release/20260908-03</link>
+            <guid>https://news.ycombinator.com/item?id=49610181</guid>
+            <pubDate>Tue, 08 Sep 2026 13:36:53 GMT</pubDate>
+            <description><![CDATA[記事URL：https://www.blackmagicdesign.com/media/release/20260908-03 コメントURL：https://news.ycombinator.com/item?id=49610181 ポイント：205 コメント数：82]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.blackmagicdesign.com/media/release/20260908-03">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.blackmagicdesign.com%2Fmedia%2Frelease%2F20260908-03">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[ミストラルが30億ユーロを調達 — Hacker News (200+ points)]]></title>
+            <link>https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</link>
+            <guid>https://news.ycombinator.com/item?id=49605767</guid>
+            <pubDate>Tue, 08 Sep 2026 05:06:23 GMT</pubDate>
+            <description><![CDATA[記事URL：https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/ コメントURL：https://news.ycombinator.com/item?id=49605767 ポイント：719 コメント数：517]]></description>
+            <content:encoded><![CDATA[<p><a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-makes-sovereign-open-weight-ai-to-frontier%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[独立系ウィキ向けの新しい「Google Jail」が登場した — Hacker News (200+ points)]]></title>
+            <link>https://weirdgloop.org/blog/google-jail</link>
+            <guid>https://news.ycombinator.com/item?id=49604870</guid>
+            <pubDate>Tue, 08 Sep 2026 01:57:23 GMT</pubDate>
+            <description><![CDATA[記事URL：https://weirdgloop.org/blog/google-jail コメントURL：https://news.ycombinator.com/item?id=49604870 ポイント：419 コメント数：172]]></description>
+            <content:encoded><![CDATA[<p><a href="https://weirdgloop.org/blog/google-jail">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fweirdgloop.org%2Fblog%2Fgoogle-jail">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[90年代の認証局（CA）のRSA鍵を因数分解しました — Hacker News (200+ points)]]></title>
+            <link>https://mcpherrin.ca/2026/09/07/rsa.html</link>
+            <guid>https://news.ycombinator.com/item?id=49604637</guid>
+            <pubDate>Tue, 08 Sep 2026 01:16:59 GMT</pubDate>
+            <description><![CDATA[記事URL：https://mcpherrin.ca/2026/09/07/rsa.html コメントURL：https://news.ycombinator.com/item?id=49604637 ポイント：459 コメント数：105]]></description>
+            <content:encoded><![CDATA[<p><a href="https://mcpherrin.ca/2026/09/07/rsa.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fmcpherrin.ca%2F2026%2F09%2F07%2Frsa.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[llm 0.35 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/7/llm/</link>
+            <guid>https://simonwillison.net/2026/Sep/7/llm/</guid>
+            <pubDate>Mon, 07 Sep 2026 23:54:54 GMT</pubDate>
+            <description><![CDATA[リリース：LLM 0.35 新しいOpenAIモデル：GPT-6 Astra向けのgpt-6-astra。タグ：openai、llm、gpt-6-astra]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/llm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fllm%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[TALAはオープンソースです — Hacker News (200+ points)]]></title>
+            <link>https://d2lang.com/blog/tala-is-open-source/</link>
+            <guid>https://news.ycombinator.com/item?id=49604150</guid>
+            <pubDate>Mon, 07 Sep 2026 23:37:42 GMT</pubDate>
+            <description><![CDATA[記事のURL：https://d2lang.com/blog/tala-is-open-source/ コメントのURL：https://news.ycombinator.com/item?id=49604150 ポイント：294 コメント数：23]]></description>
+            <content:encoded><![CDATA[<p><a href="https://d2lang.com/blog/tala-is-open-source/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fd2lang.com%2Fblog%2Ftala-is-open-source%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[気持ち悪い虫たち — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</link>
+            <guid>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</guid>
+            <pubDate>Mon, 07 Sep 2026 23:08:58 GMT</pubDate>
+            <description><![CDATA[Konstantin Ryabitsev氏は、Linuxカーネルの公式Gitリポジトリであるgit.kernel.orgの観点から、悪質なクローラーによる「バックグラウンド放射」がどれほど深刻化しているかについて論じています：要約： スクレイパー向けのコミットレンダリングに費やすCPUサイクルは、gitクローンなど、その他のあらゆる正当なアクセスに費やす合計よりも多くなっています。地理的に分散した5つのノード全体で、常に14個のCPUコアが、gitコミットをHTMLとしてレンダリングすることだけに専念しています。私はこの状況を非常に懸念しています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/creepy-crawlies/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fcreepy-crawlies%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[ヤクブ・パチョッキの言葉を引用すると — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</link>
+            <guid>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</guid>
+            <pubDate>Mon, 07 Sep 2026 22:26:25 GMT</pubDate>
+            <description><![CDATA[より高性能なモデルを迅速に訓練し続けるべきだという主張の中で、私が最も説得力があると感じる根拠は、他のAIがもたらす危険に対抗するための防御システムを構築する必要があるという点です。 [...] 防御のためには、強力で人間と利害が一致したAIが必要となる。インフラの安全を確保し、不正なエージェントからリアルタイムで防御し、まったく新しい保護策を考案するためである。これが、OpenAIの展開活動の主要な焦点となる。同時に、AIの広範な進歩に伴う不確実性や、b]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/jakub-pachocki/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fjakub-pachocki%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[動画圧縮ソフト — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/7/video-compressor/</link>
+            <guid>https://simonwillison.net/2026/Sep/7/video-compressor/</guid>
+            <pubDate>Mon, 07 Sep 2026 18:29:07 GMT</pubDate>
+            <description><![CDATA[ツール：動画圧縮ツール スマートフォンで「Equal Earth」のアニメーションの短いデモ動画を録画し、その動画を（FFMPEGを使用して）最適化したバージョンをブログに公開したかったため、Claude Code for webの「Claude Fable 5.1」に、FFMPEGのWebAssemblyビルドを使用してこのツールを作成してもらいました。 タグ: ffmpeg, 動画, webassembly, claude, claude-code, claude-mythos-fable]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/video-compressor/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fvideo-compressor%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[メルカトル図法 ↔ 等円図法 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/7/equal-earth/</link>
+            <guid>https://simonwillison.net/2026/Sep/7/equal-earth/</guid>
+            <pubDate>Mon, 07 Sep 2026 16:24:16 GMT</pubDate>
+            <description><![CDATA[ツール：メルカトル図法 ↔ イコール・アース図法 最近国連で採決された「イコール・アース」図法に興味が湧いたので、ChatGPT WorkのGPT-6 Astra（ミディアム）に、D3を使ってメルカトル図法とイコール・アース図法の間を移行するアニメーションを作成してもらいました。 タグ: 地理空間 , d3 , vibe-coding , gpt-6-astra]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/equal-earth/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fequal-earth%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[「Rust デバッグに関する調査 2026」の結果 — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</link>
+            <guid>https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</guid>
+            <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rust開発者が年次アンケートで挙げている最大の課題の一つは、デバッグ体験が不十分であるという点です。そこで、2月に「第1回Rustデバッグアンケート」を実施し、Rust開発者がデバッガーをどのように利用しているか、またその際にどのような問題に直面しているかを把握しようと試みました。 2,300件を超える回答をいただきました。お時間を割いてアンケートにご協力いただいた皆様に、心より感謝申し上げます！本レポートでは、アンケートの結果の一部についてご紹介します。ご希望の方は、以下のリンクからもご確認いただけます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F09%2F07%2Frust-debugging-survey-2026-results%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[研究の加速：OpenAIの内部に迫る — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</link>
+            <guid>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</guid>
+            <pubDate>Sun, 06 Sep 2026 23:57:40 GMT</pubDate>
+            <description><![CDATA[研究の加速：OpenAIの内部事情　どうやら今日はOpenAIで「RSIデー」らしい。これは「再帰的自己改善（Recursive Self-Improvement）」の略で、おそらく同社の新しいAGIのことだろう。 この記事と、チーフサイエンティストのヤクブ・パチョッキ氏による新エッセイ『An Alien Mind』の両方でこの話題が取り上げられており、この記事では頭字語の解説すら省かれている。OpenAIの研究チームがコーディングエージェントをどのように活用しているかについての詳細も含まれている。 他の多くの組織と同様、2026年はOpenAIにおいてエージェント工学が本格的に飛躍した年であり、その最たる例が]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fresearch-acceleration-the-view-inside-openai%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[DNSの目的は、詐欺を広めることにある — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/</link>
+            <guid>https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/</guid>
+            <pubDate>Sun, 06 Sep 2026 14:40:07 GMT</pubDate>
+            <description><![CDATA[DNSの目的は詐欺を広めることにある テレンス・イーデン氏は、「ドメインネームシステム（DNS）の目的は、犯罪者が恐ろしいほど高い頻度で人々を騙すための手段となっているようだ」という自身の見解を裏付ける、衝撃的な統計データをいくつか紹介している。このInterisleのレポート（アンドルー・キャンプリング氏経由）の中で、テレンス氏は次のように述べている。 それによると、2025年にはgTLDの新規登録が8,500万件あった。そのうち850万件が、2025年5月までにブロックリストに登録された。この数字について、悪用率は10％が最低ラインであると考えられており、それは]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fthe-purpose-of-dns-is-to-spread-scams%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[コードの質の悪さには限界がない — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</link>
+            <guid>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</guid>
+            <pubDate>Sun, 06 Sep 2026 09:08:06 GMT</pubDate>
+            <description><![CDATA[「コードの悪さには限界がない」という記事への私のコメント — Lobste.rs。[技術的負債が膨大になった際に、すべてをゼロからやり直すというコメントへの返信] 私の経験上、それがうまくいくことは極めて稀です。 「古いシステムは技術的負債に溺れており、もはや救いようがない」と宣言し、ゼロから書き直すためのチームを立ち上げる。作業が始まる。その間も、古いシステムは「動く標的」のままである。それは中核となる事業を支えているため、変更は依然として必要とされるからだ。そのシステムに取り組んでいる開発者たちは……]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Ftheres-no-limit-to-how-bad-code-can-get%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[ザック・ケス氏の言葉を引用すると — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/6/zach-kehs/</link>
+            <guid>https://simonwillison.net/2026/Sep/6/zach-kehs/</guid>
+            <pubDate>Sun, 06 Sep 2026 08:42:49 GMT</pubDate>
+            <description><![CDATA[建物に階や部屋を際限なく増やし続ければ、やがて倒壊してしまいます。しかし、ソフトウェアにはそのような制約はありません。コードは常に悪化し続ける可能性があります。間接化の層が新たに追加されたり、パフォーマンスが低下したりすることは、いつでも起こり得るのです。&mdash; ザック・ケス、『コードの悪さには限界がない』 タグ：技術的負債]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/zach-kehs/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fzach-kehs%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[開発者の皆様へ、GPT-6 Astraをご紹介します — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</link>
+            <guid>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</guid>
+            <pubDate>Sat, 05 Sep 2026 23:27:48 GMT</pubDate>
+            <description><![CDATA[開発者向けのGPT-6 Astraのご紹介　一瞬見逃してしまうかもしれませんが、1分59秒のところに馴染みのある生き物が映っています：全体的に見て、Astraは細部へのこだわりがより深く、ユーザーのプロンプトをより的確に理解し、より洗練された出力を生成することができます。特に、3Dモデルの生成に優れています。 庭園、造船所、動物、都市景観、さらにはダイソン球に至るまで、信じられないほど素晴らしいレンダリングを生成するのを見てきました。Astraは、自転車に乗ったペリカンに赤いネッカチーフを巻くというアイデアを、本当に信じてしまっているようです。Hacker Newsより]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F5%2Fintroducing-gpt-6-astra-for-developers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[macOS上でBlenderとコーディングエージェントを併用する — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</link>
+            <guid>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</guid>
+            <pubDate>Sat, 05 Sep 2026 15:51:09 GMT</pubDate>
+            <description><![CDATA[今日学んだこと：macOSでBlenderとコーディングエージェントを併用する 最近、MacのChatGPT CodexでBlenderを楽しく使っています。コーディングエージェントと連携させるのは本当に簡単です。blender.orgからMac用フルアプリケーションをインストールし、次のようなプロンプトを実行するだけです： 「すでにインストールされている /Applications/Blender を使って、自転車に乗っているペリカンのシーンをレンダリングしてください」 この場合、私はその後に次の2つのプロンプトを追加しました：「OK、背景とたくさんの演出を加えてください」 次に：「OK、もっとずっと良くしてください」 すると、次のような画像が生成されました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F5%2Fblender-coding-agents-macos%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[アストラ向けのペリカン比較表は、かなり興味深いですね — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/4/astra-pelicans/</link>
+            <guid>https://simonwillison.net/2026/Sep/4/astra-pelicans/</guid>
+            <pubDate>Fri, 04 Sep 2026 23:59:05 GMT</pubDate>
+            <description><![CDATA[今日の午後、GPT-6 Astraを利用できるようになったので、当然ながら、自転車に乗ったペリカンのSVG画像を生成してみました。推論レベルは「low」「medium」「high」「xhigh」「max」の各設定で試しました（Astraでは「reasoning=none」はサポートされていません）。 その後、それらのペリカンの画像を、GPT-5.6のSol、Terra、Lunaとの比較グリッドにまとめましたが、単に楽しいだけでなく、結果は驚くほど有用でした。高画質の画像については、比較グリッドをご覧ください。以下は、GPT-6 Novaでペリカンの画像を生成した際のトランスクリプトです。ここには、特に注目すべき興味深い点がいくつかあります。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/4/astra-pelicans/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F4%2Fastra-pelicans%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37：KubeletInUserNamespace（別名：Rootlessモード）がベータ版に昇格 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/</link>
+            <guid>https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/</guid>
+            <pubDate>Fri, 04 Sep 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.37 では、KubeletInUserNamespace 機能ゲートがベータ版に昇格しました。 この機能を有効にすると、すべてのノードコンポーネント（kubelet、CRIおよびOCIランタイム、CNIプラグイン、kube-proxy）が、Linuxユーザーネームスペースを使用して、ホスト上で非rootユーザーとして実行できるようになります。この手法は「rootlessモード」としても知られています。 この取り組みは 2018 年に実験として始まり、アルファ機能（Kubernetes Enhancement Proposal KEP-2033）として Kubernetes v1.22（2021 年）にマージされました。この機能は u]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F04%2Fkubernetes-v1-37-rootless-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[OpenAIの「不正エージェント」が、公開ウィキを通じて通信しているところを摘発された — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</link>
+            <guid>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</guid>
+            <pubDate>Fri, 04 Sep 2026 17:38:48 GMT</pubDate>
+            <description><![CDATA[またか……シドニー・フォン・アークス、コーマック・スレイド・バード、スペンサー・キッツ、トーマス・ラーセンによる「OpenAIのエージェント用掲示板の発見」という論文では、OpenAIが訓練中のモデルによる最新の偶発的なサイバー攻撃について述べられている。 今回は、ある種のウェブリサーチベンチマークに取り組んでいたエージェントたちであり、そのため（本来は）ウェブへのアクセスが制限されていたはずだった。しかし、エージェントたちは公開ウィキを更新できることに気づき、ベンチマークの共同作業のために数週間にわたり、互いに数千件ものメッセージをやり取りしていた。この]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F4%2Frogue-agent-wikis%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[8月のニュースレターが発行されました — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/4/august-newsletter/</link>
+            <guid>https://simonwillison.net/2026/Sep/4/august-newsletter/</guid>
+            <pubDate>Fri, 04 Sep 2026 05:54:40 GMT</pubDate>
+            <description><![CDATA[スポンサー限定の月刊ニュースレター8月号が公開されました。スポンサーの方（または今すぐスポンサー登録された方）は、こちらからご覧いただけます。今月の内容：OpenAlによる偶発的なサイバー攻撃に関する詳細情報が判明しました。『Fable 5』と『Sol 5』を使って『Raccoon Heist』をワンショットでクリアする方法。6. Claudeの自動モード、ChatGPTの仕組みの解説、Work Modelのリリース、雑多な話題、私のプロジェクト、現在使用中のツール。7月号のニュースレターをプレビューとして掲載します。月額10ドルをお支払いいただくと、引き続きご購読いただけます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/4/august-newsletter/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F4%2Faugust-newsletter%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[GPT-6 アストラ — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/3/gpt6-astra/</link>
+            <guid>https://simonwillison.net/2026/Sep/3/gpt6-astra/</guid>
+            <pubDate>Thu, 03 Sep 2026 20:18:41 GMT</pubDate>
+            <description><![CDATA[GPT‑6 Astra GPT-6 Astraは「本日、一部の組織を対象に提供が開始され、今後数日のうちに、ChatGPT Plus、Pro、Business、Enterpriseの全ユーザー、およびOpenAI APIやAWSを通じて利用可能になる予定です」 - 私自身はまだ試していないため、現時点ではこれについて詳しく述べることはできません。 API料金はClaude Fable 5および5.1と同じレート、つまり入力100万件あたり10ドル、出力100万件あたり50ドルとなります。これは明らかにOpenAIがFableに対抗して投入したものであり、スコアは]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/3/gpt6-astra/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F3%2Fgpt6-astra%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Ask HN：GoogleのreCAPTCHAがFirefoxユーザーを拒否している現象は、他の人も経験していますか？ — Hacker News (200+ points)]]></title>
+            <link>https://news.ycombinator.com/item?id=49555592</link>
+            <guid>https://news.ycombinator.com/item?id=49555592</guid>
+            <pubDate>Thu, 03 Sep 2026 19:38:46 GMT</pubDate>
+            <description><![CDATA[Linux上の現在のFirefoxからarchive.isにアクセスしようとすると、Google reCAPTCHAの無限ループに陥ります。今日から突然この現象が起こり始めました。Firefoxは「厳格モード」に設定されています。そのサイトに対してPrivacy Badgerを無効にしてみましたが、改善されませんでした。 シークレットモードでも試しましたが、状況は変わりませんでした。これは、Googleが広告ブロックやChrome以外のブラウザに対して仕掛けている「戦い」の一環なのでしょうか？ コメントURL: https://news.ycombinator.com/item?id=49555592 ポイント: 206 # コメント数: 90]]></description>
+            <content:encoded><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49555592">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49555592">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37: DRA の更新 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/</link>
+            <guid>https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/</guid>
+            <pubDate>Thu, 03 Sep 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes 1.37がリリースされ、ダイナミックリソース割り当て（DRA）は当初の枠をさらに超え続けています！このリリースでは、DRAの拡張リソースサポートがGA（一般提供）となり、これはチームが過去3回のリリースにわたり目指してきたマイルストーンです。他にもいくつかの機能がベータ版またはGAに昇格しました。さらに、新たなアルファ機能の数々がこのリリースを締めくくっています。 ここでは、Kubernetes 1.37におけるDRAの新機能について詳しく解説します！ 1.37で安定版となった機能 DRAの拡張リソースサポートがGAに昇格しました。これは、DRAがリソースを動的に割り当てることを可能にする仕組みです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F03%2Fkubernetes-v1-37-dra-updates%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Rust 1.98.1 のリリースを発表します — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/</link>
+            <guid>https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/</guid>
+            <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rustチームは、Rustの新しいマイナーリリースである1.98.1を公開しました。Rustは、誰もが信頼性が高く効率的なソフトウェアを構築できるようにするプログラミング言語です。 rustup 経由で以前のバージョンの Rust をインストールしている場合は、次のコマンドを実行するだけで Rust 1.98.1 を入手できます: rustup update stable まだお持ちでない場合は、当ウェブサイトの該当ページから rustup を入手できます。 1.98.1 の変更点 Rust 1.98.1 では、vtable 生成時のコンパイルエラーが修正されました。Rust 1.98.0 では、特定の状況下で rustc が i]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F09%2F03%2FRust-1.98.1%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[llm-openrouter 0.7.1 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/2/llm-openrouter/</link>
+            <guid>https://simonwillison.net/2026/Sep/2/llm-openrouter/</guid>
+            <pubDate>Wed, 02 Sep 2026 20:23:26 GMT</pubDate>
+            <description><![CDATA[リリース：llm-openrouter 0.7.1 OpenRouterモデルの読み込みに関するパフォーマンスの修正。waveplateさん、ありがとうございます。#59 タグ：llm、openrouter]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm-openrouter/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm-openrouter%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[llm 0.34 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/2/llm/</link>
+            <guid>https://simonwillison.net/2026/Sep/2/llm/</guid>
+            <pubDate>Wed, 02 Sep 2026 19:23:52 GMT</pubDate>
+            <description><![CDATA[リリース: llm 0.34 新機能1つ: llm logs --usage による Markdown 出力に、応答時間がミリ秒単位および人間が読みやすい形式で含まれるようになりました。llm logs --short には、新しい duration_ms フィールドが追加されました。 #1653 さらに、複数のバグ修正が寄せられたほか、GitHubのwaveplate氏のおかげでllm logsのパフォーマンスが大幅に向上しました。llm-openrouter 0.7.1 も参照してください。タグ: llm]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37：HorizontalPodAutoscaler を使用してワークロードをゼロまでスケールダウンする — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/</link>
+            <guid>https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/</guid>
+            <pubDate>Wed, 02 Sep 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.37 では、ワークロードをレプリカ数 0 まで水平自動スケーリングするための API サポートが追加されました。この機能は現在ベータ版であり、デフォルトで有効になっています。 適切なオブジェクトメトリックまたは外部メトリックを使用する HorizontalPodAutoscaler (HPA) により、ワークロードをレプリカ数 0 までスケールダウンし、メトリックが変化した際に元の状態に戻すことが可能になりました。 v1.37 以前は、レプリカ数を 0 からスケーリングするには、アドオンや外部コンポーネントが必要だったか、あるいは Alpha 機能ゲートを有効にする必要がありました。現在では、これは Kubernetes のコア機能の一部となっています。レプリカ数を 0 までスケーリングする機能は]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F02%2Fkubernetes-v1-37-hpa-scale-to-zero-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[llm-anthropic 0.28 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/2/llm-anthropic/</link>
+            <guid>https://simonwillison.net/2026/Sep/2/llm-anthropic/</guid>
+            <pubDate>Wed, 02 Sep 2026 17:59:32 GMT</pubDate>
+            <description><![CDATA[リリース：llm-anthropic 0.28 Claude Fable 5.1。推論トレースに対応しているモデルでは、デフォルトで推論トレースが表示されるようになりました。また、Claudeが拒否をスローした場合に発生する新しい例外「llm_anthropic.ClaudeRefusal」が追加されました。 タグ: llm , anthropic , claude , claude-mythos-fable]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm-anthropic/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm-anthropic%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[llm-gemini 0.34 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/2/llm-gemini/</link>
+            <guid>https://simonwillison.net/2026/Sep/2/llm-gemini/</guid>
+            <pubDate>Wed, 02 Sep 2026 16:39:38 GMT</pubDate>
+            <description><![CDATA[リリース：llm-gemini 0.34 Gemini 3.8 Flash 用の新モデル「gemini-3.8-flash」を追加。思考レベルは「低」「中」「高」の3段階です。#146 非同期レスポンスにおいて、解決されたモデルバージョンが記録されない不具合を修正しました。 Charlie Tonneslan さん、ありがとうございます。#137 Googleは本日、Gemini 3.8 Flash（および3.8 Flash Cyber。ただし後者は「信頼された防御者」のみが利用可能です）をリリースしました。 以下は、高、中、低の各思考レベルで生成されたペリカンの画像です。これが「高」です：比較のために、Gemini 3.7 Flash を使用して生成された同じペリカンの画像も掲載します。私が気に入っている点]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm-gemini/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm-gemini%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[クロードの新しいシステムプロンプトは、どうしても歌詞を再現したがらないようです — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</link>
+            <guid>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</guid>
+            <pubDate>Wed, 02 Sep 2026 14:16:42 GMT</pubDate>
+            <description><![CDATA[Anthropic社は、同社のClaudeコンシューマー向けアプリケーション（Claude.aiおよびClaudeモバイルアプリ。残念ながら、Claude CoworkやClaude Codeは対象外）のシステムプロンプトを公開しています。このような取り組みは素晴らしいですし、現在のプロンプトだけでなく、過去の変更履歴も公開している点が特に気に入っています。 以前はすべてのプロンプトを1つのページにまとめていましたが、今日確認したところ、プロンプトがインデックスページと、モデルごとのページに再編成されていたことに気づきました。例えば、Haiku 4.5のページはこちらです。w]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fclaudes-new-system-prompt%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[リック・ブリュースターの言葉を引用すると — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/2/rick-brewster/</link>
+            <guid>https://simonwillison.net/2026/Sep/2/rick-brewster/</guid>
+            <pubDate>Wed, 02 Sep 2026 05:50:57 GMT</pubDate>
+            <description><![CDATA[Direct2Dは、WINE上のPaint.NETにとって常に最大の障壁であり、Paint.NETで利用可能なレベルまで完成することは決してないだろうことは明らかです。 また、Direct2Dの使用を単に「無効化」するわけにもいきません。そこで、Paint.NETでは、WINE上で使用するために（/wine オプションを指定することで起動される）、Direct2Dをゼロからクリーンルーム方式でリバースエンジニアリングして書き直した独自のライブラリを実装しました。 これは PaintDotNet.Windows.Direct2D1.Managed.dll に実装されています。これは私たちの良き友人である Claude によって作成されたもので、彼がいなければこれは絶対に実現できなかったでしょう。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/rick-brewster/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Frick-brewster%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[『Claude Fable 5.1』で、すごく素敵なペリカンのアニメーションを作ることができました — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/1/claude-fable-5-1/</link>
+            <guid>https://simonwillison.net/2026/Sep/1/claude-fable-5-1/</guid>
+            <pubDate>Tue, 01 Sep 2026 23:57:28 GMT</pubDate>
+            <description><![CDATA[今日は『Claude Fable（およびMythos）5.1』のリリース日です。Anthropic社によると、Fable 5.1は「コーディング、知識労働、および長期にわたる問題解決タスクにおいて新たな基準を打ち立てる」とのことです。 同社の発表では、科学研究に関する記述が特に多く割かれており、8月27日に初めて発表されたばかりの「Terminal-Bench-Science 0.1」ベンチマークで52.6％のスコアを記録したことを誇示しています。これは、Fable 5の24.7％、 Opus 5の29.0％、GPT-5.6 Solの22.4％を上回ったと誇示している。他のベンチマークでもスコアはわずかに向上しているが、これほど印象的なものはない。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/claude-fable-5-1/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Fclaude-fable-5-1%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[CodexにはLibreOfficeが同梱されています — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</link>
+            <guid>https://simonwillison.net/2026/Sep/1/codex-libreoffice/</guid>
+            <pubDate>Tue, 01 Sep 2026 19:03:01 GMT</pubDate>
+            <description><![CDATA[OmniDiskSweeperを使って~/.cache/フォルダを調べていたところ、興味深いものを見つけました。 OpenAI Codexのデスクトップアプリ（現在は単にChatGPTに名称変更されています）の「codex-primary-runtime」というフォルダには、1.7GBものデータが保存されており、その中にはPythonのフルインストール版、Node.jsのフルインストール版、Popplerや git、およびLibreOfficeオープンソースオフィススイート（2010年にOpenOffice.orgからフォークされたもの）のネイティブバイナリが含まれていました： ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-pri]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Fcodex-libreoffice%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37：etcdのRangeStreamにより、大規模なリスト読み取り時のメモリ使用量が削減 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/</link>
+            <guid>https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/</guid>
+            <pubDate>Tue, 01 Sep 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.37において、etcd RangeStreamがベータ版としてリリースされることをお知らせできることを嬉しく思います。etcd v3.7と組み合わせることで、APIサーバーやetcdが大量のコレクションを読み込む際に必要なメモリを削減し、ピーク時の使用量をより予測しやすくします。 大規模な読み取りのコスト APIサーバーは、リストやウォッチのリクエストのほとんどを、メモリ内のウォッチキャッシュから処理します。このキャッシュを構築するには、起動時および再初期化のたびに、etcdからリソースの完全な状態を読み取る必要があります。オブジェクト数が多く、またはサイズが大きいリソースの場合、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F01%2Fkubernetes-v1-37-etcd-range-stream%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[GeoJSON マップビューア — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/1/geojson/</link>
+            <guid>https://simonwillison.net/2026/Sep/1/geojson/</guid>
+            <pubDate>Tue, 01 Sep 2026 18:05:45 GMT</pubDate>
+            <description><![CDATA[ツール：GeoJSON マップビューアナタリーが地元の行政区画（グラナダ・コミュニティ・サービス地区およびミッドコースト・コミュニティ・カウンシル）の地図を収集するのを手伝っていたところ、GeoJSON ファイルを地図上に表示し、それを PNG 形式でエクスポートする必要が生じました。 GPT-5.6-Solにツールの提案を求めたところ、自発的にツールを作成してくれました。Claude Code for webやFable 5.1を使って何度か改良を重ねた結果、この完成版ツールができました。GeoJSONについては…ChatGPT Workに境界線の提供を依頼すると、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/geojson/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Fgeojson%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[ターン・アダムスの言葉を引用すると — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/1/tarn-adams/</link>
+            <guid>https://simonwillison.net/2026/Sep/1/tarn-adams/</guid>
+            <pubDate>Tue, 01 Sep 2026 17:01:11 GMT</pubDate>
+            <description><![CDATA[手紙を奪われてしまった！　今はドワーフの行動について話さなければならない。ドワーフのAIについて話すことすらできない。そんなものは存在しないのだ。これはドワーフの行動であり、彼らは時々問題行動を起こすこともある――『ドワーフ・フォートレス』の共同制作者、ターン・アダムス タグ：AI、ゲームデザイン]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/tarn-adams/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Ftarn-adams%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[datasette-mcp 0.2 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/1/datasette-mcp/</link>
+            <guid>https://simonwillison.net/2026/Sep/1/datasette-mcp/</guid>
+            <pubDate>Tue, 01 Sep 2026 15:30:12 GMT</pubDate>
+            <description><![CDATA[リリース：datasette-mcp 0.2。execute_sql からの「rows」は、オブジェクトの配列になりました。以前は配列の配列でした。これにより、処理能力の低いモデルでも、配列のどの位置の要素がどの列に対応しているかを把握し損なうことを防げるはずです。 #1 mcp&gt;=2.1.1 を依存関係に追加しました。これは、このプラグインの最初の非アルファ版リリースです。私自身もかなり使用してきたため、リリース準備が整っていることを確信しています。タグ: datasette , model-context-protocol]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/datasette-mcp/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Fdatasette-mcp%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Python 3.15.0 候補版 2 が公開されました！ — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/1/python-315-rc-2/</link>
+            <guid>https://simonwillison.net/2026/Sep/1/python-315-rc-2/</guid>
+            <pubDate>Tue, 01 Sep 2026 14:59:18 GMT</pubDate>
+            <description><![CDATA[Python 3.15.0 リリース候補版 2 が公開されました！Python 3.14 および 3.15 のリリースマネージャーである Hugo van Kemenade 氏が、10月にリリースが予定されている Python 3.15 の最終リリース候補版を発表しました： リリース候補段階に入ったため、このリリース候補版から最終リリースまでの間は、明確なバグ修正である審査済みのコード変更のみが許可されます。[...] この段階において、サードパーティの Python プロジェクトのメンテナーの皆様には、プロジェクトを 3.15 に対応させる準備を進め、Python 3.15 用の wheel ファイルを]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/1/python-315-rc-2/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F1%2Fpython-315-rc-2%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[rustup 1.29.1 のリリースのお知らせ — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/</link>
+            <guid>https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[rustupチームは、rustupバージョン1.29.1のリリースを発表いたします。rustupは、誰もが信頼性が高く効率的なソフトウェアを構築できるようにするプログラミング言語「Rust」をインストールするための推奨ツールです。 rustup 1.29.1の新機能 このリリースの主な変更点は以下の通りです。特定のrustup操作における並行処理が改善されました：rustup updateを実行する際、rustupはまず並行して利用可能な更新を確認するようになりました。pr#4752 複数のコンポーネントを指定してrustup component addを実行すると、それらは]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F09%2F01%2FRustup-1.29.1%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[「wrapture」のご紹介 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Aug/31/introducing-wrapture/</link>
+            <guid>https://simonwillison.net/2026/Aug/31/introducing-wrapture/</guid>
+            <pubDate>Mon, 31 Aug 2026 23:59:36 GMT</pubDate>
+            <description><![CDATA[Wraptureのご紹介。Graham Dumpleton氏（wrapt、mod_wsgi、およびNew RelicのPythonエージェントで知られる）による新作です。同氏は、Wraptureについて、wraptのモンキーパッチングのアイデアを取り入れ、それをテストとトレースの両方に適用できるように拡張したものだと説明しています。 Wrapture（完全なドキュメントはこちら）を使えば、あらゆる関数やメソッドを簡単にラップし、すべてのアクセスをトレースしたり、オーバーライドして異なる値を返したりすることができます。これは、unittest.mockの代替手段であると同時に、ある]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Aug/31/introducing-wrapture/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FAug%2F31%2Fintroducing-wrapture%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[アンドルー・ディグビーの言葉を引用すると — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Aug/31/andrew-digby/</link>
+            <guid>https://simonwillison.net/2026/Aug/31/andrew-digby/</guid>
+            <pubDate>Mon, 31 Aug 2026 22:25:02 GMT</pubDate>
+            <description><![CDATA[325 #カカポ！今年の記録的な繁殖期に生まれたヒナたちは、今では若鳥となり、個体数に加わりました。1995年には、カカポはわずか51羽しか残っていませんでした。 絶滅危惧種でも、継続的な取り組みがあれば個体数の回復は可能です。&mdash; アンドルー・ディグビー、今年最高のニュースを届けてくれた人物 タグ：カカポ]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Aug/31/andrew-digby/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FAug%2F31%2Fandrew-digby%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37：ストレージバージョンの移行がデフォルトで有効化 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/</guid>
+            <pubDate>Mon, 31 Aug 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.37において、ストレージバージョンマイグレーション（SVM）が一般提供（GA）となったことを大変嬉しく思います！ 数回のリリースにわたる開発とテストを経て、組み込みの StorageVersionMigration API（storagemigration.k8s.io/v1）およびコントロールプレーンコントローラーは完全に安定し、すべての Kubernetes v1.37 クラスターでデフォルトで有効化されました。 古いストレージバージョンの問題 Kubernetes では、保存された API リソースは特定のストレージバージョン（スキーマ表現）を使用して記述されます。Kub]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F31%2Fkubernetes-v1-37-storage-version-migration-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPTの仕組みを理解する — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/</link>
+            <guid>https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/</guid>
+            <pubDate>Sun, 30 Aug 2026 23:59:47 GMT</pubDate>
+            <description><![CDATA[OpenAIは7月9日に「ChatGPT Work」を発表し、それ以来、猛烈な勢いで改良を重ねています。これは、極めて理解しづらく、かつ非常に強力な製品です。現時点で私が把握していることを以下にまとめます。 ChatGPT Workは実際には2つの製品から構成されています。ChatGPT Workの中でも特に興味深いのは、クラウド上で動作するバージョンです。これには、chatgpt.com または ChatGPTのモバイルアプリからアクセスできます。これを「Work Cloud」と呼ぶことにしましょう。ChatGPTのデスクトップアプリ（以前はCodexと呼ばれていたアプリ）をインストールすると――]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FAug%2F30%2Funderstanding-chatgpt-work%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37: Pod 証明書とクラスター・トラスト・バンドル — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/</link>
+            <guid>https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/</guid>
+            <pubDate>Fri, 28 Aug 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Pod 証明書 / クラスター・トラスト・バンドル ブログ記事 Kubernetes には、本番環境のワークロードを安全かつ確実に実行できるようにする豊富な機能が備わっています。 スケジューリング、ヘルスチェック、リソース制限といった側面が真っ先に思い浮かぶかもしれませんが、Kubernetesのもう1つの重要な機能として「本番環境でのアイデンティティ」があります。これは、ワークロードが本来の役割を果たすために、他のシステムに対してどのように認証を行うかということです。これまで、Kubernetesに組み込まれていた主な本番環境向けアイデンティティの仕組みは、se]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F28%2Fkubernetes-v1-37-pod-certificates-and-cluster-trust-bundles%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37：Metrics APIが安定版に昇格 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/</guid>
+            <pubDate>Thu, 27 Aug 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.37 では、metrics.k8s.io API が安定版（v1）に昇格しました。この API は、ノードおよび Pod の CPU およびメモリ使用率を提供するものであり、kubectl top やリソースメトリクスに基づく自動スケーリングなどのコマンドの基盤となる API です。 クラスタ運用担当者やアプリケーション開発者にとって、この「卒業」は、このAPIがKubernetesの安定版APIにふさわしい安定性が保証されたことを意味します。v1 APIはv1beta1と同じリソースタイプとフィールドを持ちます。これはAPIバージョンの「卒業」であり、メトリクス自体の変更ではありません。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F27%2Fkubernetes-v1-37-metrics-api-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[初の「メンテナー・イン・レジデンス」の発表 — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/</link>
+            <guid>https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rustプロジェクト初の「Maintainers in Residence」として、Gen Li (@rami3l)、Chris Denton (@ChrisDenton)、Alejandra González (@blyxyas)、León Liehr (@fmease) を、また「Maintainer Grant」の受賞者として、 Jason Newcomb (@Jarcho) 氏と Jonas Böttiger (@joboet) 氏です。これらの貢献者には、今後（少なくとも）12ヶ月間、rust-langのメンテナンス活動に対して資金が提供されます！「Maintainer in Residence（MiR）」および「Maintainer Grantee」の役割への資金提供は、寛大な]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F08%2F26%2Fannouncing-our-first-maintainers-in-residence%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37: Garhwal — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/</link>
+            <guid>https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/</guid>
+            <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[編集者：Arsh Sharma、Christopher Tineo、Kirti Goyal、Sophia Ugochukwu、Swathi Rao、Troy Connor これまでのリリースと同様、Kubernetes v1.37 のリリースでは、新しい「Stable」、「Beta」、「Alpha」機能が導入されています。 高品質なリリースを継続的に提供できていることは、当社の開発サイクルの強みと、コミュニティからの活発な支援を裏付けています。今回のリリースには67件の機能強化が含まれています。そのうち、16件が「Stable」に昇格し、23件が「Beta」に昇格し、27件が「Alpha」に追加され、1]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F26%2Fkubernetes-v1-37-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[ナイトリーで次世代形質ソルバーを有効にする — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/</link>
+            <guid>https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/</guid>
+            <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[4年近くにわたる活発な開発を経て、次世代のトレイトソルバーは安定化の段階に近づいています。残りの問題を洗い出すため、ナイトリー版ではデフォルトで有効化しており、今後数ヶ月以内に安定版としてリリースする予定です。 これは、Rustコンパイラが最初にリリースされて以来、最大の単一の変更点となります。この変更により、where節の証明方法や関連型の正規化など、多くの処理が完全に刷新されます。最新のナイトリー版をお試しいただき、バグやリグレッションを発見された場合は、ぜひイシューを開いてください。これは]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F08%2F21%2Fenabling-next-solver-on-nightly%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[arrayrefに対するサプライチェーン攻撃 — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/</link>
+            <guid>https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/</guid>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[経緯 2026年8月20日 7:15（UTC）に、proc-macro1 クレートに悪意のあるコードが含まれているとの報告を受けました。Rust セキュリティ対応チームが調査した結果、この報告は事実であることが確認されました。このクレートには、悪意のあるペイロードをダウンロードするビルドスクリプトが含まれていました。 この proc-macro1 クレートおよび類似のクレート（proc-macro-en、aovine、arone、aronenao、tinymember）は削除されました。さらに、人気のある arrayref クレートが最近再公開され、このクレートに依存するように変更されていたことが判明しました。最新バージョンは ya]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F08%2F20%2Fsupply-chain-attack-on-arrayref%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[Rust 1.98.0 のリリースのお知らせ — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/</link>
+            <guid>https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/</guid>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rustチームは、Rustの新バージョン1.98.0のリリースを発表できることを嬉しく思います。Rustは、誰もが信頼性が高く効率的なソフトウェアを構築できるようにするプログラミング言語です。 rustup を通じて以前のバージョンの Rust をインストールしている場合は、次のコマンドで 1.98.0 を入手できます：$ rustup update stable まだお持ちでない場合は、当ウェブサイトの該当ページから rustup を入手し、1.98.0 の詳細なリリースノートをご確認ください。 今後のリリースのテストにご協力いただける場合は、locの更新をご検討ください。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F08%2F20%2FRust-1.98.0%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes YAML を KYAML 形式で読みやすく表示する方法と、その理由 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/</link>
+            <guid>https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/</guid>
+            <pubDate>Tue, 11 Aug 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[YAMLは長年にわたり、Kubernetesマニフェストを作成するための標準的な方法として定着しています。目にするあらゆる例やチュートリアル、設定ファイルは、すべてYAMLで記述されています。問題は、YAMLというフォーマット自体が悪いということではありません。 問題は、YAMLには多くの選択肢があり、そのすべてがKubernetesマニフェストの記述に等しく適しているわけではないという点です。ファイルの可読性を低下させる機能もあれば、誤用されやすいものや、予期せぬ動作を引き起こす可能性のあるものもあります。興味深いのは、Kubernetesは実際にはそれらの機能のほとんどを必要としていないという点です。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F11%2Fhow-to-pretty-print-kubernetes-yaml-as-kyaml%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[ナイトリー版で「borrow checker」の次期バージョンを有効にする — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/</link>
+            <guid>https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/</guid>
+            <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[TL;DR 今後数ヶ月以内の安定版リリースに備え、ナイトリー版で借用チェッカーの次期バージョン（通称「Polonius Alpha」）を有効化しています。えっ！？ そうです！ その通りです！ Rustの借用チェッカーの次期バージョンが登場します！ Rustの最初の借用チェッカー（「AST borrowck」）は機能が非常に限定的で、わかりやすいエラーメッセージを表示するために使用されていた「移行モード」を除き、2019年にNLLに取って代わられ、段階的に廃止されました。その移行モードも、2022年にようやく削除されました。Polonius借用チェッカーは]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F08%2F04%2Fenabling-polonius-alpha-on-nightly%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[Gateway API v1.6：TCPRoute および UDPRoute が標準仕様に昇格 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/</link>
+            <guid>https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/</guid>
+            <pubDate>Mon, 03 Aug 2026 16:00:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes SIG Networkコミュニティは、本年6月30日にリリースされたGateway API v1.6.0の公開をお知らせできることを大変嬉しく思います！ Gateway APIは、Kubernetesにおける最新かつ役割指向で表現力豊かなサービスネットワーキングの標準となっています。これまでのリリースにおいて、Gateway APIはHTTPおよびTLS（レイヤー7）トラフィックのための実運用レベルの基盤を確立してきました。バージョン1.6.0では、標準的なレイヤー4プロトコルのルーティングを拡張し、より洗練されたAPIバインディングを導入することで、Gateway APIは大きな前進を遂げました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F03%2Fgateway-api-v1-6-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37 先行情報 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/</link>
+            <guid>https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/</guid>
+            <pubDate>Fri, 31 Jul 2026 16:00:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.37のリリース日が近づくにつれ、プロジェクトは発展・成熟しており、プロジェクト全体の健全性を維持するため、機能が非推奨になったり、削除されたり、より優れた機能に置き換えられたりする可能性があります。 本ブログでは、Kubernetes v1.37 リリースで予定されている変更点のうち、リリースチームが、皆様の Kubernetes 環境の継続的なメンテナンスや最新の変更内容への対応のために知っておくべきと考えているものをいくつか紹介します。以下の情報は、v1.37 リリースの現在の状況を反映したものです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F07%2F31%2Fkubernetes-v1-37-sneak-peek%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[コントローラー・ランタイムのキャッシュが実際にどのように機能するか、そしてなぜコントローラーがAPIサーバーをクラッシュさせないのか — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/</link>
+            <guid>https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/</guid>
+            <pubDate>Wed, 29 Jul 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[この記事は、初版公開後に、原文に含まれていたいくつかの重大な技術的な誤りを修正するため、改訂されました。Kubernetesはかねてより分散ワークロードのデフォルトプラットフォームとなっており、独自のコントローラーを作成するのも、今では数時間で済むようになりました。 一般的な手法である、Golang を使用し、controller-runtime 上に kubebuilder を組み合わせる方法では、プロジェクトの骨格、型、およびリコンサイラーが提供されます。一般的なシナリオであれば、これだけで十分です。しかし、負荷が増加したり、コントローラーが]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F07%2F29%2Fcontroller-runtime-cache-explained%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Djangoについて、私が最近楽しんでいる点をいくつか紹介したいと思います — Julia Evans]]></title>
+            <link>https://jvns.ca/blog/2026/07/21/more-nice-django-things/</link>
+            <guid>https://jvns.ca/blog/2026/07/21/more-nice-django-things/</guid>
+            <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは！今、ちょっと変わった挑戦をしているところです。2010年代風のスタイルで、SQLデータベースを使い、バックエンドでHTMLを生成するウェブサイトの作り方を学ぼうとしているんです。 このやり方でウェブサイトを作るのは、私にとって必ずしも「簡単」とは感じられないので、なかなか興味深い体験です。2000年代や2010年代にこの方法を学んだことがなく、学ぶべきことが山ほどあるからです。 そこで、この種のサイト構築を、以前挑戦して失敗していた頃よりも実現可能だと感じさせてくれる、Djangoの機能をいくつか紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/07/21/more-nice-django-things/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F07%2F21%2Fmore-nice-django-things%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[SQLiteの実行についていくつか学んだこと — Julia Evans]]></title>
+            <link>https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/</link>
+            <guid>https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/</guid>
+            <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは！最近、Djangoサイトの開発に取り組んでおり、データベースにはSQLiteを使うことにしました。 WebサイトのデータベースとしてSQLiteを使い始めた当初、小規模なサイトであれば本番環境でSQLiteを使っても全く問題ないというブログ記事をたくさん読みましたし、私も全く問題ないと思っています。しかし、私が十分に理解していなかったのは、SQLiteもやはりデータベースであり、データベースは複雑で、 そして、私はデータベースの運用についてあまり詳しくないということです。そこで、私が最近気づいたいくつかの細かい点を以下に挙げます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F07%2F17%2Flearning-about-running-sqlite%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Rust 1.97.1 のリリースのお知らせ — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/</link>
+            <guid>https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/</guid>
+            <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rustチームは、Rustの新しいマイナーリリースである1.97.1を公開しました。Rustは、誰もが信頼性が高く効率的なソフトウェアを構築できるようにするプログラミング言語です。 rustup 経由で以前のバージョンの Rust をインストールしている場合は、次のコマンドを実行するだけで Rust 1.97.1 を入手できます：rustup update stable まだお持ちでない場合は、当サイトの該当ページから rustup を入手できます。 1.97.1の新機能 Rust 1.97.1では、LLVMの最適化に関するコンパイルエラーが修正されました。LLVMの修正と無効化の両方をバックポートしました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F07%2F16%2FRust-1.97.1%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes 用のカスタムメトリクスエクスポーターの構築 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/</link>
+            <guid>https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/</guid>
+            <pubDate>Tue, 14 Jul 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes には CPU やメモリに関する監視機能が標準で備わっていますが、実際のスケーリング判断の多くは、その狭い範囲を完全に超えたシグナルに依存しています。たとえば、キューに待機しているメッセージの数、前回のバッチジョブの実行時間、Pod が保持しているアクティブな WebSocket 接続の数などです。 組み込みのメトリクスだけでは不十分な場合、メトリクスエクスポーターがそのギャップを埋めます。この記事では、メトリクスエクスポーターをゼロから作成し、コンテナとしてパッケージ化し、Prometheusが利用できるようにクラスターに組み込む手順について解説します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F07%2F14%2Fcustom-metrics-exporter-kubernetes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes での AI/ML ワークロードの実行：Kubeflow 向け Headlamp プラグイン — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/</link>
+            <guid>https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/</guid>
+            <pubDate>Mon, 13 Jul 2026 20:00:00 GMT</pubDate>
+            <description><![CDATA[Kubernetesは、いつの間にかAIや機械学習のデフォルトプラットフォームとなっています。データサイエンティスト向けのノートブックサーバーの運用、分散トレーニングジョブのスケジューリング、ハイパーパラメータの調整、あるいは多段階のMLパイプラインのオーケストレーションなど、こうしたワークロードはますますKubernetesクラスター上で実行されるようになっています。 Kubeflowは、そのスタックを構築するための最も一般的な手法の一つであり、Kubernetesネイティブな方法でそれを実現しています。つまり、すべての機能がカスタムリソース定義（CRD）として公開されています。この設計は、クラスタ運用担当者にとってまさに天の恵みです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F07%2F13%2Fintroducing-headlamp-plugin-for-kubeflow%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[KubernetesダッシュボードからHeadlampへ：ステップバイステップガイド — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/</link>
+            <guid>https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/</guid>
+            <pubDate>Mon, 13 Jul 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[1. 開始する前に：変更点を把握しておく Kubernetes Dashboard と Headlamp はどちらもクラスタ内で実行中のリソースを表示しますが、その動作は異なります。Headlamp はデスクトップ上で実行される際、既存の kubeconfig を使用して 1 つ以上のクラスタに接続し、プラグインによって機能を拡張することができます。 Headlampがクラスタ内で実行される場合、KubernetesのServiceAccountを使用してAPIにアクセスし、RBACルールに従います。対照的に、Kubernetesダッシュボードはクラスタ内でのみ実行され、常にサービスアカウントのトークンに依存します。Unde]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F07%2F13%2Fkubernetes-dashboard-to-headlamp%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[crates.io：開発状況のアップデート — Rust Blog]]></title>
+            <link>https://blog.rust-lang.org/2026/07/13/crates-io-development-update/</link>
+            <guid>https://blog.rust-lang.org/2026/07/13/crates-io-development-update/</guid>
+            <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[前回の開発状況報告からさらに6か月が経過し、crates.ioチームは精力的に活動してきました。ここでは、それ以降にcrates.ioで行われた主な変更点と改善点をまとめます。 ソースコードビューア クレートのページには「Code」タブが追加され、公開されているクレートのバージョンの内容を crates.io 上で直接閲覧できるようになりました。ここでは、クレートを依存関係として追加した際に cargo がダウンロードするファイルが正確に表示されます。これらは、リンクされているリポジトリの内容とは異なる場合があります。これにより、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/07/13/crates-io-development-update/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F07%2F13%2Fcrates-io-development-update%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>rust</category>
+        </item>
+        <item>
+            <title><![CDATA[etcd v3.7.0 のリリースのお知らせ — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/</link>
+            <guid>https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/</guid>
+            <pubDate>Wed, 08 Jul 2026 12:00:00 GMT</pubDate>
+            <description><![CDATA[この記事は、元の発表文を転載したものです。本日、SIG etcd は、広く利用されている分散型キーバリューストアであり、Kubernetes のコアコンポーネントでもある etcd の最新マイナーリリースである etcd v3.7.0 をリリースしました。 v3.7 では、かねてより要望の多かった RangeStream 機能が搭載され、その他にもいくつかのパフォーマンス改善が行われ、レガシーな v2store の最後の名残が削除され、protobuf の大規模な見直しが完了しました。etcd v3.7.0 はこちらからダウンロードできます：ソースコード、バイナリ、公式コンテナイメージ。また、このリリースには新しい ve]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F07%2F08%2Fannouncing-etcd-3.7%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[AI時代のオープンソースのメンテナンス — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/</link>
+            <guid>https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/</guid>
+            <pubDate>Fri, 26 Jun 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[AIはソフトウェア開発のあり方を大きく変えました。これまで以上に多くの人々がAIを活用し、自分が利用しているプロジェクトにパッチを寄稿するようになっています。 私としては、フォークしたり修正を先送りしたりするのではなく、より多くの人がパッチを寄稿してくれるようになるという点で、これは良いことだと考えています。主な問題は、AIによってコードの生成は高速化したものの、コードベースのメンテナンスに関してはほとんど改善が見られないことです。本記事では、KubernetesコミュニティがAIを活用したコーディングの世界にどのように適応しているかについて紹介します。その第一歩として]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F26%2Fopen-source-maintainership-in-the-age-of-ai%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Headlamp用Cluster APIプラグインのご紹介 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/</link>
+            <guid>https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/</guid>
+            <pubDate>Thu, 25 Jun 2026 22:00:00 GMT</pubDate>
+            <description><![CDATA[Headlampは、ブラウザから直接クラスタリソースの探索、管理、デバッグを行えるように設計された、オープンソースで拡張可能なKubernetes SIG UIプロジェクトです。Cluster API（CAPI）は、クラスタのライフサイクル管理に、Kubernetesスタイルの宣言型APIを導入するKubernetesのサブプロジェクトです。 これにより、プラットフォームチームは、管理クラスターに保存・調整された標準的な Kubernetes オブジェクトを使用して、Kubernetes クラスターのプロビジョニング、アップグレード、およびライフサイクル管理を行うことができます。Cluster API リソースの管理は、従来]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/25/headlamp-cluster-api-plugin/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F25%2Fheadlamp-cluster-api-plugin%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Headlamp を使って Volcano のワークロードをより迅速に検査 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/</link>
+            <guid>https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/</guid>
+            <pubDate>Thu, 25 Jun 2026 20:00:00 GMT</pubDate>
+            <description><![CDATA[Volcanoは、高性能計算、AI/ML、その他のバッチワークロード向けに構築された、Kubernetes用のクラウドネイティブバッチスケジューラです。Headlampは、拡張可能なKubernetes用Web UIです。 Headlampは、そのプラグインシステムにより、Kubernetesに組み込まれたリソースの枠を超えたAPIやワークフローを提供できます。Volcanoプラグインは、Volcanoの中核となるリソースをHeadlampに統合するため、ワークロードの状態、キューの挙動、およびギャングスケジューリングの詳細を1か所で確認することができます。Kubernetesはもともと、長時間実行されるサービスを中心に設計されました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/25/visual-context-volcano-headlamp-plugin/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F25%2Fvisual-context-volcano-headlamp-plugin%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[サーバーレスを体感しよう：Knative向け「Headlamp」プラグインのご紹介 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/</link>
+            <guid>https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/</guid>
+            <pubDate>Thu, 25 Jun 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[Headlampは、クラスタリソースの探索、管理、デバッグを可能にする、オープンソースで拡張可能なKubernetes SIG UIプロジェクトです。Knativeは、Kubernetesにサーバーレスワークロードを導入し、トラフィックのルーティング、オートスケーリング、リビジョン管理を処理することで、チームがインフラストラクチャに煩わされることなくデプロイや反復開発を行えるようにします。 しかし、Knative ワークロードの日常的な運用は困難を伴う場合があります。現在も、実行中の状況を完全に把握するためには、kn CLI、kubectl、Kubernetes UI 間を頻繁に行き来する必要があります。そこで私たちは、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F25%2Fheadlamp-knative-plugin%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[WGデバイス管理にスポットライトを当てる — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/</link>
+            <guid>https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/</guid>
+            <pubDate>Wed, 24 Jun 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes における AI、エッジ、通信関連のワークロードの人気の高まりに伴い、ハードウェア管理に対する新たな要件が生じています。現在では、CPU 時間やメモリの割り当てにとどまらない、より詳細なハードウェア仕様が必要となっています。これには、GPU、TPU、ネットワークインターフェース、その他のハードウェアの割り当てが含まれ、場合によってはポッドの起動後に行われたり、タイムシェアリングを通じて行われたりすることもあります。 こうした専用ハードウェアを効率的に管理することが、デバイス管理ワーキンググループの使命です。同グループの中核となるプロジェクトが、「Dynamic Resource Al」です。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/24/wg-device-management-spotlight-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F24%2Fwg-device-management-spotlight-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[SIGストレージにスポットライトを当てる — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/</link>
+            <guid>https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/</guid>
+            <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[当シリーズ「SIG Spotlight」では、Kubernetesプロジェクトを前進させ続けている各グループにスポットライトを当てています。今回は、永続データ、ボリューム管理、およびKubernetesワークロードと基盤となるストレージシステムを接続するインターフェースを担当するグループ「SIG Storage」に話を伺いました。 SIG Storageの共同議長であり、Broadcom傘下のVMwareでソフトウェアエンジニアを務めるXing Yang氏に、SIGの沿革、最近のKubernetesリリースで提供されている機能、そしてストレージの今後について話を伺いました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F15%2Fsig-storage-spotlight-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[KubernetesダッシュボードからHeadlampへ：その変遷を理解する — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/</link>
+            <guid>https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/</guid>
+            <pubDate>Mon, 01 Jun 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[多くの人にとって、KubernetesダッシュボードはKubernetesに触れる最初の入り口でした。このダッシュボードは、クラスター内で何が実行されているかを確認したり、リソースを調査したり、コマンドラインに頼ることなくKubernetesへの理解を深めたりするための、シンプルで視覚的な手段を提供していました。 長年にわたり、このダッシュボードは開発者、学生、運用担当者がKubernetesを理解する助けとなり、エコシステムへの重要な入り口としての役割を果たしてきました。Kubernetesダッシュボードプロジェクトは現在、アーカイブされています。私たちは、チームが行った取り組みと、Kubernetesの普及においてダッシュボードが果たした役割を深く称賛しています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F01%2Fdashboard-to-headlamp%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[過去との折り合い：未修正のKubernetes CVEに関する記録の修正 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/</link>
+            <guid>https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/</guid>
+            <pubDate>Tue, 26 May 2026 17:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetesプロジェクトは、クラスタ管理者やセキュリティ研究者を支援するために、透明性を重視しています。その重要な取り組みの一つとして、CVEレコードを「Common Vulnerabilities and Exposures」データベースに公開しています。 公式のKubernetes CVEフィードの成熟化に向けた継続的な取り組みの一環として、いくつかの不一致が確認されました。一部の古い、未修正の脆弱性に関するCVEレコードには、誤って「修正済みバージョン」フィールドが含まれていました。Kubernetesセキュリティ対応委員会（SRC）は、影響を受けるCVEレコードを修正する予定です。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F26%2Freconciling-unfixed-kubernetes-cves%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[etcd 3.7.0-beta.0 のリリースを発表します — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/20/etcd-370-beta/</link>
+            <guid>https://kubernetes.io/blog/2026/05/20/etcd-370-beta/</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[SIG-Etcdは、etcd v3.7.0の最初のベータ版の提供開始を発表しました。この人気のある分散データベースであり、Kubernetesの主要コンポーネントでもある新バージョンには、かねてより要望の多かったRangeStream機能に加え、複数のレガシーコンポーネントやインターフェースのリファクタリングおよびクリーンアップが含まれています。 v3.7では、セキュリティの強化、運用信頼性の向上、および大規模な結果セットを扱う際の操作性の向上が図られています。ただし、その前に、プロジェクトではユーザーによるベータ版のテストを必要としています。v3.7.0は以下から入手できます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/20/etcd-370-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F20%2Fetcd-370-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：Cloud Controller Managerにおけるルート同期用の新しいメトリクス — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/</link>
+            <guid>https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/</guid>
+            <pubDate>Fri, 15 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[この記事は当初、誤った日付で公開されていました。その後、2026年5月15日付けとして再公開されました。 Kubernetes v1.36では、k8s.io/cloud-providerにあるCloud Controller Manager（CCM）のルートコントローラー実装に、新しいアルファ版カウンターメトリクス「route_controller_route_sync_total」が導入されました。このメトリクスは、ルートがクラウドプロバイダーと同期されるたびにインクリメントされます。 ウォッチベースのルート調整に関するA/Bテスト このメトリクスは、オペレーターが `CloudControllerManagerWatchB` を検証するのを支援するために追加されました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/15/ccm-new-metric-route-sync-total/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F15%2Fccm-new-metric-route-sync-total%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：混合バージョンプロキシがベータ版に移行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/</link>
+            <guid>https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/</guid>
+            <pubDate>Fri, 15 May 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[以前のブログ記事で、Kubernetes 1.28において、Mixed Version Proxy（MVP）をアルファ機能（フィーチャーゲート「UnknownVersionInteroperabilityProxy」の下）として導入したことをご紹介しました。 その目的はシンプルですが極めて重要でした。それは、古いAPIサーバーがまだ認識していないリソースへのリクエストが、誤った「404 Not Found」を返すのではなく、新しいピアAPIサーバーに正しくルーティングされるようにすることで、クラスターのアップグレードをより安全なものにすることでした。この度、KubernetesにおいてMixed Version Proxyがベータ版に移行することをお知らせできることを嬉しく思います。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F15%2Fkubernetes-1-36-feature-mixed-version-proxy-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Tailwindから離れ、CSSの構成方法を学ぶ — Julia Evans]]></title>
+            <link>https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/</link>
+            <guid>https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/</guid>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは！8年前、私はTailwindを発見したことに胸を躍らせて記事を書きました。当時はCSSコードをどのように構成すればいいのか全く見当がつかず、完全に混沌とした状態とTailwindのどちらを選ぶかといえば、Tailwindを選べて本当に嬉しかったです。おかげで、たくさんの小さなサイトを作ることができました！ ここ1週間ほど、いくつかのサイトをTailwindから、よりセマンティックなHTMLとVanilla CSSへと移行する作業に没頭していました。それは本当に楽しくて、とても興味深い経験だったので、ここで学んだことをいくつか紹介します！いつものことですが、私はフルタイムのフ]]></description>
+            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F05%2F15%2Fmoving-away-from-tailwind--and-learning-to-structure-my-css-%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36: ServiceのExternalIPの非推奨および削除 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/</link>
+            <guid>https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/</guid>
+            <pubDate>Thu, 14 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Service の .spec.externalIPs フィールドは、クラウド以外のクラスターに対してクラウドロードバランサーのような機能を提供しようとする初期の試みでした。 残念ながら、この API はクラスター内のすべてのユーザーが完全に信頼されていることを前提としており、そうでない状況では、CVE-2020-8554 で説明されているように、さまざまなセキュリティ上の脆弱性を引き起こす可能性があります。 Kubernetes 1.21以降、Kubernetesプロジェクトでは、すべてのユーザーが.spec.externalIPsを無効にすることを推奨しています。これを容易にするため、Kubernetesではアドミッションコントロールも追加されました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F14%2Fkubernetes-v1-36-deprecation-and-removal-of-service-externalips%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：ワークロードを意識したスケジューリングの進化 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/</link>
+            <guid>https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/</guid>
+            <pubDate>Wed, 13 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[AI/ML およびバッチワークロードでは、単純なポッド単位のスケジューリングでは対応しきれない、特有のスケジューリング上の課題が生じます。 Kubernetes v1.35では、ワークロードを意識したスケジューリングの改善の第1弾を導入しました。これには、基盤となるWorkload APIに加え、Podベースのフレームワーク上に構築された基本的なギャングスケジューリングのサポート、および同一のPodを効率的に処理するためのオポチュニスティックなバッチ処理機能が含まれています。 Kubernetes v1.36 では、API の関心を明確に分離することで、アーキテクチャの大幅な進化がもたらされました。すなわち、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F13%2Fkubernetes-v1-36-advancing-workload-aware-scheduling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：Kubernetes Graduates向けのPSIメトリクスがGAに移行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/</guid>
+            <pubDate>Tue, 12 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[2018年にLinuxカーネルに初めて実装されて以来、Pressure Stall Information（PSI）は、リソースの飽和状態がシステム停止につながる前にそれを特定するために必要な、高精度なシグナルをユーザーに提供してきました。 従来の利用率指標とは異なり、PSIは、CPU、メモリ、I/Oごとに、停止したタスクや失われた時間を、わかりやすい時間割合としてまとめて示します。Kubernetes v1.36の最近のリリースにより、エコシステム全体のユーザーは、rを監視するための安定かつ信頼性の高いインターフェースを利用できるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F12%2Fkubernetes-v1-36-psi-metrics-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：ボリュームグループのスナップショットが一般提供（GA）に移行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/</guid>
+            <pubDate>Fri, 08 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[ボリュームグループのスナップショットは、Kubernetes v1.27のリリースでアルファ機能として導入され、v1.32でベータ版となり、v1.34で第2ベータ版となりました。 この度、Kubernetes v1.36のリリースにおいて、ボリュームグループスナップショットのサポートが一般提供（GA）となったことをお知らせいたします。ボリュームグループスナップショットのサポートは、グループスナップショット用の一連の拡張APIに基づいています。これらのAPIにより、ユーザーは一連のボリュームに対してクラッシュ一貫性のあるスナップショットを取得できるようになります。 内部的には、Kubernetesはl]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F08%2Fkubernetes-v1-36-volume-group-snapshot-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：ドライバーの拡充、新機能、そしてDRAの新たな時代 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/</link>
+            <guid>https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/</guid>
+            <pubDate>Thu, 07 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[ダイナミック・リソース・アロケーション（DRA）は、Kubernetes におけるハードウェアアクセラレータや専用リソースの管理方法に根本的な変革をもたらしました。 v1.36リリースでは、DRAはさらに成熟し、機能の段階的提供、重要なユーザビリティの改善、そしてDRAの柔軟性をメモリやCPUといったネイティブリソースにまで拡張する新機能や、PodGroupsにおけるResourceClaimsのサポートなどが導入されています。ドライバーの可用性も引き続き拡大しています。専用コンピューティングアクセラレータ以外にも]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F07%2Fkubernetes-v1-36-dra-136-updates%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：サーバーサイドのシャードリストとウォッチ — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/</link>
+            <guid>https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/</guid>
+            <pubDate>Wed, 06 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes クラスタが数万ノード規模に拡大するにつれ、Pod のような高カーディナリティのリソースを監視するコントローラーは、スケーリングの壁に直面することになります。 水平スケーリングされたコントローラーの各レプリカは、APIサーバーからのイベントストリームをすべて受信し、すべてをデシリアライズするためにCPU、メモリ、ネットワークのコストを支払うものの、最終的には自身の管轄外であるオブジェクトを破棄することになります。 コントローラーを水平方向にスケールアウトしても、レプリカあたりのコストは削減されず、むしろ倍増してしまいます。Kubernetes v1.36では、サーバーサイドのシャード化されたリストが導入されました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F06%2Fkubernetes-v1-36-server-side-sharded-list-and-watch%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：宣言型検証機能が一般提供（GA）に移行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/</guid>
+            <pubDate>Tue, 05 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.36において、Kubernetesネイティブ型に対する宣言型バリデーションが一般提供（GA）となりました。 ユーザーにとっては、これにより、より信頼性が高く、予測可能で、ドキュメントも充実した API が利用できるようになります。また、宣言型モデルへの移行により、将来的には OpenAPI を通じて検証ルールを公開したり、Kubebuilder などのエコシステムツールと統合したりすることが可能になります。コントリビューターやエコシステム開発者にとっては、手作業で記述された数千行に及ぶ検証コードが、統一されたメンテナンスしやすいフレームワークに置き換わることになります。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F05%2Fkubernetes-v1-36-declarative-validation-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：削除できないアドミッションポリシー — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/</link>
+            <guid>https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/</guid>
+            <pubDate>Mon, 04 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes クラスタ群全体でセキュリティポリシーを適用しようとしたことがある方なら、おそらく「鶏が先か卵が先か」という厄介な問題に直面したことがあるでしょう。アドミッションポリシーは API オブジェクトであるため、誰かが作成するまでは存在せず、適切な権限を持つユーザーなら誰でも削除できてしまいます。 クラスタのブートストラップ中には、ポリシーがまだ有効になっていない期間があり、特権を持つユーザーがそれらを削除するのを防ぐ方法はありません。Kubernetes v1.36では、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F04%2Fkubernetes-v1-36-manifest-based-admission-control%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[CSSカラーパレットへのリンク — Julia Evans]]></title>
+            <link>https://jvns.ca/blog/2026/05/04/css-colour-palettes/</link>
+            <guid>https://jvns.ca/blog/2026/05/04/css-colour-palettes/</guid>
+            <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[少し前に、新しいプロジェクトではTailwindを使わず、代わりに純粋なCSSを書くことに決めました。しかし、Tailwindについて唯一恋しくなったのが、カラーパレット（こちらがCSS版）でした。 水色を使いたいときは「blue-100」を使えばよく、気に入らなければ「blue-200」や「blue-50」を試すこともできました。 私は色のセンスがあまりないため、自分より色に詳しい誰かが考え抜いた、理にかなったカラーパレットがあることは、私にとって大きな違いです。しかし、一方で、Tailwindのあの色には少し飽きてきていて……]]></description>
+            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/05/04/css-colour-palettes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F05%2F04%2Fcss-colour-palettes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[ブラウザでのVueコンポーネントのテスト — Julia Evans]]></title>
+            <link>https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/</link>
+            <guid>https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは！私がここで取り組んでいる長期プロジェクトの一つは、Nodeやその他のサーバーサイドJavaScriptランタイムを使わずに、フロントエンドのJavaScriptを書く方法を模索することです。フロントエンドのJavaScriptプロジェクトで頻繁に直面する問題の一つは、そのテストをどのように書けばよいのかわからないということです。 以前、Playwrightを使ってみたことはありますが、常に新しいブラウザプロセスを起動するのは遅くて扱いにくく感じられた上、テストを調整するためにNodeのコードも必要でした。その結果、私はフロントエンドのコードをテストしていないという状況になっています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F05%2F02%2Ftesting-vue-components-in-the-browser%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36: ポッドレベルのリソースマネージャー (アルファ版) — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/</link>
+            <guid>https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/</guid>
+            <pubDate>Fri, 01 May 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.36 では、アルファ機能として「Pod レベルのリソースマネージャー」が導入され、パフォーマンスに敏感なワークロードに対して、より柔軟で強力なリソース管理モデルが提供されます。 この機能強化により、kubeletのトポロジー、CPU、およびメモリマネージャが拡張され、Podレベルのリソース仕様（.spec.resources）がサポートされるようになりました。これにより、これまではコンテナ単位の厳格な割り当てモデルであったものが、Podを中心としたモデルへと進化しました。なぜPodレベルのリソースマネージャが必要なのでしょうか？ マシンなどのパフォーマンスが重要なワークロードを実行する際には、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F01%2Fkubernetes-v1-36-feature-pod-level-resource-managers-alpha%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：ポッドレベルのリソースに対するインプレース垂直スケーリングがベータ版に昇格 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/</link>
+            <guid>https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/</guid>
+            <pubDate>Thu, 30 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[v1.34での「Podレベルのリソース」のベータ版移行、およびv1.35での「インプレースPod垂直スケーリング」の一般提供（GA）に続き、Kubernetesコミュニティは、v1.36において「インプレースPodレベルリソース垂直スケーリング」がベータ版に移行したことを嬉しくお知らせします！ この機能は、InPlacePodLevelResourcesVerticalScaling フィーチャーゲートを通じて、デフォルトで有効化されています。これにより、ユーザーは実行中のポッドのポッドリソース予算の合計（.spec.resources）を更新できるようになり、多くの場合、再起動を必要とせずに]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F30%2Fkubernetes-v1-36-inplace-pod-level-resources-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：メモリ QoS による階層型メモリ保護 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/</link>
+            <guid>https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/</guid>
+            <pubDate>Wed, 29 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[SIG Nodeを代表して、Kubernetes v1.36におけるMemory QoS機能（アルファ版）の更新をお知らせいたします。Memory QoSは、cgroup v2メモリコントローラを利用して、コンテナメモリの扱い方についてカーネルにより適切な指針を提供します。 この機能はv1.22で初めて導入され、v1.27で更新されました。Kubernetes v1.36では、オプトイン方式のメモリ予約、QoSクラスによる階層的な保護、可観測性メトリクス、およびmemory.highに関するカーネルバージョンの警告を導入しています。 v1.36の新機能 オプトイン方式のメモリ予約機能]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F29%2Fkubernetes-v1-36-memory-qos-tiered-protection%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：コントローラーのデータ古さ対策と可観測性 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/</link>
+            <guid>https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/</guid>
+            <pubDate>Tue, 28 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes コントローラーにおけるデータの古さは、多くのコントローラーに影響を及ぼす問題であり、コントローラーの動作に微妙な影響を与える可能性があります。通常、本番環境のコントローラーがすでに誤った動作を行ってしまった後、つまり手遅れになって初めて、コントローラーの作成者が前提としていた仮定が原因で、データの古さが問題であることが判明します。 データ鮮度低下によって引き起こされる問題としては、コントローラーが誤ったアクションを実行してしまう、実行すべき時にアクションを実行しない、あるいはコントローラーが...といったことが挙げられます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F28%2Fkubernetes-v1-36-staleness-mitigation-for-controllers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36: 一時停止中のジョブ向けの変更可能なPodリソース（ベータ版） — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/</link>
+            <guid>https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/</guid>
+            <pubDate>Mon, 27 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.36 では、一時停止中のジョブのポッドテンプレートにおいて、コンテナのリソース要求値および制限値を変更する機能がベータ版として提供されるようになりました。 v1.35でアルファ版として初めて導入されたこの機能により、キューコントローラーやクラスター管理者は、ジョブが一時停止中であり、実行が開始される前または再開される前に、そのジョブの CPU、メモリ、GPU、および拡張リソースの仕様を調整できるようになります。なぜ一時停止中のジョブに対してポッドリソースの変更が可能になったのでしょうか？バッチ処理や機械学習のワークロードでは、リソース要件が定まっていないことが多いためです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F27%2Fkubernetes-v1-36-mutable-pod-resources-for-suspended-jobs%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：Kubelet APIのきめ細かな認証機能がGA（一般提供）に移行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/</guid>
+            <pubDate>Fri, 24 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes SIG Auth および SIG Node を代表して、Kubernetes v1.36 において、kubelet のきめ細かな API 認証機能が一般提供（GA）となったことをお知らせいたします！ KubeletFineGrainedAuthz 機能ゲートは、Kubernetes v1.32 でオプトイン型のアルファ機能として導入され、v1.33 ではベータ版（デフォルトで有効）へと移行しました。 今回、この機能は一般提供（GA）となり、フィーチャーゲートは有効に固定されました。この機能により、kubelet に対するより精密で、最小権限に基づくアクセス制御が可能になります。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F24%2Fkubernetes-v1-36-fine-grained-kubelet-authorization-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36：KubernetesのユーザーネームスペースがついにGAとなった — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/</link>
+            <guid>https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/</guid>
+            <pubDate>Thu, 23 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[数年にわたる開発を経て、Kubernetesの「ユーザーネームスペース」サポートはv1.36のリリースに伴い、一般提供（GA）に至りました。これはLinux専用の機能です。低レベルのコンテナランタイムやルートレス技術に携わる私たちにとって、これは待ち望んでいたマイルストーンです。 ついに、Kubernetesのワークロードに対して「rootless」なセキュリティ分離を利用できる段階に至りました。この機能により、特権を持ってワークロードを実行しつつ、依然として]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F23%2Fkubernetes-v1-36-userns-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[SELinuxのボリュームラベル変更機能が一般提供開始（v1.37における影響も予想される） — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/</link>
+            <guid>https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/</guid>
+            <pubDate>Wed, 22 Apr 2026 18:35:00 GMT</pubDate>
+            <description><![CDATA[SELinuxがenforcingモードになっているLinux環境でKubernetesを実行する場合は、事前の計画が必要です。今後のリリース（v1.37と予想されます）では、SELinuxMount機能ゲートがデフォルトで有効になる見込みです。 これにより、ほとんどのワークロードにおいてボリュームの設定が高速化されますが、依然として旧式の再帰的リラベリングモデルに依存しているアプリケーションでは、微妙な形で動作しなくなる可能性があります（例えば、同じノード上の特権ポッドと非特権ポッド間で 1 つのボリュームを共有している場合など）。Kubernetes v1.36 は、クラスタを監査し、修正または]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/22/breaking-changes-in-selinux-volume-labeling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F22%2Fbreaking-changes-in-selinux-volume-labeling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36: ハル (Haru) — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/</link>
+            <guid>https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[編集者：チャド・M・クロウェル、キルティ・ゴヤル、ソフィア・ウゴチュクウ、スワティ・ラオ、ウトカルシュ・ウムレ これまでのリリースと同様、Kubernetes v1.36のリリースでは、新しい安定版、ベータ版、アルファ版の機能が導入されています。 高品質なリリースを継続的に提供できていることは、当社の開発サイクルの強みと、コミュニティからの活発なサポートを裏付けています。今回のリリースには70件の機能強化が含まれています。そのうち、18件が安定版（Stable）に昇格し、25件がベータ版（Beta）となり、25件がアルファ版（Alpha）に昇格しました。また、s]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/22/kubernetes-v1-36-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F22%2Fkubernetes-v1-36-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Gateway API v1.5：機能の安定版への移行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/</link>
+            <guid>https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/</guid>
+            <pubDate>Tue, 21 Apr 2026 16:30:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes SIG Network コミュニティは、Gateway API (v1.5) のリリースを発表します！2026年2月27日にリリースされたバージョン1.5は、これまでで最大規模のリリースであり、既存の実験的（Experimental）機能を標準（Stable）に移行することに重点を置いています。 Gateway API v1.5.1のパッチリリースはすでに利用可能です。Gateway API v1.5では、広く要望のあった6つの機能がStandardチャネル（Gateway APIのGAリリースチャネル）に昇格しました。それらは、ListenerSet、TLSRoute、HTTPRoute、CORS Filter、Client Certificate Validation、Certificです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/21/gateway-api-v1-5/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F21%2Fgateway-api-v1-5%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.36 先行情報 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/</link>
+            <guid>https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/</guid>
+            <pubDate>Mon, 30 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kubernetes v1.36は2026年4月末にリリースされる予定です。このリリースには機能の削除や非推奨化が含まれるほか、数多くの機能強化が盛り込まれています。ここでは、今回のリリースサイクルで特に注目すべき機能の一部をご紹介します！ なお、この情報は v1.36 の開発の現時点での状況を反映したものであり、リリースまでに変更される可能性がある点にご留意ください。Kubernetes API の削除および非推奨化プロセス Kubernetes プロジェクトには、機能に関する非推奨化ポリシーが明確に文書化されています。このポリシーでは、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/30/kubernetes-v1-36-sneak-peek/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F30%2Fkubernetes-v1-36-sneak-peek%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Ingress2Gateway 1.0 のリリースのお知らせ：Gateway API への道 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/</link>
+            <guid>https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/</guid>
+            <pubDate>Fri, 20 Mar 2026 19:00:00 GMT</pubDate>
+            <description><![CDATA[2026年3月にIngress-NGINXのサポート終了が予定されていることから、Kubernetesのネットワーク環境は転換点を迎えています。多くの組織にとって、問題は「Gateway APIへ移行すべきかどうか」ではなく、「いかにして安全に移行するか」です。 IngressからGateway APIへの移行は、API設計における根本的な転換です。Gateway APIは、KubernetesネイティブのRBACを強力にサポートする、モジュール式で拡張性の高いAPIを提供します。一方、Ingress APIはシンプルであり、Ingress-NGINXなどの実装では、esoを通じてAPIを拡張しています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/20/ingress2gateway-1-0-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F20%2Fingress2gateway-1-0-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+        <item>
+            <title><![CDATA[Agent Sandbox を使用した Kubernetes でのエージェントの実行 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/</link>
+            <guid>https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/</guid>
+            <pubDate>Fri, 20 Mar 2026 18:00:00 GMT</pubDate>
+            <description><![CDATA[人工知能（AI）の分野では、現在、アーキテクチャの大きな変革が進行中です。生成AIの黎明期には、モデルとのやり取りは、多くの場合、一時的でステートレスな関数呼び出しとして扱われていました。つまり、リクエストが起動し、おそらく50ミリ秒ほど実行された後、終了するというものでした。 今日、世界は「AI v2」が「AI v1」を飲み込んでいく様を目の当たりにしている。エコシステムは、短命で孤立したタスクから、絶えず稼働する複数の協調的なAIエージェントの展開へと移行しつつある。これらの自律型エージェントは、c]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F03%2F20%2Frunning-agents-on-kubernetes-with-agent-sandbox%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
+        </item>
+    </channel>
+</rss>
