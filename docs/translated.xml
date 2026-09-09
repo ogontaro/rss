@@ -4,11 +4,20 @@
         <title>翻訳フィード — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>購読フィードの新着エントリのタイトルと概要を日本語化した統合フィード</description>
-        <lastBuildDate>Tue, 08 Sep 2026 23:55:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 00:20:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[テレンス・タオの言葉を引用すると — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/9/terence-tao/</link>
+            <guid>https://simonwillison.net/2026/Sep/9/terence-tao/</guid>
+            <pubDate>Wed, 09 Sep 2026 00:20:17 GMT</pubDate>
+            <description><![CDATA[先日、有益で実りある未解決問題のコレクションが、現在、再生不可能な形で掘り尽くされつつあり、その結果、こうした問題が希少化する可能性があるという状況について書きました。 [...] 誰かが特定の問題に取り組んでいるという噂だけでも、その研究プロジェクトが本来持つ可能性を十分に発揮する間もなく、AIを活用した膨大な努力が注ぎ込まれ、その問題が早期に解決されてしまう可能性があることが、今や明らかになっています。こうした状況下では、有望な研究を一切共有しない方向へとインセンティブが向かっているのかもしれません。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/9/terence-tao/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F9%2Fterence-tao%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
         <item>
             <title><![CDATA[ナビエ・ストークスのミレニアム賞問題について — Simon Willison's Weblog]]></title>
             <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</link>
@@ -26,6 +35,15 @@
             <description><![CDATA[「ChatGPT Images 2.5」のご紹介。OpenAIの画像生成モデルは、「ChatGPT ImagesおよびAPIのGPT-Imageモデル全体で30億枚以上の画像」が使用されているとのことです。 今回の最新リリースでは、複数のターンにわたる指示の追従能力が向上し、応答速度も速くなり、「参照写真に写っている被写体をより正確に再現できるようになった」とのことです。 APIには、gpt-image-2.5-sunburst と gpt-image-2.5-flare という2つの新しいモデルIDが追加されました。この点から考えると、Sunburst の方が優れた選択肢だと思います：Sun を選択してください]]></description>
             <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F8%2Fintroducing-chatgpt-images-25%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[MacBook Pro上で、4台のSSDからストリーミングしたKimi K3 (2.8T)を1トークン/秒で実行 — Hacker News (200+ points)]]></title>
+            <link>https://github.com/argonautlabsai/deltafin</link>
+            <guid>https://news.ycombinator.com/item?id=49616257</guid>
+            <pubDate>Tue, 08 Sep 2026 20:07:55 GMT</pubDate>
+            <description><![CDATA[記事URL：https://github.com/argonautlabsai/deltafin コメントURL：https://news.ycombinator.com/item?id=49616257 ポイント：219 コメント数：114]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/argonautlabsai/deltafin">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fargonautlabsai%2Fdeltafin">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
         </item>
         <item>
             <title><![CDATA[Muse：MetaのパーソナルAIエージェント、その機能と性能 — Hacker News (200+ points)]]></title>
@@ -124,6 +142,15 @@
             <pubDate>Tue, 08 Sep 2026 13:36:53 GMT</pubDate>
             <description><![CDATA[記事URL：https://www.blackmagicdesign.com/media/release/20260908-03 コメントURL：https://news.ycombinator.com/item?id=49610181 ポイント：205 コメント数：82]]></description>
             <content:encoded><![CDATA[<p><a href="https://www.blackmagicdesign.com/media/release/20260908-03">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.blackmagicdesign.com%2Fmedia%2Frelease%2F20260908-03">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[Show HN：Copperhead – 回路基板用カーソル — Hacker News (200+ points)]]></title>
+            <link>https://copperhead.sh/</link>
+            <guid>https://news.ycombinator.com/item?id=49610059</guid>
+            <pubDate>Tue, 08 Sep 2026 13:26:45 GMT</pubDate>
+            <description><![CDATA[記事URL：https://copperhead.sh/ コメントURL：https://news.ycombinator.com/item?id=49610059 ポイント：212 コメント数：83]]></description>
+            <content:encoded><![CDATA[<p><a href="https://copperhead.sh/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fcopperhead.sh%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>general</category>
         </item>
         <item>
@@ -269,6 +296,15 @@
             <description><![CDATA[開発者向けのGPT-6 Astraのご紹介　一瞬見逃してしまうかもしれませんが、1分59秒のところに馴染みのある生き物が映っています：全体的に見て、Astraは細部へのこだわりがより深く、ユーザーのプロンプトをより的確に理解し、より洗練された出力を生成することができます。特に、3Dモデルの生成に優れています。 庭園、造船所、動物、都市景観、さらにはダイソン球に至るまで、信じられないほど素晴らしいレンダリングを生成するのを見てきました。Astraは、自転車に乗ったペリカンに赤いネッカチーフを巻くというアイデアを、本当に信じてしまっているようです。Hacker Newsより]]></description>
             <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F5%2Fintroducing-gpt-6-astra-for-developers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[LANパーティーのために家を建てました（2024年） — Hacker News (200+ points)]]></title>
+            <link>https://lanparty.house/</link>
+            <guid>https://news.ycombinator.com/item?id=49579443</guid>
+            <pubDate>Sat, 05 Sep 2026 18:44:40 GMT</pubDate>
+            <description><![CDATA[記事URL：https://lanparty.house/ コメントURL：https://news.ycombinator.com/item?id=49579443 ポイント：436 コメント数：316]]></description>
+            <content:encoded><![CDATA[<p><a href="https://lanparty.house/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Flanparty.house%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
         </item>
         <item>
             <title><![CDATA[macOS上でBlenderとコーディングエージェントを併用する — Simon Willison's Weblog]]></title>
@@ -871,42 +907,6 @@
             <pubDate>Tue, 05 May 2026 18:35:00 GMT</pubDate>
             <description><![CDATA[Kubernetes v1.36において、Kubernetesネイティブ型に対する宣言型バリデーションが一般提供（GA）となりました。 ユーザーにとっては、これにより、より信頼性が高く、予測可能で、ドキュメントも充実した API が利用できるようになります。また、宣言型モデルへの移行により、将来的には OpenAPI を通じて検証ルールを公開したり、Kubebuilder などのエコシステムツールと統合したりすることが可能になります。コントリビューターやエコシステム開発者にとっては、手作業で記述された数千行に及ぶ検証コードが、統一されたメンテナンスしやすいフレームワークに置き換わることになります。]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/05/kubernetes-v1-36-declarative-validation-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F05%2Fkubernetes-v1-36-declarative-validation-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36：削除できないアドミッションポリシー — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/</link>
-            <guid>https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/</guid>
-            <pubDate>Mon, 04 May 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes クラスタ群全体でセキュリティポリシーを適用しようとしたことがある方なら、おそらく「鶏が先か卵が先か」という厄介な問題に直面したことがあるでしょう。アドミッションポリシーは API オブジェクトであるため、誰かが作成するまでは存在せず、適切な権限を持つユーザーなら誰でも削除できてしまいます。 クラスタのブートストラップ中には、ポリシーがまだ有効になっていない期間があり、特権を持つユーザーがそれらを削除するのを防ぐ方法はありません。Kubernetes v1.36では、]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/04/kubernetes-v1-36-manifest-based-admission-control/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F04%2Fkubernetes-v1-36-manifest-based-admission-control%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[CSSカラーパレットへのリンク — Julia Evans]]></title>
-            <link>https://jvns.ca/blog/2026/05/04/css-colour-palettes/</link>
-            <guid>https://jvns.ca/blog/2026/05/04/css-colour-palettes/</guid>
-            <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[少し前に、新しいプロジェクトではTailwindを使わず、代わりに純粋なCSSを書くことに決めました。しかし、Tailwindについて唯一恋しくなったのが、カラーパレット（こちらがCSS版）でした。 水色を使いたいときは「blue-100」を使えばよく、気に入らなければ「blue-200」や「blue-50」を試すこともできました。 私は色のセンスがあまりないため、自分より色に詳しい誰かが考え抜いた、理にかなったカラーパレットがあることは、私にとって大きな違いです。しかし、一方で、Tailwindのあの色には少し飽きてきていて……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/05/04/css-colour-palettes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F05%2F04%2Fcss-colour-palettes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[ブラウザでのVueコンポーネントのテスト — Julia Evans]]></title>
-            <link>https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/</link>
-            <guid>https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/</guid>
-            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは！私がここで取り組んでいる長期プロジェクトの一つは、Nodeやその他のサーバーサイドJavaScriptランタイムを使わずに、フロントエンドのJavaScriptを書く方法を模索することです。フロントエンドのJavaScriptプロジェクトで頻繁に直面する問題の一つは、そのテストをどのように書けばよいのかわからないということです。 以前、Playwrightを使ってみたことはありますが、常に新しいブラウザプロセスを起動するのは遅くて扱いにくく感じられた上、テストを調整するためにNodeのコードも必要でした。その結果、私はフロントエンドのコードをテストしていないという状況になっています。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://jvns.ca/blog/2026/05/02/testing-vue-components-in-the-browser/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fjvns.ca%2Fblog%2F2026%2F05%2F02%2Ftesting-vue-components-in-the-browser%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36: ポッドレベルのリソースマネージャー (アルファ版) — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/</link>
-            <guid>https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/</guid>
-            <pubDate>Fri, 01 May 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes v1.36 では、アルファ機能として「Pod レベルのリソースマネージャー」が導入され、パフォーマンスに敏感なワークロードに対して、より柔軟で強力なリソース管理モデルが提供されます。 この機能強化により、kubeletのトポロジー、CPU、およびメモリマネージャが拡張され、Podレベルのリソース仕様（.spec.resources）がサポートされるようになりました。これにより、これまではコンテナ単位の厳格な割り当てモデルであったものが、Podを中心としたモデルへと進化しました。なぜPodレベルのリソースマネージャが必要なのでしょうか？ マシンなどのパフォーマンスが重要なワークロードを実行する際には、]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F01%2Fkubernetes-v1-36-feature-pod-level-resource-managers-alpha%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>infra</category>
         </item>
     </channel>
