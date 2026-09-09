@@ -6,8 +6,8 @@
 生成物を GitHub Pages で公開する。実装は 2 機能に絞る。
 
 - **翻訳フィード**: 購読フィードの新着エントリのタイトル・description を日本語化した統合 RSS を配信する。
-- **レポート**: AI / Kubernetes を中心に、前回以降の新着から重要なものを Claude に選ばせ、
-  日本語コメント付きのレポートページと専用 RSS を 月・水・金 に配信する。
+- **レポート**: AI / Kubernetes を中心に、過去 24 時間の新着から重要なものを Claude に選ばせ、
+  日本語コメント付きのレポートページと専用 RSS を 毎日 配信する。
 
 読むのは自分の RSS リーダー（Inoreader など）。生成した公開フィード URL を手作業で購読登録する。
 
@@ -69,7 +69,7 @@ feeds:
 4. 既存フィードに新規エントリを追加し、公開日時の降順で **直近 100 件**に truncate して
    `docs/translated.xml` を再生成。
 
-> truncate 件数（100）はレポートの入力元でもある。**72 時間の新着総数がこれを超えないこと**が前提。
+> truncate 件数（100）はレポートの入力元でもある。**24 時間の新着総数がこれを超えないこと**が前提。
 > 現状 30 フィード（release feed 中心で低頻度）なら十分だが、フィード追加時に再検討する。
 
 ### エントリの中身
@@ -96,15 +96,15 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 
 ## 機能 B: レポート（AI / Kubernetes キュレーション）
 
-### 処理（`daily.yml`, 月・水・金 JST 7:00 = cron `0 22 * * 0,2,4`）
+### 処理（`daily.yml`, 毎日 JST 7:00 = cron `0 22 * * *`）
 
 0. **機能 A（`src/translate.ts`）を最初に実行**して `docs/translated.xml` を最新化する。
    これにより「翻訳フィードとレポートで同じ記事のタイトルが一致する」「翻訳を二重に走らせない」
    が保証され、`daily.yml` が単体で完結する（別スケジュールへの依存を作らない）。
-1. `src/report/collect.ts`: **`docs/translated.xml` を読み**、`pubDate` が過去 72 時間のエントリだけに絞り
-   （実行が 月・水・金 なので最長ギャップ Fri→Mon の 72h をカバー。Wed/Fri は前回の末尾 ~24h と重複するが許容）、
+1. `src/report/collect.ts`: **`docs/translated.xml` を読み**、`pubDate` が過去 24 時間のエントリだけに絞り、
    日本語タイトル・description・link・category のリストを `.cache/daily-input.json` に書き出す。
    ここでは翻訳しない（機能 A の生成物をそのまま使う）。
+   曜日固定配信（例: 月・水・金）にするなら cron と合わせてこの窓も最長ギャップ分に広げる。
 2. `anthropics/claude-code-action@v1`:
    - 認証: `claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}`
    - 許可ツール: Read / Write のみ（ネットワーク・シェル不可）
@@ -163,7 +163,7 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 | ファイル | トリガー | 内容 |
 | --- | --- | --- |
 | `.github/workflows/translate.yml` | `schedule: 0 */6 * * *` ＋ `workflow_dispatch` | 機能 A。`docs/translated.xml` を更新 → `build.ts` → `docs/` をコミット |
-| `.github/workflows/daily.yml` | `schedule: 0 22 * * 0,2,4`（月・水・金 07:00 JST）＋ `workflow_dispatch` | 機能 A（先頭で最新化）→ collect → claude-code-action → render → `build.ts` → `docs/` をコミット |
+| `.github/workflows/daily.yml` | `schedule: 0 22 * * *`（毎日 07:00 JST）＋ `workflow_dispatch` | 機能 A（先頭で最新化）→ collect → claude-code-action → render → `build.ts` → `docs/` をコミット |
 
 共通ステップ: checkout → mise install（Bun）→ 各処理 → `git add docs && git commit && git push`。
 Pages は `main:/docs` を自動デプロイ。両ワークフローに `permissions: contents: write` を付ける（push に必須）。
@@ -199,7 +199,7 @@ rss/
     lib/               # フィードパース / yaml ロード / 翻訳クライアント / URL ヘルパ
     translate.ts       # 機能 A エントリ
     report/
-      collect.ts       # 過去 72h を .cache/daily-input.json へ
+      collect.ts       # 過去 24h を .cache/daily-input.json へ
       render.ts        # daily-report.md → docs/daily/*.html + index + daily.xml
     build.ts           # docs/ の組み立て（index, assets）
     import-opml.ts      # OPML → feeds.yaml（ワンショット）

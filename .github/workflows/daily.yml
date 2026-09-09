@@ -2,7 +2,7 @@ name: daily
 
 on:
   schedule:
-    - cron: "0 22 * * 0,2,4" # 月・水・金 07:00 JST
+    - cron: "0 22 * * *" # 毎日 07:00 JST（曜日固定にするなら 0 22 * * 0,2,4）
   workflow_dispatch:
 
 permissions:

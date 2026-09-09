@@ -8,10 +8,10 @@
 | フィード | URL | 更新 |
 | --- | --- | --- |
 | 翻訳フィード | `https://ogontaro.github.io/rss/translated.xml` | 6 時間ごと |
-| レポート | `https://ogontaro.github.io/rss/daily.xml` | 月・水・金 07:00 JST |
+| レポート | `https://ogontaro.github.io/rss/daily.xml` | 毎日 07:00 JST |
 
 - **翻訳フィード** (`docs/translated.xml`) — 購読フィードの新着エントリのタイトル・概要を日本語化した統合フィード。本文は「原文」＋「Google 翻訳」リンクで代替。
-- **レポート** (`docs/daily.xml`, `docs/daily/*.html`) — AI / Kubernetes を中心に、前回以降の新着から Claude が重要な 5〜10 件を選び、日本語コメントを付けて 月・水・金 に配信。
+- **レポート** (`docs/daily.xml`, `docs/daily/*.html`) — AI / Kubernetes を中心に、過去 24 時間の新着から Claude が重要な 5〜10 件を選び、日本語コメントを付けて 毎日 配信。
 
 ## セットアップ
 
@@ -43,7 +43,7 @@ Inoreader の OPML エクスポートがあれば `mise run import:opml -- <expo
 | コマンド | 内容 |
 | --- | --- |
 | `mise run translate` | フィード取得 → 新着を翻訳 → `docs/translated.xml` を再生成 |
-| `mise run report:collect` | `docs/translated.xml` の直近 72h を `.cache/daily-input.json` へ |
+| `mise run report:collect` | `docs/translated.xml` の直近 24h を `.cache/daily-input.json` へ |
 | `mise run report:render` | `.cache/daily-report.md` → `docs/daily/*.html` と `docs/daily.xml` |
 | `mise run build` | `docs/index.html` と assets を再生成 |
 | `mise run import:opml -- <export.opml>` | Inoreader の OPML から `feeds.yaml` を生成（ワンショット） |
@@ -56,7 +56,7 @@ Inoreader の OPML エクスポートがあれば `mise run import:opml -- <expo
 
 ```
 translate.yml (6h ごと)          fetch → translate → build → commit docs/
-daily.yml     (月・水・金 07:00 JST) translate → collect → claude-code-action → render → build → commit docs/
+daily.yml     (毎日 07:00 JST)  translate → collect → claude-code-action → render → build → commit docs/
 ```
 
 - 状態は `docs/` の生成物そのもの。翻訳済みは `translated.xml` の guid 集合、レポートは
