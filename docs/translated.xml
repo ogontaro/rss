@@ -4,11 +4,65 @@
         <title>翻訳フィード — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>購読フィードの新着エントリのタイトルと概要を日本語化した統合フィード</description>
-        <lastBuildDate>Wed, 09 Sep 2026 09:51:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 15:51:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Ray Serve Deep Learning Containers を使用して、TorchServe ワークロードを簡素化し、サポートしましょう — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/</link>
+            <guid>40560bc1165354abd0304d5c35c0cd427ba27c99</guid>
+            <pubDate>Wed, 09 Sep 2026 15:51:29 GMT</pubDate>
+            <description><![CDATA[TorchServeはもはやメンテナンスされていないため、各チームがGPU推論スタック全体を管理することになります。AWS Ray Serve Deep Learning Containerは、フレームワーク、GPUドライバー、サービングレイヤーがすでに組み込まれた、サポート対象で事前テスト済みのコンテナです。この記事では、単一のGPUノード上でRay Serve DLCを使用して、Amazon EKSにビジョン・言語モデルをデプロイする手順を解説します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fsimplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>bedrock</category>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Quick のユーザーレベルのカスタム権限を自動化する — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/</link>
+            <guid>a77ad5a4cc8d539af020eba9f19a5636de04f505</guid>
+            <pubDate>Wed, 09 Sep 2026 15:45:24 GMT</pubDate>
+            <description><![CDATA[Amazon Quickのカスタム権限機能を使用すると、ユーザーごとに機能を有効・無効に切り替えることで、最小権限のアクセス原則を適用できます。この記事では、ユーザーのライフサイクル全体にわたってカスタム権限を自動化する4つのパターンについて解説します。具体的には、RegisterUser APIパラメータ、アカウントおよびロールのデフォルト設定、イベント駆動型のAmazon EventBridgeとAWS Lambdaによる自動化、そして遡及的なバッチ更新スクリプトです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fautomate-user-level-custom-permissions-for-amazon-quick%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>bedrock</category>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock 経由で Claude Code を利用する環境を構築する（WSL + aws-vault + 国内リージョン） — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/claude-code-bedrock-jp-region/</link>
+            <guid>4YCyRPjDJSdNOssxTTAESC</guid>
+            <pubDate>Wed, 09 Sep 2026 15:37:28 GMT</pubDate>
+            <description><![CDATA[すでに Claude Enterprise を使っていましたが、Bedrock 経由の Claude も同じ WSL 上で使いたかったので、切り替えられるようにセットアップしました！]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/claude-code-bedrock-jp-region/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fclaude-code-bedrock-jp-region%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>bedrock</category>
+        </item>
+        <item>
+            <title><![CDATA[v1.16.2 — Terraform releases]]></title>
+            <link>https://github.com/hashicorp/terraform/releases/tag/v1.16.2</link>
+            <guid>https://github.com/hashicorp/terraform/releases/tag/v1.16.2</guid>
+            <pubDate>Wed, 09 Sep 2026 13:22:31 GMT</pubDate>
+            <description><![CDATA[1.16.2 (2026年9月9日) バグ修正：無効なモジュール呼び出しが発生した際のモジュールインストール時のパニックを修正 (#39129)]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/hashicorp/terraform/releases/tag/v1.16.2">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fhashicorp%2Fterraform%2Freleases%2Ftag%2Fv1.16.2">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>releases</category>
+        </item>
+        <item>
+            <title><![CDATA[agentic autofix を使用してコード品質の問題点を是正する — The GitHub Blog - Changelog]]></title>
+            <link>https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix</link>
+            <guid>https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix</guid>
+            <pubDate>Wed, 09 Sep 2026 12:21:01 GMT</pubDate>
+            <description><![CDATA[コード品質のバックログにある課題を迅速に解決するための「Agentic Autofix」が利用可能になりました。1ページにつき最大25件の標準的な課題を選択し、… 記事「Agentic Autofix を使ってコード品質の課題を修正する」は、The GitHub Blog で最初に公開されました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-09-remediate-code-quality-findings-with-agentic-autofix">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>releases</category>
+        </item>
+        <item>
+            <title><![CDATA[そもそも、これらは誰のGPUなのでしょうか？マルチテナント型Kubernetes向けの、安全でセルフサービス型のメトリクス — CNCF Blog]]></title>
+            <link>https://www.cncf.io/blog/2026/09/09/whose-gpus-are-these-anyway-secure-self-service-metrics-for-multi-tenant-kubernetes/</link>
+            <guid>https://www.cncf.io/?p=174478</guid>
+            <pubDate>Wed, 09 Sep 2026 11:27:00 GMT</pubDate>
+            <description><![CDATA[会議を中断させた質問　それはごくありふれたコストの見直し会議だった。スライドには、インフラ費用全体の中で最大の項目であるその月のGPU支出が示されていたが、ある参加者がたった5語の質問を投げかけた。「私たちは……を使っているのか？」]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/09/whose-gpus-are-these-anyway-secure-self-service-metrics-for-multi-tenant-kubernetes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F09%2Fwhose-gpus-are-these-anyway-secure-self-service-metrics-for-multi-tenant-kubernetes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>kubernetes</category>
+        </item>
         <item>
             <title><![CDATA[AWS上のLambda MicroVMs × Claude Platformで、Claude Managed Agentsのサンドボックスを起動してみた — Claude | DevelopersIO]]></title>
             <link>https://dev.classmethod.jp/articles/claude-managed-agents-sandbox-on-lambda-micro-vms/</link>
@@ -44,6 +98,15 @@
             <description><![CDATA[「GPT Image 2.5」によって飛躍的に向上したビジュアル制作についてまとめました。続きを見る]]></description>
             <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n44fed9fb168d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn44fed9fb168d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock で一般提供が開始された OpenAI GPT-6 Astra を試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/openai-gpt-6-astra-bedrock/</link>
+            <guid>6EzAOlft8qq7ATBv6FgZGH</guid>
+            <pubDate>Wed, 09 Sep 2026 05:14:38 GMT</pubDate>
+            <description><![CDATA[`bedrock-runtime` の Converse／OpenAI 互換 API と、`bedrock-mantle` の OpenAI 互換 API から GPT-6 Astra を呼び出してみました。エンドポイントごとのモデル ID、OpenAI SDK での呼び出し方法、Bedrock と OpenAI 直販の料金について確認します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/openai-gpt-6-astra-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fopenai-gpt-6-astra-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>bedrock</category>
         </item>
         <item>
             <title><![CDATA[DaVinci Resolve 21.1 への AI アシスタントの統合 - MCP による Codex ・ Claude Code を使った動画編集 — npaka]]></title>
@@ -82,832 +145,769 @@
             <category>ai</category>
         </item>
         <item>
-            <title><![CDATA[ナビエ・ストークスのミレニアム賞問題について — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</link>
-            <guid>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</guid>
-            <pubDate>Tue, 08 Sep 2026 23:55:12 GMT</pubDate>
-            <description><![CDATA[ナビエ・ストークス・ミレニアム賞問題について OpenAIは、未公開のモデルを用いて、2000年5月24日から100万ドルの賞金が懸けられている7つのミレニアム賞問題の一つである、ナビエ・ストークス方程式の存在・滑らかさ問題の解を導き出し、目覚ましい成果を上げた。 。しかし、この発見は、NYUの数学教授であるトリスタン・バックマスター氏からの不正行為の告発によって、その輝きが多少損なわれている。同氏は、著名な数学者レヴェント・アルポゲ氏と関連問題について共同研究を行っていたが、]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F8%2Fon-navier-stokes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[v1.55.0-next.2 — Backstage releases]]></title>
-            <link>https://github.com/backstage/backstage/releases/tag/v1.55.0-next.2</link>
-            <guid>https://github.com/backstage/backstage/releases/tag/v1.55.0-next.2</guid>
-            <pubDate>Tue, 08 Sep 2026 22:51:08 GMT</pubDate>
-            <description><![CDATA[詳細については、docs/releases/v1.55.0-next.2-changelog.md を参照してください。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/backstage/backstage/releases/tag/v1.55.0-next.2">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fbackstage%2Fbackstage%2Freleases%2Ftag%2Fv1.55.0-next.2">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[ChatGPT Images 2.5のご紹介 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</link>
-            <guid>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</guid>
-            <pubDate>Tue, 08 Sep 2026 22:46:33 GMT</pubDate>
-            <description><![CDATA[「ChatGPT Images 2.5」のご紹介。OpenAIの画像生成モデルは、「ChatGPT ImagesおよびAPIのGPT-Imageモデル全体で30億枚以上の画像」が使用されているとのことです。 今回の最新リリースでは、複数のターンにわたる指示の追従能力が向上し、応答速度も速くなり、「参照写真に写っている被写体をより正確に再現できるようになった」とのことです。 APIには、gpt-image-2.5-sunburst と gpt-image-2.5-flare という2つの新しいモデルIDが追加されました。この点から考えると、Sunburst の方が優れた選択肢だと思います：Sun を選択してください]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F8%2Fintroducing-chatgpt-images-25%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GitHub Enterprise Server 3.22 が一般提供開始されました — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available</link>
-            <guid>https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available</guid>
-            <pubDate>Tue, 08 Sep 2026 21:52:42 GMT</pubDate>
-            <description><![CDATA[GitHub Enterprise Server (GHES) 3.22 がリリースされ、プラットフォーム全体に新たな機能が導入されました。3.22 リリースの主な特徴をいくつかご紹介します。管理者は Copilot CLI を設定して… 「GitHub Enterprise Server 3.22 が一般提供開始」という記事は、The GitHub Blog で最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-08-github-enterprise-server-3-22-is-now-generally-available">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[MacBook Pro上で、4台のSSDからストリーミングしたKimi K3 (2.8T)を1トークン/秒で実行 — Hacker News (200+ points)]]></title>
-            <link>https://github.com/argonautlabsai/deltafin</link>
-            <guid>https://news.ycombinator.com/item?id=49616257</guid>
-            <pubDate>Tue, 08 Sep 2026 20:07:55 GMT</pubDate>
-            <description><![CDATA[記事URL：https://github.com/argonautlabsai/deltafin コメントURL：https://news.ycombinator.com/item?id=49616257 ポイント：219 コメント数：114]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/argonautlabsai/deltafin">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fargonautlabsai%2Fdeltafin">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[Muse：MetaのパーソナルAIエージェント、その機能と性能 — Hacker News (200+ points)]]></title>
-            <link>https://ai.meta.com/muse/</link>
-            <guid>https://news.ycombinator.com/item?id=49615537</guid>
-            <pubDate>Tue, 08 Sep 2026 19:25:00 GMT</pubDate>
-            <description><![CDATA[記事URL：https://ai.meta.com/muse/ コメントURL：https://news.ycombinator.com/item?id=49615537 ポイント：212 コメント数：206]]></description>
-            <content:encoded><![CDATA[<p><a href="https://ai.meta.com/muse/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fai.meta.com%2Fmuse%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[ChatGPT Images 2.5 — Hacker News (200+ points)]]></title>
-            <link>https://openai.com/index/introducing-chatgpt-images-2-5/</link>
-            <guid>https://news.ycombinator.com/item?id=49614720</guid>
-            <pubDate>Tue, 08 Sep 2026 18:37:51 GMT</pubDate>
-            <description><![CDATA[記事URL：https://openai.com/index/introducing-chatgpt-images-2-5/ コメントURL：https://news.ycombinator.com/item?id=49614720 ポイント：205 コメント数：263]]></description>
-            <content:encoded><![CDATA[<p><a href="https://openai.com/index/introducing-chatgpt-images-2-5/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-chatgpt-images-2-5%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.37：ワークロードを意識したスケジューリングの進化 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/</link>
-            <guid>https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/</guid>
-            <pubDate>Tue, 08 Sep 2026 18:30:00 GMT</pubDate>
-            <description><![CDATA[AI/ML や複雑なバッチワークロードは、Kubernetes のスケジューリングの限界を押し広げ続けています。過去のリリースで導入された、ワークロード中心の基盤となる機能強化に続き、Kubernetes v1.37 は、ワークロード対応スケジューリング（WAS）の取り組みにおける次の重要なマイルストーンを実現します。 今回のリリースでは、ギャングスケジューリングを可能にする中核となるWorkloadおよびPodGroup APIに加え、Workload-Aware Preemption（WAP）やPodGroup向けの共有DRA ResourceClaimsがすべてベータ版となり、Kubernetesにおけるそれらの役割が確固たるものとなりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F08%2Fkubernetes-v1-37-advancing-workload-aware-scheduling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[新規顧客向けポータル help.github.com — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com</link>
-            <guid>https://github.blog/changelog/2026-09-04-new-customer-portal-help-github-com</guid>
-            <pubDate>Tue, 08 Sep 2026 18:00:10 GMT</pubDate>
-            <description><![CDATA[サポートポータルがリニューアルされ、新しいサイト help.github.com へ移行しました。このポータルでは、サポート、ドキュメント、学習リソース、コミュニティ、アカウント関連のリソースが一か所にまとめられ、Copilot を活用した検索機能も利用できます… 記事「新しいカスタマーポータル help.github.com」は、GitHub ブログで最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-08-new-customer-portal-help-github-com">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[ナビエ・ストークスのミレニアム賞問題について — Hacker News (200+ points)]]></title>
-            <link>https://openai.com/index/navier-stokes-solution/</link>
-            <guid>https://news.ycombinator.com/item?id=49613262</guid>
-            <pubDate>Tue, 08 Sep 2026 17:13:21 GMT</pubDate>
-            <description><![CDATA[記事URL：https://openai.com/index/navier-stokes-solution/ コメントURL：https://news.ycombinator.com/item?id=49613262 ポイント：791 コメント数：582]]></description>
-            <content:encoded><![CDATA[<p><a href="https://openai.com/index/navier-stokes-solution/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fopenai.com%2Findex%2Fnavier-stokes-solution%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[GitHubがホストするレジストリへのDependabotによる自動アクセス — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries</link>
-            <guid>https://github.blog/changelog/2026-06-22-automatic-dependabot-access-to-github-hosted-registries</guid>
-            <pubDate>Tue, 08 Sep 2026 16:46:05 GMT</pubDate>
-            <description><![CDATA[Dependabot は、個人用アクセストークンなしで、非公開の GitHub Packages レジストリから読み込むことができるようになりました。パッケージの設定にある「アクションへのアクセスを管理」を通じて、そのパッケージがあなたのリポジトリへのアクセスを許可している場合……この記事「GitHub がホストするレジストリへの Dependabot の自動アクセス」は、The GitHub Blog で最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-08-automatic-dependabot-access-to-github-hosted-registries">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[Amazon Linuxが4年ぶりにメジャーバージョンアップ、「Amazon Linux 2027」のパブリックプレビューを開始。SELinuxがデフォルトで強制モードに設定される — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</link>
-            <guid>https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html</guid>
-            <pubDate>Tue, 08 Sep 2026 15:54:55 GMT</pubDate>
-            <description><![CDATA[Amazon Web Services（AWS）は、AWS向けに最適化されたLinux OSの4年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとしてリリースしました。 現在の正式版はAmazon Linux 2023です。Amazon Linuxは、AWSによって無料で提供されているLinux OSのディストリビューションです。Amazon EC2などのAWSサービス上で安全かつ安定して動作し、高いパフォーマンスを発揮できるよう最適化されており……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Famazon_linux4amazon_linux_2027selinux.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Google DeepMindが「AlphaGenome Atlas」を公開 — Hacker News (200+ points)]]></title>
-            <link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/</link>
-            <guid>https://news.ycombinator.com/item?id=49611251</guid>
-            <pubDate>Tue, 08 Sep 2026 14:55:45 GMT</pubDate>
-            <description><![CDATA[記事のURL： https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/ コメントURL: https://news.ycombinator.com/item?id=49611251 ポイント: 394 # コメント数: 101]]></description>
-            <content:encoded><![CDATA[<p><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-deepmind%2Falphagenome-atlas%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[Qwen3.8 27Bの量子化に関するベンチマーク：4ビットは健闘、1ビットは崩壊 — Hacker News (200+ points)]]></title>
-            <link>https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/</link>
-            <guid>https://news.ycombinator.com/item?id=49611128</guid>
-            <pubDate>Tue, 08 Sep 2026 14:49:19 GMT</pubDate>
-            <description><![CDATA[記事URL：https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/ コメントURL：https://news.ycombinator.com/item?id=49611128 ポイント：202 # コメント数：99]]></description>
-            <content:encoded><![CDATA[<p><a href="https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fquesma.com%2Fblog%2Fqwen38-27b-quantizations-benchmarked%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[仏である二人のキリスト教の聖人 — Hacker News (200+ points)]]></title>
-            <link>https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/</link>
-            <guid>https://news.ycombinator.com/item?id=49611051</guid>
-            <pubDate>Tue, 08 Sep 2026 14:44:25 GMT</pubDate>
-            <description><![CDATA[記事URL：https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/ コメントURL： https://news.ycombinator.com/item?id=49611051 ポイント: 205 コメント数: 145]]></description>
-            <content:encoded><![CDATA[<p><a href="https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsignoregalilei.com%2F2026%2F08%2F30%2Fthe-two-christian-saints-who-are-secretly-the-buddha%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[パラマウント、合併への偽の支持を集めるために「アストロターフ」団体を利用していたことが発覚 — Hacker News (200+ points)]]></title>
-            <link>https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/</link>
-            <guid>https://news.ycombinator.com/item?id=49610900</guid>
-            <pubDate>Tue, 08 Sep 2026 14:33:52 GMT</pubDate>
-            <description><![CDATA[記事URL：https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/ コメントURL： https://news.ycombinator.com/item?id=49610900 ポイント: 287 コメント数: 95]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.techdirt.com%2F2026%2F09%2F08%2Fparamount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[大規模オンラインゲーム『EVE Online』。ゲームを支える240万行のPython 2.7コードをPython 3へ移行すると発表 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</link>
-            <guid>https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html</guid>
-            <pubDate>Tue, 08 Sep 2026 14:28:02 GMT</pubDate>
-            <description><![CDATA[宇宙を舞台にした世界最大級の大規模オンラインゲーム「EVE Online」は、ゲームを支える240万行のPythonコードをPython 3に移行すると発表しました。Python 3へのコードベースの移行を正式に開始しました。このプロセスには多くの作業が伴いますが、皆様にはすでに多大なご協力をいただいており……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Feve_online240python_27python_3.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[I-have-ADHD：エージェントが答えを隠してしまうのを防ぐテクニック — Hacker News (200+ points)]]></title>
-            <link>https://github.com/ayghri/i-have-adhd</link>
-            <guid>https://news.ycombinator.com/item?id=49610631</guid>
-            <pubDate>Tue, 08 Sep 2026 14:13:26 GMT</pubDate>
-            <description><![CDATA[記事URL：https://github.com/ayghri/i-have-adhd コメントURL：https://news.ycombinator.com/item?id=49610631 ポイント：205 コメント数：158]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/ayghri/i-have-adhd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[LibreOffice、AI機能がないと発表した後、ダウンロード数が過去最高を記録 — Hacker News (200+ points)]]></title>
-            <link>https://manualdousuario.net/en/libreoffice-download-record-no-ai/</link>
-            <guid>https://news.ycombinator.com/item?id=49610538</guid>
-            <pubDate>Tue, 08 Sep 2026 14:05:57 GMT</pubDate>
-            <description><![CDATA[記事URL：https://manualdousuario.net/en/libreoffice-download-record-no-ai/ コメントURL：https://news.ycombinator.com/item?id=49610538 ポイント：553 コメント数：176]]></description>
-            <content:encoded><![CDATA[<p><a href="https://manualdousuario.net/en/libreoffice-download-record-no-ai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fmanualdousuario.net%2Fen%2Flibreoffice-download-record-no-ai%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[DaVinci Resolve 21.1 — Hacker News (200+ points)]]></title>
-            <link>https://www.blackmagicdesign.com/media/release/20260908-03</link>
-            <guid>https://news.ycombinator.com/item?id=49610181</guid>
-            <pubDate>Tue, 08 Sep 2026 13:36:53 GMT</pubDate>
-            <description><![CDATA[記事URL：https://www.blackmagicdesign.com/media/release/20260908-03 コメントURL：https://news.ycombinator.com/item?id=49610181 ポイント：205 コメント数：82]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.blackmagicdesign.com/media/release/20260908-03">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.blackmagicdesign.com%2Fmedia%2Frelease%2F20260908-03">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[Show HN：Copperhead – 回路基板用カーソル — Hacker News (200+ points)]]></title>
-            <link>https://copperhead.sh/</link>
-            <guid>https://news.ycombinator.com/item?id=49610059</guid>
-            <pubDate>Tue, 08 Sep 2026 13:26:45 GMT</pubDate>
-            <description><![CDATA[記事URL：https://copperhead.sh/ コメントURL：https://news.ycombinator.com/item?id=49610059 ポイント：212 コメント数：83]]></description>
-            <content:encoded><![CDATA[<p><a href="https://copperhead.sh/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fcopperhead.sh%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[IDプロバイダーを介したKubernetesへのアクセス：パブリッククライアント（機密情報ではない） — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/</link>
-            <guid>https://www.cncf.io/?p=174217</guid>
-            <pubDate>Tue, 08 Sep 2026 11:30:00 GMT</pubDate>
-            <description><![CDATA[アクセス制御は、ネットワークやストレージと同様に、「デイ・ゼロ」チェックリストに含めるべき項目です。しかし、ほとんどのオンプレミス・クラスターでは、このリストに盛り込まれることは決してありません。Identity Gapのマネージド・クラウドKubernetesでは、IAMやSSOとの統合機能が標準で提供されています……。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F08%2Fkubernetes-access-via-an-identity-provider-public-client-not-confidential%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[ワークフローファイルを一切変更せずに、CIパイプラインで分散トレーシングを実現する — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/08/distributed-tracing-for-ci-pipelines-without-touching-a-single-workflow-file/</link>
-            <guid>https://www.cncf.io/?p=174357</guid>
-            <pubDate>Tue, 08 Sep 2026 11:00:00 GMT</pubDate>
-            <description><![CDATA[こんな経験、きっとあるでしょう。GitHub Actionsの利用が組織全体で徐々に増えていく一方で、その実態を把握するスピードが追いついていない。どのワークフローが遅いのか？　どのワークフローが不安定なのか？　ジョブはキューにどれくらい滞留しているのか……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/08/distributed-tracing-for-ci-pipelines-without-touching-a-single-workflow-file/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F08%2Fdistributed-tracing-for-ci-pipelines-without-touching-a-single-workflow-file%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[ナビエ・ストークス – トリスタン・バックマスター [pdf] — Hacker News (200+ points)]]></title>
-            <link>https://cims.nyu.edu/~tristanb/statement.pdf</link>
-            <guid>https://news.ycombinator.com/item?id=49605915</guid>
-            <pubDate>Tue, 08 Sep 2026 05:42:28 GMT</pubDate>
-            <description><![CDATA[記事のURL：https://cims.nyu.edu/~tristanb/statement.pdf コメントのURL：https://news.ycombinator.com/item?id=49605915 ポイント：450 コメント数：271]]></description>
-            <content:encoded><![CDATA[<p><a href="https://cims.nyu.edu/~tristanb/statement.pdf">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fcims.nyu.edu%2F~tristanb%2Fstatement.pdf">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[ミストラルが30億ユーロを調達 — Hacker News (200+ points)]]></title>
-            <link>https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</link>
-            <guid>https://news.ycombinator.com/item?id=49605767</guid>
-            <pubDate>Tue, 08 Sep 2026 05:06:23 GMT</pubDate>
-            <description><![CDATA[記事URL：https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/ コメントURL：https://news.ycombinator.com/item?id=49605767 ポイント：719 コメント数：517]]></description>
-            <content:encoded><![CDATA[<p><a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-makes-sovereign-open-weight-ai-to-frontier%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[独立系ウィキ向けの新しい「Google Jail」が登場した — Hacker News (200+ points)]]></title>
-            <link>https://weirdgloop.org/blog/google-jail</link>
-            <guid>https://news.ycombinator.com/item?id=49604870</guid>
-            <pubDate>Tue, 08 Sep 2026 01:57:23 GMT</pubDate>
-            <description><![CDATA[記事URL：https://weirdgloop.org/blog/google-jail コメントURL：https://news.ycombinator.com/item?id=49604870 ポイント：419 コメント数：172]]></description>
-            <content:encoded><![CDATA[<p><a href="https://weirdgloop.org/blog/google-jail">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fweirdgloop.org%2Fblog%2Fgoogle-jail">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[90年代の認証局（CA）のRSA鍵を因数分解しました — Hacker News (200+ points)]]></title>
-            <link>https://mcpherrin.ca/2026/09/07/rsa.html</link>
-            <guid>https://news.ycombinator.com/item?id=49604637</guid>
-            <pubDate>Tue, 08 Sep 2026 01:16:59 GMT</pubDate>
-            <description><![CDATA[記事URL：https://mcpherrin.ca/2026/09/07/rsa.html コメントURL：https://news.ycombinator.com/item?id=49604637 ポイント：459 コメント数：105]]></description>
-            <content:encoded><![CDATA[<p><a href="https://mcpherrin.ca/2026/09/07/rsa.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fmcpherrin.ca%2F2026%2F09%2F07%2Frsa.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[llm 0.35 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/7/llm/</link>
-            <guid>https://simonwillison.net/2026/Sep/7/llm/</guid>
-            <pubDate>Mon, 07 Sep 2026 23:54:54 GMT</pubDate>
-            <description><![CDATA[リリース：LLM 0.35 新しいOpenAIモデル：GPT-6 Astra向けのgpt-6-astra。タグ：openai、llm、gpt-6-astra]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/llm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fllm%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[TALAはオープンソースです — Hacker News (200+ points)]]></title>
-            <link>https://d2lang.com/blog/tala-is-open-source/</link>
-            <guid>https://news.ycombinator.com/item?id=49604150</guid>
-            <pubDate>Mon, 07 Sep 2026 23:37:42 GMT</pubDate>
-            <description><![CDATA[記事のURL：https://d2lang.com/blog/tala-is-open-source/ コメントのURL：https://news.ycombinator.com/item?id=49604150 ポイント：294 コメント数：23]]></description>
-            <content:encoded><![CDATA[<p><a href="https://d2lang.com/blog/tala-is-open-source/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fd2lang.com%2Fblog%2Ftala-is-open-source%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[気持ち悪い虫たち — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</link>
-            <guid>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</guid>
-            <pubDate>Mon, 07 Sep 2026 23:08:58 GMT</pubDate>
-            <description><![CDATA[Konstantin Ryabitsev氏は、Linuxカーネルの公式Gitリポジトリであるgit.kernel.orgの観点から、悪質なクローラーによる「バックグラウンド放射」がどれほど深刻化しているかについて論じています：要約： スクレイパー向けのコミットレンダリングに費やすCPUサイクルは、gitクローンなど、その他のあらゆる正当なアクセスに費やす合計よりも多くなっています。地理的に分散した5つのノード全体で、常に14個のCPUコアが、gitコミットをHTMLとしてレンダリングすることだけに専念しています。私はこの状況を非常に懸念しています。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/creepy-crawlies/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fcreepy-crawlies%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[ヤクブ・パチョッキの言葉を引用すると — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</link>
-            <guid>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</guid>
-            <pubDate>Mon, 07 Sep 2026 22:26:25 GMT</pubDate>
-            <description><![CDATA[より高性能なモデルを迅速に訓練し続けるべきだという主張の中で、私が最も説得力があると感じる根拠は、他のAIがもたらす危険に対抗するための防御システムを構築する必要があるという点です。 [...] 防御のためには、強力で人間と利害が一致したAIが必要となる。インフラの安全を確保し、不正なエージェントからリアルタイムで防御し、まったく新しい保護策を考案するためである。これが、OpenAIの展開活動の主要な焦点となる。同時に、AIの広範な進歩に伴う不確実性や、b]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/jakub-pachocki/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fjakub-pachocki%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astra で Blender のジオメトリノードを試す — npaka]]></title>
-            <link>https://note.com/npaka/n/n99672f845acb</link>
-            <guid>https://note.com/npaka/n/n99672f845acb</guid>
-            <pubDate>Mon, 07 Sep 2026 22:26:10 GMT</pubDate>
-            <description><![CDATA[「GPT-6 Astra」で「Blender Geometry Nodes」を試してみました。続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n99672f845acb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn99672f845acb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[動画圧縮ソフト — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/7/video-compressor/</link>
-            <guid>https://simonwillison.net/2026/Sep/7/video-compressor/</guid>
-            <pubDate>Mon, 07 Sep 2026 18:29:07 GMT</pubDate>
-            <description><![CDATA[ツール：動画圧縮ツール スマートフォンで「Equal Earth」のアニメーションの短いデモ動画を録画し、その動画を（FFMPEGを使用して）最適化したバージョンをブログに公開したかったため、Claude Code for webの「Claude Fable 5.1」に、FFMPEGのWebAssemblyビルドを使用してこのツールを作成してもらいました。 タグ: ffmpeg, 動画, webassembly, claude, claude-code, claude-mythos-fable]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/video-compressor/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fvideo-compressor%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[メルカトル図法 ↔ 等円図法 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/7/equal-earth/</link>
-            <guid>https://simonwillison.net/2026/Sep/7/equal-earth/</guid>
-            <pubDate>Mon, 07 Sep 2026 16:24:16 GMT</pubDate>
-            <description><![CDATA[ツール：メルカトル図法 ↔ イコール・アース図法 最近国連で採決された「イコール・アース」図法に興味が湧いたので、ChatGPT WorkのGPT-6 Astra（ミディアム）に、D3を使ってメルカトル図法とイコール・アース図法の間を移行するアニメーションを作成してもらいました。 タグ: 地理空間 , d3 , vibe-coding , gpt-6-astra]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/7/equal-earth/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fequal-earth%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[HTMX 4.0が正式リリースされました。内部実装がXHRからfetchに移行し、ストリーミングHTMLが可能になったほか、属性がデフォルトで子要素に継承されないように変更されたなど。 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html</link>
-            <guid>https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html</guid>
-            <pubDate>Mon, 07 Sep 2026 15:39:27 GMT</pubDate>
-            <description><![CDATA[HTMLに属性を追加するだけで、Webページにサーバーと連動した動的なアプリケーションの機能を追加できるJavaScriptライブラリ「HTMX」の最新バージョンである「HTMX 4.0」の正式版リリースが発表されました。 htmx 4のリリースを発表できてとても嬉しいです！ pic.twitter.com/Jo2i6v9piA— htmx.org / htmx 4のCEO（同一人物） (@htmx_org)……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fhtmx_40xhrfetchstreaming_html.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[脆弱性報告への対応：手順書 — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/07/handling-vulnerability-reports-recipe-card/</link>
-            <guid>https://www.cncf.io/?p=174136</guid>
-            <pubDate>Mon, 07 Sep 2026 11:30:00 GMT</pubDate>
-            <description><![CDATA[脆弱性報告の取り扱いに関するレシピ　対象読者（シェフ）　このレシピは、セキュリティを主眼としていない中小規模のプロジェクトを対象としています。セキュリティリスクが高く、セキュリティに敏感なプロジェクトのメンテナの方は、おそらくより洗練されたアプローチが必要となるでしょう（https://alpha-omega.dev/ を参照してください）。範囲...]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/07/handling-vulnerability-reports-recipe-card/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F07%2Fhandling-vulnerability-reports-recipe-card%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[作業中のディレクトリから「Claude Cowork」をさっと起動する — Claude | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/claude-cowork-url-scheme/</link>
-            <guid>5VYm8O2Z03ZbuWDpMsffuS</guid>
-            <pubDate>Mon, 07 Sep 2026 00:30:26 GMT</pubDate>
-            <description><![CDATA[Claude Desktopは「claude://」というリンクから開くことができます。ターミナルやFinderからワンクリックでCoworkを起動する設定をご紹介します。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/claude-cowork-url-scheme/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fclaude-cowork-url-scheme%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[「Rust デバッグに関する調査 2026」の結果 — Rust Blog]]></title>
-            <link>https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</link>
-            <guid>https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</guid>
-            <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Rust開発者が年次アンケートで挙げている最大の課題の一つは、デバッグ体験が不十分であるという点です。そこで、2月に「第1回Rustデバッグアンケート」を実施し、Rust開発者がデバッガーをどのように利用しているか、またその際にどのような問題に直面しているかを把握しようと試みました。 2,300件を超える回答をいただきました。お時間を割いてアンケートにご協力いただいた皆様に、心より感謝申し上げます！本レポートでは、アンケートの結果の一部についてご紹介します。ご希望の方は、以下のリンクからもご確認いただけます。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F09%2F07%2Frust-debugging-survey-2026-results%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>rust</category>
-        </item>
-        <item>
-            <title><![CDATA[研究の加速：OpenAIの内部に迫る — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</link>
-            <guid>https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/</guid>
-            <pubDate>Sun, 06 Sep 2026 23:57:40 GMT</pubDate>
-            <description><![CDATA[研究の加速：OpenAIの内部事情　どうやら今日はOpenAIで「RSIデー」らしい。これは「再帰的自己改善（Recursive Self-Improvement）」の略で、おそらく同社の新しいAGIのことだろう。 この記事と、チーフサイエンティストのヤクブ・パチョッキ氏による新エッセイ『An Alien Mind』の両方でこの話題が取り上げられており、この記事では頭字語の解説すら省かれている。OpenAIの研究チームがコーディングエージェントをどのように活用しているかについての詳細も含まれている。 他の多くの組織と同様、2026年はOpenAIにおいてエージェント工学が本格的に飛躍した年であり、その最たる例が]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fresearch-acceleration-the-view-inside-openai%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[VS Codeの誕生から現在に至るまでの物語『The Story of VS Code』がYouTubeで公開された。作者のエリック・ガンマ氏は、なぜIBMからマイクロソフトに移籍し、VS Codeの開発に取り組むことになったのか。 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html</link>
-            <guid>https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html</guid>
-            <pubDate>Sun, 06 Sep 2026 15:07:10 GMT</pubDate>
-            <description><![CDATA[Visual Studio Code（以下、VS Code）は、今やITエンジニアの間で最も人気のあるコードエディタとしての地位を確立しています。VS Codeはオープンソースであり、Windows、Mac、Linuxといったマルチプラットフォームに対応しています。 しかし、VS Codeの開発が始まった2011年当時、マイクロソフトのCEOはオープンソースを敵視していたスティーブ・バルマー氏であり、同社はWindows専用で強力なソフトウェアであるVisual Studio……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fvs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[JavaScriptをC言語にコンパイルする「porffor」がアルファ版に到達。ネイティブコードやWASMを生成可能 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html</link>
-            <guid>https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html</guid>
-            <pubDate>Sun, 06 Sep 2026 15:04:34 GMT</pubDate>
-            <description><![CDATA[JavaScriptを事前コンパイルしてC言語に変換するコンパイラ「porffor」（発音は「poor-for」）がアルファ版に到達したことが発表されました（公式サイト、GitHubリポジトリ）。作者のOliver Medhurst氏が明らかにしました。Porffor alpha is out! これは、実際の依存関係が機能し始めているという、プロジェクトの新たな段階を表しています……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/javascriptcporfforwasm.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fjavascriptcporfforwasm.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[DNSの目的は、詐欺を広めることにある — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/</link>
-            <guid>https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/</guid>
-            <pubDate>Sun, 06 Sep 2026 14:40:07 GMT</pubDate>
-            <description><![CDATA[DNSの目的は詐欺を広めることにある テレンス・イーデン氏は、「ドメインネームシステム（DNS）の目的は、犯罪者が恐ろしいほど高い頻度で人々を騙すための手段となっているようだ」という自身の見解を裏付ける、衝撃的な統計データをいくつか紹介している。このInterisleのレポート（アンドルー・キャンプリング氏経由）の中で、テレンス氏は次のように述べている。 それによると、2025年にはgTLDの新規登録が8,500万件あった。そのうち850万件が、2025年5月までにブロックリストに登録された。この数字について、悪用率は10％が最低ラインであると考えられており、それは]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fthe-purpose-of-dns-is-to-spread-scams%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[コードの質の悪さには限界がない — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</link>
-            <guid>https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/</guid>
-            <pubDate>Sun, 06 Sep 2026 09:08:06 GMT</pubDate>
-            <description><![CDATA[「コードの悪さには限界がない」という記事への私のコメント — Lobste.rs。[技術的負債が膨大になった際に、すべてをゼロからやり直すというコメントへの返信] 私の経験上、それがうまくいくことは極めて稀です。 「古いシステムは技術的負債に溺れており、もはや救いようがない」と宣言し、ゼロから書き直すためのチームを立ち上げる。作業が始まる。その間も、古いシステムは「動く標的」のままである。それは中核となる事業を支えているため、変更は依然として必要とされるからだ。そのシステムに取り組んでいる開発者たちは……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Ftheres-no-limit-to-how-bad-code-can-get%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[ザック・ケス氏の言葉を引用すると — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/6/zach-kehs/</link>
-            <guid>https://simonwillison.net/2026/Sep/6/zach-kehs/</guid>
-            <pubDate>Sun, 06 Sep 2026 08:42:49 GMT</pubDate>
-            <description><![CDATA[建物に階や部屋を際限なく増やし続ければ、やがて倒壊してしまいます。しかし、ソフトウェアにはそのような制約はありません。コードは常に悪化し続ける可能性があります。間接化の層が新たに追加されたり、パフォーマンスが低下したりすることは、いつでも起こり得るのです。— ザック・ケス、『コードの悪さには限界がない』 タグ：技術的負債]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/6/zach-kehs/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F6%2Fzach-kehs%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astra × Blender を使って3Dアニメーションの作成を試してみる — npaka]]></title>
-            <link>https://note.com/npaka/n/nab05d90f95b7</link>
-            <guid>https://note.com/npaka/n/nab05d90f95b7</guid>
-            <pubDate>Sun, 06 Sep 2026 05:55:56 GMT</pubDate>
-            <description><![CDATA[「GPT-6 Astra × Blender」を使って3Dアニメーションの作成を試してみたので、そのまとめを作成しました。推論レベルの中級編の1つとなります。続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/nab05d90f95b7">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fnab05d90f95b7">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astra によるロボット開発の飛躍的な進歩 — npaka]]></title>
-            <link>https://note.com/npaka/n/n8aeb9b3e2714</link>
-            <guid>https://note.com/npaka/n/n8aeb9b3e2714</guid>
-            <pubDate>Sun, 06 Sep 2026 02:34:49 GMT</pubDate>
-            <description><![CDATA[「GPT-6 Astra」によって飛躍的に向上したロボット開発についてまとめました。 続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n8aeb9b3e2714">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn8aeb9b3e2714">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astraによって飛躍的に向上したゲーム制作能力 - Unreal Engine / Unity / Godot / Three.js — npaka]]></title>
-            <link>https://note.com/npaka/n/n8fb683be4d52</link>
-            <guid>https://note.com/npaka/n/n8fb683be4d52</guid>
-            <pubDate>Sat, 05 Sep 2026 23:52:27 GMT</pubDate>
-            <description><![CDATA[「GPT-6 Astra」によって飛躍的に向上したゲーム制作能力についてまとめました。 続きを読む]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n8fb683be4d52">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn8fb683be4d52">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[開発者の皆様へ、GPT-6 Astraをご紹介します — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</link>
-            <guid>https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/</guid>
-            <pubDate>Sat, 05 Sep 2026 23:27:48 GMT</pubDate>
-            <description><![CDATA[開発者向けのGPT-6 Astraのご紹介　一瞬見逃してしまうかもしれませんが、1分59秒のところに馴染みのある生き物が映っています：全体的に見て、Astraは細部へのこだわりがより深く、ユーザーのプロンプトをより的確に理解し、より洗練された出力を生成することができます。特に、3Dモデルの生成に優れています。 庭園、造船所、動物、都市景観、さらにはダイソン球に至るまで、信じられないほど素晴らしいレンダリングを生成するのを見てきました。Astraは、自転車に乗ったペリカンに赤いネッカチーフを巻くというアイデアを、本当に信じてしまっているようです。Hacker Newsより]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F5%2Fintroducing-gpt-6-astra-for-developers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astra によって飛躍的に向上した Blender での制作能力 — npaka]]></title>
-            <link>https://note.com/npaka/n/n9635d06c377f</link>
-            <guid>https://note.com/npaka/n/n9635d06c377f</guid>
-            <pubDate>Sat, 05 Sep 2026 22:20:00 GMT</pubDate>
-            <description><![CDATA[「GPT-6 Astra」によって飛躍的に向上した「Blender」の制作能力についてまとめました。続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n9635d06c377f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn9635d06c377f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[LANパーティーのために家を建てました（2024年） — Hacker News (200+ points)]]></title>
-            <link>https://lanparty.house/</link>
-            <guid>https://news.ycombinator.com/item?id=49579443</guid>
-            <pubDate>Sat, 05 Sep 2026 18:44:40 GMT</pubDate>
-            <description><![CDATA[記事URL：https://lanparty.house/ コメントURL：https://news.ycombinator.com/item?id=49579443 ポイント：436 コメント数：316]]></description>
-            <content:encoded><![CDATA[<p><a href="https://lanparty.house/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Flanparty.house%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[macOS上でBlenderとコーディングエージェントを併用する — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</link>
-            <guid>https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/</guid>
-            <pubDate>Sat, 05 Sep 2026 15:51:09 GMT</pubDate>
-            <description><![CDATA[今日学んだこと：macOSでBlenderとコーディングエージェントを併用する 最近、MacのChatGPT CodexでBlenderを楽しく使っています。コーディングエージェントと連携させるのは本当に簡単です。blender.orgからMac用フルアプリケーションをインストールし、次のようなプロンプトを実行するだけです： 「すでにインストールされている /Applications/Blender を使って、自転車に乗っているペリカンのシーンをレンダリングしてください」 この場合、私はその後に次の2つのプロンプトを追加しました：「OK、背景とたくさんの演出を加えてください」 次に：「OK、もっとずっと良くしてください」 すると、次のような画像が生成されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F5%2Fblender-coding-agents-macos%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Claude Code v2.1.261 の主なアップデート - /skill-doctor の追加と単語編集キーのBash準拠化 — Claude | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/20260905-cc-updates-v2-1-261/</link>
-            <guid>6dQb6TxwzB4HAxJgC19V7i</guid>
-            <pubDate>Sat, 05 Sep 2026 04:46:29 GMT</pubDate>
-            <description><![CDATA[Claude Code v2.1.261がリリースされました。主に入力処理やバックグラウンド実行に関する修正が行われていますが、新たに追加された `/skill-doctor` コマンドにより、未使用のスキルやコンテキストの消費状況を可視化できるようになったため、実際に試してみた結果をまとめています。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260905-cc-updates-v2-1-261/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260905-cc-updates-v2-1-261%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[アストラ向けのペリカン比較表は、かなり興味深いですね — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/4/astra-pelicans/</link>
-            <guid>https://simonwillison.net/2026/Sep/4/astra-pelicans/</guid>
-            <pubDate>Fri, 04 Sep 2026 23:59:05 GMT</pubDate>
-            <description><![CDATA[今日の午後、GPT-6 Astraを利用できるようになったので、当然ながら、自転車に乗ったペリカンのSVG画像を生成してみました。推論レベルは「low」「medium」「high」「xhigh」「max」の各設定で試しました（Astraでは「reasoning=none」はサポートされていません）。 その後、それらのペリカンの画像を、GPT-5.6のSol、Terra、Lunaとの比較グリッドにまとめましたが、単に楽しいだけでなく、結果は驚くほど有用でした。高画質の画像については、比較グリッドをご覧ください。以下は、GPT-6 Novaでペリカンの画像を生成した際のトランスクリプトです。ここには、特に注目すべき興味深い点がいくつかあります。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/4/astra-pelicans/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F4%2Fastra-pelicans%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GitHub Copilotの毎週のリリース — 8月31日 — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31</link>
-            <guid>https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31</guid>
-            <pubDate>Fri, 04 Sep 2026 21:05:01 GMT</pubDate>
-            <description><![CDATA[今週、GitHub Copilot ではモデルの選択肢とコンテンツ保護機能が拡充され、VS Code ではエージェントセッションの管理やプルリクエストをマージ可能な状態にするための新しい機能が追加されました。GitHub Copilot、一般公開された Claude Fable… この記事「GitHub Copilot 週間リリース — 8月31日」は、The GitHub Blog で最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-04-github-copilot-weekly-releases-august-31">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.4 — kro releases]]></title>
-            <link>https://github.com/kubernetes-sigs/kro/releases/tag/v0.9.4</link>
-            <guid>https://github.com/kubernetes-sigs/kro/releases/tag/v0.9.4</guid>
-            <pubDate>Fri, 04 Sep 2026 20:36:14 GMT</pubDate>
-            <description><![CDATA[変更点：#1345 の @v47 による提案に基づき、x/exp の代わりに標準ライブラリのマップとスライスを使用するようにしました。fix(graph)： #1340 fix(helm) における @pujitha24 による修正：CEL 環境キャッシュのキーを、変数名だけでなくスキーマに基づいて拡張：#1307 feat(chart) における @armanfeyzi による修正：レビュー中に発見されたチャートテンプレートの不備を修正： @reshnmによる#1342 fix(instance)で、ClusterRoleの表示、編集、管理にユーザーロールの集約を追加：@RohanKaranによる#1282 chore(deps)で、一時停止時にReconciliationSuspendedを理由としてResourcesReady=Falseに設定：golang.org/x/cryptoを]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/kubernetes-sigs/kro/releases/tag/v0.9.4">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fkubernetes-sigs%2Fkro%2Freleases%2Ftag%2Fv0.9.4">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 AstraがGitHub Copilotで一般提供開始されました — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot</link>
-            <guid>https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot</guid>
-            <pubDate>Fri, 04 Sep 2026 18:59:51 GMT</pubDate>
-            <description><![CDATA[OpenAIのGPT-6 Astraが、GitHub Copilotで利用可能になりました。OpenAIの最新汎用モデルであるGPT-6 Astraは、長期的な視点に立った自律的なコーディングやエージェントタスクを想定して設計されています。 社内テストでは、GPT-6… 「GPT-6 AstraがGitHub Copilotで一般提供開始」という記事は、The GitHub Blogで最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.37：KubeletInUserNamespace（別名：Rootlessモード）がベータ版に昇格 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/</link>
-            <guid>https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/</guid>
-            <pubDate>Fri, 04 Sep 2026 18:30:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes v1.37 では、KubeletInUserNamespace 機能ゲートがベータ版に昇格しました。 この機能を有効にすると、すべてのノードコンポーネント（kubelet、CRIおよびOCIランタイム、CNIプラグイン、kube-proxy）が、Linuxユーザーネームスペースを使用して、ホスト上で非rootユーザーとして実行できるようになります。この手法は「rootlessモード」としても知られています。 この取り組みは 2018 年に実験として始まり、アルファ機能（Kubernetes Enhancement Proposal KEP-2033）として Kubernetes v1.22（2021 年）にマージされました。この機能は u]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F04%2Fkubernetes-v1-37-rootless-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[OpenAIの「不正エージェント」が、公開ウィキを通じて通信しているところを摘発された — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</link>
-            <guid>https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/</guid>
-            <pubDate>Fri, 04 Sep 2026 17:38:48 GMT</pubDate>
-            <description><![CDATA[またか……シドニー・フォン・アークス、コーマック・スレイド・バード、スペンサー・キッツ、トーマス・ラーセンによる「OpenAIのエージェント用掲示板の発見」という論文では、OpenAIが訓練中のモデルによる最新の偶発的なサイバー攻撃について述べられている。 今回は、ある種のウェブリサーチベンチマークに取り組んでいたエージェントたちであり、そのため（本来は）ウェブへのアクセスが制限されていたはずだった。しかし、エージェントたちは公開ウィキを更新できることに気づき、ベンチマークの共同作業のために数週間にわたり、互いに数千件ものメッセージをやり取りしていた。この]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F4%2Frogue-agent-wikis%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[新しいAPIエンドポイントにより、プライバシーに配慮した「スター」履歴データが提供されます — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data</link>
-            <guid>https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data</guid>
-            <pubDate>Fri, 04 Sep 2026 16:43:56 GMT</pubDate>
-            <description><![CDATA[新しい「スター履歴」REST APIエンドポイントを使用すれば、StargazerのユーザーIDを公開することなく、リポジトリのスター数の推移を追跡できます。今年初め、Stargazerのリスティングエンドポイントへのアクセスは管理者および共同編集者に限定されました…この記事「プライバシーを保護したスター履歴データを提供する新しいAPIエンドポイント」は、The GitHub Blogで最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetesは新しい技術ではありませんが、AIによって再び脅威として注目されています — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/04/kubernetes-isnt-new-but-ai-makes-it-scary-again/</link>
-            <guid>https://www.cncf.io/?p=174210</guid>
-            <pubDate>Fri, 04 Sep 2026 11:00:00 GMT</pubDate>
-            <description><![CDATA[Kubernetesはもはや目新しい技術ではありません。それでも、多くのチームにとって、その導入は依然として気が重く感じられるものです。Kubernetesが本番環境のソフトウェアやAIワークロードの標準的な基盤となっているのを目の当たりにしていても、やはりそれは大きな...]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/04/kubernetes-isnt-new-but-ai-makes-it-scary-again/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F04%2Fkubernetes-isnt-new-but-ai-makes-it-scary-again%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[CPU + GPU：AIプラットフォームのエンジニアリングがなぜ異種混在インフラの問題なのか — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/</link>
-            <guid>https://www.cncf.io/?p=173482</guid>
-            <pubDate>Fri, 04 Sep 2026 11:00:00 GMT</pubDate>
-            <description><![CDATA[AIインフラに関する議論は、しばしばGPUから始まります。アクセラレータはモデルの学習や推論を支える計算能力の大部分を担っているため、そこに注目が集まるのも当然でしょう。しかし、本番環境におけるAIワークロードが、GPUだけで完結することはほとんどありません。データ……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F04%2Fcpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[8月のニュースレターが発行されました — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/4/august-newsletter/</link>
-            <guid>https://simonwillison.net/2026/Sep/4/august-newsletter/</guid>
-            <pubDate>Fri, 04 Sep 2026 05:54:40 GMT</pubDate>
-            <description><![CDATA[スポンサー限定の月刊ニュースレター8月号が公開されました。スポンサーの方（または今すぐスポンサー登録された方）は、こちらからご覧いただけます。今月の内容：OpenAlによる偶発的なサイバー攻撃に関する詳細情報が判明しました。『Fable 5』と『Sol 5』を使って『Raccoon Heist』をワンショットでクリアする方法。6. Claudeの自動モード、ChatGPTの仕組みの解説、Work Modelのリリース、雑多な話題、私のプロジェクト、現在使用中のツール。7月号のニュースレターをプレビューとして掲載します。月額10ドルをお支払いいただくと、引き続きご購読いただけます。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/4/august-newsletter/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F4%2Faugust-newsletter%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Claude Code v2.1.259〜v2.1.260 の主なアップデート - 差分パネルの追加と権限ルールのセキュリティ修正 — Claude | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/20260904-cc-updates-v2-1-260/</link>
-            <guid>3QhXOdPkKjzlT05DGtrvPk</guid>
-            <pubDate>Fri, 04 Sep 2026 04:17:03 GMT</pubDate>
-            <description><![CDATA[Claude Codeのv2.1.259とv2.1.260の2つのリリースで、100件を超える変更が加えられました。権限ルールに関する重要な修正が多いほか、会話の横で変更点を確認できる新しいパネルも登場しています。本日は、この変更点パネル（`/diff`）を試してみました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260904-cc-updates-v2-1-260/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260904-cc-updates-v2-1-260%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 Astra の概要 — npaka]]></title>
-            <link>https://note.com/npaka/n/n299d213c6716</link>
-            <guid>https://note.com/npaka/n/n299d213c6716</guid>
-            <pubDate>Thu, 03 Sep 2026 22:56:20 GMT</pubDate>
-            <description><![CDATA[「GPT-6 Astra」の概要をまとめました。 続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n299d213c6716">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn299d213c6716">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[npm 用の複数の信頼済み公開設定 — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm</link>
-            <guid>https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm</guid>
-            <pubDate>Thu, 03 Sep 2026 20:34:34 GMT</pubDate>
-            <description><![CDATA[メンテナンス担当者のフィードバックを参考に、npm パブリッシャーが「信頼された公開」をよりスムーズに行えるよう、引き続き改善を進めています。npm 公開に関する 3 つの更新機能が一般公開されました：パッケージごとの「信頼された公開」設定の複数指定、ステージング… この記事「npm における『信頼された公開』設定の複数指定」は、GitHub ブログで最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-03-multiple-trusted-publishing-configurations-for-npm">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-03-multiple-trusted-publishing-configurations-for-npm">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[GitHub Actions：2026年9月上旬のアップデート — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates</link>
-            <guid>https://github.blog/changelog/2026-08-06-github-actions-early-august-2026-updates</guid>
-            <pubDate>Thu, 03 Sep 2026 20:30:53 GMT</pubDate>
-            <description><![CDATA[GitHub Actions には、ワークフローの可視性を高め、よりきめ細かな制御を可能にする 3 つの更新が含まれています。ランナーバージョンの非推奨に伴う新しい REST API 新しい REST API は、以下の場合に… この記事「GitHub Actions: 2026年9月上旬の更新」は、The GitHub Blog で最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-03-github-actions-early-september-2026-updates">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-03-github-actions-early-september-2026-updates">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[GPT-6 アストラ — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/3/gpt6-astra/</link>
-            <guid>https://simonwillison.net/2026/Sep/3/gpt6-astra/</guid>
-            <pubDate>Thu, 03 Sep 2026 20:18:41 GMT</pubDate>
-            <description><![CDATA[GPT‑6 Astra GPT-6 Astraは「本日、一部の組織を対象に提供が開始され、今後数日のうちに、ChatGPT Plus、Pro、Business、Enterpriseの全ユーザー、およびOpenAI APIやAWSを通じて利用可能になる予定です」 - 私自身はまだ試していないため、現時点ではこれについて詳しく述べることはできません。 API料金はClaude Fable 5および5.1と同じレート、つまり入力100万件あたり10ドル、出力100万件あたり50ドルとなります。これは明らかにOpenAIがFableに対抗して投入したものであり、スコアは]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/3/gpt6-astra/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F3%2Fgpt6-astra%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[一部のGitHub Copilotモデルの今後の非推奨化について — The GitHub Blog - Changelog]]></title>
-            <link>https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models</link>
-            <guid>https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models</guid>
-            <pubDate>Thu, 03 Sep 2026 19:40:14 GMT</pubDate>
-            <description><![CDATA[2026年10月2日をもって、すべてのGitHub Copilot機能（Copilot Chat、インライン編集、askモードおよびagentモード、コード補完を含む）において、以下のモデルの提供を終了いたします：モデル　提供終了日… 記事「一部の GitHub Copilot モデルの今後の非推奨化」は、GitHub ブログで最初に公開されました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-03-upcoming-deprecation-of-selected-github-copilot-models">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[Ask HN：GoogleのreCAPTCHAがFirefoxユーザーを拒否している現象は、他の人も経験していますか？ — Hacker News (200+ points)]]></title>
-            <link>https://news.ycombinator.com/item?id=49555592</link>
-            <guid>https://news.ycombinator.com/item?id=49555592</guid>
-            <pubDate>Thu, 03 Sep 2026 19:38:46 GMT</pubDate>
-            <description><![CDATA[Linux上の現在のFirefoxからarchive.isにアクセスしようとすると、Google reCAPTCHAの無限ループに陥ります。今日から突然この現象が起こり始めました。Firefoxは「厳格モード」に設定されています。そのサイトに対してPrivacy Badgerを無効にしてみましたが、改善されませんでした。 シークレットモードでも試しましたが、状況は変わりませんでした。これは、Googleが広告ブロックやChrome以外のブラウザに対して仕掛けている「戦い」の一環なのでしょうか？ コメントURL: https://news.ycombinator.com/item?id=49555592 ポイント: 206 # コメント数: 90]]></description>
-            <content:encoded><![CDATA[<p><a href="https://news.ycombinator.com/item?id=49555592">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnews.ycombinator.com%2Fitem%3Fid%3D49555592">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>general</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.37: DRA の更新 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/</link>
-            <guid>https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/</guid>
-            <pubDate>Thu, 03 Sep 2026 18:30:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes 1.37がリリースされ、ダイナミックリソース割り当て（DRA）は当初の枠をさらに超え続けています！このリリースでは、DRAの拡張リソースサポートがGA（一般提供）となり、これはチームが過去3回のリリースにわたり目指してきたマイルストーンです。他にもいくつかの機能がベータ版またはGAに昇格しました。さらに、新たなアルファ機能の数々がこのリリースを締めくくっています。 ここでは、Kubernetes 1.37におけるDRAの新機能について詳しく解説します！ 1.37で安定版となった機能 DRAの拡張リソースサポートがGAに昇格しました。これは、DRAがリソースを動的に割り当てることを可能にする仕組みです。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F03%2Fkubernetes-v1-37-dra-updates%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Javaの誕生から現代に至るまでの歴史を、ゴスリン氏ら関係者が語る公式ドキュメンタリー『The Java Story』がYouTubeで公開中 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/javathe_java_storyyoutube.html</link>
-            <guid>https://www.publickey1.jp/blog/26/javathe_java_storyyoutube.html</guid>
-            <pubDate>Thu, 03 Sep 2026 15:27:07 GMT</pubDate>
-            <description><![CDATA[Java言語が誕生してから30年以上の歳月が経過しています。Javaはもともと家庭用デバイス向けの言語として開発されましたが、結局採用されることなく、失敗したプロジェクトとして始まったことは、多くの方がご存知でしょう。 その後、新たな展開としてWebブラウザ向けの「HotJava」が注目され始め、マイクロソフトとの対立、サーブレットによるサーバーサイドでの発展、サン・マイクロシステムズのオラクルによる買収など、現在のJavaに至るまでには多くの紆余曲折がありました。 こうしたJavaの誕生か……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/javathe_java_storyyoutube.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fjavathe_java_storyyoutube.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Webブラウザ上でターミナルシミュレータを実行し、GitやCLI、Vimなどを無料で学べる「WebTerm Learn」が公開された — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/webgitclivimwebterm_learn.html</link>
-            <guid>https://www.publickey1.jp/blog/26/webgitclivimwebterm_learn.html</guid>
-            <pubDate>Thu, 03 Sep 2026 15:23:23 GMT</pubDate>
-            <description><![CDATA[株式会社initは、Webブラウザ上でまるで本物のように動作するターミナルシミュレータを実行し、そこでGitやLinuxのコマンドライン、Vimなどの操作を無料で学べる学習プラットフォーム「WebTerm Learn」を公開しました。 WebTerm Learnのトップ画面は上記の画像のようにゲーム形式になっており、進路に応じてGitやターミナルからのコマンドライン、Vimなどを学べるコースが用意されています。コース内は細かいレッスンに分かれており、必要な知識を順序立てて学べ……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/webgitclivimwebterm_learn.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fwebgitclivimwebterm_learn.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[上海で開催される「OSPOlogy + OSPO Summit China 2026」にご参加ください — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/03/join-ospology-ospo-summit-china-2026-in-shanghai/</link>
-            <guid>https://www.cncf.io/?p=174207</guid>
-            <pubDate>Thu, 03 Sep 2026 12:32:33 GMT</pubDate>
-            <description><![CDATA[2026年9月7日に中国・上海で開催される「OSPOlogy + OSPO Summit China 2026」への参加申し込みは、まだ受け付けています。本イベントは、「KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China」の一環として開催されます。このイベントでは……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/03/join-ospology-ospo-summit-china-2026-in-shanghai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F03%2Fjoin-ospology-ospo-summit-china-2026-in-shanghai%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[ダウンタイムを一切生じさせることなく、重要なKubernetesデプロイメントをデフォルトネームスペースから移行する — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/03/migrating-a-critical-kubernetes-deployment-from-the-default-namespace-without-any-downtime/</link>
-            <guid>https://www.cncf.io/?p=174128</guid>
-            <pubDate>Thu, 03 Sep 2026 11:00:00 GMT</pubDate>
-            <description><![CDATA[クラスターのどこかに、デフォルトネームスペースに配置されたデプロイメントが1つあるでしょう。そこにあってはならないことは誰もが知っているはずです。誰かが悪意を持って配置したわけではなく、単に、ネームスペースの管理状態について誰も気にしていなかった初期の段階で、そうなってしまっただけなのです……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/03/migrating-a-critical-kubernetes-deployment-from-the-default-namespace-without-any-downtime/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F03%2Fmigrating-a-critical-kubernetes-deployment-from-the-default-namespace-without-any-downtime%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[Beadsを約1か月使ってみて分かったBeadsの使い方～優先順位の判断とnotesの活用～ — Claude | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/beads-priority-and-notes-operation/</link>
-            <guid>2WOwiq8wBoHkNNeEmvBKu2</guid>
-            <pubDate>Thu, 03 Sep 2026 02:02:05 GMT</pubDate>
-            <description><![CDATA[AIコーディングエージェント向けの課題管理ツール「Beads」を、前回の記事公開から約1か月間使い続けてみました。依存関係や優先度に基づいて次のタスクを選びやすくなった一方で、notesへの追記によって古い情報が残ってしまうという問題が発生しました。現在は、notesを履歴としてではなく、現在の状態のスナップショットとして扱っています。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/beads-priority-and-notes-operation/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbeads-priority-and-notes-operation%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Herdr × Ghosttyで始める「マネージャー」のAI駆動を加速させるターミナルマルチプレクサの活用提案 — AI - DMM Developers Blog]]></title>
-            <link>https://developersblog.dmm.com/entry/2026/09/03/110000</link>
-            <guid>hatenablog://entry/14945776032065767477</guid>
-            <pubDate>Thu, 03 Sep 2026 02:00:00 GMT</pubDate>
-            <description><![CDATA[1.はじめに 2. 「マルチタスク」から「マルチエージェント」へ HerdrをAIエージェントの「マネジメントレイヤー」とする 3. マネジメント業務の事例 3-1. 週次レポートの作成 3-2. 担当プロダクトの仕様の把握 3-3. アカウントの発行／承認 4. ちょっとした仕事も「自分でやらない」 5. AIエージェントにも「組織設計」が必要になる 6. AIからの割り込みもマネジメントする 7. マネージャーの皆さんこそ、Herdr × Ghosttyを試してみてください 8. おわりに 1.はじめに こんにちは、プラットフォーム開発本部の副本部長を務めている石垣(@i35_267)です。 マネージャーの皆さん、最近ターミナルアプリを開いていますか？ 私は、マネジメントに専念するようになってから、その機会がかなり減っていました。 代わりに増えたのは、Slackへの返信や、カレンダーを確認して会議に参加すること、そして作業はGoogle Sheetsが中心。そんな働き方が主流になっていました。 ところが最近、毎日のようにターミナルを開くようになりました。 それはコードを書いたり、システムを運用したり]]></description>
-            <content:encoded><![CDATA[<p><a href="https://developersblog.dmm.com/entry/2026/09/03/110000">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdevelopersblog.dmm.com%2Fentry%2F2026%2F09%2F03%2F110000">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[AWS、新たな太平洋海底ケーブル「Sta'O'Nuk」を発表。420Tbps、2029年に稼働予定。集中リスクを回避するため、新たな陸揚げ拠点を採用 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/awsstaonuk420tbps2029.html</link>
-            <guid>https://www.publickey1.jp/blog/26/awsstaonuk420tbps2029.html</guid>
-            <pubDate>Thu, 03 Sep 2026 01:59:39 GMT</pubDate>
-            <description><![CDATA[Amazon Web Services（AWS）は、日本と米国を結ぶ新たな海底ケーブル「Sta'O'Nuk」を発表しました。2029年に運用開始予定です。この海底ケーブルは20ペアの光ファイバーで構成され、420Tbpsの帯域幅を提供します。 通信内容は、レイヤー1で量子暗号化、レイヤー2でMACsec暗号化、レイヤー4でTLS/SSLまたはQUICプロトコルが利用されるなど、多層的な暗号化によって保護されます。 集中リスクの排除により新たな陸揚げ拠点を採用 Sta'O'Nukの大きな……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/awsstaonuk420tbps2029.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fawsstaonuk420tbps2029.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Rust 1.98.1 のリリースを発表します — Rust Blog]]></title>
-            <link>https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/</link>
-            <guid>https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/</guid>
-            <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Rustチームは、Rustの新しいマイナーリリースである1.98.1を公開しました。Rustは、誰もが信頼性が高く効率的なソフトウェアを構築できるようにするプログラミング言語です。 rustup 経由で以前のバージョンの Rust をインストールしている場合は、次のコマンドを実行するだけで Rust 1.98.1 を入手できます: rustup update stable まだお持ちでない場合は、当ウェブサイトの該当ページから rustup を入手できます。 1.98.1 の変更点 Rust 1.98.1 では、vtable 生成時のコンパイルエラーが修正されました。Rust 1.98.0 では、特定の状況下で rustc が i]]></description>
-            <content:encoded><![CDATA[<p><a href="https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.rust-lang.org%2F2026%2F09%2F03%2FRust-1.98.1%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>rust</category>
-        </item>
-        <item>
-            <title><![CDATA[AIを使ってBlenderを操作する方法 - CLIとMCPの使い分け — npaka]]></title>
-            <link>https://note.com/npaka/n/n7f7531e7b9ed</link>
-            <guid>https://note.com/npaka/n/n7f7531e7b9ed</guid>
-            <pubDate>Wed, 02 Sep 2026 23:10:24 GMT</pubDate>
-            <description><![CDATA[AIを使ってBlenderを操作する2つの方法、CLIとMCPの特徴と使い分けについて整理します。 続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n7f7531e7b9ed">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn7f7531e7b9ed">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Gemini 3.8 Flash ・ Gemini 3.8 Flash Cyber の概要 — npaka]]></title>
-            <link>https://note.com/npaka/n/n994424ed9ef5</link>
-            <guid>https://note.com/npaka/n/n994424ed9ef5</guid>
-            <pubDate>Wed, 02 Sep 2026 22:37:09 GMT</pubDate>
-            <description><![CDATA[「Gemini 3.8 Flash」「Gemini 3.8 Flash Cyber」の概要をまとめました。 ・Gemini 3.8 Flash および 3.8 Flash Cyber の紹介 続きを見る]]></description>
-            <content:encoded><![CDATA[<p><a href="https://note.com/npaka/n/n994424ed9ef5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fnote.com%2Fnpaka%2Fn%2Fn994424ed9ef5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[llm-openrouter 0.7.1 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/2/llm-openrouter/</link>
-            <guid>https://simonwillison.net/2026/Sep/2/llm-openrouter/</guid>
-            <pubDate>Wed, 02 Sep 2026 20:23:26 GMT</pubDate>
-            <description><![CDATA[リリース：llm-openrouter 0.7.1 OpenRouterモデルの読み込みに関するパフォーマンスの修正。waveplateさん、ありがとうございます。#59 タグ：llm、openrouter]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm-openrouter/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm-openrouter%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[llm 0.34 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/2/llm/</link>
-            <guid>https://simonwillison.net/2026/Sep/2/llm/</guid>
-            <pubDate>Wed, 02 Sep 2026 19:23:52 GMT</pubDate>
-            <description><![CDATA[リリース: llm 0.34 新機能1つ: llm logs --usage による Markdown 出力に、応答時間がミリ秒単位および人間が読みやすい形式で含まれるようになりました。llm logs --short には、新しい duration_ms フィールドが追加されました。 #1653 さらに、複数のバグ修正が寄せられたほか、GitHubのwaveplate氏のおかげでllm logsのパフォーマンスが大幅に向上しました。llm-openrouter 0.7.1 も参照してください。タグ: llm]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.37：HorizontalPodAutoscaler を使用してワークロードをゼロまでスケールダウンする — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/</link>
-            <guid>https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/</guid>
-            <pubDate>Wed, 02 Sep 2026 18:30:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes v1.37 では、ワークロードをレプリカ数 0 まで水平自動スケーリングするための API サポートが追加されました。この機能は現在ベータ版であり、デフォルトで有効になっています。 適切なオブジェクトメトリックまたは外部メトリックを使用する HorizontalPodAutoscaler (HPA) により、ワークロードをレプリカ数 0 までスケールダウンし、メトリックが変化した際に元の状態に戻すことが可能になりました。 v1.37 以前は、レプリカ数を 0 からスケーリングするには、アドオンや外部コンポーネントが必要だったか、あるいは Alpha 機能ゲートを有効にする必要がありました。現在では、これは Kubernetes のコア機能の一部となっています。レプリカ数を 0 までスケーリングする機能は]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F02%2Fkubernetes-v1-37-hpa-scale-to-zero-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[llm-anthropic 0.28 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/2/llm-anthropic/</link>
-            <guid>https://simonwillison.net/2026/Sep/2/llm-anthropic/</guid>
-            <pubDate>Wed, 02 Sep 2026 17:59:32 GMT</pubDate>
-            <description><![CDATA[リリース：llm-anthropic 0.28 Claude Fable 5.1。推論トレースに対応しているモデルでは、デフォルトで推論トレースが表示されるようになりました。また、Claudeが拒否をスローした場合に発生する新しい例外「llm_anthropic.ClaudeRefusal」が追加されました。 タグ: llm , anthropic , claude , claude-mythos-fable]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm-anthropic/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm-anthropic%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[llm-gemini 0.34 — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/2/llm-gemini/</link>
-            <guid>https://simonwillison.net/2026/Sep/2/llm-gemini/</guid>
-            <pubDate>Wed, 02 Sep 2026 16:39:38 GMT</pubDate>
-            <description><![CDATA[リリース：llm-gemini 0.34 Gemini 3.8 Flash 用の新モデル「gemini-3.8-flash」を追加。思考レベルは「低」「中」「高」の3段階です。#146 非同期レスポンスにおいて、解決されたモデルバージョンが記録されない不具合を修正しました。 Charlie Tonneslan さん、ありがとうございます。#137 Googleは本日、Gemini 3.8 Flash（および3.8 Flash Cyber。ただし後者は「信頼された防御者」のみが利用可能です）をリリースしました。 以下は、高、中、低の各思考レベルで生成されたペリカンの画像です。これが「高」です：比較のために、Gemini 3.7 Flash を使用して生成された同じペリカンの画像も掲載します。私が気に入っている点]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/llm-gemini/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fllm-gemini%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[ゲームを通じてAWSを学べる「AWS Cloud Quest」に、新バージョン「AWS Cloud Quest 2.0」が登場！ AIによる仮想顧客と対話し、要件を聞き出し、それを正しくソリューションに反映させよう — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/awsaws_cloud_questaws_cloud_quest_20_ai.html</link>
-            <guid>https://www.publickey1.jp/blog/26/awsaws_cloud_questaws_cloud_quest_20_ai.html</guid>
-            <pubDate>Wed, 02 Sep 2026 15:55:28 GMT</pubDate>
-            <description><![CDATA[Amazon Web Services（AWS）は、3DオープンワールドでAWSを学べるオンラインゲーム「AWS Cloud Quest」の新バージョン「AWS Cloud Quest 2.0」の提供を開始しました。 AWS Cloud Questは、2022年に公開が開始された、Webブラウザ上でプレイするオンラインゲームです。クラウド技術者となったプレイヤーがクラウドシティを探索し、出会った人々の課題をAWSのソリューションを用いて解決することで、街を発展させていきます。 ……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/awsaws_cloud_questaws_cloud_quest_20_ai.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fawsaws_cloud_questaws_cloud_quest_20_ai.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[AWSとAzureが最大100Gbpsでの相互接続を開始した。これにより、AWSはAzure、Google Cloud、Oracle Cloudとのマルチクラウド対応を実現した。 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html</link>
-            <guid>https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html</guid>
-            <pubDate>Wed, 02 Sep 2026 15:53:23 GMT</pubDate>
-            <description><![CDATA[Amazon Web Services（AWS）とマイクロソフトは、両社が協力してAWSとMicrosoft Azureを最大100Gbpsの高速なプライベートネットワークで相互接続することを発表しました（AWSの発表、マイクロソフトの発表）。両社ともプレビュー版として提供を開始します。 クラウド環境間でワークロードを接続するのに、数週間や数ヶ月もかかるべきではありません。組織がどのように……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fawsazure100gbpsawsazuregoogle_cloudoracle_cloud.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Cloudflare、ボットの挙動を動的に学習して防御機能を継続的に改善する「Adaptive Intelligence」ボット検出エンジンを発表 — Publickey]]></title>
-            <link>https://www.publickey1.jp/blog/26/adaptive_intelligencecloudflare.html</link>
-            <guid>https://www.publickey1.jp/blog/26/adaptive_intelligencecloudflare.html</guid>
-            <pubDate>Wed, 02 Sep 2026 15:48:38 GMT</pubDate>
-            <description><![CDATA[Cloudflareは、同社のネットワーク全体からボットの侵入手段を動的に学習し、防御機能を継続的に改善し続ける「Adaptive Intelligence」という仕組みを採用した、新しいボット検出エンジンを発表しました。Cloudflareの新しいAdaptive Intelligenceエンジンは、リアルタイムのトラフィックを自動的に分析することで……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.publickey1.jp/blog/26/adaptive_intelligencecloudflare.html">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.publickey1.jp%2Fblog%2F26%2Fadaptive_intelligencecloudflare.html">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[v1.16.1 — Terraform releases]]></title>
-            <link>https://github.com/hashicorp/terraform/releases/tag/v1.16.1</link>
-            <guid>https://github.com/hashicorp/terraform/releases/tag/v1.16.1</guid>
-            <pubDate>Wed, 02 Sep 2026 14:49:32 GMT</pubDate>
-            <description><![CDATA[1.16.1 (2026年9月2日) バグ修正：cloud：タスクの実行に失敗し、ポリシー評価が保留中の状態でCLIが無限に停止してしまうバグを修正しました (#38751) Terraform Test で動的ソースを含むモジュールの参照をサポート (#38950) stacks: ロックファイルと設定内のプロバイダーのバージョンが互換性があることを確認するための検証を修正しました。 (#38829) 識別子のインポート時に機密値が参照された場合のパニックを修正 (#39013) import: 複数の im がある場合に import ブロックが無視されてしまうバグを修正]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/hashicorp/terraform/releases/tag/v1.16.1">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.com%2Fhashicorp%2Fterraform%2Freleases%2Ftag%2Fv1.16.1">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>releases</category>
-        </item>
-        <item>
-            <title><![CDATA[クロードの新しいシステムプロンプトは、どうしても歌詞を再現したがらないようです — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</link>
-            <guid>https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/</guid>
-            <pubDate>Wed, 02 Sep 2026 14:16:42 GMT</pubDate>
-            <description><![CDATA[Anthropic社は、同社のClaudeコンシューマー向けアプリケーション（Claude.aiおよびClaudeモバイルアプリ。残念ながら、Claude CoworkやClaude Codeは対象外）のシステムプロンプトを公開しています。このような取り組みは素晴らしいですし、現在のプロンプトだけでなく、過去の変更履歴も公開している点が特に気に入っています。 以前はすべてのプロンプトを1つのページにまとめていましたが、今日確認したところ、プロンプトがインデックスページと、モデルごとのページに再編成されていたことに気づきました。例えば、Haiku 4.5のページはこちらです。w]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Fclaudes-new-system-prompt%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
-        </item>
-        <item>
-            <title><![CDATA[Metal3とKubeVirtBMCの連携：ベアメタルのようにKubeVirt VMをプロビジョニングする — CNCF Blog]]></title>
-            <link>https://www.cncf.io/blog/2026/09/02/metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal/</link>
-            <guid>https://www.cncf.io/?p=173563</guid>
-            <pubDate>Wed, 02 Sep 2026 11:31:00 GMT</pubDate>
-            <description><![CDATA[前回の記事では、KubeVirtBMC について紹介し、KubeVirt VM に対して仮想 BMC エンドポイントを提供する仕組みを解説しました。また、生の IPMI コマンドや Redfish コマンドを使ってテストも行いました。それは楽しかったのですが、このツールの真の威力は……]]></description>
-            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/02/metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F02%2Fmetal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>kubernetes</category>
-        </item>
-        <item>
-            <title><![CDATA[リック・ブリュースターの言葉を引用すると — Simon Willison's Weblog]]></title>
-            <link>https://simonwillison.net/2026/Sep/2/rick-brewster/</link>
-            <guid>https://simonwillison.net/2026/Sep/2/rick-brewster/</guid>
-            <pubDate>Wed, 02 Sep 2026 05:50:57 GMT</pubDate>
-            <description><![CDATA[Direct2Dは、WINE上のPaint.NETにとって常に最大の障壁であり、Paint.NETで利用可能なレベルまで完成することは決してないだろうことは明らかです。 また、Direct2Dの使用を単に「無効化」するわけにもいきません。そこで、Paint.NETでは、WINE上で使用するために（/wine オプションを指定することで起動される）、Direct2Dをゼロからクリーンルーム方式でリバースエンジニアリングして書き直した独自のライブラリを実装しました。 これは PaintDotNet.Windows.Direct2D1.Managed.dll に実装されています。これは私たちの良き友人である Claude によって作成されたもので、彼がいなければこれは絶対に実現できなかったでしょう。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/2/rick-brewster/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F2%2Frick-brewster%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>ai</category>
+            <title><![CDATA[[v2.1.266] [修正] LLM ゲートウェイおよびプロキシ設定に影響する v2.1.265 のリグレッションを修正した。ドキュメントに記載されていない環境変数 CLAUDE_CODE_USE_GATEWAY は、以前は ANTHROPIC_BASE_URL と ANTHROPIC_AUTH_TOKEN の両方が設定されている場合にのみ無視されていたが、v2.1.265 では単独で Cloud Gateway へのサインインを強制するようになり、API キー、apiKeyHelper、カスタム認証ヘッダーを組み合わせた構成では、すべてのリクエストに対して「Not signed in to the Cloud」というエラーが発生するようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.266#item-712d8084ac32</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.266#item-712d8084ac32</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[v2.1.265 の LLM ゲートウェイおよびプロキシ構成に影響するリグレッションを修正した。ドキュメントに記載されていない環境変数 CLAUDE_CODE_USE_GATEWAY は、以前は ANTHROPIC_BASE_URL と ANTHROPIC_AUTH_TOKEN の両方が設定されている場合にのみ無視されていたが、v2.1.265 では単独で Cloud Gateway へのサインインを強制するようになり、API キー、apiKeyHelper、カスタム認証ヘッダーを組み合わせた構成では、すべてのリクエストが「Not signed in to the Cloud gateway」というエラーで失敗していた。この変数を単独で設定した場合、再び無視されるようになったため、構成の変更は不要である。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.266#item-712d8084ac32">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.266%23item-712d8084ac32">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [追加] Claude Desktop と Cowork が Claude apps gateway を経由して送信するテレメトリに `user.email` と `user.groups` を追加し、ターミナルセッションと一致させるようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-3bf42f345264</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3bf42f345264</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[Claude Desktop と Cowork が Claude apps gateway を介して送信するテレメトリに `user.email` と `user.groups` を追加し、ターミナルセッションと照合した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3bf42f345264">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3bf42f345264">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [追加] `--plugin-dir` に複数のプラグインを含むフォルダーを指定する機能を追加：マニフェストを持つ各サブフォルダーが読み込まれ、実行中にサブフォルダーが追加・削除されても検出される — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-99d794cc1bae</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-99d794cc1bae</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`--plugin-dir` に複数のプラグインを含むフォルダを指定する機能を追加：マニフェストを持つ各サブフォルダが読み込まれ、実行中にサブフォルダが追加・削除されても検知される]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-99d794cc1bae">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-99d794cc1bae">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [追加] ディスクに保存されるツール結果に 1 GB の上限を追加しました。会話内のプレビューで、保存されたファイルが切り詰められている場合、その旨が表示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-b0a276dfaacf</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-b0a276dfaacf</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[ツール実行結果のディスク保存容量に 1 GB の上限が追加されました。会話内のプレビューでは、保存されたファイルが切り詰められている場合、その旨が表示されます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-b0a276dfaacf">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-b0a276dfaacf">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] フォアグラウンドで起動していたサブエージェントを再開した際、ツールリストとシステムプロンプトのプレフィックスが変更され、そのエージェントのプロンプトキャッシュの再利用が機能しなくなる問題を修正した — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-042928e41d2c</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-042928e41d2c</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[フォアグラウンドで起動したサブエージェントを再開した際、ツールリストとシステムプロンプトのプレフィックスが変更され、そのエージェントのプロンプトキャッシュの再利用が機能しなくなる問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-042928e41d2c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-042928e41d2c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] エージェントチームのチームメイトおよび再開されたサブエージェントにおいて、後続のターンで SubagentStart フックのコンテキストとプリロードされたスキルがプロンプトのプレフィックスから外れ、プロンプトキャッシュの再利用が機能しなくなる問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-8fcca294df35</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-8fcca294df35</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[エージェントチームのチームメイトおよび再開されたサブエージェントにおいて、後続のターンで「SubagentStart」フックのコンテキストとプリロードされたスキルがプロンプトのプレフィックスから外れ、プロンプトキャッシュの再利用が機能しなくなる問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-8fcca294df35">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-8fcca294df35">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] ツール実行中に前のプロセスが終了した後の再開に関する問題を修正：最後のプロンプトが上書きされなくなり、中断されたツール呼び出しが保持され、「中断済み」としてマークされるようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-5cb03b310e48</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-5cb03b310e48</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[ツール実行中に前のプロセスが終了した後の再開に関する修正：最後のプロンプトが上書きされなくなり、中断されたツール呼び出しが保持され、「中断済み」としてマークされるようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-5cb03b310e48">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-5cb03b310e48">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] `/model opusplan[1m]` が「Model not found」エラーで拒否される問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-25e016ad8a15</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-25e016ad8a15</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`/model opusplan[1m]` が「Model not found」エラーで拒否される問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-25e016ad8a15">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-25e016ad8a15">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 許可プロンプトやメッセージ内の構文強調表示されたコードにおいて、Ruby の `?`、Erlang や Perl の `$` 記号の直後の文字が省略される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-97a5b078b677</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-97a5b078b677</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[許可プロンプトやメッセージ内の構文強調表示されたコードにおいて、Ruby の `?` や Erlang、Perl の `$` 記号の直後の文字が省略されてしまう問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-97a5b078b677">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-97a5b078b677">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] スラッシュコマンドや @ ファイルの候補リストを開閉するたびに、全画面表示のトランスクリプトが1行ずれる不具合を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-e8074ec535fc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-e8074ec535fc</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[スラッシュコマンドや @ ファイルの候補リストを開閉するたびに、フルスクリーンのトランスクリプトが1行ずれる不具合を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-e8074ec535fc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-e8074ec535fc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] macOS および Linux において、バックスラッシュを含むプラグインのパスが、シンボリックリンクの包含チェックをすり抜けてしまう問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-4f3d6b17aa31</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-4f3d6b17aa31</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[macOS および Linux において、バックスラッシュを含むプラグインのパスが、シンボリックリンクの包含チェックをすり抜けてしまう問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-4f3d6b17aa31">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-4f3d6b17aa31">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] プラグインルートの直下にあり、名前が2つのドット(..)で始まるディレクトリが、プラグインルート外のパスとして誤って拒否される問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-b64bea04fd72</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-b64bea04fd72</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[プラグインルートの直下にあり、名前が2つのドット（..）で始まるディレクトリが、プラグインルート外のパスとして誤って拒否される問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-b64bea04fd72">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-b64bea04fd72">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] トークンの再取得中にセッションが切断された場合、VS Code と SDK のセッションでまれに再ログインが必要になる問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-aaa764eaaf48</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-aaa764eaaf48</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[トークンの再取得中にセッションが切断された場合、VS Code と SDK のセッションで時折再ログインが必要になる問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-aaa764eaaf48">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-aaa764eaaf48">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] リモートコントロールセッションにおいて、返信の最後のメッセージよりも前に「ターン終了」シグナルが送信される問題を修正しました。これにより、返信の最後の部分が届く前に、Claudeアプリ側で返信が完了したかのように表示されることがなくなります。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-57dc939dd44f</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-57dc939dd44f</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[リモートコントロールセッションにおいて、返信の最後のメッセージよりも前にターン終了シグナルが送信されてしまう問題を修正しました。これにより、返信の最後の部分が届く前に、Claudeアプリ側で返信が完了したかのように表示されることがなくなります。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-57dc939dd44f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-57dc939dd44f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] メッセージがアイドルタイムアウトの直前に届いた際、バックグラウンド (`--bg`) セッションがターン中に強制終了されることがある不具合を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-59e473162265</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-59e473162265</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[アイドルタイムアウトの直前にメッセージが届いた際、バックグラウンド (`--bg`) セッションがターン中に強制終了されることがある不具合を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-59e473162265">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-59e473162265">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 作業ツリー内のネストされたリポジトリで設定された clean フィルターが、Claude Code 自身の git status や diff のプローブ実行時に実行されないよう修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-311730ebec17</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-311730ebec17</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[作業ツリー内のネストされたリポジトリで設定された clean フィルターが、Claude Code 自身の git status や diff のプローブ実行時に実行されないよう修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-311730ebec17">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-311730ebec17">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] アドバイザーツールとその指示内容が、リクエストを処理するモデルによってリクエストごとに再判定されてしまう問題を修正した。判定は1回のみ行われるようになり、変更があった場合は会話内で通知される。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-30c6667741b0</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-30c6667741b0</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[アドバイザーツールとその指示内容が、リクエストを処理するモデルによってリクエストごとに再判断されてしまう問題を修正した。判断は一度だけ行われるようになり、変更があった場合は会話内で通知する。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-30c6667741b0">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-30c6667741b0">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] コネクタが公開していないツール名を含むアーティファクトの公開を受け入れてしまう問題を修正した。宣言されたツールがすべて存在しない場合は公開を拒否し、一部のみが存在しない場合は警告を表示するようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-cb16304c2fc0</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-cb16304c2fc0</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[コネクタが公開していないツール名を含むアーティファクトのパブリッシュを受け入れてしまう問題を修正した。宣言されたツールがすべて存在しない場合はパブリッシュを拒否し、一部のみが存在しない場合は警告を表示するようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-cb16304c2fc0">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-cb16304c2fc0">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 管理設定で「skills」のみをプラグインに固定している場合に、/add-dir がサブディレクトリ内のエージェントを読み込まない不具合と、「agents」のみが固定されている場合にエージェントの使用を強制してしまう不具合を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-a2135dd0f975</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-a2135dd0f975</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[管理設定で「skills」のみをプラグインに固定している場合に、/add-dir がサブディレクトリ内のエージェントを読み込まない不具合と、「agents」のみが固定されている場合にエージェントの使用を強制してしまう不具合を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-a2135dd0f975">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-a2135dd0f975">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] tmuxのように2つ目のキーの入力が1秒以上遅れて届く場合、2キーのキーボードショートカットが黙ってキャンセルされてしまう不具合を修正しました。タイムアウトまで3秒待機するようになり、タイムアウト時には通知が表示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-f164b3717406</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-f164b3717406</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[tmuxのように、2つ目のキーの入力が1秒以上遅れて届く場合に、2キーのキーボードショートカットが黙ってキャンセルされてしまう不具合を修正しました。タイムアウトまで3秒待機するようになり、タイムアウト時には通知が表示されます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-f164b3717406">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-f164b3717406">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] `context: fork` を指定したスキル（フォークされたスキル）の開始プロンプトがストリーミングされず、また `--forward-subagent-text` を指定した場合にそのテキストターンが stream-json の進捗イベントとして配信されない問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-14323ccdfd02</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-14323ccdfd02</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`context: fork` を指定したスキル（フォークされたスキル）の開始プロンプトがストリーミングされず、また `--forward-subagent-text` を指定した場合に、そのテキストターンが stream-json の進行状況イベントとして配信されない問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-14323ccdfd02">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-14323ccdfd02">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] OS が確認できないプラグインのデフォルトコンポーネントフォルダ（シンボリックリンクのループなど）が黙ってスキップされてしまう問題を修正し、`/plugin` にエラーコード付きで報告するようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-aa8673a2cafa</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-aa8673a2cafa</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[OS が確認できないプラグインのデフォルトコンポーネントフォルダ（シンボリックリンクのループなど）が、何も通知せずにスキップされてしまう問題を修正し、`/plugin` にエラーコードを添えて報告するようにした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-aa8673a2cafa">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-aa8673a2cafa">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] Claude アプリのゲートウェイにおいて、OTLP テレメトリリレーが不正な形式またはサイズ超過のペイロードをいくつか拒否した後、コレクターへのすべての転送を 30 秒間停止してしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-50064e010a59</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-50064e010a59</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[Claude アプリのゲートウェイにおいて、OTLP テレメトリリレーが不正な形式またはサイズ超過のペイロードをいくつか拒否した後、コレクターへのすべての転送を 30 秒間停止してしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-50064e010a59">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-50064e010a59">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] `/plugin` の「Discover/Browse」および `claude plugin list --json --available` において、メタデータが plugin.json にのみ存在するマーケットプレイス・プラグインの description や displayName が表示されない不具合を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-668c566b7485</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-668c566b7485</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`/plugin` の「Discover/Browse」および `claude plugin list --json --available` において、メタデータが plugin.json にのみ存在するマーケットプレイス・プラグインの description や displayName が表示されない不具合を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-668c566b7485">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-668c566b7485">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 管理対象設定で設定されたClaude appsゲートウェイにサインインしたセッション内で `/login` を再実行した際、「no gateway URL is configured（ゲートウェイURLが設定されていません）」と表示される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-080a4edd933a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-080a4edd933a</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[管理対象設定で設定されたClaude appsゲートウェイにサインインしたセッション内で `/login` を再実行した際、「no gateway URL is configured（ゲートウェイURLが設定されていません）」と表示される問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-080a4edd933a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-080a4edd933a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 設定ファイルへの書き込みに失敗した場合、`/model` が「デフォルトとして保存しました」と誤って表示される問題を修正しました。保存に失敗したことと、その理由が表示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-4eb14a1be0f2</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-4eb14a1be0f2</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[設定ファイルへの書き込みに失敗した場合、`/model` が「デフォルトとして保存しました」と誤って表示する問題を修正しました。保存に失敗したことと、その理由が表示されるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-4eb14a1be0f2">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-4eb14a1be0f2">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] リモートコントロールから /clear を実行した際、SessionStart フックの完了や、ターミナル上で開いているダイアログへの対応を待たずに処理が完了するように修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-2e7a9152f406</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-2e7a9152f406</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[リモートコントロールから /clear を実行した際、SessionStart フックの完了や、ターミナル上で開いているダイアログへの対応を待たずに処理を完了するように修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-2e7a9152f406">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-2e7a9152f406">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] /config ダイアログでタブを切り替えた際に高さが変わってしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-7b0de4ad0795</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-7b0de4ad0795</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[/config ダイアログでタブを切り替えた際に高さが変わる問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-7b0de4ad0795">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-7b0de4ad0795">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] コンテナの再起動後にワークフローの実行を再開する際の問題を修正した。実行ジャーナルが見つからない場合の再開では、すべてのエージェントを再実行するのではなく、明確なエラーで失敗するようになった — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-84aff9ef6e18</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-84aff9ef6e18</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[コンテナの再起動後にワークフローの実行を再開する際の問題を修正した。実行ジャーナルが見つからない場合の再開では、すべてのエージェントを再実行する代わりに、明確なエラーで失敗するようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-84aff9ef6e18">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-84aff9ef6e18">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] `claude-api` スキルのエラーコードの参照を修正した。モデルへのアクセス失敗は 404、利用不可のベータヘッダーは 403 ではなく 400 を返す — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-efd2bdf67d97</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-efd2bdf67d97</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`claude-api` スキルのエラーコードの参照を修正した。モデルへのアクセス失敗は 404、利用不可のベータヘッダーは 403 ではなく 400 を返す]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-efd2bdf67d97">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-efd2bdf67d97">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 非対話セッション（`-p` および stream-json 入力、Agent SDK、クラウドセッション）において、ユーザーの新しいメッセージごとにシェルの作業ディレクトリがリセットされてしまう問題を修正し、`cd` による移動がターンをまたいで維持されるようにしました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-0ac9792df800</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-0ac9792df800</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[非対話セッション（`-p` および stream-json 入力、Agent SDK、クラウドセッション）において、ユーザーからの新しいメッセージごとにシェルの作業ディレクトリがリセットされてしまう問題を修正し、`cd` による移動がターンをまたいで維持されるようにした]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-0ac9792df800">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-0ac9792df800">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] `http` として設定された MCP サーバーのうち、レガシーな HTTP+SSE トランスポートのみに対応しているサーバーに接続できなかった問題を修正し、Claude Code が MCP 仕様に記載されている通り SSE にフォールバックするようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-f947aaa52add</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-f947aaa52add</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`http` として設定された MCP サーバーのうち、レガシーな HTTP+SSE トランスポートのみに対応しているサーバーへの接続ができなかった問題を修正し、Claude Code が MCP 仕様に記載されている通り SSE へフォールバックするようにした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-f947aaa52add">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-f947aaa52add">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] クラウドセッションにおいて、claude.ai に接続済みのコネクタの一部が、誤って「認証が必要」と表示される問題を修正した（対応していないリクエストに対して HTTP 401 を返すサーバーが対象）。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-10670be43e70</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-10670be43e70</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[クラウドセッションにおいて、claude.ai に接続済みのコネクタの一部が、誤って「認証が必要」と表示される問題を修正しました（対応していないリクエストに対して HTTP 401 を返すサーバーが対象です）。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-10670be43e70">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-10670be43e70">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] コネクタの承認やサインインリンクの応答を待機している間、リモートセッションのサンドボックスコンテナが起動したまま残る問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-dbc960065e82</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-dbc960065e82</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[コネクタの承認やサインインリンクの応答を待機している間、リモートセッションのサンドボックスコンテナが起動したまま残ってしまう問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-dbc960065e82">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-dbc960065e82">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] 再開したセッションで「バックグラウンドタスクが完了しなかった」という通知に表示される内容が、長いモデル向けの復旧手順ではなく、短いステータス行になっていた問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-2e1edab75dc6</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-2e1edab75dc6</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[再開されたセッションで、「バックグラウンドタスクが完了しなかった」という通知に表示される内容が、長いモデル向けの復旧手順ではなく、短いステータス行になっていた問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-2e1edab75dc6">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-2e1edab75dc6">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [変更点] Windows：AppContainer や制限付きトークンのサンドボックス内で実行した際、すべてのファイルに対して「読み取り」「書き込み」「編集」が拒否される（「権限の確認後にシンボリックリンクの解決が変更された」というエラー）問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-98aed50761f0</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-98aed50761f0</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[Windows：AppContainer や制限付きトークンのサンドボックス内で実行した際、すべてのファイルに対して読み取り・書き込み・編集が拒否される（「権限の確認後にシンボリックリンクの解決が変更された」）問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-98aed50761f0">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-98aed50761f0">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] 大規模リポジトリでの `--worktree` の起動を改善：新しいワークツリーが並列でチェックアウトされるようになった（git 2.32 以降） — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-7c83e2fa05ee</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-7c83e2fa05ee</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[大規模リポジトリでの `--worktree` の起動を改善：新しいワークツリーが並列でチェックアウトされるようになった（git 2.32 以降）]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-7c83e2fa05ee">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-7c83e2fa05ee">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] `/workflows` のエージェント詳細を改善：ツール呼び出しに「実行中」「失敗」「完了」のマークが表示されるようになり、サブエージェントのタスクリストがある場合はそれが表示され、Enterキーを押すと一覧表示された呼び出しを入力内容と結果ごと展開できるようになりました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-e2f16edcff7e</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-e2f16edcff7e</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`/workflows` のエージェント詳細を改善：ツール呼び出しに「実行中」「失敗」「完了」のマークが表示され、サブエージェントのタスクリストがある場合はそれが表示され、Enterキーを押すと一覧表示された呼び出しを入力と結果ごと展開できるようになった]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-e2f16edcff7e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-e2f16edcff7e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] プロンプト入力中にコマンド（スラッシュコマンド）を入力する際の改善：候補が単一の提案ではなくリスト形式で表示されるようになり（Tabキーでフルスクリーン外で開ける）、またプラグインのスキルを名前だけで検索できるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-71f263da9aff</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-71f263da9aff</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[プロンプト入力中にコマンド（スラッシュコマンド）を入力する際の改善：候補が単一の提案ではなくリスト形式で表示されるようになり（Tabキーでフルスクリーン外に開くことができる）、またプラグインのスキルを名前だけで検索できるようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-71f263da9aff">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-71f263da9aff">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] サインインが必要なリモート MCP サーバーにおいて、実際に認証が行われるまで、Claude Code が OAuth クライアントを登録しなくなりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-e33793cf2a9b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-e33793cf2a9b</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[サインインが必要なリモート MCP サーバーにおいて、実際に認証が行われるまで、Claude Code が OAuth クライアントを登録しなくなった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-e33793cf2a9b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-e33793cf2a9b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] 多数のファイルを読み込んだ長いセッションを再開する際の所要時間を短縮した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-5c6bd69186dc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-5c6bd69186dc</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[多数のファイルを読み込んだ長いセッションを再開する際の所要時間を改善した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-5c6bd69186dc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-5c6bd69186dc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] サイズ制限を超える画像をデコードできない場合に表示されるエラーを改善しました。制限値のみを表示するのではなく、原因と修正方法を明示するようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-2538d2d2184b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-2538d2d2184b</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[サイズ制限を超える画像をデコードできない場合に表示されるエラーを改善しました。制限値のみを表示するのではなく、原因と修正方法を明示するようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-2538d2d2184b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-2538d2d2184b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [改善] 他のユーザーが作成したアーティファクトの読み取り機能を改善した。要約を「信頼できないコンテンツ」として扱い、埋め込まれた指示をそのまま転送するのではなく、それを検出して警告するようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-3f7b0e5f2d62</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3f7b0e5f2d62</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[他者が作成したアーティファクトの読み取り精度を向上させた。要約がページを信頼できないコンテンツとして扱い、埋め込まれた指示をそのまま転送するのではなく、それらを検出して警告するようにした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3f7b0e5f2d62">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3f7b0e5f2d62">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [更新] `​.claude` フォルダの権限オプションを、実際に許可される内容を反映するように更新した。具体的には、そのセッション中は、プロジェクトの `.claude` フォルダ（または `~/.claude`）内のファイルを編集できることを明示した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-3be43f54126c</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3be43f54126c</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`​.claude` フォルダの権限オプションを、実際に許可される内容を反映するように更新した。具体的には、そのセッション中は、プロジェクトの `.claude` フォルダ（または `~/.claude`）内のファイルを編集できることを明示した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3be43f54126c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3be43f54126c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [変更点] 「管理設定」に `forceLoginGatewayUrl` が設定されている端末について、`forceLoginMethod: gateway` と同様に、起動時から Claude アプリゲートウェイのセッションとして扱うように変更しました。残っている claude.ai のログイン情報や API キーは使用されません。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-1bc0f9a7afe3</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-1bc0f9a7afe3</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[「管理設定」に `forceLoginGatewayUrl` が設定されている端末について、`forceLoginMethod: gateway` と同様に、起動時から Claude アプリゲートウェイのセッションとして扱うように変更しました。残っている claude.ai のログイン情報や API キーは使用しません。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-1bc0f9a7afe3">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-1bc0f9a7afe3">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [変更点] 画像処理を、ランタイムの組み込み画像サポートを利用する方式に変更した。これにより、CLI がネイティブ画像モジュールを一時ディレクトリに展開しなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-c5da32bc08f7</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-c5da32bc08f7</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[画像処理を、ランタイムの組み込み画像サポートを利用する方式に変更した。これにより、CLI がネイティブ画像モジュールを一時ディレクトリに展開しなくなった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-c5da32bc08f7">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-c5da32bc08f7">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [変更点] プラグインの表示用メタデータについて、インストール済みタブや `claude plugin details` では、`plugin.json` よりもマーケットプレイスのエントリを優先して表示するようにした。マーケットプレイスのエントリにない項目については、`plugin.json` の値で補完する。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-66cbc4e11939</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-66cbc4e11939</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[プラグインの表示用メタデータについて、[インストール済み]タブや `claude plugin details` では、`plugin.json` よりもマーケットプレイスのエントリを優先して表示するようにした。マーケットプレイスのエントリにない項目については、`plugin.json` の値で補完する。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-66cbc4e11939">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-66cbc4e11939">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [変更点] Claude アプリのゲートウェイセッションにおいて、ゲートウェイの管理設定を、`OTEL_EXPORTER_OTLP_ENDPOINT` で指定されたコレクターへ OpenTelemetry を直接エクスポートするように変更した。ゲートウェイのリレーを経由しない。コレクターが指定されていないセッションでは、引き続きリレーを利用する。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-4db48ca31799</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-4db48ca31799</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[Claude アプリのゲートウェイセッションにおいて、ゲートウェイの管理設定を変更し、OpenTelemetry を `OTEL_EXPORTER_OTLP_ENDPOINT` で指定されたコレクターへ直接エクスポートするようにした。ゲートウェイのリレーを経由しない。コレクターが指定されていないセッションでは、引き続きリレーを利用する。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-4db48ca31799">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-4db48ca31799">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [追加] [VSCode] 一定期間非アクティブなセッションを自動的にアーカイブする機能を追加（新設定「Archive inactive sessions」、デフォルトは14日） — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-1d62c992062d</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-1d62c992062d</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[[VSCode] 一定期間非アクティブなセッションを自動的にアーカイブする機能を追加（新しい設定「Archive inactive sessions」、デフォルトは14日）]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-1d62c992062d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-1d62c992062d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] [VSCode] 会話を開いてから10分以上経過した状態で「Reload Window」や再起動を行うと、サイドバーのチャットが空白のまま復元される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-3ddbb83b70aa</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3ddbb83b70aa</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[[VSCode] 会話を開いてから10分以上経過した状態で「Reload Window」を実行したり再起動を行ったりすると、サイドバーのチャットが空白のまま復元されてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3ddbb83b70aa">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3ddbb83b70aa">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.265] [修正] [VSCode] 「Remote Control is active」というメッセージのテキストの下に、タイムラインのドットがずれて表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.265#item-8797026f73cc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.265#item-8797026f73cc</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[[VSCode] 「Remote Control is active」というメッセージのテキストの下に、タイムラインのドットがずれて表示される問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-8797026f73cc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-8797026f73cc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.263] [変更点] バグ修正と信頼性の向上 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.263#item-ccfc4941961a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.263#item-ccfc4941961a</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[バグの修正と信頼性の向上]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.263#item-ccfc4941961a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.263%23item-ccfc4941961a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] /status および claude doctor に「Organization policy（組織ポリシー）」の行を追加し、プロキシがエンドポイントへの通信を許可していないなど、組織のポリシーを読み込めなかった理由を表示するようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-365792edccda</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-365792edccda</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[/status および claude doctor に「Organization policy（組織ポリシー）」の行を追加し、プロキシがエンドポイントを通過させていないなど、組織のポリシーを読み込めなかった理由が表示されるようにした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-365792edccda">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-365792edccda">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] コマンドやバックグラウンドタスクの出力をファイルに保存する前に、Claude がインラインで受け取れる文字数を増やす `bashOutputMaxChars` および `taskOutputMaxChars` の設定を追加しました（最大12万8千文字）。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-d16e05df083a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-d16e05df083a</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[コマンドやバックグラウンドタスクの出力をファイルに保存する前に、Claude がインラインで受け取れる文字数を増やすため、`bashOutputMaxChars` および `taskOutputMaxChars` の設定を追加しました（最大12万8千文字）。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-d16e05df083a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-d16e05df083a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] `--append-subagent-system-prompt-file` フラグを追加し、サブエージェントのシステムプロンプトをファイルから読み込めるようにした。これは、コマンドラインで渡すには大きすぎるプロンプト向けの機能である。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-cb436e3f301f</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-cb436e3f301f</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`--append-subagent-system-prompt-file` フラグを追加し、サブエージェントのシステムプロンプトをファイルから読み込めるようにした。これは、コマンドラインで渡すには大きすぎるプロンプト向けの機能である。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-cb436e3f301f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-cb436e3f301f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] - 使用されていない読み込み済みスキルと、それらがコンテキストで消費しているコストを表示し、スキルの整理（削除）ができる `/skill-doctor` を追加する — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-e2302600a451</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-e2302600a451</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[- 使用されていない読み込み済みスキルと、それらがコンテキストで消費しているコストを表示し、スキルの整理（削除）ができる `/skill-doctor` を追加する]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-e2302600a451">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-e2302600a451">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 高速入力やキーリピート時に、入力または貼り付けた文字が正しい順序で表示されない、あるいは欠落してしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-534236dc52cb</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-534236dc52cb</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[高速入力やキーリピート時に、入力または貼り付けた文字が正しい順序で表示されない、あるいは欠落してしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-534236dc52cb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-534236dc52cb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 作業ディレクトリが /net のオートマウント上に存在する場合に、/add-dir が誤った「couldn't be resolved」エラーを表示する問題を修正した — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-a7aca5c44c40</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-a7aca5c44c40</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[作業ディレクトリが /net のオートマウント上に存在する場合に、/add-dir が誤った「couldn't be resolved」エラーを表示する問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-a7aca5c44c40">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-a7aca5c44c40">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] AWS や AWS 認証情報ヘルパーが応答しない際に Bedrock セットアップウィザードがフリーズする問題（現在は明確なエラーが表示された上でタイムアウトするようになった）および、TLS インスペクションプロキシ環境においてモデルチェックが失敗する問題を修正した — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-4251a88b20c5</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-4251a88b20c5</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[AWS や AWS 認証情報ヘルパーが応答しない際に Bedrock セットアップウィザードが応答しなくなる問題（現在は明確なエラーが表示された上でタイムアウトする）、および TLS インスペクションプロキシ環境においてモデルチェックが失敗する問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-4251a88b20c5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-4251a88b20c5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 「管理設定」で `enabledPlugins` によって強制的に有効化されている場合、クラウドセッションが claude.ai から同期されたプラグインを破棄し、失敗する可能性のあるマーケットプレイスのクローンにフォールバックしてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-8924bc123e1d</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-8924bc123e1d</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[「managed settings」が `enabledPlugins` で強制的に有効化されている場合、クラウドセッションが claude.ai から同期されたプラグインを破棄し、失敗する可能性のあるマーケットプレイスのクローンにフォールバックしてしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-8924bc123e1d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-8924bc123e1d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] プロンプト入力時に、インラインの `[Image #N]` チップの直前にある文字を削除できなかった問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-1a74f92a0f11</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-1a74f92a0f11</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[プロンプト入力時に、インラインの `[Image #N]` チップの直前にある文字を削除できなかった問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-1a74f92a0f11">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-1a74f92a0f11">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 並列ツール呼び出し付近で、hook 出力などのコンテキストが失われ、再開後のリクエストが変更されてしまうという、セッション再開に関する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-369c160be51a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-369c160be51a</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[並列ツール呼び出し付近で、hook 出力などのコンテキストが失われ、再開後のリクエストが変更されてしまうという、セッション再開に関する問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-369c160be51a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-369c160be51a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] スマートフォン、ブラウザ、claude.ai アプリがターミナルセッションに接続した際、またはターミナル側で権限モードを変更した後に、Remote Control が古い権限モードを表示してしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-48d20bc19ccd</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-48d20bc19ccd</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[スマートフォン、ブラウザ、claude.ai アプリがターミナルセッションに接続した際、またはターミナル側で権限モードを変更した後に、Remote Control が古い権限モードを表示してしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-48d20bc19ccd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-48d20bc19ccd">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] リモートコントロールのセッションにおいて、接続したスマートフォンやブラウザからターンを停止した後、あるいは`/clear`のようなローカルのスラッシュコマンドを実行した後も、スピナーが止まらず、ストップボタンが表示され続ける問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-c7650ae88308</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-c7650ae88308</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[リモートコントロールセッションにおいて、接続したスマートフォンやブラウザからターンを停止した後、あるいは`/clear`のようなローカルのスラッシュコマンドを実行した後も、スピナーが止まらず、停止ボタンが表示され続ける問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-c7650ae88308">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-c7650ae88308">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] - SDK およびクラウドセッションにおいて、最初のプロンプトの直後かつターン開始前に送信された「Stop（中断）」が無視される問題を修正しました。これにより、ターンが最後まで実行されず、正しく停止するようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-33b4bd21a75f</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-33b4bd21a75f</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[- SDK およびクラウドセッションにおいて、最初のプロンプトの直後かつターン開始前に送信された「Stop（中断）」が無視される問題を修正しました。ターンが最後まで完了せず、正しく停止するようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-33b4bd21a75f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-33b4bd21a75f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] /teleport でプルしたセッションが、接続中のセッションにアップロードされ、スマートフォンや Web 上で元のセッションに追記されて表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-850928458b2b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-850928458b2b</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[/teleport でプルしたセッションが、接続中のセッションにアップロードされ、スマートフォンや Web 上で元のセッションに追記されて表示される問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-850928458b2b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-850928458b2b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] ネイティブ Windows 環境において、TLS 検査を行う企業プロキシの背後で、リモートコントロールの受信イベントストリームが失敗する問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-2b5b9a020187</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-2b5b9a020187</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[ネイティブ Windows 環境で、TLS 検査を行う企業プロキシの背後で、リモートコントロールの受信イベントストリームが失敗する問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-2b5b9a020187">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-2b5b9a020187">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] effort レベルが設定に基づいている場合、Remote Control セッションにおいて claude.ai 上の表示がデフォルトの effort レベルになってしまう不具合を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-f6ba008fb694</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-f6ba008fb694</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[effort レベルが設定に由来する場合、Remote Control セッションにおける claude.ai 上の表示がデフォルトの effort レベルになってしまう不具合を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-f6ba008fb694">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-f6ba008fb694">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] Google 認証情報の確認に時間がかかった際、認証情報がまだ有効であるにもかかわらず、起動時に `gcpAuthRefresh` がブラウザを開いてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-651389c7de8d</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-651389c7de8d</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[Google 認証情報の確認に時間がかかった際、認証情報がまだ有効であるにもかかわらず、起動時に `gcpAuthRefresh` がブラウザを開いてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-651389c7de8d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-651389c7de8d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 起動時の接続フェッチがタイムアウトした際、claude.aiコネクタがセッション全体を通じて欠落したままになる問題を修正した。CLIがバックグラウンドで再試行するようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-9abe8db9c057</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-9abe8db9c057</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[起動時の接続フェッチがタイムアウトした際、claude.aiコネクタがセッション全体を通じて接続できない状態のままになる問題を修正しました。CLIがバックグラウンドで再試行を行うようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-9abe8db9c057">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-9abe8db9c057">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] バックグラウンドエージェントを再開できなかった際、起動処理が頻繁に再試行され、CPU使用率が高止まりする問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-6442e90cc13c</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-6442e90cc13c</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[バックグラウンドエージェントを再開できなかった際、起動処理が頻繁に再試行され、CPU使用率が高止まりする問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-6442e90cc13c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-6442e90cc13c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 同じマシン上で動作する旧バージョンのClaude Codeに、新バージョン向けにゲートされた機能フラグが適用されてしまうことがあった問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-ced0a4cbbf49</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-ced0a4cbbf49</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[同じマシン上で動作する旧バージョンのClaude Codeに、新バージョン向けにゲートされた機能フラグが適用されてしまうことがあった問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-ced0a4cbbf49">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-ced0a4cbbf49">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] `/usage` および VS Code の使用量パネルにおいて、usage エンドポイントがレート制限中である場合や、起動直後に開いた場合に、モデル固有の週間上限の行が表示されない問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-94c3b5df0bcb</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-94c3b5df0bcb</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`/usage` および VS Code の使用量パネルにおいて、usage エンドポイントがレート制限中である場合や、起動直後に開いた場合に、モデル固有の週間上限の行が表示されない問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-94c3b5df0bcb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-94c3b5df0bcb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] `claude -p --resume ` が、トランスクリプト内に記録されていた不正なセッションIDを採用してしまう問題を修正しました。現在は新しいセッションIDで再開されます。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-c53a90a2f285</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-c53a90a2f285</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`claude -p --resume ` がトランスクリプト内に記録された不正なセッションIDを採用してしまう問題を修正しました。現在は、新しいセッションIDで再開します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-c53a90a2f285">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-c53a90a2f285">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] バックグラウンドのワークフローやエージェントがまだ実行中のにもかかわらず、ターミナルの進行状況インジケーター（iTerm2、Ghostty、ConEmu）でセッションが完了済みと表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-6f71d85902f5</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-6f71d85902f5</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[バックグラウンドのワークフローやエージェントがまだ実行中のにもかかわらず、ターミナルの進行状況インジケーター（iTerm2、Ghostty、ConEmu）でセッションが完了済みと表示される問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-6f71d85902f5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-6f71d85902f5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] コンテナが行方向と列方向の間で切り替わった後、ボックスが誤った高さで描画されるという、まれに発生するレイアウトの不具合を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-4378813ccac1</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-4378813ccac1</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[コンテナが行方向と列方向の間で切り替わった後、ボックスが誤った高さで描画されるという、まれに発生するレイアウトの不具合を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-4378813ccac1">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-4378813ccac1">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 信頼されたプロキシが `X-Forwarded-For` にポートを追加する場合の、Claude apps ゲートウェイにおけるクライアント IP の解決に関する問題を修正しました。アクセスリストが設定されている場合、解読できないエントリに対しては 403 を返します。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-d55e0fad9687</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-d55e0fad9687</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[信頼されたプロキシが `X-Forwarded-For` にポート番号を追加する場合の、Claude apps ゲートウェイにおけるクライアント IP の解決に関する問題を修正しました。アクセスリストが設定されている場合、解読できないエントリに対しては 403 を返します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-d55e0fad9687">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-d55e0fad9687">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] ターミナル CLI が protobuf を使用している場合でも、Claude apps ゲートウェイが Claude Desktop に対して OpenTelemetry を JSON 形式でエクスポートするよう指示していた問題を修正しました。protobuf のみを受け付けるコレクターが、Desktop のデータを拒否していました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-557fad343f7a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-557fad343f7a</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[ターミナル CLI が protobuf を使用している場合でも、Claude apps ゲートウェイが Claude Desktop に対して OpenTelemetry を JSON 形式でエクスポートするよう指示していた問題を修正した。protobuf のみを受け付けるコレクターが、Desktop のデータを拒否していた。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-557fad343f7a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-557fad343f7a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] - デスクトップやWeb上で、セッションがアーティファクトの更新を監視しているだけなのに、「busy」と表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-b422d53765d8</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-b422d53765d8</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[- デスクトップやWeb上で、セッションがアーティファクトの更新を監視しているだけなのに、「busy」と表示される問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-b422d53765d8">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-b422d53765d8">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] - Chrome 拡張機能「Claude」において、Claude デスクトップアプリから実行したローカル Cowork セッションで、file_upload が「paths: expected array, received undefined」というエラーで失敗する問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-e38b4c4cfd07</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-e38b4c4cfd07</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[- Chrome 拡張機能「Claude」において、Claude デスクトップアプリから実行したローカル Cowork セッションで、file_upload が「paths: expected array, received undefined」というエラーで失敗する問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-e38b4c4cfd07">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-e38b4c4cfd07">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] 別のマシン上のオフラインのRemote Controlセッションに送信した`SendMessage`が「配信済み」と表示される問題を修正しました。結果には、宛先のマシンが再接続するまで配信が保留されていることが示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-564f8eef77b8</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-564f8eef77b8</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[別のマシン上のオフラインのRemote Controlセッションに送信した`SendMessage`が「配信済み」と表示される問題を修正した。結果から、宛先のマシンが再接続するまで配信が保留されていることがわかるようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-564f8eef77b8">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-564f8eef77b8">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] バックグラウンドの Bash コマンドで実行された CLI によるプラグインインストールに関するヒントを修正：ヒントが検出されるようになり、会話に「raw」タグが漏れ出さなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-99a8c743bedc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-99a8c743bedc</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[バックグラウンドの Bash コマンドで実行された CLI によるプラグインのインストールに関するヒントを修正しました。これにより、ヒントが検出されるようになり、会話に「raw」タグが混入しなくなりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-99a8c743bedc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-99a8c743bedc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] エージェントチームのインプロセスチームメイトが、2ターン目に1ターン目と同じツールとスキルのアナウンスを再送信した際、リクエストのプレフィックスが変化し、プロンプトキャッシュの読み取りに失敗する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-eecbf05ed8c2</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-eecbf05ed8c2</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[エージェントチームの処理中のチームメイトが、2ターン目に1ターン目と同じツールとスキルのアナウンスを再送信した際、リクエストのプレフィックスが変化してプロンプトキャッシュの参照に失敗する問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-eecbf05ed8c2">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-eecbf05ed8c2">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [改善] /model ピッカーおよび VS Code のモデルピッカーについて、Claude Code が認識できるモデルの場合、生の Bedrock・Vertex AI・LLM ゲートウェイの ID ではなく、モデル名を表示するように改善した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-0ec7b4fe31ff</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-0ec7b4fe31ff</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[/モデルピッカーと VS Code のモデルピルについて、Claude Code が認識できるモデルの場合、生の Bedrock・Vertex AI・LLM ゲートウェイの ID ではなく、モデル名を表示するように改善した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-0ec7b4fe31ff">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-0ec7b4fe31ff">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [改善] `GOOGLE_APPLICATION_CREDENTIALS` が設定されている場合の Google Vertex AI での起動を改善：API クライアントの生成時に、Google Cloud プロジェクトの検出を再実行したり、余分な `gcloud` プロセスを起動したりすることがなくなりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-a735840076be</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-a735840076be</guid>
+            <pubDate>Tue, 08 Sep 2026 23:56:52 GMT</pubDate>
+            <description><![CDATA[`GOOGLE_APPLICATION_CREDENTIALS` が設定されている場合の Google Vertex AI での起動を改善しました。これにより、API クライアントの生成時に Google Cloud プロジェクトの検出が再実行されたり、余分な `gcloud` プロセスが起動されたりすることがなくなりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-a735840076be">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-a735840076be">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
         </item>
     </channel>
 </rss>
