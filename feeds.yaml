@@ -1,24 +1,128 @@
-# Source of truth for subscribed feeds.
-# Real list is imported later from an Inoreader OPML export via `mise run import:opml`.
-# This is a small test set.
+# 購読フィードの正。AI / Kubernetes / ライブラリのリリース に絞った公開前提のリスト。
+# 趣味・個人的なフィードは含めない。
 feeds:
+  # --- AI: ニュース・新アプリ・ブログ ---
   - url: https://simonwillison.net/atom/everything/
     name: Simon Willison's Weblog
     category: ai
     enabled: true
-  - url: https://jvns.ca/atom.xml
-    name: Julia Evans
-    category: infra
+  - url: https://cursor.com/atom.xml
+    name: Cursor Blog
+    category: ai
     enabled: true
-  - url: https://blog.rust-lang.org/feed.xml
-    name: Rust Blog
-    category: rust
+  - url: https://dev.classmethod.jp/tags/claude/feed/
+    name: Claude | DevelopersIO
+    category: ai
     enabled: true
+  - url: https://addyosmani.com/rss.xml
+    name: AddyOsmani.com
+    category: ai
+    enabled: true
+  - url: https://zenn.dev/mizchi/feed
+    name: mizchi
+    category: ai
+    enabled: true
+  - url: https://zenn.dev/thujikun/feed
+    name: 辻 亮佑
+    category: ai
+    enabled: true
+  - url: https://zenn.dev/cn_kai/feed
+    name: Kai
+    category: ai
+    enabled: true
+  - url: https://note.com/npaka/rss
+    name: npaka
+    category: ai
+    enabled: true
+  - url: https://developersblog.dmm.com/rss/category/AI
+    name: AI - DMM Developers Blog
+    category: ai
+    enabled: true
+  - url: https://www.publickey1.jp/atom.xml
+    name: Publickey
+    category: ai
+    enabled: true
+  - url: https://www.infoq.com/jp/feed/news
+    name: InfoQ Japan - ニュース
+    category: ai
+    enabled: true
+
+  # --- Kubernetes / CNCF エコシステム ---
   - url: https://kubernetes.io/feed.xml
     name: Kubernetes Blog
-    category: infra
+    category: kubernetes
     enabled: true
-  - url: https://hnrss.org/frontpage?points=200
-    name: Hacker News (200+ points)
-    category: general
+  - url: https://www.cncf.io/blog/feed/
+    name: CNCF Blog
+    category: kubernetes
+    enabled: true
+  - url: https://blog.crossplane.io/rss/
+    name: The Crossplane Blog
+    category: kubernetes
+    enabled: true
+  - url: https://blog.argoproj.io/feed
+    name: Argo Project
+    category: kubernetes
+    enabled: true
+  - url: https://sysdig.jp/feed/
+    name: Sysdig
+    category: kubernetes
+    enabled: true
+  - url: https://www.hashicorp.com/blog/products/terraform/feed.xml
+    name: HashiCorp Blog - Terraform
+    category: kubernetes
+    enabled: true
+
+  # --- ライブラリ / ツールのリリース ---
+  - url: https://github.blog/changelog/feed/
+    name: The GitHub Blog - Changelog
+    category: releases
+    enabled: true
+  - url: https://github.com/argoproj/argo-cd/releases.atom
+    name: Argo CD releases
+    category: releases
+    enabled: true
+  - url: https://github.com/argoproj/argo-workflows/releases.atom
+    name: Argo Workflows releases
+    category: releases
+    enabled: true
+  - url: https://github.com/aws/karpenter-provider-aws/releases.atom
+    name: Karpenter (aws) releases
+    category: releases
+    enabled: true
+  - url: https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases.atom
+    name: aws-load-balancer-controller releases
+    category: releases
+    enabled: true
+  - url: https://github.com/kubernetes-sigs/kro/releases.atom
+    name: kro releases
+    category: releases
+    enabled: true
+  - url: https://github.com/hashicorp/terraform/releases.atom
+    name: Terraform releases
+    category: releases
+    enabled: true
+  - url: https://github.com/terraform-aws-modules/terraform-aws-eks/releases.atom
+    name: terraform-aws-eks releases
+    category: releases
+    enabled: true
+  - url: https://github.com/dexidp/dex/releases.atom
+    name: dex releases
+    category: releases
+    enabled: true
+  - url: https://github.com/langgenius/dify/releases.atom
+    name: dify releases
+    category: releases
+    enabled: true
+  - url: https://github.com/duckdb/duckdb/releases.atom
+    name: DuckDB releases
+    category: releases
+    enabled: true
+  - url: https://github.com/backstage/backstage/releases.atom
+    name: Backstage releases
+    category: releases
+    enabled: true
+  - url: https://www.notion.com/releases/rss.xml
+    name: Notion Releases
+    category: releases
     enabled: true
