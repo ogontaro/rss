@@ -12,25 +12,31 @@
 <header><a href="../">ogontaro / rss</a></header>
 <main>
 <h1>デイリーレポート 2026-09-09</h1>
-<article class="report"><h2>今日の 6 本</h2>
+<article class="report"><h2>今日の 8 本</h2>
+<h3>Kubernetes v1.37：ワークロードを意識したスケジューリングの進化</h3>
+<p>Gang SchedulingのためのWorkload/PodGroup APIやWorkload-Aware Preemption、PodGroup向け共有DRA ResourceClaimsがベータ昇格し、AI/MLバッチワークロード向けのスケジューリング基盤が実運用レベルに近づいた回。GKE/EKSなどでAI基盤を運用している人には、今後のクラスタ設計判断に直結する内容。
+<a href="https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F08%2Fkubernetes-v1-37-advancing-workload-aware-scheduling%2F">Google 翻訳で全文を読む</a></p>
+<h3>Qwen3.8 27Bの量子化ベンチマーク：4ビットは健闘、1ビットは崩壊</h3>
+<p>量子化ビット数ごとの実測ベンチマークで、どこまで精度を落とせるかの具体的な境界線を示している点が貴重。ローカルLLMを自前でホストする際の量子化選定に、体感ではなく数値で判断材料を与えてくれる。
+<a href="https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fquesma.com%2Fblog%2Fqwen38-27b-quantizations-benchmarked%2F">Google 翻訳で全文を読む</a></p>
+<h3>Muse：MetaのパーソナルAIエージェント</h3>
+<p>HNで212ポイントと注目を集めるMetaの新エージェント発表。個人向けAIエージェントという領域でBig Techがどの方向性（常駐性・パーソナライズ）を狙っているかを見る上で参考になる。
+<a href="https://ai.meta.com/muse/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fai.meta.com%2Fmuse%2F">Google 翻訳で全文を読む</a></p>
+<h3>I-have-ADHD：エージェントが答えを隠してしまうのを防ぐテクニック</h3>
+<p>LLMエージェントが「実は分かっているのに核心を言わずに周辺作業だけ続ける」問題への具体的な対処法をまとめたリポジトリ。エージェント設計・プロンプト設計を自分で行っている人には即使えるテクニック集として実用性が高い。
+<a href="https://github.com/ayghri/i-have-adhd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fgithub.com%2Fayghri%2Fi-have-adhd">Google 翻訳で全文を読む</a></p>
+<h3>ナビエ・ストークスのミレニアム賞問題を巡る騒動</h3>
+<p>OpenAIが未公開モデルでミレニアム賞問題の一つを解いたと発表した直後、NYUの数学者トリスタン・バックマスター氏から不正行為の告発が出るという急展開を、Simon Willisonが整理・考察している。AIによる数学研究の成果主張をどう検証すべきかという、今後何度も直面するであろう論点の初期ケーススタディ。
+<a href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F8%2Fon-navier-stokes%2F">Google 翻訳で全文を読む</a></p>
 <h3>ミストラルが30億ユーロを調達</h3>
-<p>欧州発のオープンウェイトAI企業が大型資金調達を発表。米国のクローズドモデル路線に対する「主権的でオープンなfrontierモデル」戦略の持続可能性を測る上で、業界動向として重要な一件。</p>
-<p><a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-makes-sovereign-open-weight-ai-to-frontier%2F">Google 翻訳で全文を読む</a></p>
-<h3>llm 0.35</h3>
-<p>Simon WillisonのLLM CLIツールが新モデル（gpt-6-astra）に対応した最新リリース。複数プロバイダのモデルを統一的に扱うCLI設計は、自前のLLM連携ツールを作る際の実務的な参考になる。</p>
-<p><a href="https://simonwillison.net/2026/Sep/7/llm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fllm%2F">Google 翻訳で全文を読む</a></p>
-<h3>TALAはオープンソースです</h3>
-<p>D2言語のグラフレイアウトエンジンTALAがオープンソース化。図の自動レイアウトという実用的な問題を解くライブラリが手に入ることで、個人開発のドキュメント/可視化ツールに組み込みやすくなる。</p>
-<p><a href="https://d2lang.com/blog/tala-is-open-source/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fd2lang.com%2Fblog%2Ftala-is-open-source%2F">Google 翻訳で全文を読む</a></p>
-<h3>気持ち悪い虫たち</h3>
-<p>git.kernel.orgの運用者が、悪質なAIクローラーによる負荷が正当なアクセスの総量を超えている実態を報告。AIエージェント時代のインフラ運用が直面する新しいコスト構造を示す、実務者必読の警鐘。</p>
-<p><a href="https://simonwillison.net/2026/Sep/7/creepy-crawlies/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fcreepy-crawlies%2F">Google 翻訳で全文を読む</a></p>
-<h3>ヤクブ・パチョッキの言葉を引用すると</h3>
-<p>OpenAIのチーフサイエンティストが語る、AIの安全な展開戦略の根拠。「悪意あるAIに対抗するには人間と利害が一致した強力なAIによる防御が必要」という論理は、エージェント安全性の設計思想を考える上で押さえておきたい視点。</p>
-<p><a href="https://simonwillison.net/2026/Sep/7/jakub-pachocki/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fjakub-pachocki%2F">Google 翻訳で全文を読む</a></p>
-<h3>動画圧縮ソフト</h3>
-<p>Claude Code（Fable 5.1）にFFmpegのWebAssemblyビルドを使ったブラウザ動画圧縮ツールを作らせた個人開発の実例。コーディングエージェントに小さな実用ツールを一から作らせるワークフローの具体例として参考になる。</p>
-<p><a href="https://simonwillison.net/2026/Sep/7/video-compressor/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F7%2Fvideo-compressor%2F">Google 翻訳で全文を読む</a></p>
+<p>「主権的なオープンウェイトAI」を掲げるMistralの大型調達。OpenAI/Anthropicなど米国クローズドモデル一強に対する、欧州発オープンウェイト路線の実力と今後の展開を占う上で見逃せないニュース。
+<a href="https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-makes-sovereign-open-weight-ai-to-frontier%2F">Google 翻訳で全文を読む</a></p>
+<h3>Google DeepMindが「AlphaGenome Atlas」を公開</h3>
+<p>ゲノム解析にAIモデルを応用した研究成果の公開で、HNでも394ポイントと関心が高い。LLM以外の領域でAIモデルがどこまで科学研究に食い込んでいるかを示す事例として、応用範囲の広がりを把握するのに役立つ。
+<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-deepmind%2Falphagenome-atlas%2F">Google 翻訳で全文を読む</a></p>
+<h3>LibreOffice、「AI機能なし」を明言した後にダウンロード数が過去最高を記録</h3>
+<p>AI機能を追加しないという方針を明言したことがユーザーの支持につながったという逆張り事例。あらゆる製品にAIを詰め込む流れに対するユーザー側の温度感を測る材料として興味深い。
+<a href="https://manualdousuario.net/en/libreoffice-download-record-no-ai/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fmanualdousuario.net%2Fen%2Flibreoffice-download-record-no-ai%2F">Google 翻訳で全文を読む</a></p>
 </article>
 </main>
 <footer>タイトル・概要は機械翻訳です。記事本文の著作権は各原著者に帰属します。</footer>

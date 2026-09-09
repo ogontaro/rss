@@ -4,11 +4,38 @@
         <title>翻訳フィード — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>購読フィードの新着エントリのタイトルと概要を日本語化した統合フィード</description>
-        <lastBuildDate>Tue, 08 Sep 2026 18:37:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2026 23:55:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[ナビエ・ストークスのミレニアム賞問題について — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</link>
+            <guid>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</guid>
+            <pubDate>Tue, 08 Sep 2026 23:55:12 GMT</pubDate>
+            <description><![CDATA[ナビエ・ストークス・ミレニアム賞問題について OpenAIは、未公開のモデルを用いて、2000年5月24日から100万ドルの賞金が懸けられている7つのミレニアム賞問題の一つである、ナビエ・ストークス方程式の存在・滑らかさ問題の解を導き出し、目覚ましい成果を上げた。 。しかし、この発見は、NYUの数学教授であるトリスタン・バックマスター氏からの不正行為の告発によって、その輝きが多少損なわれている。同氏は、著名な数学者レヴェント・アルポゲ氏と関連問題について共同研究を行っていたが、]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F8%2Fon-navier-stokes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT Images 2.5のご紹介 — Simon Willison's Weblog]]></title>
+            <link>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</link>
+            <guid>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</guid>
+            <pubDate>Tue, 08 Sep 2026 22:46:33 GMT</pubDate>
+            <description><![CDATA[「ChatGPT Images 2.5」のご紹介。OpenAIの画像生成モデルは、「ChatGPT ImagesおよびAPIのGPT-Imageモデル全体で30億枚以上の画像」が使用されているとのことです。 今回の最新リリースでは、複数のターンにわたる指示の追従能力が向上し、応答速度も速くなり、「参照写真に写っている被写体をより正確に再現できるようになった」とのことです。 APIには、gpt-image-2.5-sunburst と gpt-image-2.5-flare という2つの新しいモデルIDが追加されました。この点から考えると、Sunburst の方が優れた選択肢だと思います：Sun を選択してください]]></description>
+            <content:encoded><![CDATA[<p><a href="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsimonwillison.net%2F2026%2FSep%2F8%2Fintroducing-chatgpt-images-25%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>ai</category>
+        </item>
+        <item>
+            <title><![CDATA[Muse：MetaのパーソナルAIエージェント、その機能と性能 — Hacker News (200+ points)]]></title>
+            <link>https://ai.meta.com/muse/</link>
+            <guid>https://news.ycombinator.com/item?id=49615537</guid>
+            <pubDate>Tue, 08 Sep 2026 19:25:00 GMT</pubDate>
+            <description><![CDATA[記事URL：https://ai.meta.com/muse/ コメントURL：https://news.ycombinator.com/item?id=49615537 ポイント：212 コメント数：206]]></description>
+            <content:encoded><![CDATA[<p><a href="https://ai.meta.com/muse/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fai.meta.com%2Fmuse%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
         <item>
             <title><![CDATA[ChatGPT Images 2.5 — Hacker News (200+ points)]]></title>
             <link>https://openai.com/index/introducing-chatgpt-images-2-5/</link>
@@ -17,6 +44,15 @@
             <description><![CDATA[記事URL：https://openai.com/index/introducing-chatgpt-images-2-5/ コメントURL：https://news.ycombinator.com/item?id=49614720 ポイント：205 コメント数：263]]></description>
             <content:encoded><![CDATA[<p><a href="https://openai.com/index/introducing-chatgpt-images-2-5/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-chatgpt-images-2-5%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[Kubernetes v1.37：ワークロードを意識したスケジューリングの進化 — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/</link>
+            <guid>https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/</guid>
+            <pubDate>Tue, 08 Sep 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[AI/ML や複雑なバッチワークロードは、Kubernetes のスケジューリングの限界を押し広げ続けています。過去のリリースで導入された、ワークロード中心の基盤となる機能強化に続き、Kubernetes v1.37 は、ワークロード対応スケジューリング（WAS）の取り組みにおける次の重要なマイルストーンを実現します。 今回のリリースでは、ギャングスケジューリングを可能にする中核となるWorkloadおよびPodGroup APIに加え、Workload-Aware Preemption（WAP）やPodGroup向けの共有DRA ResourceClaimsがすべてベータ版となり、Kubernetesにおけるそれらの役割が確固たるものとなりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F08%2Fkubernetes-v1-37-advancing-workload-aware-scheduling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>infra</category>
         </item>
         <item>
             <title><![CDATA[ナビエ・ストークスのミレニアム賞問題について — Hacker News (200+ points)]]></title>
@@ -34,6 +70,24 @@
             <pubDate>Tue, 08 Sep 2026 14:55:45 GMT</pubDate>
             <description><![CDATA[記事のURL： https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/ コメントURL: https://news.ycombinator.com/item?id=49611251 ポイント: 394 # コメント数: 101]]></description>
             <content:encoded><![CDATA[<p><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-deepmind%2Falphagenome-atlas%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[Qwen3.8 27Bの量子化に関するベンチマーク：4ビットは健闘、1ビットは崩壊 — Hacker News (200+ points)]]></title>
+            <link>https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/</link>
+            <guid>https://news.ycombinator.com/item?id=49611128</guid>
+            <pubDate>Tue, 08 Sep 2026 14:49:19 GMT</pubDate>
+            <description><![CDATA[記事URL：https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/ コメントURL：https://news.ycombinator.com/item?id=49611128 ポイント：202 # コメント数：99]]></description>
+            <content:encoded><![CDATA[<p><a href="https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fquesma.com%2Fblog%2Fqwen38-27b-quantizations-benchmarked%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>general</category>
+        </item>
+        <item>
+            <title><![CDATA[仏である二人のキリスト教の聖人 — Hacker News (200+ points)]]></title>
+            <link>https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/</link>
+            <guid>https://news.ycombinator.com/item?id=49611051</guid>
+            <pubDate>Tue, 08 Sep 2026 14:44:25 GMT</pubDate>
+            <description><![CDATA[記事URL：https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/ コメントURL： https://news.ycombinator.com/item?id=49611051 ポイント: 205 コメント数: 145]]></description>
+            <content:encoded><![CDATA[<p><a href="https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fsignoregalilei.com%2F2026%2F08%2F30%2Fthe-two-christian-saints-who-are-secretly-the-buddha%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>general</category>
         </item>
         <item>
@@ -853,60 +907,6 @@
             <pubDate>Fri, 01 May 2026 18:35:00 GMT</pubDate>
             <description><![CDATA[Kubernetes v1.36 では、アルファ機能として「Pod レベルのリソースマネージャー」が導入され、パフォーマンスに敏感なワークロードに対して、より柔軟で強力なリソース管理モデルが提供されます。 この機能強化により、kubeletのトポロジー、CPU、およびメモリマネージャが拡張され、Podレベルのリソース仕様（.spec.resources）がサポートされるようになりました。これにより、これまではコンテナ単位の厳格な割り当てモデルであったものが、Podを中心としたモデルへと進化しました。なぜPodレベルのリソースマネージャが必要なのでしょうか？ マシンなどのパフォーマンスが重要なワークロードを実行する際には、]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F01%2Fkubernetes-v1-36-feature-pod-level-resource-managers-alpha%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36：ポッドレベルのリソースに対するインプレース垂直スケーリングがベータ版に昇格 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/</link>
-            <guid>https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/</guid>
-            <pubDate>Thu, 30 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[v1.34での「Podレベルのリソース」のベータ版移行、およびv1.35での「インプレースPod垂直スケーリング」の一般提供（GA）に続き、Kubernetesコミュニティは、v1.36において「インプレースPodレベルリソース垂直スケーリング」がベータ版に移行したことを嬉しくお知らせします！ この機能は、InPlacePodLevelResourcesVerticalScaling フィーチャーゲートを通じて、デフォルトで有効化されています。これにより、ユーザーは実行中のポッドのポッドリソース予算の合計（.spec.resources）を更新できるようになり、多くの場合、再起動を必要とせずに]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/30/kubernetes-v1-36-inplace-pod-level-resources-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F30%2Fkubernetes-v1-36-inplace-pod-level-resources-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36：メモリ QoS による階層型メモリ保護 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/</link>
-            <guid>https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/</guid>
-            <pubDate>Wed, 29 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[SIG Nodeを代表して、Kubernetes v1.36におけるMemory QoS機能（アルファ版）の更新をお知らせいたします。Memory QoSは、cgroup v2メモリコントローラを利用して、コンテナメモリの扱い方についてカーネルにより適切な指針を提供します。 この機能はv1.22で初めて導入され、v1.27で更新されました。Kubernetes v1.36では、オプトイン方式のメモリ予約、QoSクラスによる階層的な保護、可観測性メトリクス、およびmemory.highに関するカーネルバージョンの警告を導入しています。 v1.36の新機能 オプトイン方式のメモリ予約機能]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/29/kubernetes-v1-36-memory-qos-tiered-protection/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F29%2Fkubernetes-v1-36-memory-qos-tiered-protection%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36：コントローラーのデータ古さ対策と可観測性 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/</link>
-            <guid>https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/</guid>
-            <pubDate>Tue, 28 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes コントローラーにおけるデータの古さは、多くのコントローラーに影響を及ぼす問題であり、コントローラーの動作に微妙な影響を与える可能性があります。通常、本番環境のコントローラーがすでに誤った動作を行ってしまった後、つまり手遅れになって初めて、コントローラーの作成者が前提としていた仮定が原因で、データの古さが問題であることが判明します。 データ鮮度低下によって引き起こされる問題としては、コントローラーが誤ったアクションを実行してしまう、実行すべき時にアクションを実行しない、あるいはコントローラーが...といったことが挙げられます。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/28/kubernetes-v1-36-staleness-mitigation-for-controllers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F28%2Fkubernetes-v1-36-staleness-mitigation-for-controllers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36: 一時停止中のジョブ向けの変更可能なPodリソース（ベータ版） — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/</link>
-            <guid>https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/</guid>
-            <pubDate>Mon, 27 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes v1.36 では、一時停止中のジョブのポッドテンプレートにおいて、コンテナのリソース要求値および制限値を変更する機能がベータ版として提供されるようになりました。 v1.35でアルファ版として初めて導入されたこの機能により、キューコントローラーやクラスター管理者は、ジョブが一時停止中であり、実行が開始される前または再開される前に、そのジョブの CPU、メモリ、GPU、および拡張リソースの仕様を調整できるようになります。なぜ一時停止中のジョブに対してポッドリソースの変更が可能になったのでしょうか？バッチ処理や機械学習のワークロードでは、リソース要件が定まっていないことが多いためです。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/27/kubernetes-v1-36-mutable-pod-resources-for-suspended-jobs/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F27%2Fkubernetes-v1-36-mutable-pod-resources-for-suspended-jobs%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36：Kubelet APIのきめ細かな認証機能がGA（一般提供）に移行 — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/</link>
-            <guid>https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/</guid>
-            <pubDate>Fri, 24 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[Kubernetes SIG Auth および SIG Node を代表して、Kubernetes v1.36 において、kubelet のきめ細かな API 認証機能が一般提供（GA）となったことをお知らせいたします！ KubeletFineGrainedAuthz 機能ゲートは、Kubernetes v1.32 でオプトイン型のアルファ機能として導入され、v1.33 ではベータ版（デフォルトで有効）へと移行しました。 今回、この機能は一般提供（GA）となり、フィーチャーゲートは有効に固定されました。この機能により、kubelet に対するより精密で、最小権限に基づくアクセス制御が可能になります。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/24/kubernetes-v1-36-fine-grained-kubelet-authorization-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F24%2Fkubernetes-v1-36-fine-grained-kubelet-authorization-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>infra</category>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36：KubernetesのユーザーネームスペースがついにGAとなった — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/</link>
-            <guid>https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/</guid>
-            <pubDate>Thu, 23 Apr 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[数年にわたる開発を経て、Kubernetesの「ユーザーネームスペース」サポートはv1.36のリリースに伴い、一般提供（GA）に至りました。これはLinux専用の機能です。低レベルのコンテナランタイムやルートレス技術に携わる私たちにとって、これは待ち望んでいたマイルストーンです。 ついに、Kubernetesのワークロードに対して「rootless」なセキュリティ分離を利用できる段階に至りました。この機能により、特権を持ってワークロードを実行しつつ、依然として]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/04/23/kubernetes-v1-36-userns-ga/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F04%2F23%2Fkubernetes-v1-36-userns-ga%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>infra</category>
         </item>
     </channel>
