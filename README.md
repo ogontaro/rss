@@ -11,7 +11,7 @@
 | レポート | `https://ogontaro.github.io/rss/daily.xml` | 毎日 07:00 JST |
 
 - **翻訳フィード** (`docs/translated.xml`) — 購読フィードの新着エントリのタイトル・概要を日本語化した統合フィード。本文は「原文」＋「Google 翻訳」リンクで代替。
-- **レポート** (`docs/daily.xml`, `docs/daily/*.html`) — AI / Kubernetes を中心に、過去 24 時間の新着から Claude が重要な 5〜10 件を選び、日本語コメントを付けて 毎日 配信。
+- **レポート** (`docs/daily.xml`, `docs/daily/*.html`) — Claude / Bedrock / Kubernetes を中心に、過去 24 時間の新着から Claude が重要な 5〜10 件を選び、日本語コメントを付けて 毎日 配信。
 
 ## セットアップ
 
@@ -34,9 +34,9 @@ Source は **Deploy from a branch** / `main` / `/docs`。ワークフローが `
 
 ## フィード一覧
 
-`feeds.yaml` が購読リストの正。現状は動作確認用の暫定 5 フィード。
-Inoreader の OPML エクスポートがあれば `mise run import:opml -- <export.opml>` で置き換える。
-デイリーレポートの選定基準・関心領域は `report-criteria.md` を編集する。
+`feeds.yaml` が購読リストの正。公開前提で **Claude / Bedrock / Kubernetes / ライブラリのリリース** に
+絞っている（趣味・キー付き URL は含めない）。Inoreader の OPML から起こすときは
+`mise run import:opml -- <export.opml>`。レポートの選定基準・関心領域は `report-criteria.md` を編集する。
 
 ## タスク
 

@@ -5,7 +5,8 @@
 ## 重視する軸
 
 1. **関心領域との一致（主）** — 以下に近いものを優先する。
-   - AI: ニュース、新しいアプリ・ツール、モデル、コーディング支援（Claude / Cursor 等）、技術ブログ
+   - Claude / Anthropic: モデル更新、Claude Code / Claude API の新機能、関連ツール・実装事例
+   - Amazon Bedrock: 新モデルの提供、機能追加、実装・運用の事例
    - Kubernetes / CNCF エコシステム（Argo, Crossplane, Karpenter, Terraform, IaC, GitOps）
    - ライブラリ・ツールのバージョンアップ（メジャーリリース、破壊的変更、注目の新機能）
 2. **話題性・影響度（従）** — その分野で広く参照されそうか、実務や設計判断に効くか。

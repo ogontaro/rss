@@ -6,7 +6,7 @@
 生成物を GitHub Pages で公開する。実装は 2 機能に絞る。
 
 - **翻訳フィード**: 購読フィードの新着エントリのタイトル・description を日本語化した統合 RSS を配信する。
-- **レポート**: AI / Kubernetes を中心に、過去 24 時間の新着から重要なものを Claude に選ばせ、
+- **レポート**: Claude / Bedrock / Kubernetes を中心に、過去 24 時間の新着から重要なものを Claude に選ばせ、
   日本語コメント付きのレポートページと専用 RSS を 毎日 配信する。
 
 読むのは自分の RSS リーダー（Inoreader など）。生成した公開フィード URL を手作業で購読登録する。
@@ -41,22 +41,16 @@ Pages のデプロイを `actions/deploy-pages`（アーティファクト方式
 feeds:
   - url: https://example.com/feed.xml
     name: Example Blog       # 表示名・ソース表記に使う
-    category: ai             # レポートの見出し分けに使う。任意
+    category: claude         # レポートの見出し分けに使う。任意
     enabled: true            # false で一時停止
 ```
 
-### 初期テスト用フィード（暫定・後で入れ替える）
+### フィードリスト
 
-実運用のフィードリストは、動作確認後に Inoreader の OPML エクスポートを
-`mise run import:opml` で変換して差し替える。それまでは以下でテストする。
-
-| name | url | category |
-| --- | --- | --- |
-| Simon Willison's Weblog | https://simonwillison.net/atom/everything/ | ai |
-| Julia Evans | https://jvns.ca/atom.xml | infra |
-| Rust Blog | https://blog.rust-lang.org/feed.xml | rust |
-| Kubernetes Blog | https://kubernetes.io/feed.xml | infra |
-| Hacker News (200+ points) | https://hnrss.org/frontpage?points=200 | general |
+公開前提で **claude / bedrock / kubernetes / releases** の4カテゴリに絞る。
+趣味・個人性の強いフィード、キーや userId を URL に含むフィードは入れない。
+Inoreader の OPML から起こす場合は `mise run import:opml` を使い、上記に該当しないものは落とす。
+`import-opml.ts` は非 URL の outline（Inoreader の keyword-monitoring 等）を除外する。
 
 ## 機能 A: 翻訳フィード
 
@@ -94,7 +88,7 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 - **生成前に記事 URL からスペースを除去する**（`%20` / `+` が `u=` に入ると HTTP 400）。
 - `translate.goog` 直リンク形式は IDN・長ホストで壊れるため使わない。
 
-## 機能 B: レポート（AI / Kubernetes キュレーション）
+## 機能 B: レポート（Claude / Bedrock / Kubernetes キュレーション）
 
 ### 処理（`daily.yml`, 毎日 JST 7:00 = cron `0 22 * * *`）
 
@@ -129,14 +123,12 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 ### 「重要」の判定基準（`report-criteria.md`）
 
 関心領域を主、一般的な話題性・影響度を従とする（Round 3 Q4 = 案 C）。
-初期値は下記。あとから自由に編集できる。
+現在の関心領域（`report-criteria.md` で編集可能）:
 
-- AI / LLM / エージェント
-- クラウドインフラ / Kubernetes
-- Rust
-- 個人開発 / インディーハッカー
-- 開発生産性 / ツール
-- RSS / 自動化
+- Claude / Anthropic（モデル更新、Claude Code / API の新機能、関連ツール・実装事例）
+- Amazon Bedrock（新モデル提供、機能追加、実装・運用事例）
+- Kubernetes / CNCF エコシステム（Argo, Crossplane, Karpenter, Terraform, IaC, GitOps）
+- ライブラリ・ツールのバージョンアップ（メジャーリリース、破壊的変更、注目の新機能）
 
 ### Claude が失敗・不達のとき
 

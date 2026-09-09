@@ -34,7 +34,7 @@ async function main() {
   const feed = new FeedGen({
     title: "レポート — ogontaro/rss",
     description:
-      "AI・Kubernetes を中心とした重要な記事のまとめ（Claude によるキュレーション、毎日）",
+      "Claude・Bedrock・Kubernetes を中心とした重要な記事のまとめ（Claude によるキュレーション、毎日）",
     id: `${SITE_URL}/daily.xml`,
     link: `${SITE_URL}/`,
     language: "ja",
