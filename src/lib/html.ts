@@ -11,7 +11,7 @@ export function pageShell(opts: { title: string; body: string; base?: string }):
 <title>${escapeHtml(opts.title)}</title>
 <link rel="stylesheet" href="${base}/assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="翻訳フィード" href="${base}/translated.xml">
-<link rel="alternate" type="application/rss+xml" title="デイリーレポート" href="${base}/daily.xml">
+<link rel="alternate" type="application/rss+xml" title="レポート" href="${base}/daily.xml">
 </head>
 <body>
 <header><a href="${base}/">ogontaro / rss</a></header>

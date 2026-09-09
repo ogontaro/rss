@@ -6,8 +6,8 @@
 生成物を GitHub Pages で公開する。実装は 2 機能に絞る。
 
 - **翻訳フィード**: 購読フィードの新着エントリのタイトル・description を日本語化した統合 RSS を配信する。
-- **デイリーレポート**: 過去 24 時間の新着から重要なものを Claude に選ばせ、日本語コメント付きの
-  レポートページと専用 RSS を 1 日 1 回配信する。
+- **レポート**: AI / Kubernetes を中心に、前回以降の新着から重要なものを Claude に選ばせ、
+  日本語コメント付きのレポートページと専用 RSS を 月・水・金 に配信する。
 
 読むのは自分の RSS リーダー（Inoreader など）。生成した公開フィード URL を手作業で購読登録する。
 
@@ -41,7 +41,7 @@ Pages のデプロイを `actions/deploy-pages`（アーティファクト方式
 feeds:
   - url: https://example.com/feed.xml
     name: Example Blog       # 表示名・ソース表記に使う
-    category: ai             # デイリーレポートの見出し分けに使う。任意
+    category: ai             # レポートの見出し分けに使う。任意
     enabled: true            # false で一時停止
 ```
 
@@ -69,8 +69,8 @@ feeds:
 4. 既存フィードに新規エントリを追加し、公開日時の降順で **直近 100 件**に truncate して
    `docs/translated.xml` を再生成。
 
-> truncate 件数（100）はデイリーレポートの入力元でもある。**24 時間の新着総数がこれを超えないこと**が前提。
-> 5 フィードのテストでは十分だが、OPML で本番フィードに差し替える際に再検討する。
+> truncate 件数（100）はレポートの入力元でもある。**72 時間の新着総数がこれを超えないこと**が前提。
+> 現状 30 フィード（release feed 中心で低頻度）なら十分だが、フィード追加時に再検討する。
 
 ### エントリの中身
 
@@ -94,14 +94,15 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 - **生成前に記事 URL からスペースを除去する**（`%20` / `+` が `u=` に入ると HTTP 400）。
 - `translate.goog` 直リンク形式は IDN・長ホストで壊れるため使わない。
 
-## 機能 B: デイリーレポート
+## 機能 B: レポート（AI / Kubernetes キュレーション）
 
-### 処理（`daily.yml`, 毎日 JST 7:00 = cron `0 22 * * *`）
+### 処理（`daily.yml`, 月・水・金 JST 7:00 = cron `0 22 * * 0,2,4`）
 
 0. **機能 A（`src/translate.ts`）を最初に実行**して `docs/translated.xml` を最新化する。
-   これにより「翻訳フィードとデイリーレポートで同じ記事のタイトルが一致する」「翻訳を二重に走らせない」
+   これにより「翻訳フィードとレポートで同じ記事のタイトルが一致する」「翻訳を二重に走らせない」
    が保証され、`daily.yml` が単体で完結する（別スケジュールへの依存を作らない）。
-1. `src/report/collect.ts`: **`docs/translated.xml` を読み**、`pubDate` が過去 24 時間のエントリだけに絞り、
+1. `src/report/collect.ts`: **`docs/translated.xml` を読み**、`pubDate` が過去 72 時間のエントリだけに絞り
+   （実行が 月・水・金 なので最長ギャップ Fri→Mon の 72h をカバー。Wed/Fri は前回の末尾 ~24h と重複するが許容）、
    日本語タイトル・description・link・category のリストを `.cache/daily-input.json` に書き出す。
    ここでは翻訳しない（機能 A の生成物をそのまま使う）。
 2. `anthropics/claude-code-action@v1`:
@@ -147,7 +148,7 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 専用の状態ストア（DB・JSON 台帳）は持たない。生成物そのものを状態とみなす。
 
 - 翻訳フィード: 既存 `docs/translated.xml` の guid 集合に無いものだけ処理。
-- デイリーレポート: `docs/daily/YYYY-MM-DD.html` が既にあればその日はスキップ。
+- レポート: `docs/daily/YYYY-MM-DD.html` が既にあればその日はスキップ。
 - 各フィードは件数上限で truncate（翻訳 100 / daily 60）。
 - 翻訳が 1 フィードも取得できなかった実行は `translated.xml` を書き換えず異常終了する
   （空フィードで guid 集合を消すと、次回に全件が新着扱いになるため）。
@@ -162,7 +163,7 @@ https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(arti
 | ファイル | トリガー | 内容 |
 | --- | --- | --- |
 | `.github/workflows/translate.yml` | `schedule: 0 */6 * * *` ＋ `workflow_dispatch` | 機能 A。`docs/translated.xml` を更新 → `build.ts` → `docs/` をコミット |
-| `.github/workflows/daily.yml` | `schedule: 0 22 * * *` ＋ `workflow_dispatch` | 機能 A（先頭で最新化）→ collect → claude-code-action → render → `build.ts` → `docs/` をコミット |
+| `.github/workflows/daily.yml` | `schedule: 0 22 * * 0,2,4`（月・水・金 07:00 JST）＋ `workflow_dispatch` | 機能 A（先頭で最新化）→ collect → claude-code-action → render → `build.ts` → `docs/` をコミット |
 
 共通ステップ: checkout → mise install（Bun）→ 各処理 → `git add docs && git commit && git push`。
 Pages は `main:/docs` を自動デプロイ。両ワークフローに `permissions: contents: write` を付ける（push に必須）。
@@ -178,7 +179,7 @@ Pages は `main:/docs` を自動デプロイ。両ワークフローに `permiss
   公開 URL が更新されることを初回運用で確認した。deploy key / `actions/deploy-pages` への
   フォールバックは不要。
 - **`claude-code-action` はスケジュール実行に human-actor チェックを適用**し、cron を最後に編集した
-  ユーザーに実行を帰属させる。通常は本人なので通るが、通らないとデイリーレポートが止まり、
+  ユーザーに実行を帰属させる。通常は本人なので通るが、通らないとレポートが止まり、
   症状は「ワークフロー失敗」だけ。初回のスケジュール実行で明示的に確認する。
 - **`claude-code-action` は git 認証情報を書き換える**。後続ステップの素の `git push` は
   checkout のトークンを失って認証失敗するため、`daily.yml` の commit ステップは
@@ -198,7 +199,7 @@ rss/
     lib/               # フィードパース / yaml ロード / 翻訳クライアント / URL ヘルパ
     translate.ts       # 機能 A エントリ
     report/
-      collect.ts       # 過去 24h を .cache/daily-input.json へ
+      collect.ts       # 過去 72h を .cache/daily-input.json へ
       render.ts        # daily-report.md → docs/daily/*.html + index + daily.xml
     build.ts           # docs/ の組み立て（index, assets）
     import-opml.ts      # OPML → feeds.yaml（ワンショット）

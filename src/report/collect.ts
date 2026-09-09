@@ -2,7 +2,10 @@ import { mkdir } from "node:fs/promises";
 import { CACHE, DAILY_INPUT_JSON } from "../lib/paths.ts";
 import { readTranslated } from "../lib/translated-feed.ts";
 
-const WINDOW_MS = 24 * 3_600_000;
+// The report runs Mon/Wed/Fri, so the longest gap between runs is 72h (Fri→Mon).
+// A fixed 72h window covers it; Wed/Fri reports overlap the previous run's tail
+// by ~24h, which is acceptable redundancy.
+const WINDOW_MS = 72 * 3_600_000;
 
 async function main() {
   const cutoff = Date.now() - WINDOW_MS;
@@ -20,7 +23,7 @@ async function main() {
 
   await mkdir(CACHE, { recursive: true });
   await Bun.write(DAILY_INPUT_JSON, JSON.stringify(recent, null, 2));
-  console.log(`daily-input.json: ${recent.length} entries in the last 24h`);
+  console.log(`daily-input.json: ${recent.length} entries in the last 72h`);
 }
 
 main().catch((err) => {

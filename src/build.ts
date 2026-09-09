@@ -28,9 +28,9 @@ async function main() {
 <h2>フィード</h2>
 <ul>
 <li><a href="translated.xml">翻訳フィード</a> — 購読フィードの新着タイトル・概要を日本語化</li>
-<li><a href="daily.xml">デイリーレポート</a> — 1日1回の重要記事まとめ</li>
+<li><a href="daily.xml">レポート</a> — 月・水・金の AI / Kubernetes まとめ</li>
 </ul>
-<h2>デイリーレポート</h2>
+<h2>レポート</h2>
 <ul>
 ${list || "<li>まだありません</li>"}
 </ul>`;

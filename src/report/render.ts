@@ -18,8 +18,8 @@ async function main() {
   await Bun.write(
     `${DAILY_DIR}/${date}.html`,
     pageShell({
-      title: `デイリーレポート ${date}`,
-      body: `<h1>デイリーレポート ${date}</h1>\n<article class="report">${bodyHtml}</article>`,
+      title: `レポート ${date}`,
+      body: `<h1>レポート ${date}</h1>\n<article class="report">${bodyHtml}</article>`,
       base: "..",
     }),
   );
@@ -32,8 +32,9 @@ async function main() {
     .slice(0, MAX_FEED_ITEMS);
 
   const feed = new FeedGen({
-    title: "デイリーレポート — ogontaro/rss",
-    description: "過去24時間の重要な記事のまとめ（Claude によるキュレーション）",
+    title: "レポート — ogontaro/rss",
+    description:
+      "AI・Kubernetes を中心とした重要な記事のまとめ（Claude によるキュレーション、月・水・金）",
     id: `${SITE_URL}/daily.xml`,
     link: `${SITE_URL}/`,
     language: "ja",
@@ -46,7 +47,7 @@ async function main() {
     const html = await Bun.file(`${DAILY_DIR}/${file}`).text();
     const m = html.match(/<article class="report">([\s\S]*?)<\/article>/);
     feed.addItem({
-      title: `デイリーレポート ${d}`,
+      title: `レポート ${d}`,
       id: `${SITE_URL}/daily/${file}`,
       link: `${SITE_URL}/daily/${file}`,
       date: new Date(`${d}T22:00:00Z`),
