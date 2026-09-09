@@ -1,24 +1,873 @@
-# Source of truth for subscribed feeds.
-# Real list is imported later from an Inoreader OPML export via `mise run import:opml`.
-# This is a small test set.
 feeds:
-  - url: https://simonwillison.net/atom/everything/
-    name: Simon Willison's Weblog
-    category: ai
+  - url: https://rsshub.ogontaro.com/twitter/home?key=ogontaro
+    name: Twitter following timeline
+    category: x
     enabled: true
-  - url: https://jvns.ca/atom.xml
-    name: Julia Evans
-    category: infra
+  - url: https://techfeed.io/feeds/categories/Favorite?userId=5830076a9a652b8d2e1ae4ef
+    name: TechFeedおすすめ記事ランキング - 特に興味ありカテゴリー
+    category: 毎日techfeed
     enabled: true
-  - url: https://blog.rust-lang.org/feed.xml
-    name: Rust Blog
-    category: rust
+  - url: https://github.blog/changelog/feed/
+    name: Changelogs – The GitHub Blog
+    category: releasenotegithub
+    enabled: true
+  - url: https://git.eden-emu.dev/eden-emu/eden/releases.rss
+    name: Releases for eden-emu/eden
+    category: releasenotegame
+    enabled: true
+  - url: https://www.pokemon.co.jp/common/xml/news.xml
+    name: ポケットモンスターオフィシャルサイト RSS
+    category: ポケモン
+    enabled: true
+  - url: https://zenn.dev/mizchi/feed
+    name: mizchiさんのフィード
+    category: 毎日mizchi
+    enabled: true
+  - url: https://claude.com/blog
+    name: blog
+    category: ブログclaude
+    enabled: true
+  - url: https://blog.serverworks.co.jp/feed
+    name: サーバーワークスエンジニアブログ
+    category: ブログclaude
+    enabled: true
+  - url: https://dev.classmethod.jp/tags/claude/feed/
+    name: Claude | DevelopersIO
+    category: ブログclaude
+    enabled: true
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC74rufV9sOK7FbiOuGAUfBA
+    name: 本田技研工業株式会社 (Honda)
+    category: honda
+    enabled: true
+  - url: https://www.honda.co.jp/rss/hotnews.xml
+    name: Hondaウェブサイト新着情報
+    category: honda
+    enabled: true
+  - url: https://github.com/duckdb/duckdb/releases.atom
+    name: Release notes from duckdb
+    category: releasenoteduckdb
+    enabled: true
+  - url: https://www.cncf.io/feed/
+    name: Cloud Native Computing Foundation
+    category: releasenotekubernetes
+    enabled: true
+  - url: https://kubernetes.io/ja/feed.xml
+    name: kubernetes.io/ja
+    category: releasenotekubernetes
     enabled: true
   - url: https://kubernetes.io/feed.xml
-    name: Kubernetes Blog
-    category: infra
+    name: Kubernetes.io
+    category: releasenotekubernetes
     enabled: true
-  - url: https://hnrss.org/frontpage?points=200
-    name: Hacker News (200+ points)
-    category: general
+  - url: https://blog.argoproj.io/feed
+    name: 【ReleaseNote】Argo Project - Medium
+    category: releasenotek8s-application
     enabled: true
+  - url: https://github.com/aws/karpenter-provider-aws/releases.atom
+    name: 【ReleaseNote】karpenter-provider-aws
+    category: releasenotek8s-application
+    enabled: true
+  - url: https://github.com/argoproj/argo-workflows/releases.atom
+    name: 【ReleaseNote】Argo Workflows
+    category: releasenotek8s-application
+    enabled: true
+  - url: https://github.com/argoproj/argo-cd/releases.atom
+    name: 【ReleaseNote】Argo CD
+    category: releasenotek8s-application
+    enabled: true
+  - url: https://aws.amazon.com/jp/blogs/news/tag/%E9%80%B1%E5%88%8Aaws/feed/
+    name: 週刊AWS – Amazon Web Services ブログ
+    category: releasenoteaws
+    enabled: true
+  - url: https://www.notion.com/releases/rss.xml
+    name: 【ReleaseNote】Notion
+    category: releasenoteapplication
+    enabled: true
+  - url: https://github.com/backstage/backstage/releases.atom
+    name: Release notes from backstage
+    category: releasenotebackstage
+    enabled: true
+  - url: https://dev.classmethod.jp/category/aws/feed/
+    name: Developers.IO » AWS
+    category: ブログaws
+    enabled: true
+  - url: https://addyosmani.com/rss.xml
+    name: AddyOsmani.com
+    category: ブログai関連
+    enabled: true
+  - url: https://zenn.dev/thujikun/feed
+    name: 辻 亮佑さんのフィード
+    category: ブログai関連
+    enabled: true
+  - url: https://note.com/masa_wunder/rss
+    name: まさお@未経験からプロまでAI活用
+    category: ブログai関連
+    enabled: true
+  - url: https://blog.3-shake.com/feed.xml
+    name: 3-shake Engineers' Blogs
+    category: ブログai関連
+    enabled: true
+  - url: https://zenn.dev/cn_kai/feed
+    name: Kaiさんのフィード
+    category: ブログai関連
+    enabled: true
+  - url: https://note.com/npaka/rss
+    name: npaka
+    category: ブログai関連
+    enabled: true
+  - url: https://developersblog.dmm.com/rss/category/AI
+    name: AI - DMM Developers Blog
+    category: ブログai関連
+    enabled: true
+  - url: https://blog.crossplane.io/rss/
+    name: The Crossplane Blog
+    category: ブログkubernetes
+    enabled: true
+  - url: https://cloudandbuild.jp/api/blog/feeds.xml
+    name: クラウドアンドビルド株式会社 技術ブログ
+    category: ブログkubernetes
+    enabled: true
+  - url: https://sysdig.jp/feed/
+    name: Sysdig
+    category: ブログkubernetes
+    enabled: true
+  - url: https://www.cncf.io/blog/feed/
+    name: Blog – Cloud Native Computing Foundation
+    category: ブログkubernetes
+    enabled: true
+  - url: https://backstack.dev/feed_rss_created.xml
+    name: The BACK Stack
+    category: ブログkubernetes
+    enabled: true
+  - url: https://www.hashicorp.com/blog/products/terraform/feed.xml
+    name: HashiCorp Blog - Terraform
+    category: ブログkubernetes
+    enabled: true
+  - url: https://roadie.io/blog/rss.xml
+    name: Roadie Blog
+    category: ブログbackstage関連
+    enabled: true
+  - url: https://techblog.ap-com.co.jp/feed/category/Backstage
+    name: Backstage - APC 技術ブログ
+    category: ブログbackstage関連
+    enabled: true
+  - url: https://ptcgonews.com/feed/
+    name: PTCGO News
+    category: ptcgl
+    enabled: true
+  - url: https://selfh.st/rss/
+    name: selfh.st
+    category: menthas/infrastructure
+    enabled: true
+  - url: https://menthas.com/infrastructure/rss
+    name: "Menthas #infrastructure"
+    category: menthas/infrastructure
+    enabled: true
+  - url: https://menthas.com/programming/rss
+    name: "Menthas #programming"
+    category: menthas/programming
+    enabled: true
+  - url: https://menthas.com/javascript/rss
+    name: "Menthas #javascript"
+    category: menthas/programming
+    enabled: true
+  - url: https://menthas.com/design/rss
+    name: Menthas[design]
+    category: menthas/design
+    enabled: true
+  - url: https://github.com/kubernetes-sigs/kro/releases.atom
+    name: Release notes from kro
+    category: 毎日releases
+    enabled: true
+  - url: https://github.com/awslabs/mcp/releases.atom
+    name: Release notes from awslabos mcp
+    category: 毎日releases
+    enabled: true
+  - url: https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases.atom
+    name: Release notes from aws-load-balancer-controller
+    category: 毎日releases
+    enabled: true
+  - url: https://github.com/terraform-aws-modules/terraform-aws-eks/releases.atom
+    name: Release notes from terraform-aws-eks
+    category: 毎日releases
+    enabled: true
+  - url: https://github.com/dexidp/dex/releases.atom
+    name: Release notes from dex
+    category: 毎日releases
+    enabled: true
+  - url: https://github.com/langgenius/dify/releases.atom
+    name: Release notes from dify
+    category: 毎日releases
+    enabled: true
+  - url: https://github.com/hashicorp/terraform/releases.atom
+    name: Release notes from terraform
+    category: 毎日releases
+    enabled: true
+  - url: https://docs.aws.amazon.com/eks/latest/userguide/doc-history.rss
+    name: Amazon EKS Document History
+    category: 毎日aws-document-history
+    enabled: true
+  - url: https://b.hatena.ne.jp/q/windsurf?date_range=5y&target=text&sort=recent&users=50&mode=rss
+    name: 本文「windsurf」を検索 - はてなブックマーク
+    category: 自動化用キュレーションフィード
+    enabled: true
+  - url: https://b.hatena.ne.jp/q/cursor?date_range=5y&target=text&sort=recent&users=50&mode=rss
+    name: 本文「cursor」を検索 - はてなブックマーク
+    category: 自動化用キュレーションフィード
+    enabled: true
+  - url: https://devops-blog.virtualtech.jp/feed
+    name: とことんDevOps | 日本仮想化技術が提供するDevOps技術情報メディア
+    category: 自動化用キュレーションフィード
+    enabled: true
+  - url: https://cursor.com/atom.xml
+    name: Cursor Blog | RSS Feed
+    category: 自動化用キュレーションフィード
+    enabled: true
+  - url: https://yamadashy.github.io/tech-blog-rss-feed/feeds/rss.xml
+    name: 企業テックブログRSS
+    category: 自動化用キュレーションフィード
+    enabled: true
+  - url: https://engineering.mercari.com/blog/feed.xml
+    name: メルカリエンジニアリングブログ
+    category: all_old
+    enabled: false
+  - url: https://techblog.zozo.com/feed
+    name: ZOZO Technologies TECH BLOG
+    category: all_old
+    enabled: false
+  - url: https://note.com/hashtag/Kubernetes/rss
+    name: "#Kubernetesタグ"
+    category: all_old
+    enabled: false
+  - url: https://dev.to/feed
+    name: The Practical Developer
+    category: all_old
+    enabled: false
+  - url: https://sinkan.net/?action_rss=true&uid=9541&mode=schedule
+    name: 新刊情報
+    category: all_old
+    enabled: false
+  - url: https://zenn.dev/feed
+    name: Zennのトレンド
+    category: all_old
+    enabled: false
+  - url: https://qiita.com/tags/kubernetes/feed
+    name: kubernetesタグが付けられた新着投稿 - Qiita
+    category: all_old
+    enabled: false
+  - url: https://qiita.com/tags/rust/feed
+    name: rustタグが付けられた新着投稿 - Qiita
+    category: all_old
+    enabled: false
+  - url: https://qiita.com/tags/chatgpt/feed
+    name: ChatGPTタグが付けられた新着記事 - Qiita
+    category: all_old
+    enabled: false
+  - url: https://www.publickey1.jp/atom.xml
+    name: Publickey － Enterprise IT × Cloud Computing × Web Technology / Blog
+    category: all_old
+    enabled: false
+  - url: https://blog.techscore.com/feed
+    name: TECHSCORE BLOG
+    category: all_old
+    enabled: false
+  - url: https://toyokeizai.net/list/feed/rss
+    name: 東洋経済オンライン｜新世代リーダーのためのビジネスサイト
+    category: all_old
+    enabled: false
+  - url: https://wirelesswire.jp/feed/
+    name: WirelessWire News
+    category: all_old
+    enabled: false
+  - url: https://note.com/snsk_sgr/rss
+    name: Shunsuke Sagara
+    category: all_old
+    enabled: false
+  - url: https://clear-rainy.hatenablog.com/feed
+    name: 天気のいい日はVAPE!
+    category: all_old
+    enabled: false
+  - url: https://note.com/recommend/rss
+    name: おすすめ
+    category: all_old
+    enabled: false
+  - url: https://note.com/onecapital/rss
+    name: One Capital
+    category: all_old
+    enabled: false
+  - url: https://kuranuki.sonicgarden.jp/feed
+    name: Social Change!
+    category: all_old
+    enabled: false
+  - url: http://techblog.netflix.com/feeds/posts/default
+    name: The Netflix Tech Blog
+    category: all_old
+    enabled: false
+  - url: https://ruby.libhunt.com/newsletter/feed
+    name: Awesome Ruby Newsletter
+    category: all_old
+    enabled: false
+  - url: https://medium.com/feed/@tumada
+    name: Taka Umada on Medium
+    category: all_old
+    enabled: false
+  - url: https://note.com/yuintei/rss
+    name: Yuin Tei
+    category: all_old
+    enabled: false
+  - url: https://coralcap.co/feed/
+    name: Coral Capital
+    category: all_old
+    enabled: false
+  - url: https://developers.cyberagent.co.jp/blog/feed/
+    name: CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ
+    category: all_old
+    enabled: false
+  - url: https://www.lifull.blog/feed
+    name: LIFULL Creators Blog
+    category: all_old
+    enabled: false
+  - url: https://techlife.cookpad.com/feed
+    name: クックパッド開発者ブログ
+    category: all_old
+    enabled: false
+  - url: https://blog.shibayu36.org/feed
+    name: $shibayu36->blog;
+    category: all_old
+    enabled: false
+  - url: https://mifmif.mydns.jp/alpha/?feed=rss2
+    name: Hackintosh夢日記
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/aws/feed
+    name: AWS News Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/containers/feed
+    name: Containers
+    category: all_old
+    enabled: false
+  - url: https://sakudoku.com/feed
+    name: サクっと読書（サクどく）
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/architecture/feed
+    name: AWS Architecture Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/aws-cost-management/feed
+    name: AWS Cost Management
+    category: all_old
+    enabled: false
+  - url: https://www.gizmodo.jp/index.xml
+    name: ギズモード・ジャパン
+    category: all_old
+    enabled: false
+  - url: http://feeds.japan.cnet.com/rss/cnet/all.rdf
+    name: CNET Japan 最新情報　総合
+    category: all_old
+    enabled: false
+  - url: https://b.hatena.ne.jp/hotentry.rss
+    name: はてなブックマーク - 人気エントリー
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/big-data/feed
+    name: AWS Big Data Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/iot/feed
+    name: The Internet of Things on AWS – Official Blog
+    category: all_old
+    enabled: false
+  - url: https://www.infoq.com/jp/feed/news
+    name: InfoQ - ニュース
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/business-productivity/feed
+    name: Business Productivity
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/contact-center/feed
+    name: Contact Center
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/media/feed
+    name: AWS Media Blog
+    category: all_old
+    enabled: false
+  - url: https://codezine.jp/rss/new/20/index.xml
+    name: CodeZine:新着一覧
+    category: all_old
+    enabled: false
+  - url: https://dev.classmethod.jp/feed/
+    name: Developers.IO
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/compute/feed
+    name: AWS Compute Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/database/feed
+    name: AWS Database Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/messaging-and-targeting/feed
+    name: AWS Messaging & Targeting Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/desktop-and-application-streaming/feed
+    name: Desktop and Application Streaming
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/publicsector/feed
+    name: AWS Public Sector Blog
+    category: all_old
+    enabled: false
+  - url: https://feeds.rebuild.fm/rebuildfm
+    name: Rebuild
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/developer/feed
+    name: AWS Developer Tools Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/robotics/feed
+    name: AWS Robotics Blog
+    category: all_old
+    enabled: false
+  - url: https://www.mdn.co.jp/di/rss_noad.php
+    name: MdN Design Interactive
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/devops/feed
+    name: AWS DevOps Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/security/feed
+    name: AWS Security Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/jp/blogs/news/feed/
+    name: Amazon Web Services ブログ
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/hpc/feed
+    name: AWS HPC Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/startups/feed
+    name: AWS Startups Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/infrastructure-and-automation/feed
+    name: Infrastructure & Automation
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/jp/blogs/news/feed
+    name: AWS Japan Blog
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/training-and-certification/feed
+    name: AWS Training and Certification Blog
+    category: all_old
+    enabled: false
+  - url: https://www.datascientist.or.jp/dssjournal/feed/
+    name: Data Scientist Society Journal
+    category: all_old
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?user=AmazonWebServicesJP
+    name: AWS - Japan
+    category: all_old
+    enabled: false
+  - url: https://alas.aws.amazon.com/alas.rss
+    name: Amazon Linux Security Center
+    category: all_old
+    enabled: false
+  - url: https://siosio.hatenablog.com/rss/category/IntelliJ
+    name: IntelliJ - しおしお
+    category: all_old
+    enabled: false
+  - url: https://anison-alacarte.hatenablog.com/rss
+    name: アニソンブログ ア･ラ･カルト
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/mobile/feed
+    name: Front-End Web & Mobile
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/networking-and-content-delivery/feed
+    name: Networking & Content Delivery
+    category: all_old
+    enabled: false
+  - url: https://aws.amazon.com/blogs/opensource/feed
+    name: AWS Open Source Blog
+    category: all_old
+    enabled: false
+  - url: https://www.geekpage.jp/rss.php
+    name: Geekなぺーじ
+    category: all_old
+    enabled: false
+  - url: https://forza.cocolog-nifty.com/blog/atom.xml
+    name: プログラマの思索
+    category: all_old
+    enabled: false
+  - url: https://labs.gree.jp/blog/feed/
+    name: エンジニアブログ | GREE Engineering
+    category: all_old
+    enabled: false
+  - url: https://knowledge.sakura.ad.jp/feed/
+    name: さくらのナレッジ is_page
+    category: all_old
+    enabled: false
+  - url: http://dsas.blog.klab.org/index.rdf
+    name: DSAS開発者の部屋
+    category: all_old
+    enabled: false
+  - url: https://nulab-inc.com/ja/feed/
+    name: Nulab (Japanese)
+    category: all_old
+    enabled: false
+  - url: https://blogs.jetbrains.com/idea/feed/
+    name: IntelliJ IDEA Blog
+    category: all_old
+    enabled: false
+  - url: https://kachibito.net/feed
+    name: かちびと.net
+    category: all_old
+    enabled: false
+  - url: https://googledevjp.blogspot.com/feeds/posts/default
+    name: Google Developers Japan
+    category: all_old
+    enabled: false
+  - url: http://d.hatena.ne.jp/hatenatech/rss
+    name: Hatena Developer Blog
+    category: all_old
+    enabled: false
+  - url: https://gihyo.jp/book/feed/rss2
+    name: gihyo.jp：新刊書籍情報
+    category: all_old
+    enabled: false
+  - url: https://mugenup-tech.hatenadiary.com/feed
+    name: MUGENUP技術ブログ
+    category: all_old
+    enabled: false
+  - url: https://heartbeats.jp/hbblog/atom.xml
+    name: インフラエンジニアway - Powered by HEARTBEATS
+    category: all_old
+    enabled: false
+  - url: https://tech.gmo-media.jp/rss
+    name: GMOメディア エンジニアブログ
+    category: all_old
+    enabled: false
+  - url: https://tech.uzabase.com/feed
+    name: Uzabase Tech Blog
+    category: all_old
+    enabled: false
+  - url: https://techracho.bpsinc.jp/feed
+    name: TechRacho
+    category: all_old
+    enabled: false
+  - url: https://blog.takuros.net/feed
+    name: プログラマでありたい
+    category: all_old
+    enabled: false
+  - url: https://k0kubun.hatenablog.com/feed
+    name: k0kubun's blog
+    category: all_old
+    enabled: false
+  - url: https://tech.pepabo.com/feed.xml
+    name: ペパボテックブログ
+    category: all_old
+    enabled: false
+  - url: http://blogs.jetbrains.com/ruby/feed/
+    name: RubyMine Blog
+    category: all_old
+    enabled: false
+  - url: https://blog.jetbrains.com/jp/feed
+    name: JetBrains ブログ
+    category: all_old
+    enabled: false
+  - url: https://engineer.blog.lancers.jp/feed/
+    name: ランサーズ（Lancers）エンジニアブログ
+    category: all_old
+    enabled: false
+  - url: https://feeds.feedburner.com/kaigai-seo
+    name: 海外SEO情報ブログ
+    category: all_old
+    enabled: false
+  - url: https://www.hsbt.org/diary/index.rdf
+    name: HsbtDiary
+    category: all_old
+    enabled: false
+  - url: https://engineer.crowdworks.jp/feed
+    name: クラウドワークス エンジニアブログ
+    category: all_old
+    enabled: false
+  - url: https://takehora.hatenadiary.jp/feed
+    name: Webパフォーマンスについて
+    category: all_old
+    enabled: false
+  - url: https://rspec.info/blog/feed.xml
+    name: RSpec
+    category: all_old
+    enabled: false
+  - url: https://developers.gnavi.co.jp/feed
+    name: ぐるなびをちょっと良くするエンジニアブログ
+    category: all_old
+    enabled: false
+  - url: https://googlewebmastercentral.blogspot.com/atom.xml
+    name: Google Webmaster Central Blog
+    category: all_old
+    enabled: false
+  - url: https://yosuke-furukawa.hatenablog.com/feed
+    name: from scratch
+    category: all_old
+    enabled: false
+  - url: http://junichiito.hateblo.jp/feed
+    name: give IT a try
+    category: all_old
+    enabled: false
+  - url: https://udzura.hatenablog.jp/feed
+    name: ローファイ日記
+    category: all_old
+    enabled: false
+  - url: https://www.ruby-lang.org/ja/feeds/news.rss
+    name: ruby-langの最新ニュース
+    category: all_old
+    enabled: false
+  - url: https://medium.com/feed/mixi-developers
+    name: mixi developers
+    category: all_old
+    enabled: false
+  - url: https://hb.matsumoto-r.jp/feed
+    name: 人間とウェブの未来
+    category: all_old
+    enabled: false
+  - url: https://cd.foundation/feed/
+    name: CD Foundation
+    category: all_old
+    enabled: false
+  - url: https://efcl.info/feed/
+    name: Web Scratch
+    category: all_old
+    enabled: false
+  - url: https://jser.info/rss/
+    name: JSer.info
+    category: all_old
+    enabled: false
+  - url: https://koic.hatenablog.com/feed
+    name: koicの日記
+    category: all_old
+    enabled: false
+  - url: https://techracho.bpsinc.jp/tag/%E9%80%B1%E5%88%8Arails%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81/feed
+    name: 週刊Railsウォッチ – TechRacho
+    category: all_old
+    enabled: false
+  - url: https://otihateten.hatenablog.com/feed
+    name: IT業界で気づいたことをこっそり書くブログ
+    category: all_old
+    enabled: false
+  - url: https://sendgrid.kke.co.jp/blog/?feed=rss2
+    name: SendGridブログ
+    category: all_old
+    enabled: false
+  - url: https://feeds.lifehacker.jp/rss/lifehacker/index.xml
+    name: ライフハッカー［日本版］
+    category: all_old
+    enabled: false
+  - url: https://rss.itmedia.co.jp/rss/1.0/netlab.xml
+    name: ねとらぼ 最新記事一覧
+    category: all_old
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCByPvN5wFmTnsI3kejSpOsA
+    name: チェッカーズ公式YouTubeチャンネル
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCyFKOPtaQNDUzmeTDAQ5aPQ
+    name: リーグ・オブ・レジェンド
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCq1xU8DeDDRqu2q618RDvhQ
+    name: T.M.Revolution Official YouTube Channel
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOaO_RMYpcFH5uKt5M8FnDg
+    name: Productivity FM
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC_31QOzj4KVm_k0ww0G5grw
+    name: World J-POP
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCALtXLUFzrKvXnldcuex01w
+    name: tayori
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCiMhD4jzUqG-IgPzUmmytRQ
+    name: Queen Official
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCZNDlsZU0StifdExCdRaRFg
+    name: 【マオメエアニメ】くじら先生と仲間たち
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCq4tFx2rHBAkcvKDTXrPcDw
+    name: 数理の弾丸⚡️京大博士のAI解説
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCJeCKqR6uqrdCw6021WuWlA
+    name: ポルノグラフィティ Official YouTube Channel
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCED6oH8EkWuqv37dB9Bm5zw
+    name: うぃっぷ【初心者向けLoL解説】
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbVQGCsMcqC3q7OtX8iXy9Q
+    name: しらスタ【歌唱力向上委員会】
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCaPJaMy0_OZlNjq7BVyTnkA
+    name: 佐久間宣行のNobrock TV
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCLPHXwLp90A5R69Eltxo-sg
+    name: ムーザルちゃんねる
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCjccTFXalV7KD-cE-5BSFNw
+    name: ゆっくり27
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCmPt8-nJ7ikRIKKIUzyVMNw
+    name: 3熊
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC4pwR5bxb_TBLZaINJiIFoQ
+    name: はうちゃれ ~How to be a Challenger~
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC-9-kyTW8ZkZNDHQJ6FgpwQ
+    name: "#Music"
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UChw1yNQUt9qf3lbKcPRnW3Q
+    name: Jellyfish-Digital-Cafe / じぇりふぃしゅ-デジタルカフェ
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC_8_gMO49u6y-wwc1JL_1fQ
+    name: Asp
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCGHt57Ski7CTILqP8IXRgIg
+    name: あぎりさんぽ
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCMucc-4_qVNBR9VDaqFts3g
+    name: とぅるりぷ【公式】 True&Lip - とぅるーあんどりっぷ - STPR新人歌い手グループ
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCvHpETRVi1tXeRJoYiXHJqw
+    name: まさおAIじっくり解説ch
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCklV12RgLY9TyivYCu7yhcA
+    name: NARIMUSIC(ナリ)
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA
+    name: Cloud Native Computing Foundation
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC1EVRR14B8PtgszWOwu1opA
+    name: とモヤシ
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC9lHFqYpl-rL8YAf2jg8Ytg
+    name: Nerd Odyssey
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC8KVR25hXTBiihS5Ln6dS0Q
+    name: AyaMusic_洋楽BGM
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCiWkgRl4asSN5kRUSWgRLWQ
+    name: 緑青くれは-Rokusho Kureha-
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCcp7Y-ez8c65M8Ckw0xSHpA
+    name: 熱血スタンミチャンネル【公式】
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCnjKWUK2t5QJYfeqqilhJhQ
+    name: Amazon Web Services Japan 公式
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC67REzSALhOC8_xkgLyif-g
+    name: 北の達人チャンネル
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCUdNPpAXX-BqU0JzKXvvARQ
+    name: 田村ゆかり Official Channel
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC3O2xDcqj1TbqpPMj7bmNKQ
+    name: 海堀たきちの新作ゲームちゃんねる
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC1KM0FPG8NvCWKRZURZZEfQ
+    name: カカチャンネル
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCCj7tBSvrrG8_aErflpNgyQ
+    name: なむ
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC_fYA9QRK-aJnFTgvR_4zug
+    name: ななひら / Nanahira
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCffP6jI_WwWpYOJt6d8tPvQ
+    name: Yunomi feat.nicamoq
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCFTVNLC7ysej-sD5lkLqNGA
+    name: 木下ゆうか
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UChHjlVYSthw2tsLNyCHglQQ
+    name: STUDY BGM MAKER
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCB6pJFaFByws3dQj4AdLdyA
+    name: reolch
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCh5Xtp82q8wjijP8npkVTBA
+    name: Rancher Labs
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCSFcuf1pH63EFMK_G_MgxmQ
+    name: Nogi's - のぎーず
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCkH3CcMfqww9RsZvPRPkAJA
+    name: Nintendo 公式チャンネル
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCiN3B0QRdL4wn1TMJ_cJyMQ
+    name: LoLeSportsJP
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCYZ9uuJYYP5PX8YvpIHbEwQ
+    name: KOTOKO Official YouTube Channel
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNats-h_Vr0pEh5OtZo6eVw
+    name: IOSYS - Topic
+    category: youtube-subscriptions
+    enabled: false
+  - url: https://www.youtube.com/feeds/videos.xml?channel_id=UC5n8oRWW4lkD4nyFtKuKtwg
+    name: eufonius - Topic
+    category: youtube-subscriptions
+    enabled: false
