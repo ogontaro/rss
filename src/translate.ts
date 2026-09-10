@@ -1,7 +1,7 @@
 import { CONTENT_DOMAINS, contentFeeds, loadFeeds } from "./lib/config.ts";
 import { readDomainFeed, writeDomainFeed } from "./lib/domain-feed.ts";
 import { fetchFeed } from "./lib/feeds.ts";
-import { translateBatch } from "./lib/translate.ts";
+import { isDegraded, translateBatch } from "./lib/translate.ts";
 import type { TranslatedEntry } from "./lib/types.ts";
 
 // --strict: exit non-zero if any domain had zero feeds load (used by translate.yml).
@@ -58,6 +58,11 @@ async function main() {
     console.log(`[${domain}] translated-${domain}.xml: ${count} items (+${fresh.length} new)`);
   }
 
+  if (isDegraded()) {
+    console.warn(
+      "[translate] 翻訳エンジンが枠切れ／認証エラー — 一部エントリを未翻訳で公開しました",
+    );
+  }
   if (skipped.length > 0 && strict) {
     console.error(`domains skipped: ${skipped.join(", ")}`);
     process.exit(1);
