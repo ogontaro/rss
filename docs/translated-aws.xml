@@ -4,11 +4,19 @@
         <title>翻訳フィード: AWS — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>AWS 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Thu, 10 Sep 2026 09:25:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 15:53:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[How AvioBook builds turnaround insights from operational data with Amazon Bedrock AgentCore — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/</link>
+            <guid>3a3d6d9806280d7f62975dd9e8cdb72b83dcc5d1</guid>
+            <pubDate>Thu, 10 Sep 2026 15:53:05 GMT</pubDate>
+            <description><![CDATA[AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect's operational data into plain-language, evidence-based answers for airline managers and dispatchers, helping them find and act on the causes of flight turnaround delays.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fhow-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Amazon Cognito のユーザーグループに応じて Bedrock Guardrails を動的に切り替える — Amazon Bedrock | DevelopersIO]]></title>
             <link>https://dev.classmethod.jp/articles/cognito-group-bedrock-guardrails-routing/</link>
@@ -24,6 +32,14 @@
             <pubDate>Wed, 09 Sep 2026 22:26:29 GMT</pubDate>
             <description><![CDATA[Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP speculative decoding.]]></description>
             <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fdeploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Amazon EBS Volume Clones across AWS accounts — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/</link>
+            <guid>a7eafcc0229cd1fa7f057426d064a4eca2d0738b</guid>
+            <pubDate>Wed, 09 Sep 2026 22:01:47 GMT</pubDate>
+            <description><![CDATA[AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fintroducing-amazon-ebs-volume-clones-across-aws-accounts%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ICYMI: What landed for AI builders in August 2026 — AWS Machine Learning Blog]]></title>
@@ -792,22 +808,6 @@
             <pubDate>Sat, 06 Dec 2025 04:52:24 GMT</pubDate>
             <description><![CDATA[AWS DevOps Agent (Preview)のEKSアクセス設定をやってみた #AWSreInvent]]></description>
             <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/aws-devops-agent-preview-eks-access/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Faws-devops-agent-preview-eks-access%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[[レポート]AWS上のコンテナワークロードの脆弱性管理自動化 #AWSreInvent #SEC332 — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/reinvent-2025-sec332-report/</link>
-            <guid>6Ze0nvPvNyPww5iIbTdgdd</guid>
-            <pubDate>Sat, 06 Dec 2025 01:50:13 GMT</pubDate>
-            <description><![CDATA[Amazon ECS/EKSやコンテナ周辺のサービスやセキュリティ・運用サービスを組み合わせて一連のセキュリティ運用を自動化するセッションでした。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/reinvent-2025-sec332-report/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Freinvent-2025-sec332-report%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[EKS Capabilities で AWS Controllers for Kubernetes(ACK) を利用してみた #AWSreInvent — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/eks-capabilities-aws-controller-for-kubernetes/</link>
-            <guid>789enLPehwWtHa7OonsbY</guid>
-            <pubDate>Thu, 04 Dec 2025 17:59:12 GMT</pubDate>
-            <description><![CDATA[EKS Capabilities で AWS Controllers for Kubernetes(ACK) を利用してみた #AWSreInvent]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-capabilities-aws-controller-for-kubernetes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-capabilities-aws-controller-for-kubernetes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

@@ -4,11 +4,19 @@
         <title>翻訳フィード: Kubernetes — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>Kubernetes 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Wed, 09 Sep 2026 18:30:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 11:37:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Kubernetes disaster recovery: Guidance from three reproducible failure scenarios — CNCF Blog]]></title>
+            <link>https://www.cncf.io/blog/2026/09/10/kubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios/</link>
+            <guid>https://www.cncf.io/?p=174488</guid>
+            <pubDate>Thu, 10 Sep 2026 11:37:00 GMT</pubDate>
+            <description><![CDATA[Scope This document describes three failure scenarios that separate having backups from being able to recover, and the guidance that follows from each. Every scenario is reproducible on a laptop from the lab repository above, and...]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/10/kubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F10%2Fkubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Kubernetes v1.37: Introducing Node Lifecycle Conditions — Kubernetes Blog]]></title>
             <link>https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/</link>
@@ -776,14 +784,6 @@
             <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[From the start, we built Sysdig around a simple belief: security should reflect how people and systems actually work. That’s why we focused on runtime. That’s why we built in the open. We’ve always aligned with where and how our customers operate.]]></description>
             <content:encoded><![CDATA[<p><a href="https://webflow.sysdig.com/blog/welcome-to-headless-cloud-security">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwebflow.sysdig.com%2Fblog%2Fwelcome-to-headless-cloud-security">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Introducing headless cloud security: Run Sysdig inside your AI coding agents — Sysdig]]></title>
-            <link>https://webflow.sysdig.com/blog/introducing-headless-cloud-security</link>
-            <guid>https://webflow.sysdig.com/blog/introducing-headless-cloud-security</guid>
-            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[For over a decade, Sysdig has built the most comprehensive runtime security data in the industry. Today, we're redefining how security teams consume it. Security is moving to the AI coding agent, and we're leading that shift. With headless cloud security, Sysdig becomes the security expert embedded inside your AI environment.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://webflow.sysdig.com/blog/introducing-headless-cloud-security">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwebflow.sysdig.com%2Fblog%2Fintroducing-headless-cloud-security">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
