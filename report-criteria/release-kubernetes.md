@@ -1,7 +1,9 @@
 # Kubernetes リリースレポートの選定基準
 
 `release-kubernetes-input.json`（過去7日間のリリース。`project` / `version` / `link` / `notes`（英語原文））から、
-注目すべきリリースを整理する。対象は k8s 系ツール（Argo CD, Argo Workflows, kro, dex, Backstage, Terraform 等）。
+注目すべきリリースを整理する。対象は k8s 系ツールと自宅クラスタで使っているアドオン
+（Argo CD / Cilium / cert-manager / CloudNativePG / Longhorn / Grafana スタック（Grafana・Loki・Mimir・Alloy）/
+external-secrets / KEDA / Pomerium / Terraform 等）。
 リリースが 0 件なら「今週の対象リリースはありませんでした」とだけ書く。
 
 ## 方針

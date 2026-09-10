@@ -108,3 +108,113 @@ feeds:
     name: Terraform
     domain: kubernetes
     kind: release
+
+  # ----- 自宅クラスタで使っているアドオン -----
+  - url: https://github.com/actions/actions-runner-controller/releases.atom
+    name: actions-runner-controller (ARC)
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/browserless/browserless/releases.atom
+    name: browserless
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/cert-manager/cert-manager/releases.atom
+    name: cert-manager
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/cilium/cilium/releases.atom
+    name: Cilium
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/STRRL/cloudflare-tunnel-ingress-controller/releases.atom
+    name: cloudflare-tunnel-ingress-controller
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/cloudnative-pg/cloudnative-pg/releases.atom
+    name: CloudNativePG
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/qdm12/ddns-updater/releases.atom
+    name: ddns-updater
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/kubernetes-sigs/external-dns/releases.atom
+    name: external-dns
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/external-secrets/external-secrets/releases.atom
+    name: external-secrets
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/FairwindsOps/goldilocks/releases.atom
+    name: Goldilocks
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/grafana/grafana/releases.atom
+    name: Grafana
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/grafana/alloy/releases.atom
+    name: Grafana Alloy
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/kubernetes-sigs/headlamp/releases.atom
+    name: Headlamp
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/HolmesGPT/holmesgpt/releases.atom
+    name: HolmesGPT
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/gethomepage/homepage/releases.atom
+    name: homepage
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/kedacore/keda/releases.atom
+    name: KEDA
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/alex1989hu/kubelet-serving-cert-approver/releases.atom
+    name: kubelet-serving-cert-approver
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/grafana/loki/releases.atom
+    name: Loki
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/longhorn/longhorn/releases.atom
+    name: Longhorn
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/kubernetes-sigs/metrics-server/releases.atom
+    name: metrics-server
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/grafana/mimir/releases.atom
+    name: Mimir
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/n8n-io/n8n/releases.atom
+    name: n8n
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/open-webui/open-webui/releases.atom
+    name: Open WebUI
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/pomerium/pomerium/releases.atom
+    name: Pomerium
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/stakater/Reloader/releases.atom
+    name: Reloader
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/seaweedfs/seaweedfs/releases.atom
+    name: SeaweedFS
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/tailscale/tailscale/releases.atom
+    name: Tailscale (operator)
+    domain: kubernetes
+    kind: release
