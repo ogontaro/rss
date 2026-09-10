@@ -39,7 +39,7 @@ body {
   font-feature-settings: "palt";
 }
 
-.site-header {
+body > header {
   max-width: 780px;
   margin: 0 auto;
   padding: 1.1rem 1.2rem;
@@ -48,7 +48,7 @@ body {
   gap: .7rem;
   border-bottom: 1px solid var(--line);
 }
-.brand { font-weight: 700; color: var(--fg); text-decoration: none; letter-spacing: .01em; }
+body > header a, .brand { font-weight: 700; color: var(--fg); text-decoration: none; letter-spacing: .01em; }
 .crumb {
   font-size: .78rem;
   font-weight: 600;
@@ -74,7 +74,7 @@ code {
 .lead { color: var(--muted); margin-bottom: 2.2rem; }
 
 /* ---- dashboard ---- */
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; align-items: start; }
 .card {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -155,7 +155,7 @@ code {
 }
 .report a[href^="http"]:hover { border-color: var(--accent); color: var(--accent); }
 
-.site-footer {
+body > footer {
   max-width: 780px;
   margin: 3rem auto 0;
   padding: 1.3rem 1.2rem 2.5rem;
