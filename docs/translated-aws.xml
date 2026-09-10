@@ -4,11 +4,35 @@
         <title>翻訳フィード: AWS — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>AWS 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Thu, 10 Sep 2026 18:16:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 21:58:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/</link>
+            <guid>32206d53293b6830e987ee4659338e8d02374647</guid>
+            <pubDate>Thu, 10 Sep 2026 21:58:09 GMT</pubDate>
+            <description><![CDATA[Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Freduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Reduce inference cold starts on Amazon SageMaker HyperPod with model caching — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/</link>
+            <guid>3b91429cf30acb250cd56430f226e5855e1f213f</guid>
+            <pubDate>Thu, 10 Sep 2026 21:37:49 GMT</pubDate>
+            <description><![CDATA[Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Freduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0 — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/</link>
+            <guid>fc8628826e3a4de39ea612edabd4828bd56fe198</guid>
+            <pubDate>Thu, 10 Sep 2026 21:15:39 GMT</pubDate>
+            <description><![CDATA[TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows how to build a knowledge base powered by Marengo 3.0 and run semantic queries against your media.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fvideo-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Amazon Quick is now generally available on desktop — AWS Machine Learning Blog]]></title>
             <link>https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/</link>
@@ -784,30 +808,6 @@
             <pubDate>Mon, 02 Mar 2026 02:47:34 GMT</pubDate>
             <description><![CDATA[[アップデート] EKS Auto Mode で AWS 管理コンポーネントのログを出力できるようになりました]]></description>
             <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-auto-mode-aws-managed-component-logging/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-auto-mode-aws-managed-component-logging%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[EKS Fargate Pod のメンテナンスでダウンタイムは発生するか教えてください — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/tsnote-eks-fargate-pod-maintenance-downtime/</link>
-            <guid>1QQtnqazJMqIjpkovzAw8z</guid>
-            <pubDate>Tue, 20 Jan 2026 01:34:09 GMT</pubDate>
-            <description><![CDATA[EKS Fargate Pod のメンテナンスでダウンタイムは発生するか教えてください]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/tsnote-eks-fargate-pod-maintenance-downtime/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ftsnote-eks-fargate-pod-maintenance-downtime%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[EKS の強化された Network Policy を利用して、DNS ベースでのネットワーク制御を行ってみる — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/eks-enhanced-network-policy-domain-base-filterling/</link>
-            <guid>2YBHbzzMAJEOxTpC3tFqRs</guid>
-            <pubDate>Mon, 05 Jan 2026 15:12:22 GMT</pubDate>
-            <description><![CDATA[EKS の強化された Network Policy を利用して、DNS ベースでのネットワーク制御を行ってみる]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-enhanced-network-policy-domain-base-filterling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-enhanced-network-policy-domain-base-filterling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[#regrowth 2025 大阪で EKSのアップデートを2つ紹介しました — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/eks-updates-in-regrowth-2025-osaka/</link>
-            <guid>71OjSioVmap1EjFSZYxtpe</guid>
-            <pubDate>Mon, 15 Dec 2025 13:34:44 GMT</pubDate>
-            <description><![CDATA[#regrowth 2025 大阪で EKSのアップデートを2つ紹介しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-updates-in-regrowth-2025-osaka/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-updates-in-regrowth-2025-osaka%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

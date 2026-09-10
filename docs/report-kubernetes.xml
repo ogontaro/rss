@@ -4,11 +4,22 @@
         <title>Kubernetes レポート — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>Kubernetes 系の新着から重要な記事を Claude が選定した日次レポート</description>
-        <lastBuildDate>Thu, 10 Sep 2026 06:16:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 23:50:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。</copyright>
+        <item>
+            <title><![CDATA[Kubernetes レポート 2026-09-11]]></title>
+            <link>https://ogontaro.github.io/rss/report/kubernetes/2026-09-11.html</link>
+            <guid>https://ogontaro.github.io/rss/report/kubernetes/2026-09-11.html</guid>
+            <pubDate>Fri, 11 Sep 2026 22:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>今日の 1 本</h2>
+<h3>Kubernetesディザスタリカバリ: 3つの再現可能な障害シナリオから得られる知見</h3>
+<p>「バックアップを取っている」と「実際に復旧できる」は別物であることを、ラボで再現可能な3つの障害シナリオを通じて具体的に示している点が実務的です。手元で再現して検証できる構成になっているため、自組織のDR計画やRunbookの妥当性をチェックする材料としてそのまま使えます。
+<a href="https://www.cncf.io/blog/2026/09/10/kubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F10%2Fkubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios%2F">Google 翻訳で全文を読む</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Kubernetes レポート 2026-09-10]]></title>
             <link>https://ogontaro.github.io/rss/report/kubernetes/2026-09-10.html</link>
