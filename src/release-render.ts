@@ -26,8 +26,12 @@ async function main() {
     `${releaseDir(domain)}/${date}.html`,
     pageShell({
       title: `${label} リリースレポート ${date}`,
-      body: `<h1>${label} リリースレポート ${date}</h1>\n<article class="report">${bodyHtml}</article>`,
+      domain,
+      crumb: "リリース",
       depth: 2,
+      body: `<h1>${label} リリースレポート</h1>
+<div class="report-head"><span class="badge">${label}</span><span class="date">${date} の週</span></div>
+<article class="report">${bodyHtml}</article>`,
     }),
   );
   console.log(`wrote docs/release/${domain}/${date}.html`);

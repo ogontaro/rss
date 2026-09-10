@@ -25,5 +25,6 @@
 
 ### <日本語タイトル>
 <2〜3文の日本語コメント。要約ではなく「なぜ読む価値があるか」を書く。>
-[原文を読む](<link>) / [Google 翻訳で全文を読む](https://translate.google.com/translate?sl=auto&tl=ja&u=<URLエンコードした link>)
+
+[原文を読む](<link>) [Google 翻訳で全文を読む](https://translate.google.com/translate?sl=auto&tl=ja&u=<URLエンコードした link>)
 ```
