@@ -4,11 +4,19 @@
         <title>翻訳フィード: AWS — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>AWS 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Wed, 09 Sep 2026 22:26:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 09:25:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Amazon Cognito のユーザーグループに応じて Bedrock Guardrails を動的に切り替える — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/cognito-group-bedrock-guardrails-routing/</link>
+            <guid>4hzj0jYjd5v2sYV1dsYnCT</guid>
+            <pubDate>Thu, 10 Sep 2026 09:25:00 GMT</pubDate>
+            <description><![CDATA[Amazon Cognito のユーザーグループ情報を活用して、Amazon Bedrock Guardrails を動的に切り替える構成を試してみました。認証済みユーザーのグループに応じて、異なるガードレールを適用する方法を紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/cognito-group-bedrock-guardrails-routing/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fcognito-group-bedrock-guardrails-routing%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM — AWS Machine Learning Blog]]></title>
             <link>https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/</link>
@@ -800,14 +808,6 @@
             <pubDate>Thu, 04 Dec 2025 17:59:12 GMT</pubDate>
             <description><![CDATA[EKS Capabilities で AWS Controllers for Kubernetes(ACK) を利用してみた #AWSreInvent]]></description>
             <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-capabilities-aws-controller-for-kubernetes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-capabilities-aws-controller-for-kubernetes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[[レポート] Master KRMOps: Declarative resource management with Amazon EKS and kro #CNS407 #AWSreInvent — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/reinvent2025-master-krmops-cns407-report/</link>
-            <guid>1OQj5PGznEbHIAbHVFl5y8</guid>
-            <pubDate>Thu, 04 Dec 2025 14:01:21 GMT</pubDate>
-            <description><![CDATA[[レポート] Master KRMOps: Declarative resource management with Amazon EKS and kro #CNS407 #AWSreInvent]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/reinvent2025-master-krmops-cns407-report/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Freinvent2025-master-krmops-cns407-report%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
