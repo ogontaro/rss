@@ -205,7 +205,7 @@
             <link>https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/</link>
             <guid>https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/</guid>
             <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 67 enhancements. Of those enhancements, 16 have graduated to Stable, 23 have graduated to Beta, 27 are entering Alpha, and 1 ]]></description>
+            <description><![CDATA[Editors: Arsh Sharma, Christopher Tineo, Kirti Goyal, Sophia Ugochukwu, Swathi Rao, Troy Connor Similar to previous releases, the release of Kubernetes v1.37 introduces new Stable, Beta, and Alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 67 enhancements. Of those enhancements, 16 have graduated to Stable, 23 have graduated to Beta, 27 are entering Alpha, and 1]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F08%2F26%2Fkubernetes-v1-37-release%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
         <item>
@@ -497,7 +497,7 @@
             <link>https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/</link>
             <guid>https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/</guid>
             <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project moving forward. This time, we catch up with SIG Storage, the group responsible for persistent data, volume management, and the interfaces that connect Kubernetes workloads to the storage systems beneath them. We spoke with Xing Yang, Co-Chair of SIG Storage and Software Engineer at VMware by Broadcom, about the SIG's history, the features shipping in recent Kubernetes releases, and where storage ]]></description>
+            <description><![CDATA[In our ongoing SIG Spotlight series, we shine a light on the groups that keep the Kubernetes project moving forward. This time, we catch up with SIG Storage, the group responsible for persistent data, volume management, and the interfaces that connect Kubernetes workloads to the storage systems beneath them. We spoke with Xing Yang, Co-Chair of SIG Storage and Software Engineer at VMware by Broadcom, about the SIG's history, the features shipping in recent Kubernetes releases, and where storage]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F15%2Fsig-storage-spotlight-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
         <item>
@@ -571,7 +571,7 @@
             <link>https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/</link>
             <guid>https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/</guid>
             <pubDate>Mon, 01 Jun 2026 18:00:00 GMT</pubDate>
-            <description><![CDATA[For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without relying on the command line. For years, it helped developers, students, and operators make sense of Kubernetes, and it served as an important onramp into the ecosystem. The Kubernetes Dashboard project has now been archived. We deeply respect the work the team did and the role Dashboard played in making ]]></description>
+            <description><![CDATA[For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without relying on the command line. For years, it helped developers, students, and operators make sense of Kubernetes, and it served as an important onramp into the ecosystem. The Kubernetes Dashboard project has now been archived. We deeply respect the work the team did and the role Dashboard played in making]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F06%2F01%2Fdashboard-to-headlamp%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
         <item>
@@ -672,7 +672,7 @@
             <link>https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/</link>
             <guid>https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/</guid>
             <pubDate>Fri, 15 May 2026 18:00:00 GMT</pubDate>
-            <description><![CDATA[Back in Kubernetes 1.28, we introduced the Mixed Version Proxy (MVP) as an Alpha feature (under the feature gate UnknownVersionInteroperabilityProxy) in a previous blog post. The goal was simple but critical: make cluster upgrades safer by ensuring that requests for resources not yet known to an older API server are correctly routed to a newer peer API server, instead of returning an incorrect 404 Not Found. We are excited to announce that the Mixed Version Proxy is moving to Beta in Kubernetes ]]></description>
+            <description><![CDATA[Back in Kubernetes 1.28, we introduced the Mixed Version Proxy (MVP) as an Alpha feature (under the feature gate UnknownVersionInteroperabilityProxy) in a previous blog post. The goal was simple but critical: make cluster upgrades safer by ensuring that requests for resources not yet known to an older API server are correctly routed to a newer peer API server, instead of returning an incorrect 404 Not Found. We are excited to announce that the Mixed Version Proxy is moving to Beta in Kubernetes]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F15%2Fkubernetes-1-36-feature-mixed-version-proxy-beta%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
         <item>
