@@ -4,11 +4,43 @@
         <title>翻訳フィード: AWS — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>AWS 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Thu, 10 Sep 2026 15:53:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 18:16:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Amazon Quick is now generally available on desktop — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/</link>
+            <guid>b314cd1706ad2c7ceef463fc85ef7a3c2bc45a00</guid>
+            <pubDate>Thu, 10 Sep 2026 18:16:37 GMT</pubDate>
+            <description><![CDATA[Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is generally available on macOS and Windows. We’re also adding a new activity feed to the mobile experience on iOS and Android that consolidates email, calendar, CRM, […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Famazon-quick-is-now-generally-available-on-desktop%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/</link>
+            <guid>c7589b0f40b52eb8334f11f9000d87654f7f0e92</guid>
+            <pubDate>Thu, 10 Sep 2026 16:08:57 GMT</pubDate>
+            <description><![CDATA[Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and structure the questionnaire data, refine the workflow through conversation, and write clean CSV output back to Amazon S3 — cutting development from days to hours.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fbuild-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Model-agnostic PII detection with LLMs — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/</link>
+            <guid>4c4240b0ba11b392a9635e42bce173f72181033c</guid>
+            <pubDate>Thu, 10 Sep 2026 16:02:16 GMT</pubDate>
+            <description><![CDATA[A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity types without retraining, and it outperforms an off-the-shelf tool across five public corpora and nine LLM-based detectors.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fmodel-agnostic-pii-detection-with-llms%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Agent Evaluation Metric for multi-turn conversations — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/</link>
+            <guid>d22d0d2e761e9e5191fef2c68e7f3e0287f67732</guid>
+            <pubDate>Thu, 10 Sep 2026 15:55:41 GMT</pubDate>
+            <description><![CDATA[Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure agent quality, applied to its first dimension, correctness, to pinpoint the turn that caused a failure and separate it from the turns that inherited it.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fagent-evaluation-metric-for-multi-turn-conversations%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[How AvioBook builds turnaround insights from operational data with Amazon Bedrock AgentCore — AWS Machine Learning Blog]]></title>
             <link>https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/</link>
@@ -776,38 +808,6 @@
             <pubDate>Mon, 15 Dec 2025 13:34:44 GMT</pubDate>
             <description><![CDATA[#regrowth 2025 大阪で EKSのアップデートを2つ紹介しました]]></description>
             <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-updates-in-regrowth-2025-osaka/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-updates-in-regrowth-2025-osaka%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Argo CDを FargateからEKS Capabilitiesに移行した場合のコストを試算してみた — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/migrate-argocd-from-fargate-to-eks-capabilities/</link>
-            <guid>3emorYsn4A6gzTCN1Douiz</guid>
-            <pubDate>Mon, 15 Dec 2025 09:34:35 GMT</pubDate>
-            <description><![CDATA[Argo CDを FargateからEKS Capabilitiesに移行した場合のコストを試算してみた]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/migrate-argocd-from-fargate-to-eks-capabilities/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fmigrate-argocd-from-fargate-to-eks-capabilities%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[「re:Invent2025 コンテナ系アップデート振り返り(+CloudWatch ログのアップデート紹介)」というタイトルで登壇しました #AWSreInvent #cmregrowth — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/regrowth2025-container-update-summary-cloudwatch-log/</link>
-            <guid>1VkqY0SvRF6JBo0MvwkwoO</guid>
-            <pubDate>Tue, 09 Dec 2025 15:27:46 GMT</pubDate>
-            <description><![CDATA[「re:Invent2025 コンテナ系アップデート振り返り(+CloudWatch ログのアップデート紹介)」というタイトルで登壇しました #AWSreInvent #cmregrowth]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/regrowth2025-container-update-summary-cloudwatch-log/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fregrowth2025-container-update-summary-cloudwatch-log%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[FivetranのHybrid Deployment AgentをAmazon EKSで動かし、フェイルオーバーを試してみた — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/fivetran-hda-with-amazon-eks/</link>
-            <guid>28rtuRRHyVenG8igUbpiGX</guid>
-            <pubDate>Tue, 09 Dec 2025 00:11:16 GMT</pubDate>
-            <description><![CDATA[FivetranのHybrid Deployment AgentをAmazon EKSで動かし、フェイルオーバーを試してみた]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/fivetran-hda-with-amazon-eks/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ffivetran-hda-with-amazon-eks%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AWS DevOps Agent (Preview)のEKSアクセス設定をやってみた #AWSreInvent — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/aws-devops-agent-preview-eks-access/</link>
-            <guid>6VB9VKasKBho3WfVhHcryb</guid>
-            <pubDate>Sat, 06 Dec 2025 04:52:24 GMT</pubDate>
-            <description><![CDATA[AWS DevOps Agent (Preview)のEKSアクセス設定をやってみた #AWSreInvent]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/aws-devops-agent-preview-eks-access/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Faws-devops-agent-preview-eks-access%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
