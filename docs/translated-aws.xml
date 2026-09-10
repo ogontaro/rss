@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>翻訳フィード: AWS — ogontaro/rss</title>
+        <link>https://ogontaro.github.io/rss/</link>
+        <description>AWS 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
+        <lastBuildDate>Wed, 09 Sep 2026 22:26:29 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ja</language>
+        <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/</link>
+            <guid>6973e0078540c7d789cc946cb3c7e1fd791a8c2f</guid>
+            <pubDate>Wed, 09 Sep 2026 22:26:29 GMT</pubDate>
+            <description><![CDATA[Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP speculative decoding.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fdeploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ICYMI: What landed for AI builders in August 2026 — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/</link>
+            <guid>5a4826a00b8c3e2362294bd88790a97f7dfeae72</guid>
+            <pubDate>Wed, 09 Sep 2026 20:01:03 GMT</pubDate>
+            <description><![CDATA[A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agents that run for up to 14 days on dedicated compute, expanded AWS GovCloud availability, and Strands Robots for physical deployment.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Ficymi-what-landed-for-ai-builders-in-august-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock 経由の Claude Code で auto mode を試したら、モデルによって出たり出なかったりした — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/claude-code-auto-mode-bedrock/</link>
+            <guid>6Xgw32Ku7po8KvLviyahpf</guid>
+            <pubDate>Wed, 09 Sep 2026 18:39:21 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock 経由の Claude Code で auto mode が使えるか試しました。使えるモデルと使えないモデルがあります。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/claude-code-auto-mode-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fclaude-code-auto-mode-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/</link>
+            <guid>8b2b6f1fc936da150ec6ba65d555af391dc31a8e</guid>
+            <pubDate>Wed, 09 Sep 2026 18:11:12 GMT</pubDate>
+            <description><![CDATA[Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, Code Interpreter, and Observability let a small team buy premium market data per query, isolate analysis in a sandbox, and keep every action auditable.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fhow-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/</link>
+            <guid>40560bc1165354abd0304d5c35c0cd427ba27c99</guid>
+            <pubDate>Wed, 09 Sep 2026 15:51:29 GMT</pubDate>
+            <description><![CDATA[TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fsimplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Automate user-level custom permissions for Amazon Quick — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/</link>
+            <guid>a77ad5a4cc8d539af020eba9f19a5636de04f505</guid>
+            <pubDate>Wed, 09 Sep 2026 15:45:24 GMT</pubDate>
+            <description><![CDATA[Amazon Quick custom permissions let you enforce least-privilege access by toggling features per user. This post walks through four patterns to automate custom permissions across the user lifecycle: a RegisterUser API parameter, account and role defaults, event-driven Amazon EventBridge and AWS Lambda automation, and a retroactive batch update script.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fautomate-user-level-custom-permissions-for-amazon-quick%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code を Amazon Bedrock 経由で使う環境を作る（WSL + aws-vault + 国内リージョン） — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/claude-code-bedrock-jp-region/</link>
+            <guid>4YCyRPjDJSdNOssxTTAESC</guid>
+            <pubDate>Wed, 09 Sep 2026 15:37:28 GMT</pubDate>
+            <description><![CDATA[既に Claude Enterprise を使っていましたが、Bedrock 経由の Claude も同じ WSL 上で使いたかったので、切り替えられるようにセットアップしました！]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/claude-code-bedrock-jp-region/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fclaude-code-bedrock-jp-region%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock で一般提供になった OpenAI GPT-6 Astra を試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/openai-gpt-6-astra-bedrock/</link>
+            <guid>6EzAOlft8qq7ATBv6FgZGH</guid>
+            <pubDate>Wed, 09 Sep 2026 05:14:38 GMT</pubDate>
+            <description><![CDATA[`bedrock-runtime` の Converse／OpenAI 互換 API と、`bedrock-mantle` の OpenAI 互換 API から GPT-6 Astra を呼び出してみました。エンドポイントごとのモデルID、OpenAI SDK での呼び出し方、Bedrock と OpenAI 直販の料金を確認します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/openai-gpt-6-astra-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fopenai-gpt-6-astra-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/</link>
+            <guid>68d48019de714857964056351fc4d79e51c3ab9f</guid>
+            <pubDate>Tue, 08 Sep 2026 22:06:58 GMT</pubDate>
+            <description><![CDATA[GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It brings deeper reasoning and sharper judgment to your most demanding tasks, running on the Amazon Bedrock inference engine built for high performance, security, and scale.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Ftake-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/</link>
+            <guid>7b62a76bc3853bd9ada742693ec9cd3b09d199a8</guid>
+            <pubDate>Tue, 08 Sep 2026 19:12:51 GMT</pubDate>
+            <description><![CDATA[Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fpathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/</link>
+            <guid>ea7f9667a432b227c77a23d10cd0038932138567</guid>
+            <pubDate>Tue, 08 Sep 2026 18:29:15 GMT</pubDate>
+            <description><![CDATA[Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Famazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2 — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/</link>
+            <guid>88667284f4eb315a303e44d42f1cb0df350f772a</guid>
+            <pubDate>Tue, 08 Sep 2026 17:03:50 GMT</pubDate>
+            <description><![CDATA[Governing models across accounts is the next step after automatic model registration. This post extends managed MLflow and Amazon SageMaker AI Model Registry sync to two cross-account governance topologies: a hub-and-spoke pattern that centralizes governance with AWS RAM, and a hybrid pattern that keeps development accounts isolated.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fgovern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1 — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/</link>
+            <guid>b67e560ebca3a6f1cc0d7c775926ae2754591efa</guid>
+            <pubDate>Tue, 08 Sep 2026 17:03:20 GMT</pubDate>
+            <description><![CDATA[Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fgovern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/</link>
+            <guid>f614da3b4841320cdbf65a639354a52d1b8d9360</guid>
+            <pubDate>Tue, 08 Sep 2026 16:23:21 GMT</pubDate>
+            <description><![CDATA[Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score the responses, and automatically block pull requests when agent behavior regresses.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fautomated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6 — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/</link>
+            <guid>704c7195eeddccd5c949a9cc276e4a8115c9d39e</guid>
+            <pubDate>Tue, 08 Sep 2026 16:21:57 GMT</pubDate>
+            <description><![CDATA[Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fbenchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/</link>
+            <guid>726c7f8b855625652ff33861d4fa092983d4a5c4</guid>
+            <pubDate>Tue, 08 Sep 2026 16:15:23 GMT</pubDate>
+            <description><![CDATA[HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture, the on-premises deployment model built with Strands Agents, and the engineering challenges of grounding agents in live disaster recovery data.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fhow-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How DiDi built intelligent contact center QA with Amazon Bedrock — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/</link>
+            <guid>2070718b427f8bf91bd59867753911fb62518359</guid>
+            <pubDate>Tue, 08 Sep 2026 16:11:11 GMT</pubDate>
+            <description><![CDATA[DiDi built a transparent, self-owned contact center quality assurance (QA) system on Amazon Bedrock, replacing an opaque third-party tool. Intent verification accuracy rose from 38% to 86%, compliance scoring topped 90%, and Voice of Customer trend analysis dropped from hours to minutes across Spanish and Portuguese support.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fhow-didi-built-intelligent-contact-center-qa-with-amazon-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/</link>
+            <guid>bd7e863a13091bede2374f2ed4b4748927b1e862</guid>
+            <pubDate>Mon, 07 Sep 2026 14:24:08 GMT</pubDate>
+            <description><![CDATA[Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[Amazon Bedrock] マルチモーダル埋め込み3モデルとDINOv2を比べて、外観検査のファインチューニングが効く条件を実測してみました — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/visual-inspection-bedrock-multimodal-embeddings-vs-dinov2/</link>
+            <guid>4ibxD6JqiQcRr6zbnBFkC4</guid>
+            <pubDate>Sun, 06 Sep 2026 22:15:15 GMT</pubDate>
+            <description><![CDATA[2年ぶりに同じアヒルを撮り直し、埋め込みモデルのファインチューニングが微細な外観検査の課題を解決するか実測してみました。結果は、元の精度が低い条件では効きましたが、条件が整った状態では逆効果になるという、予想外の結論に至りました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/visual-inspection-bedrock-multimodal-embeddings-vs-dinov2/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fvisual-inspection-bedrock-multimodal-embeddings-vs-dinov2%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/</link>
+            <guid>1cc1445c2783ef202a00ff4aadacbc028620a9eb</guid>
+            <pubDate>Fri, 04 Sep 2026 21:45:52 GMT</pubDate>
+            <description><![CDATA[Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on Amazon Bedrock AgentCore with Amazon Nova 2. The channel and ordering layers stay separate, and one shared memory recognizes each customer across all three channels.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fdeploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Designing lifecycle policies for AgentCore memory — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/</link>
+            <guid>bf15bf1accc979b1b510192d304b5091e2a44dc0</guid>
+            <pubDate>Fri, 04 Sep 2026 17:20:04 GMT</pubDate>
+            <description><![CDATA[Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Bedrock AgentCore: scoring, consolidating, and pruning agent memories on a nightly AWS Step Functions workflow, with a deployable AWS CDK stack.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fdesigning-lifecycle-policies-for-agentcore-memory%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/</link>
+            <guid>5592874537562bba923f97fecd07ce9229f52eea</guid>
+            <pubDate>Fri, 04 Sep 2026 16:16:00 GMT</pubDate>
+            <description><![CDATA[Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod cluster on Amazon EKS, with GPU goodput as the metric that matters.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fbuild-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Run agent-driven Amazon SageMaker HyperPod operations with InstantStart — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/</link>
+            <guid>17430f2135d0d2a25ced64d7b16531770c79f592</guid>
+            <pubDate>Fri, 04 Sep 2026 16:12:17 GMT</pubDate>
+            <description><![CDATA[HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, training, inference, and storage into dependable, agent-driven infrastructure.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Frun-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract/</link>
+            <guid>ce63f98442331c407a18a3007365da56e1a04e60</guid>
+            <pubDate>Fri, 04 Sep 2026 16:08:10 GMT</pubDate>
+            <description><![CDATA[Learn how to customize an Amazon Bedrock knowledge base for large, complex documents by combining the high-accuracy text extraction of Amazon Textract with the generative AI of Amazon Bedrock. This post shows how to ingest and preprocess PDFs and images, then query utility bills at scale for faster, more accurate customer interactions.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fcustomizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How Intuit built an agentic disaster recovery assistant with Amazon Bedrock — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/</link>
+            <guid>21315aba5de258a09ae4f10f0f46a916190e1bc0</guid>
+            <pubDate>Fri, 04 Sep 2026 16:06:01 GMT</pubDate>
+            <description><![CDATA[Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers from a plain-language request while keeping every action audited, policy-compliant, and safe.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fhow-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code v2.1.259〜v2.1.260 の主要アップデート - 差分パネルの追加と権限ルールのセキュリティ修正 — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/20260904-cc-updates-v2-1-260/</link>
+            <guid>3QhXOdPkKjzlT05DGtrvPk</guid>
+            <pubDate>Fri, 04 Sep 2026 04:17:03 GMT</pubDate>
+            <description><![CDATA[Claude Code v2.1.259と260の2つのリリースで100件超の変更が入りました。権限ルール周りの重要な修正が多いほか、会話の横で差分を確認できる新しいパネルも登場しています。本日は、差分パネル（`/diff`）を試してみました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260904-cc-updates-v2-1-260/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260904-cc-updates-v2-1-260%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS のバージョンロールバックができるようになったので試してみた — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-version-rollback-terraform/</link>
+            <guid>1677GZbtTlme67JD6iFN7i</guid>
+            <pubDate>Thu, 03 Sep 2026 10:30:17 GMT</pubDate>
+            <description><![CDATA[EKS のコントロールプレーンが 7 日以内なら前のバージョンに戻せるようになりました。Terraform で 1.35 から 1.36 に上げてから 1.35 に戻すまでを実際に試してみたので、アップグレードとロールバックの手順、気をつけるべき点をまとめます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-version-rollback-terraform/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-version-rollback-terraform%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【小ネタ】SCP のリージョン制限から Bedrock の Global クロスリージョン推論だけ許可するように設定してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/scp-region-deny-bedrock-global-cross-region-inference-unspecified/</link>
+            <guid>3HufwvwrWEvvlwO8XYqbJ6</guid>
+            <pubDate>Thu, 03 Sep 2026 08:25:03 GMT</pubDate>
+            <description><![CDATA[Control Tower のリージョン制限がかかった環境で Bedrock の Global クロスリージョン推論を使おうとしてエラーになった経験はありませんか？]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/scp-region-deny-bedrock-global-cross-region-inference-unspecified/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fscp-region-deny-bedrock-global-cross-region-inference-unspecified%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Bedrock の Grok 4.6 の課金分類を Cost Explorer で確認してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-grok-4-6-cost-explorer-credit/</link>
+            <guid>2xYiMIkUDMgdmsY7vEyxh5</guid>
+            <pubDate>Wed, 02 Sep 2026 04:56:53 GMT</pubDate>
+            <description><![CDATA[イベントなどで配布される AWS クレジットは、Bedrock で使うモデルによっては、その利用料が適用対象外となることがあります。SpaceXAI の Grok 4.6 の利用料が クレジットの対象である事、併せて Cost Explorer 上でどのサービス・どの請求元に分類されるのかを、Claude や OpenAI GPT を Bedrock 経由で使った場合と比べて確認しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-grok-4-6-cost-explorer-credit/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-grok-4-6-cost-explorer-credit%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code v2.1.252〜v2.1.258 の主要アップデート - Fable 5.1 追加と macOS 12 起動不能の修正 — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/20260902-cc-updates-v2-1-258/</link>
+            <guid>4tQy7D9ToKxiDhtswARYm8</guid>
+            <pubDate>Wed, 02 Sep 2026 01:38:38 GMT</pubDate>
+            <description><![CDATA[Claude Code v2.1.252～v2.1.258のアップデートをまとめました。Claude Fable 5.1の追加やautoモードの安全性向上など、権限・認証まわりの重要な変更が入っているため、auto モードやマネージド設定を使っている環境は特に確認をお勧めします。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260902-cc-updates-v2-1-258/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260902-cc-updates-v2-1-258%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock で Claude Fable 5.1 が利用可能になったので Converse API から呼び出してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-claude-fable-5-1-converse/</link>
+            <guid>324yPKCAfQNuxe4OgwJOSC</guid>
+            <pubDate>Tue, 01 Sep 2026 21:08:16 GMT</pubDate>
+            <description><![CDATA[Anthropic の Claude Fable 5.1 が Amazon Bedrock で利用できるようになりました。AWS CLI から Converse API と InvokeModel API で呼び出し、データ保持モードの設定、モデルID の使い分け、reasoning effort、プロンプトキャッシュを確認した結果をまとめます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-claude-fable-5-1-converse/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-claude-fable-5-1-converse%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/</link>
+            <guid>691506bc5e95268a961b15cf0a07d63a6837a457</guid>
+            <pubDate>Mon, 31 Aug 2026 19:53:34 GMT</pubDate>
+            <description><![CDATA[Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Famazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/</link>
+            <guid>3418fcf622154fda93d6ae0475d0ab9d6ec4180f</guid>
+            <pubDate>Mon, 31 Aug 2026 14:45:25 GMT</pubDate>
+            <description><![CDATA[The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Claudeの利用経路について整理してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/slug-claude-aws-bedrock-marketplace/</link>
+            <guid>4MS2DHWr9iUIZ36b7fAaVG</guid>
+            <pubDate>Mon, 31 Aug 2026 11:10:18 GMT</pubDate>
+            <description><![CDATA[AWSとAnthropicの提携拡大に伴い、Claudeの利用経路が増えました。Bedrock、Claude Platform on AWS、Anthropic直契約、AWS Marketplace——どれを選べばいいのか、判断軸を3つに絞って整理します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/slug-claude-aws-bedrock-marketplace/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fslug-claude-aws-bedrock-marketplace%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock に入力したデータはサービス改善に利用されるか教えてください — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/tsnote-bedrock-data-usage-for-service-improvement/</link>
+            <guid>6N9hDcYXp4dWKo9j4sD5VL</guid>
+            <pubDate>Mon, 31 Aug 2026 02:17:20 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrockに入力したデータがサービス改善に使用されるのかについて説明します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/tsnote-bedrock-data-usage-for-service-improvement/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ftsnote-bedrock-data-usage-for-service-improvement%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock の GPT-5.6 で access_denied が返る原因を調査してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-gpt56-access-denied-investigation/</link>
+            <guid>3H8miV92v8FW8F64SR1V8P</guid>
+            <pubDate>Sun, 30 Aug 2026 14:34:14 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock で GPT-5.6 の呼び出しが access_denied で落ちる原因のうち、手元の IAM ポリシーやモデルアクセスを直しても解決しないものが2つあります。AWS 側でモデルが解放されていない場合と、組織の SCP で拒否されている場合です。この2つを OpenAI 互換 API を含む5経路で再現し、メッセージ本文だけで切り分ける方法と、誰に何を伝えるかをまとめました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-gpt56-access-denied-investigation/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-gpt56-access-denied-investigation%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Context Ontology Accelerator（COA）で日本語のオントロジーを構築してみた - 多言語検索等のサポート — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/20260830-aws-context-v022/</link>
+            <guid>4btvDB3bg9WYHqUjyWYxvJ</guid>
+            <pubDate>Sun, 30 Aug 2026 13:42:26 GMT</pubDate>
+            <description><![CDATA[AWS の OSS「Context Ontology Accelerator」v0.2.2 で、日本語のような分かち書きしない言語の質問がオントロジーのラベルに到達できるようになりました。日本語データを用意して、実際に多言語検索を試してみた結果をお伝えします。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260830-aws-context-v022/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260830-aws-context-v022%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[Amazon Bedrock] 洗濯ばさみで外観検査AIを試してみました 〜つまずいたのは「正常の定義」でした〜 — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-vlm-visual-inspection-clothespin/</link>
+            <guid>5wb5Vv6Sr5F6CLn6bSJrXZ</guid>
+            <pubDate>Sat, 29 Aug 2026 23:41:58 GMT</pubDate>
+            <description><![CDATA[前回の金属表面欠陥検査から一歩進めて、自分で欠陥を作った洗濯ばさみで同じ仕組みを試してみました。検出できたものと見逃したものから、VLMによる外観検査の実際の限界と可能性が見えてきました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-vlm-visual-inspection-clothespin/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-vlm-visual-inspection-clothespin%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【Amazon Bedrock】Web Crawler で登録できた URL の一覧をログで確認する方法 — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-knowledge-base-web-crawler-url-log-query/</link>
+            <guid>2XLYbpEP322cdo0ngtd27d</guid>
+            <pubDate>Wed, 26 Aug 2026 11:28:50 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock Knowledge Base の Web Crawler でどの URL が同期されたか確認したいことはありませんか？CloudWatch Logs Insight を使えば、同期完了したURL一覧を簡単に取得できます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-knowledge-base-web-crawler-url-log-query/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-knowledge-base-web-crawler-url-log-query%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【Amazon Bedrock】Managed Knowledge Base のデータソースに Web Crawler を登録してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-managed-knowledge-base-web/</link>
+            <guid>5YdSIq3cgTD2iMFBc7g3ON</guid>
+            <pubDate>Wed, 26 Aug 2026 10:40:34 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock Managed Knowledge Base に Web Crawler でデータソースを登録する手順を、実際の操作画面を交えながらご紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-managed-knowledge-base-web/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-managed-knowledge-base-web%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Happy 20th Birthday, Amazon EC2 — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/</link>
+            <guid>0d62c0134c150af14fc409516cdf59aff26dc9e1</guid>
+            <pubDate>Tue, 25 Aug 2026 16:11:02 GMT</pubDate>
+            <description><![CDATA[On the 20th Anniversary, we recognize how AWS has continued to push the boundaries of what cloud computing can deliver, building custom silicon for general-purpose and AI workloads and expanding EC2 into new form factors and deployment models that our customers in 2006 could not have imagined.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/happy-20th-birthday-amazon-ec2/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fhappy-20th-birthday-amazon-ec2%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Copilot CLIのBYOK機能でBedrock APIからOpus5を使ってみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/github-copilot-cli-byok-bedrock-api-opus5/</link>
+            <guid>1etA62pI4NpRRxb2DQaOA2</guid>
+            <pubDate>Tue, 25 Aug 2026 12:19:30 GMT</pubDate>
+            <description><![CDATA[GitHub Copilot CLIのBYOK機能を使ってAmazon BedrockのClaude Opus5を動かしてみました。APIキーだけで認証できる一方、temperature パラメータの互換性問題をプロキシで解決する必要があった実装方法について紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/github-copilot-cli-byok-bedrock-api-opus5/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fgithub-copilot-cli-byok-bedrock-api-opus5%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ブラウザだけで使えるClaude Code環境（EC2 + code-server + Bedrock）にCloudFrontを追加して、拡張機能もインストールできるようにしてみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/</link>
+            <guid>7dtbmz38KwRVq7mONVCckK</guid>
+            <pubDate>Tue, 25 Aug 2026 06:00:36 GMT</pubDate>
+            <description><![CDATA[前回構築したEC2 + code-server + Bedrock環境の前段にCloudFrontを置き、自己署名証明書によるブラウザ警告と拡張機能のインストール制限を解消しました。証明書エラーに悩まされず拡張機能も使えるようになるので、研修やハンズオンでもそのまま配りやすい環境になります。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock-cloudfront/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F202608-ec2-code-server-claude-code-bedrock-cloudfront%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/</link>
+            <guid>2c1999b3f40dcbf5fbc95e907da3c6141bbc8c45</guid>
+            <pubDate>Mon, 24 Aug 2026 16:20:15 GMT</pubDate>
+            <description><![CDATA[During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【夏休みの自由研究リレー】モデルが分からない状態でBedrockのLLMを当てるクイズを作ってみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/summer-project-2026-bedrock-model-guess-quiz/</link>
+            <guid>5z8zYUR5z8qLXpMKly712w</guid>
+            <pubDate>Mon, 24 Aug 2026 09:30:17 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrockの複数モデルに同じお題を投げて、匿名化した回答から「どのモデルが書いたか」を当てるクイズアプリを作ってみました。遊びながらモデルごとの特徴や価格差を体験できます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/summer-project-2026-bedrock-model-guess-quiz/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fsummer-project-2026-bedrock-model-guess-quiz%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock の OpenAI GPT-5.6 Sol が値下げされました — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-openai-gpt-56-sol-reduced-pricing/</link>
+            <guid>5FngPn1rtviZ5VKrjC7Ds9</guid>
+            <pubDate>Sat, 22 Aug 2026 05:37:16 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock 上の OpenAI GPT-5.6 Sol の価格改定が発表され、出力トークンの単価が 33.3% 下がりました。7月の Terra / Luna の値下げに続く今回の改定で、GPT-5.6 シリーズすべての価格が見直されたことになります。改定後の価格体系と、Claude 5世代との比較をまとめます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-openai-gpt-56-sol-reduced-pricing/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-openai-gpt-56-sol-reduced-pricing%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[Amazon Bedrock] 検査プロンプトを VLM 自身に書かせて外観検査をしてみました 〜欠陥の位置は座標ではなくグリッドのセル名で〜 — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-vlm-visual-inspection-generated-prompt/</link>
+            <guid>2RFEznWsjWRiwBRfhWkPBr</guid>
+            <pubDate>Fri, 21 Aug 2026 22:45:49 GMT</pubDate>
+            <description><![CDATA[VLM（Vision Language Model）で外観検査を始める際の課題である「検査キーワードの決定」と「欠陥位置の特定」を、VLM自身に解決させる方法を試してみました。異常・正常サンプルから検査プロンプトを自動生成し、グリッドのセル名で位置を指定することで、迅速なPoC立ち上げと精度向上を実現しています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-vlm-visual-inspection-generated-prompt/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-vlm-visual-inspection-generated-prompt%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[東京リージョンで利用可能になったAmazon Bedrock AgentCore Web Search Toolを日本語クエリで試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-agentcore-web-search-tool-japanese-query/</link>
+            <guid>2ANWyW3HqbZQbUrze4K4oV</guid>
+            <pubDate>Fri, 21 Aug 2026 18:54:31 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock AgentCore Web Search Toolの検索インデックスに、日本語記事がどの程度収録されているかを、DevelopersIOの記事を対象に調べました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-agentcore-web-search-tool-japanese-query/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-agentcore-web-search-tool-japanese-query%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/</link>
+            <guid>3e7f6047f5812686137b8832bd55b853dd906a34</guid>
+            <pubDate>Fri, 21 Aug 2026 18:53:26 GMT</pubDate>
+            <description><![CDATA[AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock RuntimeのGrok 4.6を AWS CLIで試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/grok-46-bedrock-runtime-converse/</link>
+            <guid>1MDNozGd8TYpz9JQHJDxhB</guid>
+            <pubDate>Fri, 21 Aug 2026 14:42:21 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock で利用可能になった Grok 4.6 を、AWS CLI の aws bedrock-runtime converse から IAM 認証だけで呼び出してみました。Bearer Token の発行は不要で、Global と US Geo の推論プロファイルの使い分けも確認します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/grok-46-bedrock-runtime-converse/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fgrok-46-bedrock-runtime-converse%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock Web Search の external_web_access が有効化されたので、GPT-5.6 Lunaで試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-web-search-external-web-access/</link>
+            <guid>54aLuUQK59Tsm3sHo85Kgi</guid>
+            <pubDate>Thu, 20 Aug 2026 09:53:11 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock Web Search の external_web_access が有効化されました。従来のようにAWS公式ドメインの情報を返すだけでなく、天気サイトやOSSの公式ドキュメントといったAWS外のサイトまで検索・取得できるのか、そのときのレスポンス（search / open_page と引用URL）に何が入るのかを bedrock-mantle 経由で確認しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-web-search-external-web-access/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-web-search-external-web-access%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock の呼び出しで AWS Marketplace のエラーが発生するときの対処方法 — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/tsnote-bedrock-marketplace-error-solution/</link>
+            <guid>39rutzCHdWvJd99mTpNU5r</guid>
+            <pubDate>Thu, 20 Aug 2026 02:58:31 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock で Claude モデルを呼び出した際に発生する AWS Marketplace のエラーについて、その原因と対処法を紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/tsnote-bedrock-marketplace-error-solution/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ftsnote-bedrock-marketplace-error-solution%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Grok Build CLIでAmazon Bedrock上のGrok 4.6を試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/grok-build-cli-amazon-bedrock-grok-46/</link>
+            <guid>7mF8srRagZIS3PXRPioi5</guid>
+            <pubDate>Wed, 19 Aug 2026 14:48:00 GMT</pubDate>
+            <description><![CDATA[最新版のGrok Build CLIにAmazon Bedrock（bedrock-mantle）用のカスタムモデルを設定し、AWS認証情報から生成したBearer TokenでGrok 4.6を呼び出してみました。対話モードとヘッドレス実行のいずれでもBedrock経由で動作し、日本語プロンプトには日本語で応答が返りました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/grok-build-cli-amazon-bedrock-grok-46/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fgrok-build-cli-amazon-bedrock-grok-46%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrockで利用可能になったxAIのGrok 4.6をMantleで試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/grok-4-6-amazon-bedrock-mantle-iam/</link>
+            <guid>3dzpnFmBP5B4iNkgyt0t2I</guid>
+            <pubDate>Wed, 19 Aug 2026 10:03:33 GMT</pubDate>
+            <description><![CDATA[Amazon BedrockでxAIのGrok 4.6が利用可能になりました。本記事ではIAM認証で短期Bearer Tokenを取得し、bedrock-mantleエンドポイント経由でOpenAI互換のChat CompletionsとResponses、および画像入力を試しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/grok-4-6-amazon-bedrock-mantle-iam/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fgrok-4-6-amazon-bedrock-mantle-iam%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/</link>
+            <guid>5bd92664f8ba6ec61ac2d68e8b4b52a7f2988613</guid>
+            <pubDate>Tue, 18 Aug 2026 13:58:41 GMT</pubDate>
+            <description><![CDATA[Each location will be a permanent community space to offer free workshops, networking events, pitch nights, content creation spaces, collaboration/co-working areas, and event hosting for developers, students, or tech professionals who want to walk through the doors.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fin-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[bedrock-runtime で OpenAI GPT-5.6 が使えるようになったので試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-runtime-openai-gpt56/</link>
+            <guid>2gTk43dTRZDtbMW0b3NXvv</guid>
+            <pubDate>Tue, 18 Aug 2026 05:33:38 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock の bedrock-runtime エンドポイントで OpenAI GPT-5.6 が使えるようになりました。Claude などを利用している Bedrock Runtime 環境でも OpenAI モデルを選択肢に加えられます。Responses / Chat Completions / Converse と、利用時に選べるクロスリージョン推論を確認しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-runtime-openai-gpt56/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-runtime-openai-gpt56%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock Knowledge Bases のセマンティックチャンキング利用時にどのモデルが使用されるのか教えてください — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/tsnote-bedrock-knowledge-bases-semantic-chunking-model/</link>
+            <guid>1PDmmz7qc2XviMtVp6Viq5</guid>
+            <pubDate>Tue, 18 Aug 2026 03:13:47 GMT</pubDate>
+            <description><![CDATA[Bedrock Knowledge Basesのセマンティックチャンキングで使用される基盤モデルについて、その正体と料金への影響を解説します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/tsnote-bedrock-knowledge-bases-semantic-chunking-model/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ftsnote-bedrock-knowledge-bases-semantic-chunking-model%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: EC2 application status checks, IAM role manager, OpenAI Daybreak on Bedrock, and more (August 17, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/</link>
+            <guid>e0eaa8dc02bf3dada9e373bdf284e82bd4d4e86c</guid>
+            <pubDate>Mon, 17 Aug 2026 16:02:36 GMT</pubDate>
+            <description><![CDATA[Last week, AWS contributors joined the OpenSearch and Valkey communities at Open Source Summit Korea 2026 and MCP DevSummit Seoul 2026 to meet open source developers and contributors. At the four-day event, community leaders and users of these Linux Foundation open source projects gathered to share knowledge, collaborate on solutions, and push the projects forward. […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-ec2-application-status-checks-iam-role-manager-openai-daybreak-on-bedrock-and-more-august-17-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Context Ontology Accelerator（COA）で業務オントロジーを構築してみた - なぜ今オントロジーなのか？ — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/20260817-aws-context-v020/</link>
+            <guid>1evB6iZaezEbxP4ilbpYnr</guid>
+            <pubDate>Mon, 17 Aug 2026 11:12:47 GMT</pubDate>
+            <description><![CDATA[AWS Context Ontology Accelerator は、AI を使ってオントロジーのドラフトを生成し、人のレビュー・承認を経て、エージェントが正確・一貫性があり・監査可能な意思決定を行えるようにするツールです。実際にデプロイして、データから関係を推論し、業務ルールを検証する過程を追体験して、オントロジーとは何かを感じてください。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260817-aws-context-v020/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260817-aws-context-v020%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[RAG を本番運用している当事者が「MCP と LLM の進歩で ETL と従来型 RAG は捨てられる」と語ったトヨタのセッションに参加しました #AWSreInvent — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/reinvent-2025-ind320-toyota-dealer-ai-platform/</link>
+            <guid>5eifFwJpVNSy20yYIKWuVj</guid>
+            <pubDate>Fri, 14 Aug 2026 03:00:28 GMT</pubDate>
+            <description><![CDATA[AWS re:Invent 2025 のセッション「How Toyota Built an AI Platform that Revolutionizes the Dealer Experience (IND320)」をレポートします。作り込んだ RAG 基盤の当事者が「MCP と LLM の進歩で ETL と従来型 RAG はまるごと落とせる」と結論した話です。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/reinvent-2025-ind320-toyota-dealer-ai-platform/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Freinvent-2025-ind320-toyota-dealer-ai-platform%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Connect AIエージェントで Bedrock Knowledge Base の S3 ドキュメントメタデータを使って回答を出し分けてみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/amazon-connect-ai-agent-bedrock-knowledge-base-s3-metadata-filter/</link>
+            <guid>1QNVCRstzLL2qniOnbk04F</guid>
+            <pubDate>Fri, 14 Aug 2026 01:14:54 GMT</pubDate>
+            <description><![CDATA[Amazon Connect AIエージェントと Bedrock Knowledge Base を組み合わせ、S3 メタデータを使ったナレッジのフィルタリングを検証しました。同一の Knowledge Base から会員グレードに応じた回答を出し分ける手法について紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/amazon-connect-ai-agent-bedrock-knowledge-base-s3-metadata-filter/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Famazon-connect-ai-agent-bedrock-knowledge-base-s3-metadata-filter%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon Bedrock Managed Knowledge Base に Amazon Quick から日本語で自然言語問合せしてみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/20260813-amazon-mkb-with-quick/</link>
+            <guid>wxHD28rEzZjjuxRm0Bjy5</guid>
+            <pubDate>Thu, 13 Aug 2026 11:22:45 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock の Managed Knowledge Base を Amazon Quick に接続し、日本語のドキュメントで自然言語問い合わせを試してみました。ベクトルストア不要の RAG 基盤で、複数文書をまたぐ質問にも対応できた実装例を紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260813-amazon-mkb-with-quick/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260813-amazon-mkb-with-quick%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ブラウザだけで使えるClaude Code環境をEC2 + code-server + Bedrockで作ってみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock/</link>
+            <guid>2cQCp037KYRqJ0oonkENgc</guid>
+            <pubDate>Thu, 13 Aug 2026 09:16:07 GMT</pubDate>
+            <description><![CDATA[EC2上のcode-serverにBedrock経由のClaude Codeを載せ、ブラウザだけで使える開発環境を作りました。認証はIAMロールなので利用者にAPIキーは不要で、研修やハンズオンで配る用途に向いています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/202608-ec2-code-server-claude-code-bedrock/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F202608-ec2-code-server-claude-code-bedrock%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AgentCore Gatewayに追加されたレート制限機能を試してみた — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/agentcore-gateway-rate-limit/</link>
+            <guid>4bpL01jIokttcSLptvqYyg</guid>
+            <pubDate>Thu, 13 Aug 2026 05:57:48 GMT</pubDate>
+            <description><![CDATA[Amazon Bedrock AgentCore Gatewayに追加されたレート制限機能を試してみました！]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/agentcore-gateway-rate-limit/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fagentcore-gateway-rate-limit%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[Amazon Bedrock] Nova 2 Lite で画像内の認証情報を一括マスクするツールを作り、判定の一部をコードに移してみました — Amazon Bedrock | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/bedrock-nova-2-lite-image-credential-masking/</link>
+            <guid>6zLX3ruBlCEl4X0aMHpn1k</guid>
+            <pubDate>Wed, 12 Aug 2026 15:33:17 GMT</pubDate>
+            <description><![CDATA[スクリーンショットに写り込んだアカウントID やアクセスキーなどの認証情報を自動でマスクするローカルCLIツールを実装しました。Amazon Novaで画像を読み取り、正規表現やLLMの判定と組み合わせることで、形式で定義できるものはコードに、文脈判断が必要なものはモデルに役割を分担させた実装の工夫を紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/bedrock-nova-2-lite-image-credential-masking/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fbedrock-nova-2-lite-image-credential-masking%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: AWS Heroes Summit, Web Search on Amazon Bedrock, Dogwood, Kiro Crew, and more (August 10, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/</link>
+            <guid>23fc16a0c48a8aaf8de130ae8e5719b50ba6f960</guid>
+            <pubDate>Mon, 10 Aug 2026 15:45:03 GMT</pubDate>
+            <description><![CDATA[Last week, we brought together AWS Heroes from around the world to connect, collaborate, and celebrate the builders who go above and beyond for the AWS community. The AWS Heroes Summit, an invite-only annual gathering, brings global experts specializing in fields like AI, serverless, and containers together for direct collaboration, technical deep-dives, and feedback sessions […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS モジュール v21 で hop limit が 1 になって出る IMDS エラーを調べてみた — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-v21-hop-limit-imds-error/</link>
+            <guid>1ywOJMPam1nl0KiL3Icwum</guid>
+            <pubDate>Fri, 07 Aug 2026 07:16:37 GMT</pubDate>
+            <description><![CDATA[EKS モジュールを v21 に上げたところ、一部の Pod に IMDS のエラーログが出るようになったため、原因となった hop limit の変更と、機能への影響、解消方法をまとめます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-v21-hop-limit-imds-error/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-v21-hop-limit-imds-error%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/</link>
+            <guid>7bc89749c1b638955cb1927019d33a1150693c0f</guid>
+            <pubDate>Thu, 06 Aug 2026 22:58:00 GMT</pubDate>
+            <description><![CDATA[Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fruntime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon DynamoDB now supports real-time vector search at any scale — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/</link>
+            <guid>13572f01241ca7108f49e50344decc868ddde5d7</guid>
+            <pubDate>Wed, 05 Aug 2026 14:45:10 GMT</pubDate>
+            <description><![CDATA[DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Famazon-dynamodb-now-supports-real-time-vector-search-at-any-scale%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/</link>
+            <guid>b0d8b064b69ed668c9ddbe686c1284b90aaefbe3</guid>
+            <pubDate>Mon, 03 Aug 2026 16:12:30 GMT</pubDate>
+            <description><![CDATA[Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/</link>
+            <guid>77c18d2b47b8dea484a97205ea56792640d7b37a</guid>
+            <pubDate>Mon, 27 Jul 2026 14:54:41 GMT</pubDate>
+            <description><![CDATA[Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single session, it was the energy of a technical community […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-july-27-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/</link>
+            <guid>27dde8580d688a55e51f9a85a22645896b60028e</guid>
+            <pubDate>Mon, 20 Jul 2026 16:37:34 GMT</pubDate>
+            <description><![CDATA[Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul. My team regularly visits countries across the Asia-Pacific region, listens to feedback […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[アップデート] CloudWatch Application Signals に Dynamic Instrumentation が追加され、本番アプリケーションの変数やスタックトレースを再デプロイなしで取得できるようになりました — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/cloudwatch-dynamic-instrumentation/</link>
+            <guid>2Sy0MM3to3EiaW4LJt8Rpf</guid>
+            <pubDate>Fri, 17 Jul 2026 01:41:29 GMT</pubDate>
+            <description><![CDATA[CloudWatch Application Signals に追加された Dynamic Instrumentation 機能を試してみました。再デプロイなしに本番環境のアプリケーションに対してブレークポイントを設定し、実行時の変数や引数をスナップショットとして取得できる仕組みについて紹介します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/cloudwatch-dynamic-instrumentation/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fcloudwatch-dynamic-instrumentation%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon SQS turns 20: Two decades of reliable messaging at scale — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/</link>
+            <guid>4208480ff12de823b05e88106fa2cdbe89cd4c2e</guid>
+            <pubDate>Mon, 13 Jul 2026 18:13:57 GMT</pubDate>
+            <description><![CDATA[On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Famazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/</link>
+            <guid>795943e111b58ed576073f2b1f72bcebff6b9306</guid>
+            <pubDate>Mon, 13 Jul 2026 16:18:20 GMT</pubDate>
+            <description><![CDATA[AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【セッションレポート】 AWS における Kubernetes の未来[CN348] — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/aws-summit-2026-Kubernetes-future/</link>
+            <guid>OOHTs7NplbdV7AHty7Lea</guid>
+            <pubDate>Tue, 07 Jul 2026 13:32:58 GMT</pubDate>
+            <description><![CDATA[AWS summit 2026 AWS における Kubernetes の未来[CN348] のセッションレポートです。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/aws-summit-2026-Kubernetes-future/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Faws-summit-2026-Kubernetes-future%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS Weekly Roundup: Claude Sonnet 5 on AWS, Amazon WorkSpaces for AI agents, AWS service availability updates, and more (July 6, 2026) — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/</link>
+            <guid>93f6e85a83e5307a20b77095977f07cd1f1ca301</guid>
+            <pubDate>Mon, 06 Jul 2026 15:46:43 GMT</pubDate>
+            <description><![CDATA[A couple of editions ago I wrote about what I find so energizing about working with startups. Last week I got a fresh dose of it: I spent a few days with the AWS Startups team, listening to stories of founders talking about the problems they’re actually solving. One story that stayed with me came […]]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/</link>
+            <guid>25f64a6bf2f8d46827f51c3f9dcc34b99f7955fd</guid>
+            <pubDate>Wed, 01 Jul 2026 17:20:30 GMT</pubDate>
+            <description><![CDATA[Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk operation.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fupgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/</link>
+            <guid>e1fe2965259df670bd55dc1185e2f5c257298d4c</guid>
+            <pubDate>Tue, 30 Jun 2026 21:30:33 GMT</pubDate>
+            <description><![CDATA[AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Faccelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available — AWS News Blog]]></title>
+            <link>https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/</link>
+            <guid>d668a838bb33c15b4742302284561effb3be54a0</guid>
+            <pubDate>Tue, 30 Jun 2026 20:56:44 GMT</pubDate>
+            <description><![CDATA[Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe storage options (C9gd).]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Famazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Amazon EKS のクラスター削除時に発生する Cluster has nodegroups attached の解消方法を教えてください — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/tsnote-eks-please-tell-me-how-to-resolve-the-cluster-has-nodegroups-attached-that-occurs-when-deleting-an-amazon-eks-cluster/</link>
+            <guid>7gKUynzh9VUj5Q2lJLuRju</guid>
+            <pubDate>Fri, 26 Jun 2026 01:24:48 GMT</pubDate>
+            <description><![CDATA[Amazon EKS のクラスター削除時に発生する Cluster has nodegroups attached の解消方法を教えてください]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/tsnote-eks-please-tell-me-how-to-resolve-the-cluster-has-nodegroups-attached-that-occurs-when-deleting-an-amazon-eks-cluster/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ftsnote-eks-please-tell-me-how-to-resolve-the-cluster-has-nodegroups-attached-that-occurs-when-deleting-an-amazon-eks-cluster%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【Security Hub修復手順】[EKS.9] EKSノードグループは、サポートされているKubernetesバージョンで実行する必要があります — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-eks-9/</link>
+            <guid>5Z1wkd5DlFT8sVEhHZirJ</guid>
+            <pubDate>Wed, 24 Jun 2026 01:19:40 GMT</pubDate>
+            <description><![CDATA[【Security Hub修復手順】[EKS.9] EKSノードグループは、サポートされているKubernetesバージョンで実行する必要があります]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/securityhub-fsbp-remediation-eks-9/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fsecurityhub-fsbp-remediation-eks-9%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[เจาะลึกเบื้องหลัง Amazon EKS: ออกแบบสถาปัตยกรรมเพื่อ Scale และ Performance (AWS Summit Bangkok) — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/aws-eks-scale-performance-2026-th/</link>
+            <guid>g98Ij1MaC7U5jkaAtI4pW</guid>
+            <pubDate>Fri, 19 Jun 2026 05:03:30 GMT</pubDate>
+            <description><![CDATA[สรุป session DVT303 จากงาน AWS Summit Bangkok ที่พาไปดูเบื้องหลังการออกแบบ Amazon EKS ตั้งแต่ Control Plane, etcd, Ultra-Scale Clusters ไปจนถึง Provisioned Control Plane พร้อมบทเรียนจริงจากการสเกล EKS กว่า 7 ปีของ Ascend Money (TrueMoney) ทั้งเรื่อง CoreDNS, kube-proxy, Subnet Design และ API Priority & Fairness]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/aws-eks-scale-performance-2026-th/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Faws-eks-scale-performance-2026-th%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【セッションレポート】生成AI時代の内製サービス開発 京セラロボティックサービス開発のこれまでとこれから #ClassmethodForum — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/dafujii-session-report-classmethod-forum-2026-kyocera-robotic-services/</link>
+            <guid>1w6KFepCRXJTQodKO3VyTe</guid>
+            <pubDate>Mon, 01 Jun 2026 03:00:11 GMT</pubDate>
+            <description><![CDATA[【セッションレポート】生成AI時代の内製サービス開発 京セラロボティックサービス開発のこれまでとこれから #ClassmethodForum]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/dafujii-session-report-classmethod-forum-2026-kyocera-robotic-services/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fdafujii-session-report-classmethod-forum-2026-kyocera-robotic-services%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[アップデート] EKS が CloudShell を介したワンクリッククラスターアクセスをサポートしました — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-one-click-cluster-access/</link>
+            <guid>5Igk1ekfPptnjN4AmnG6Gg</guid>
+            <pubDate>Mon, 04 May 2026 09:06:35 GMT</pubDate>
+            <description><![CDATA[[アップデート] EKS が CloudShell を介したワンクリッククラスターアクセスをサポートしました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-one-click-cluster-access/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-one-click-cluster-access%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[アップデート] OTel Container Insights for Amazon EKS を利用できるようになりました — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/otel-container-insights-for-eks/</link>
+            <guid>4CSJVHJ7m4IKgaAYvi14Ph</guid>
+            <pubDate>Sat, 18 Apr 2026 15:05:21 GMT</pubDate>
+            <description><![CDATA[[アップデート] OTel Container Insights for Amazon EKS を利用できるようになりました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/otel-container-insights-for-eks/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fotel-container-insights-for-eks%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS on Fargate で Pod のメトリクスを取得してみた（ADOT 編) — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eksonfagate-containerinsights-adot/</link>
+            <guid>3QaSGzNX79NZU331MjYMYx</guid>
+            <pubDate>Wed, 08 Apr 2026 04:33:48 GMT</pubDate>
+            <description><![CDATA[EKS on Fargate で Pod のメトリクスを取得してみた（ADOT 編)]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eksonfagate-containerinsights-adot/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feksonfagate-containerinsights-adot%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS on Fargate で Pod のコンテナログを CloudWatch Logs に出力してみた（Built-in Fluent Bit 編） — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eksonfagate-cloudwatchlogs-builtinfluentbit/</link>
+            <guid>6DRQfGNFXuhRJu7SdMt7eI</guid>
+            <pubDate>Wed, 08 Apr 2026 04:33:48 GMT</pubDate>
+            <description><![CDATA[EKS on Fargate で Pod のコンテナログを CloudWatch Logs に出力してみた（Built-in Fluent Bit 編）]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eksonfagate-cloudwatchlogs-builtinfluentbit/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feksonfagate-cloudwatchlogs-builtinfluentbit%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS DevOps Agent で、EKS の Pod クラッシュを調査させてみた — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/devops-agent-eks-pod-crash/</link>
+            <guid>3S6fmGDObWdWWVz9fczGow</guid>
+            <pubDate>Mon, 09 Mar 2026 05:44:07 GMT</pubDate>
+            <description><![CDATA[AWS DevOps Agent で、EKS の Pod クラッシュを調査させてみた]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/devops-agent-eks-pod-crash/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fdevops-agent-eks-pod-crash%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[アップデート] EKS Auto Mode で AWS 管理コンポーネントのログを出力できるようになりました — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-auto-mode-aws-managed-component-logging/</link>
+            <guid>1J8F9wLwF6FBlEH1k9kD9W</guid>
+            <pubDate>Mon, 02 Mar 2026 02:47:34 GMT</pubDate>
+            <description><![CDATA[[アップデート] EKS Auto Mode で AWS 管理コンポーネントのログを出力できるようになりました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-auto-mode-aws-managed-component-logging/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-auto-mode-aws-managed-component-logging%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS Fargate Pod のメンテナンスでダウンタイムは発生するか教えてください — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/tsnote-eks-fargate-pod-maintenance-downtime/</link>
+            <guid>1QQtnqazJMqIjpkovzAw8z</guid>
+            <pubDate>Tue, 20 Jan 2026 01:34:09 GMT</pubDate>
+            <description><![CDATA[EKS Fargate Pod のメンテナンスでダウンタイムは発生するか教えてください]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/tsnote-eks-fargate-pod-maintenance-downtime/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ftsnote-eks-fargate-pod-maintenance-downtime%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS の強化された Network Policy を利用して、DNS ベースでのネットワーク制御を行ってみる — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-enhanced-network-policy-domain-base-filterling/</link>
+            <guid>2YBHbzzMAJEOxTpC3tFqRs</guid>
+            <pubDate>Mon, 05 Jan 2026 15:12:22 GMT</pubDate>
+            <description><![CDATA[EKS の強化された Network Policy を利用して、DNS ベースでのネットワーク制御を行ってみる]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-enhanced-network-policy-domain-base-filterling/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-enhanced-network-policy-domain-base-filterling%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[#regrowth 2025 大阪で EKSのアップデートを2つ紹介しました — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-updates-in-regrowth-2025-osaka/</link>
+            <guid>71OjSioVmap1EjFSZYxtpe</guid>
+            <pubDate>Mon, 15 Dec 2025 13:34:44 GMT</pubDate>
+            <description><![CDATA[#regrowth 2025 大阪で EKSのアップデートを2つ紹介しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-updates-in-regrowth-2025-osaka/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-updates-in-regrowth-2025-osaka%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Argo CDを FargateからEKS Capabilitiesに移行した場合のコストを試算してみた — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/migrate-argocd-from-fargate-to-eks-capabilities/</link>
+            <guid>3emorYsn4A6gzTCN1Douiz</guid>
+            <pubDate>Mon, 15 Dec 2025 09:34:35 GMT</pubDate>
+            <description><![CDATA[Argo CDを FargateからEKS Capabilitiesに移行した場合のコストを試算してみた]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/migrate-argocd-from-fargate-to-eks-capabilities/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fmigrate-argocd-from-fargate-to-eks-capabilities%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[「re:Invent2025 コンテナ系アップデート振り返り(+CloudWatch ログのアップデート紹介)」というタイトルで登壇しました #AWSreInvent #cmregrowth — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/regrowth2025-container-update-summary-cloudwatch-log/</link>
+            <guid>1VkqY0SvRF6JBo0MvwkwoO</guid>
+            <pubDate>Tue, 09 Dec 2025 15:27:46 GMT</pubDate>
+            <description><![CDATA[「re:Invent2025 コンテナ系アップデート振り返り(+CloudWatch ログのアップデート紹介)」というタイトルで登壇しました #AWSreInvent #cmregrowth]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/regrowth2025-container-update-summary-cloudwatch-log/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Fregrowth2025-container-update-summary-cloudwatch-log%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[FivetranのHybrid Deployment AgentをAmazon EKSで動かし、フェイルオーバーを試してみた — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/fivetran-hda-with-amazon-eks/</link>
+            <guid>28rtuRRHyVenG8igUbpiGX</guid>
+            <pubDate>Tue, 09 Dec 2025 00:11:16 GMT</pubDate>
+            <description><![CDATA[FivetranのHybrid Deployment AgentをAmazon EKSで動かし、フェイルオーバーを試してみた]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/fivetran-hda-with-amazon-eks/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Ffivetran-hda-with-amazon-eks%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWS DevOps Agent (Preview)のEKSアクセス設定をやってみた #AWSreInvent — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/aws-devops-agent-preview-eks-access/</link>
+            <guid>6VB9VKasKBho3WfVhHcryb</guid>
+            <pubDate>Sat, 06 Dec 2025 04:52:24 GMT</pubDate>
+            <description><![CDATA[AWS DevOps Agent (Preview)のEKSアクセス設定をやってみた #AWSreInvent]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/aws-devops-agent-preview-eks-access/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Faws-devops-agent-preview-eks-access%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[レポート]AWS上のコンテナワークロードの脆弱性管理自動化 #AWSreInvent #SEC332 — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/reinvent-2025-sec332-report/</link>
+            <guid>6Ze0nvPvNyPww5iIbTdgdd</guid>
+            <pubDate>Sat, 06 Dec 2025 01:50:13 GMT</pubDate>
+            <description><![CDATA[Amazon ECS/EKSやコンテナ周辺のサービスやセキュリティ・運用サービスを組み合わせて一連のセキュリティ運用を自動化するセッションでした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/reinvent-2025-sec332-report/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Freinvent-2025-sec332-report%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[EKS Capabilities で AWS Controllers for Kubernetes(ACK) を利用してみた #AWSreInvent — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/eks-capabilities-aws-controller-for-kubernetes/</link>
+            <guid>789enLPehwWtHa7OonsbY</guid>
+            <pubDate>Thu, 04 Dec 2025 17:59:12 GMT</pubDate>
+            <description><![CDATA[EKS Capabilities で AWS Controllers for Kubernetes(ACK) を利用してみた #AWSreInvent]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-capabilities-aws-controller-for-kubernetes/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Feks-capabilities-aws-controller-for-kubernetes%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[[レポート] Master KRMOps: Declarative resource management with Amazon EKS and kro #CNS407 #AWSreInvent — Amazon EKS | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/reinvent2025-master-krmops-cns407-report/</link>
+            <guid>1OQj5PGznEbHIAbHVFl5y8</guid>
+            <pubDate>Thu, 04 Dec 2025 14:01:21 GMT</pubDate>
+            <description><![CDATA[[レポート] Master KRMOps: Declarative resource management with Amazon EKS and kro #CNS407 #AWSreInvent]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/reinvent2025-master-krmops-cns407-report/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2Freinvent2025-master-krmops-cns407-report%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
