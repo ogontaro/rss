@@ -34,35 +34,28 @@ function feedRefs(): FeedRef[] {
 }
 
 async function domainCard(d: Domain): Promise<string> {
-  const isRelease = (RELEASE_DOMAINS as string[]).includes(d);
   const report = await latestDate(reportDir(d));
+  const isRelease = (RELEASE_DOMAINS as string[]).includes(d);
   const release = isRelease ? await latestDate(releaseDir(d)) : null;
-
-  const rows: string[] = [];
-  rows.push(
+  const lines: string[] = [];
+  lines.push(
     report
-      ? `<div class="latest">日次レポート <a href="report/${d}/${report}.html">${report}</a></div>`
-      : `<div class="latest none">日次レポート: まだありません</div>`,
+      ? `<li>日次レポート最新: <a href="report/${d}/${report}.html">${report}</a></li>`
+      : "<li>日次レポート: まだありません</li>",
   );
   if (isRelease) {
-    rows.push(
+    lines.push(
       release
-        ? `<div class="latest">週次リリース <a href="release/${d}/${release}.html">${release}</a></div>`
-        : `<div class="latest none">週次リリース: まだありません</div>`,
+        ? `<li>週次リリース最新: <a href="release/${d}/${release}.html">${release}</a></li>`
+        : "<li>週次リリース: まだありません</li>",
     );
   }
-
-  const pills = [
-    `<a href="translated-${d}.xml">翻訳フィード</a>`,
-    `<a href="report-${d}.xml">レポート</a>`,
-  ];
-  if (isRelease) pills.push(`<a href="release-${d}.xml">リリース</a>`);
-
-  return `<section class="card" data-domain="${d}">
-<h2>${DOMAIN_LABEL[d]}</h2>
-${rows.join("\n")}
-<div class="pills">${pills.join("")}</div>
-</section>`;
+  lines.push(
+    `<li>フィード: <a href="translated-${d}.xml">翻訳</a> / <a href="report-${d}.xml">レポート</a>${
+      isRelease ? ` / <a href="release-${d}.xml">リリース</a>` : ""
+    }</li>`,
+  );
+  return `<section class="card">\n<h2>${DOMAIN_LABEL[d]}</h2>\n<ul>\n${lines.join("\n")}\n</ul>\n</section>`;
 }
 
 function opmlXml(): string {
@@ -89,12 +82,9 @@ async function main() {
 
   const cards = await Promise.all(CONTENT_DOMAINS.map(domainCard));
   const body = `<h1>ogontaro / rss</h1>
-<p class="lead">Claude / Kubernetes / AWS の動向を日本語で追うための個人用 RSS。
-翻訳フィードで流し読み、レポートで要点、リリースで週次のバージョン差分。
+<p>Claude / Kubernetes / AWS の情報を日本語で追うための個人用 RSS。
 一括購読は <a href="subscriptions.opml">subscriptions.opml</a>。</p>
-<div class="cards">
-${cards.join("\n")}
-</div>`;
+${cards.join("\n")}`;
 
   await Bun.write(INDEX_HTML, pageShell({ title: "ogontaro / rss", body }));
   console.log(`index.html + subscriptions.opml (${feedRefs().length} feeds)`);
