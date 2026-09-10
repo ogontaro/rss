@@ -3,7 +3,7 @@ import Parser from "rss-parser";
 import { DOMAIN_LABEL } from "./labels.ts";
 import { SITE_URL, translatedXml } from "./paths.ts";
 import type { Domain, TranslatedEntry } from "./types.ts";
-import { escapeHtml, googleTranslateUrl } from "./urls.ts";
+import { escapeHtml, googleTranslateUrl, isJapaneseSource } from "./urls.ts";
 
 const MAX_ITEMS = 100;
 const TITLE_SEP = " — ";
@@ -59,9 +59,10 @@ export async function writeDomainFeed(domain: Domain, entries: TranslatedEntry[]
       link: e.link,
       date: e.pubDate,
       description: e.descriptionJa || undefined,
-      content:
-        `<p><a href="${escapeHtml(e.link)}">原文を読む</a> / ` +
-        `<a href="${escapeHtml(googleTranslateUrl(e.link))}">Google 翻訳で全文を読む</a></p>`,
+      content: isJapaneseSource(e.link)
+        ? `<p><a href="${escapeHtml(e.link)}">原文を読む</a></p>`
+        : `<p><a href="${escapeHtml(e.link)}">原文を読む</a> / ` +
+          `<a href="${escapeHtml(googleTranslateUrl(e.link))}">Google 翻訳で全文を読む</a></p>`,
     });
   }
 
