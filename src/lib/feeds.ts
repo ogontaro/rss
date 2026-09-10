@@ -1,7 +1,10 @@
 import Parser from "rss-parser";
 import type { Feed, SourceEntry } from "./types.ts";
 
-const parser = new Parser({ timeout: 20_000 });
+const parser = new Parser({
+  timeout: 20_000,
+  headers: { "User-Agent": "ogontaro-rss/1.0 (+https://ogontaro.github.io/rss)" },
+});
 
 function stripHtml(s: string): string {
   return s
@@ -27,7 +30,6 @@ export async function fetchFeed(feed: Feed): Promise<SourceEntry[]> {
       description: stripHtml(rawDesc).slice(0, 500),
       pubDate: item.isoDate ? new Date(item.isoDate) : new Date(),
       sourceName: feed.name,
-      category: feed.category,
     });
   }
   return entries;

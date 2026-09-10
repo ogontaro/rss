@@ -1,0 +1,75 @@
+name: release
+
+on:
+  schedule:
+    - cron: "30 22 * * 0" # 毎週月曜 07:30 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: docs-write
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - run: bun install --frozen-lockfile
+
+      # ---------------- aws ----------------
+      - id: collect_aws
+        run: |
+          bun run src/release-collect.ts aws
+          echo "n=$(jq length .cache/release-aws-input.json)" >> "$GITHUB_OUTPUT"
+      - name: curate aws releases
+        if: steps.collect_aws.outputs.n != '0'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Read ${{ github.workspace }}/.cache/release-aws-input.json and
+            ${{ github.workspace }}/report-criteria/release-aws.md. Follow the criteria file:
+            summarize the releases and write to ${{ github.workspace }}/.cache/release-aws.md
+            in the format it specifies. Write only that one file.
+          claude_args: "--allowedTools Read,Write"
+      - name: render aws releases
+        if: steps.collect_aws.outputs.n != '0'
+        run: bun run src/release-render.ts aws
+
+      # ---------------- kubernetes ----------------
+      - id: collect_kubernetes
+        run: |
+          bun run src/release-collect.ts kubernetes
+          echo "n=$(jq length .cache/release-kubernetes-input.json)" >> "$GITHUB_OUTPUT"
+      - name: curate kubernetes releases
+        if: steps.collect_kubernetes.outputs.n != '0'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Read ${{ github.workspace }}/.cache/release-kubernetes-input.json and
+            ${{ github.workspace }}/report-criteria/release-kubernetes.md. Follow the criteria file:
+            summarize the releases and write to ${{ github.workspace }}/.cache/release-kubernetes.md
+            in the format it specifies. Write only that one file.
+          claude_args: "--allowedTools Read,Write"
+      - name: render kubernetes releases
+        if: steps.collect_kubernetes.outputs.n != '0'
+        run: bun run src/release-render.ts kubernetes
+
+      - run: bun run src/build.ts
+
+      - name: commit docs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "release: weekly update"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main

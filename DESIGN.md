@@ -2,228 +2,162 @@
 
 ## 目的
 
-英語のフィードを日本語で追えるようにする個人用の RSS 基盤。GitHub Actions だけで完結させ、
-生成物を GitHub Pages で公開する。実装は 2 機能に絞る。
+Claude / Kubernetes / AWS の情報を日本語で追うための個人用 RSS 基盤。GitHub Actions だけで完結させ、
+生成物を GitHub Pages（`main:/docs`）で公開する。読むのは自分の RSS リーダー（Inoreader など）。
 
-- **翻訳フィード**: 購読フィードの新着エントリのタイトル・description を日本語化した統合 RSS を配信する。
-- **レポート**: Claude / Bedrock / Kubernetes を中心に、過去 24 時間の新着から重要なものを Claude に選ばせ、
-  日本語コメント付きのレポートページと専用 RSS を 毎日 配信する。
+**機能は混ぜない。** ドメイン（claude / kubernetes / aws）ごとに独立したパイプラインを持ち、
+入力フィード・出力・スケジュール・状態を共有しない。共有するのはコード（処理関数）だけ。
 
-読むのは自分の RSS リーダー（Inoreader など）。生成した公開フィード URL を手作業で購読登録する。
+| パイプライン | 入力 | Claude | 出力 | 頻度 |
+| --- | --- | --- | --- | --- |
+| 翻訳フィード | 各ドメインの content フィード | 使わない（DeepL のみ） | `translated-<domain>.xml` | 6 時間ごと |
+| レポート | `translated-<domain>.xml` の直近 24h | 重要記事を 5〜10 件選定 | `report-<domain>.xml` ＋ `report/<domain>/YYYY-MM-DD.html` | 毎日 07:00 JST |
+| リリースレポート | 各ドメインの release フィードの直近 7 日 | 注目リリースを整理 | `release-<domain>.xml` ＋ `release/<domain>/YYYY-MM-DD.html` | 毎週月 07:30 JST |
+
+- 翻訳・レポートのドメイン: claude / kubernetes / aws
+- リリースレポートのドメイン: aws / kubernetes
 
 ## 全体構成
 
 | 項目 | 決定 |
 | --- | --- |
 | ランタイム | Bun + TypeScript |
-| ツール/タスク管理 | mise（Bun のバージョンピン、タスク定義） |
+| ツール/タスク管理 | mise |
 | Lint / Format | Biome |
-| パッケージ構成 | 単一パッケージ（モノレポ分割しない） |
-| 実行基盤 | すべて GitHub Actions 上。ローカル常用スクリプトは持たない |
-| 公開 | GitHub Pages。`ogontaro/rss` の `main` ブランチの `docs/` を配信（deploy from branch） |
-| 公開 URL | `https://ogontaro.github.io/rss/` |
-| カスタムドメイン | 使わない（購読 URL を一方通行で確定させるため） |
-| AI 呼び出し | `anthropics/claude-code-action@v1` をワークフローの一ステップとして実行（モデル: Sonnet） |
-| 翻訳エンジン | DeepL API Free を第一候補（実装着手時に登録要件・無料枠を確認）。不可なら MyMemory 等のキー不要 MT にフォールバック |
-
-### Round 2 からの修正点
-
-Pages のデプロイを `actions/deploy-pages`（アーティファクト方式）ではなく
-**`main:/docs` からの deploy from branch** に変更する。理由: 状態管理を「生成物そのもの」に置くと決めたため、
-生成物が git にコミットされて残る方式のほうが素直。前回アーティファクトを取り直す処理が不要になる。
-代償はワークフローによるコミットが 1 日 5 回程度増えること（許容する）。
+| パッケージ構成 | 単一パッケージ |
+| 実行基盤 | すべて GitHub Actions。ローカル常用スクリプトは持たない |
+| 公開 | GitHub Pages（deploy from branch, `main:/docs`）。`https://ogontaro.github.io/rss/` |
+| カスタムドメイン | 使わない |
+| 翻訳エンジン | DeepL API（Free キーは末尾 `:fx`）。未設定なら未翻訳のまま通す |
+| AI 呼び出し | `anthropics/claude-code-action@v1`（ワークフローの一ステップ、`--allowedTools Read,Write`） |
 
 ## データ: feeds.yaml
 
-購読フィードの正はこのファイル。Inoreader API 連携は行わない。
+購読フィードの正。1 エントリ = `{url, name, domain, kind}`。
 
 ```yaml
 feeds:
   - url: https://example.com/feed.xml
-    name: Example Blog       # 表示名・ソース表記に使う
-    category: claude         # レポートの見出し分けに使う。任意
-    enabled: true            # false で一時停止
+    name: Example
+    domain: claude        # claude | kubernetes | aws
+    kind: content         # content（翻訳＋レポート）| release（週次リリースレポート）
 ```
 
-### フィードリスト
+- 公開前提。趣味・個人性の強いフィード、キーや userId を URL に含むフィードは入れない
+- OPML 一括インポートは持たない（全部入りになり混ざるため）。フィードは手で管理する
+- aws / content は **EKS 関連と AI/Bedrock 関連を重点**（`report-criteria/report-aws.md`）
 
-公開前提で **claude / bedrock / kubernetes / releases** の4カテゴリに絞る。
-趣味・個人性の強いフィード、キーや userId を URL に含むフィードは入れない。
-Inoreader の OPML から起こす場合は `mise run import:opml` を使い、上記に該当しないものは落とす。
-`import-opml.ts` は非 URL の outline（Inoreader の keyword-monitoring 等）を除外する。
+## パイプライン詳細
 
-## 機能 A: 翻訳フィード
+### 翻訳フィード（`src/translate.ts`, 6 時間ごと）
 
-### 処理（`src/translate.ts`, 6 時間ごと）
+ドメインごとに:
 
-1. `feeds.yaml` の `enabled: true` を全件取得・パース。
-2. 各エントリの guid（無ければ link）を、既存 `docs/translated.xml` の guid 集合と照合。
-   既出はスキップ、新規のみ処理。
-3. 新規エントリのタイトルと description を翻訳エンジンで日本語化。
-4. 既存フィードに新規エントリを追加し、公開日時の降順で **直近 100 件**に truncate して
-   `docs/translated.xml` を再生成。
+1. `feeds.yaml` の `kind: content` かつ当該ドメインを取得。
+2. 既存 `docs/translated-<domain>.xml` の guid 集合と照合、新規のみ処理。
+3. 新規エントリのタイトルと description を DeepL で日本語化。
+4. 既存に足して公開日時の降順で **直近 100 件**に truncate、`docs/translated-<domain>.xml` を再生成。
 
-> truncate 件数（100）はレポートの入力元でもある。**24 時間の新着総数がこれを超えないこと**が前提。
-> 現状 30 フィード（release feed 中心で低頻度）なら十分だが、フィード追加時に再検討する。
+- そのドメインで **1 フィードも取得できなかった実行は書き換えない**（空フィードで guid 集合を消さない）。
+- `--strict`（`translate.yml` で付与）はどれか 1 ドメインでも取得ゼロなら異常終了。
+  `report.yml` から呼ぶときは付けない（取れたぶんだけ更新して先へ進む）。
 
-### エントリの中身
+各エントリ: 翻訳タイトル ＋ 末尾にソース名 / 翻訳 description / link は原文 URL /
+content は「原文を読む」＋「Google 翻訳で全文を読む」の 2 リンクのみ（本文は転載しない）。
 
-| 要素 | 内容 |
-| --- | --- |
-| title | 翻訳した日本語タイトル ＋ 末尾に ` — <ソース名>` |
-| description | 翻訳した日本語 description（原文が空なら空） |
-| link | **原文記事の URL** |
-| content | 「原文を読む」＋「Google 翻訳で全文を読む」の 2 リンクのみ。原文本文は転載しない |
-| guid | 原文エントリの guid（無ければ link）。永続・不変 |
-| pubDate | 原文の公開日時 |
+**Google 翻訳リンク**: `https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(記事URL)}`。
+URL 全体を `encodeURIComponent`。生成前にスペースを除去（`%20`/`+` が `u=` に入ると HTTP 400）。
 
-### Google 翻訳リンクの生成
+### レポート（`report.yml`, 毎日 07:00 JST = cron `0 22 * * *`）
 
-```
-https://translate.google.com/translate?sl=auto&tl=ja&u=${encodeURIComponent(articleUrl)}
-```
+先頭で `src/translate.ts`（`--strict` なし）を実行して全ドメインの翻訳フィードを最新化 →
+ワークフロー単体で完結させる。以降ドメインごとに:
 
-- `sl=auto`（ソース言語がばらつくため）。
-- URL 全体を `encodeURIComponent`（スキーム含む。対象 URL 内の `&` `#` もこれで安全）。
-- **生成前に記事 URL からスペースを除去する**（`%20` / `+` が `u=` に入ると HTTP 400）。
-- `translate.goog` 直リンク形式は IDN・長ホストで壊れるため使わない。
+1. `src/report-collect.ts <domain>`: `translated-<domain>.xml` を読み、`pubDate` が過去 24h の
+   エントリを新しい順に **最大 50 件**、`.cache/report-<domain>-input.json` に書き出す。
+2. 入力が 0 件ならそのドメインはスキップ（`if:` ガード）。
+3. `claude-code-action`: `.cache/report-<domain>-input.json` と `report-criteria/report-<domain>.md` を読み、
+   基準どおりに `.cache/report-<domain>.md` を書く。
+4. `src/report-render.ts <domain>`: md → `docs/report/<domain>/YYYY-MM-DD.html`、
+   ページ一覧から `docs/report-<domain>.xml` を再生成（直近 60 エントリ、HTML は全保持）。
 
-## 機能 B: レポート（Claude / Bedrock / Kubernetes キュレーション）
+### リリースレポート（`release.yml`, 毎週月 07:30 JST = cron `30 22 * * 0`）
 
-### 処理（`daily.yml`, 毎日 JST 7:00 = cron `0 22 * * *`）
+ドメイン（aws / kubernetes）ごとに:
 
-0. **機能 A（`src/translate.ts`）を最初に実行**して `docs/translated.xml` を最新化する。
-   これにより「翻訳フィードとレポートで同じ記事のタイトルが一致する」「翻訳を二重に走らせない」
-   が保証され、`daily.yml` が単体で完結する（別スケジュールへの依存を作らない）。
-1. `src/report/collect.ts`: **`docs/translated.xml` を読み**、`pubDate` が過去 24 時間のエントリだけに絞り、
-   日本語タイトル・description・link・category のリストを `.cache/daily-input.json` に書き出す。
-   ここでは翻訳しない（機能 A の生成物をそのまま使う）。
-   曜日固定配信（例: 月・水・金）にするなら cron と合わせてこの窓も最長ギャップ分に広げる。
-2. `anthropics/claude-code-action@v1`:
-   - 認証: `claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}`
-   - 許可ツール: Read / Write のみ（ネットワーク・シェル不可）
-   - プロンプト: `.cache/daily-input.json` と `report-criteria.md` を読み、基準に沿って
-     重要なものを **5〜10 件**選び、`.cache/daily-report.md` に Markdown で書く。
-3. `src/report/render.ts`: `.cache/daily-report.md` を HTML 化して `docs/daily/YYYY-MM-DD.html` を生成し、
-   `docs/daily.xml` に当日エントリを追加（フィードは直近 60 エントリで truncate、HTML ページは全て保持）。
-   `docs/index.html` は書かない。
-4. `src/build.ts`: `docs/daily/` の中身と `docs/translated.xml` から `docs/index.html` と assets を再生成する。
-   `docs/index.html` の書き手はここだけ（複数箇所から同じファイルを触らない）。
+1. `src/release-collect.ts <domain>`: `kind: release` の feed から過去 7 日のリリースを取得。
+   `project` / `version` / `link` / `notes`（英語原文、4000 字で truncate）を
+   `.cache/release-<domain>-input.json` に書き出す。翻訳サービスは通さない。
+2. 0 件ならスキップ。
+3. `claude-code-action`: 入力と `report-criteria/release-<domain>.md` を読み、
+   プロジェクト単位・破壊的変更を先頭にした日本語ダイジェストを `.cache/release-<domain>.md` に書く。
+4. `src/release-render.ts <domain>`: md → `docs/release/<domain>/YYYY-MM-DD.html`、
+   `docs/release-<domain>.xml` を再生成（直近 26 エントリ）。
 
-### レポートの構成
+### サイト（`src/build.ts`, 各ワークフローの末尾）
 
-- 見出し「今日の N 本」
-- 各項目: 日本語タイトル / Claude の日本語コメント 2〜3 文 / 「原文を読む」＋「Google 翻訳で全文を読む」
-- `category` があればセクション分け
-
-### daily.xml のエントリ
-
-1 日 1 エントリ。`content` にレポート全文（HTML）をインラインで入れる（リーダー単体で読み切れる）。
-
-### 「重要」の判定基準（`report-criteria.md`）
-
-関心領域を主、一般的な話題性・影響度を従とする（Round 3 Q4 = 案 C）。
-現在の関心領域（`report-criteria.md` で編集可能）:
-
-- Claude / Anthropic（モデル更新、Claude Code / API の新機能、関連ツール・実装事例）
-- Amazon Bedrock（新モデル提供、機能追加、実装・運用事例）
-- Kubernetes / CNCF エコシステム（Argo, Crossplane, Karpenter, Terraform, IaC, GitOps）
-- ライブラリ・ツールのバージョンアップ（メジャーリリース、破壊的変更、注目の新機能）
-
-### Claude が失敗・不達のとき
-
-**ワークフローを失敗させる（fail loudly）**。GitHub の失敗通知で気づく。
-無キュレーションでの公開はしない。翻訳フィード（機能 A）は Claude 非依存なので影響を受けない。
+- `docs/assets/style.css` を書き出す（単一オーナー）
+- `docs/subscriptions.opml` を生成（全 8 フィードの一括購読用）
+- `docs/index.html` をダッシュボードとして再生成: ドメインごとに最新レポート日へのリンクと各フィード URL
 
 ## 状態管理
 
-専用の状態ストア（DB・JSON 台帳）は持たない。生成物そのものを状態とみなす。
+専用ストアを持たない。生成物そのものを状態とする。
 
-- 翻訳フィード: 既存 `docs/translated.xml` の guid 集合に無いものだけ処理。
-- レポート: `docs/daily/YYYY-MM-DD.html` が既にあればその日はスキップ。
-- 各フィードは件数上限で truncate（翻訳 100 / daily 60）。
-- 翻訳が 1 フィードも取得できなかった実行は `translated.xml` を書き換えず異常終了する
-  （空フィードで guid 集合を消すと、次回に全件が新着扱いになるため）。
+- 翻訳: 既存 `translated-<domain>.xml` の guid 集合に無いものだけ処理。
+- レポート / リリース: `report/<domain>/YYYY-MM-DD.html` が既にあればその日はスキップ。
+- 各フィードは件数上限で truncate（翻訳 100 / レポート 60 / リリース 26）。
 
-> **`docs/translated.xml` と `docs/daily.xml` は CI でのみ生成する。ローカルで生成したものをコミットしない。**
-> guid は永続で、翻訳エンジン未設定のパススルー実行でもエントリは「翻訳済み」として guid 集合に入る。
-> ローカル生成物をコミットすると、その分は本番でも二度と翻訳されない。初期コミットに含めるのは
-> `docs/index.html` と `docs/assets/` だけ。
+> `translated-*.xml` / `report-*.xml` / `release-*.xml` は **CI でのみ生成する**。ローカル生成物を
+> コミットしない。guid は永続で、翻訳エンジン未設定のパススルー実行でもエントリは「翻訳済み」として
+> guid 集合に入り、本番でも再翻訳されない。初期コミットに含めるのは `docs/index.html` /
+> `docs/assets/` / `docs/subscriptions.opml` だけ。
 
-## GitHub Actions ワークフロー
+## GitHub Actions
 
 | ファイル | トリガー | 内容 |
 | --- | --- | --- |
-| `.github/workflows/translate.yml` | `schedule: 0 */6 * * *` ＋ `workflow_dispatch` | 機能 A。`docs/translated.xml` を更新 → `build.ts` → `docs/` をコミット |
-| `.github/workflows/daily.yml` | `schedule: 0 22 * * *`（毎日 07:00 JST）＋ `workflow_dispatch` | 機能 A（先頭で最新化）→ collect → claude-code-action → render → `build.ts` → `docs/` をコミット |
+| `translate.yml` | `0 */6 * * *` ＋ dispatch | 全ドメイン翻訳（`--strict`）→ build → commit |
+| `report.yml` | `0 22 * * *` ＋ dispatch | 翻訳最新化 → ドメインごとに collect / claude-code-action / render → build → commit |
+| `release.yml` | `30 22 * * 0` ＋ dispatch | ドメインごとに collect / claude-code-action / render → build → commit |
 
-共通ステップ: checkout → mise install（Bun）→ 各処理 → `git add docs && git commit && git push`。
-Pages は `main:/docs` を自動デプロイ。両ワークフローに `permissions: contents: write` を付ける（push に必須）。
-`.cache/` は `.gitignore` に入れてコミットしない。
+- 3 ワークフローとも `concurrency: { group: docs-write }` で `docs/` の書き込みを直列化。
+- commit ステップは `permissions: contents: write` ＋ `git push "https://x-access-token:${GITHUB_TOKEN}@github.com/..."`。
+  `claude-code-action` が git 認証情報を書き換えるため、素の `git push` は認証失敗する。
+- Secrets: `DEEPL_API_KEY` / `CLAUDE_CODE_OAUTH_TOKEN`（`claude setup-token`、約 1 年・自動更新なし、
+  401 で落ちたら手動差し替え）。
 
-必要な Secrets: `DEEPL_API_KEY`（または代替 MT のキー）、`CLAUDE_CODE_OAUTH_TOKEN`。
-`CLAUDE_CODE_OAUTH_TOKEN` は `claude setup-token` で生成、約 1 年有効・自動更新なし。401 で落ちたら手動で差し替える。
+### 既知の運用リスク
 
-### 既知の運用リスク（再設計不要、症状を認識できるようにするための記録）
-
-- **`GITHUB_TOKEN` による push が Pages のビルドを起動するか → 検証済み・起動する。**
-  bot（`github-actions[bot]`）が `docs/` を push すると `pages-build-deployment` が自動で走り
-  公開 URL が更新されることを初回運用で確認した。deploy key / `actions/deploy-pages` への
-  フォールバックは不要。
-- **`claude-code-action` はスケジュール実行に human-actor チェックを適用**し、cron を最後に編集した
-  ユーザーに実行を帰属させる。通常は本人なので通るが、通らないとレポートが止まり、
-  症状は「ワークフロー失敗」だけ。初回のスケジュール実行で明示的に確認する。
-- **`claude-code-action` は git 認証情報を書き換える**。後続ステップの素の `git push` は
-  checkout のトークンを失って認証失敗するため、`daily.yml` の commit ステップは
-  `https://x-access-token:${GITHUB_TOKEN}@github.com/...` の明示 URL で push する。
+- `GITHUB_TOKEN` の push で `pages-build-deployment` が自動起動することは検証済み。
+- `claude-code-action` はスケジュール実行に human-actor チェックを適用し、cron を最後に編集した
+  ユーザーに実行を帰属させる。通らないとそのレポートが止まり、症状は「ワークフロー失敗」だけ。
+- レポートは 1 日あたり **claude-code-action を最大 3 回**（ドメイン数）、月曜は追加で最大 2 回。
+  CI 利用はサブスクの 5 時間ローリング枠を消費する。
 
 ## ディレクトリ構成
 
 ```
-rss/
-  feeds.yaml
-  report-criteria.md
-  mise.toml            # bun ピン + tasks
-  biome.json
-  package.json
-  tsconfig.json
-  src/
-    lib/               # フィードパース / yaml ロード / 翻訳クライアント / URL ヘルパ
-    translate.ts       # 機能 A エントリ
-    report/
-      collect.ts       # 過去 24h を .cache/daily-input.json へ
-      render.ts        # daily-report.md → docs/daily/*.html + index + daily.xml
-    build.ts           # docs/ の組み立て（index, assets）
-    import-opml.ts      # OPML → feeds.yaml（ワンショット）
-  docs/                # GitHub Pages 配信対象。ワークフローがコミット
-    index.html
-    translated.xml
-    daily.xml
-    daily/
-    assets/style.css
-  .github/workflows/
-    translate.yml
-    daily.yml
+feeds.yaml
+report-criteria/
+  report-claude.md  report-kubernetes.md  report-aws.md  release-aws.md  release-kubernetes.md
+src/
+  lib/           config / feeds取得 / translate / domain-feed(RSS入出力) / html / style / labels / urls / types
+  translate.ts
+  report-collect.ts   report-render.ts
+  release-collect.ts  release-render.ts
+  build.ts
+docs/            GitHub Pages 配信対象。ワークフローがコミット
+.github/workflows/  translate.yml  report.yml  release.yml
 ```
 
-mise タスク: `translate` / `report:collect` / `report:render` / `build` / `import:opml` / `serve` / `lint` / `format`。
+mise タスク: `translate` / `report:collect <domain>` / `report:render <domain>` /
+`release:collect <domain>` / `release:render <domain>` / `build` / `serve` / `lint` / `format`。
 
 ## スコープ外
 
-- Inoreader API 連携（OAuth・レート制御・secret 書き戻し）。OPML 変換のワンショットのみ残す。
-- 記事本文の全文翻訳・転載。タイトルと description のみ翻訳し、本文は Google 翻訳リンクで代替。
-- SSG（Astro / Eleventy 等）。`marked` ＋ テンプレートリテラル ＋ RSS 生成ライブラリの最小構成。
-- カスタムドメイン。
-- 状態管理用の DB / 台帳ファイル。
-- 例外処理・リトライの作り込み。失敗は落として通知する方針。
-
-## 初回運用で確認済み
-
-- `translate.yml` / `daily.yml` とも CI で成功。DeepL 翻訳・claude-code-action のキュレーション・
-  bot による `docs/` コミット・`pages-build-deployment` の自動起動まで一通り確認。
-- 公開先 <https://ogontaro.github.io/rss/>（`translated.xml` / `daily.xml` / `daily/*.html` すべて 200）。
-
-## 残タスク
-
-1. 実フィードリスト（Inoreader OPML）への差し替え。差し替え時に truncate 100 件を再検討。
-2. `report-criteria.md` の関心領域を本人の内容に更新。
+- Inoreader API 連携、OPML インポート
+- 記事本文の全文翻訳・転載（タイトルと description のみ、本文は Google 翻訳リンク）
+- SSG（`marked` ＋ テンプレートリテラル ＋ `feed` の最小構成）
+- 状態管理用の DB / 台帳ファイル
+- 例外処理・リトライの作り込み（失敗は落として通知）

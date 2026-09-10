@@ -1,8 +1,12 @@
+export type Domain = "claude" | "kubernetes" | "aws";
+export type Kind = "content" | "release";
+
 export type Feed = {
   url: string;
   name: string;
-  category?: string;
-  enabled: boolean;
+  domain: Domain;
+  kind: Kind;
+  enabled?: boolean;
 };
 
 export type FeedsConfig = {
@@ -17,10 +21,9 @@ export type SourceEntry = {
   description: string;
   pubDate: Date;
   sourceName: string;
-  category?: string;
 };
 
-/** An entry after translation, as persisted in docs/translated.xml. */
+/** An entry after translation, as persisted in translated-<domain>.xml. */
 export type TranslatedEntry = {
   guid: string;
   link: string;
@@ -28,5 +31,4 @@ export type TranslatedEntry = {
   descriptionJa: string;
   pubDate: Date;
   sourceName: string;
-  category?: string;
 };

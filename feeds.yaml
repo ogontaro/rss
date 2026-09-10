@@ -1,114 +1,110 @@
-# 購読フィードの正。Claude / Bedrock / Kubernetes / ライブラリのリリース に絞った公開前提のリスト。
-# 趣味・個人的なフィードは含めない。
+# 購読フィードの正。ドメイン（claude / kubernetes / aws）× 種別（content / release）で管理する。
+#   content … 翻訳フィードと日次レポートの入力
+#   release … 週次のリリースレポートの入力
+# 趣味・個人的なフィード、キーや userId を URL に含むフィードは入れない（公開前提）。
 feeds:
-  # --- Claude / Anthropic ---
+  # ================= claude / content =================
   - url: https://simonwillison.net/tags/claude.atom
     name: Simon Willison — Claude
-    category: claude
-    enabled: true
+    domain: claude
+    kind: content
   - url: https://dev.classmethod.jp/tags/claude/feed/
     name: Claude | DevelopersIO
-    category: claude
-    enabled: true
+    domain: claude
+    kind: content
   - url: https://dev.classmethod.jp/tags/anthropic/feed/
     name: Anthropic | DevelopersIO
-    category: claude
-    enabled: true
+    domain: claude
+    kind: content
   - url: https://github.com/anthropics/claude-code/releases.atom
     name: Claude Code releases
-    category: claude
-    enabled: true
+    domain: claude
+    kind: content
   - url: https://claude-code-log.com/rss.xml
     name: CCログ超訳（Claude Code CHANGELOG）
-    category: claude
-    enabled: true
+    domain: claude
+    kind: content
 
-  # --- Amazon Bedrock ---
-  - url: https://dev.classmethod.jp/tags/amazon-bedrock/feed/
-    name: Amazon Bedrock | DevelopersIO
-    category: bedrock
-    enabled: true
-  - url: https://aws.amazon.com/blogs/machine-learning/feed/
-    name: AWS Machine Learning Blog
-    category: bedrock
-    enabled: true
-
-  # --- Kubernetes / CNCF エコシステム ---
+  # ================= kubernetes / content =================
   - url: https://kubernetes.io/feed.xml
     name: Kubernetes Blog
-    category: kubernetes
-    enabled: true
+    domain: kubernetes
+    kind: content
   - url: https://www.cncf.io/blog/feed/
     name: CNCF Blog
-    category: kubernetes
-    enabled: true
+    domain: kubernetes
+    kind: content
   - url: https://blog.crossplane.io/rss/
     name: The Crossplane Blog
-    category: kubernetes
-    enabled: true
+    domain: kubernetes
+    kind: content
   - url: https://blog.argoproj.io/feed
     name: Argo Project
-    category: kubernetes
-    enabled: true
+    domain: kubernetes
+    kind: content
   - url: https://sysdig.com/feed/
     name: Sysdig
-    category: kubernetes
-    enabled: true
+    domain: kubernetes
+    kind: content
   - url: https://www.hashicorp.com/blog/products/terraform/feed.xml
     name: HashiCorp Blog - Terraform
-    category: kubernetes
-    enabled: true
+    domain: kubernetes
+    kind: content
 
-  # --- ライブラリ / ツールのリリース ---
-  - url: https://github.blog/changelog/feed/
-    name: The GitHub Blog - Changelog
-    category: releases
-    enabled: true
-  - url: https://github.com/argoproj/argo-cd/releases.atom
-    name: Argo CD releases
-    category: releases
-    enabled: true
-  - url: https://github.com/argoproj/argo-workflows/releases.atom
-    name: Argo Workflows releases
-    category: releases
-    enabled: true
+  # ================= aws / content（EKS・AI/Bedrock を重点）=================
+  - url: https://aws.amazon.com/blogs/aws/feed/
+    name: AWS News Blog
+    domain: aws
+    kind: content
+  - url: https://aws.amazon.com/blogs/machine-learning/feed/
+    name: AWS Machine Learning Blog
+    domain: aws
+    kind: content
+  - url: https://dev.classmethod.jp/tags/amazon-bedrock/feed/
+    name: Amazon Bedrock | DevelopersIO
+    domain: aws
+    kind: content
+  - url: https://dev.classmethod.jp/tags/amazon-eks/feed/
+    name: Amazon EKS | DevelopersIO
+    domain: aws
+    kind: content
+
+  # ================= aws / release =================
   - url: https://github.com/aws/karpenter-provider-aws/releases.atom
-    name: Karpenter (aws) releases
-    category: releases
-    enabled: true
+    name: Karpenter (aws)
+    domain: aws
+    kind: release
   - url: https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases.atom
-    name: aws-load-balancer-controller releases
-    category: releases
-    enabled: true
-  - url: https://github.com/kubernetes-sigs/kro/releases.atom
-    name: kro releases
-    category: releases
-    enabled: true
-  - url: https://github.com/hashicorp/terraform/releases.atom
-    name: Terraform releases
-    category: releases
-    enabled: true
+    name: aws-load-balancer-controller
+    domain: aws
+    kind: release
   - url: https://github.com/terraform-aws-modules/terraform-aws-eks/releases.atom
-    name: terraform-aws-eks releases
-    category: releases
-    enabled: true
+    name: terraform-aws-eks
+    domain: aws
+    kind: release
+
+  # ================= kubernetes / release =================
+  - url: https://github.com/argoproj/argo-cd/releases.atom
+    name: Argo CD
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/argoproj/argo-workflows/releases.atom
+    name: Argo Workflows
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/kubernetes-sigs/kro/releases.atom
+    name: kro
+    domain: kubernetes
+    kind: release
   - url: https://github.com/dexidp/dex/releases.atom
-    name: dex releases
-    category: releases
-    enabled: true
-  - url: https://github.com/langgenius/dify/releases.atom
-    name: dify releases
-    category: releases
-    enabled: true
-  - url: https://github.com/duckdb/duckdb/releases.atom
-    name: DuckDB releases
-    category: releases
-    enabled: true
+    name: dex
+    domain: kubernetes
+    kind: release
   - url: https://github.com/backstage/backstage/releases.atom
-    name: Backstage releases
-    category: releases
-    enabled: true
-  - url: https://www.notion.com/releases/rss.xml
-    name: Notion Releases
-    category: releases
-    enabled: true
+    name: Backstage
+    domain: kubernetes
+    kind: release
+  - url: https://github.com/hashicorp/terraform/releases.atom
+    name: Terraform
+    domain: kubernetes
+    kind: release
