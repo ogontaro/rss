@@ -4,11 +4,20 @@
         <title>翻訳フィード — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>購読フィードの新着エントリのタイトルと概要を日本語化した統合フィード</description>
-        <lastBuildDate>Wed, 09 Sep 2026 22:26:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 01:24:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Claude Code v2.1.267 の主なアップデート - maxEffortLevel の追加とプロンプトキャッシュ関連の一斉修正 — Claude | DevelopersIO]]></title>
+            <link>https://dev.classmethod.jp/articles/20260910-cc-updates-v2-1-267/</link>
+            <guid>5kuEoEsjIh3KpNoxNKHdnV</guid>
+            <pubDate>Thu, 10 Sep 2026 01:24:29 GMT</pubDate>
+            <description><![CDATA[Claude Code v2.1.267のリリースでは、エフォートレベルの上限設定や、大規模なセッションを再開した際の不具合修正など、53件のアップデートが行われました。今回は新機能というより、長時間の作業では気づきにくい問題を解消する修正が中心です。今日は、新しい maxEffortLevel を試してみました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/20260910-cc-updates-v2-1-267/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fdev.classmethod.jp%2Farticles%2F20260910-cc-updates-v2-1-267%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
         <item>
             <title><![CDATA[vLLM を使用して Amazon SageMaker HyperPod に Qwen3.8-2.4T-A95B をデプロイする — AWS Machine Learning Blog]]></title>
             <link>https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/</link>
@@ -26,6 +35,672 @@
             <description><![CDATA[CodeQL 2.27.0 が Linux ARM64 向けにリリースされました。このバージョンでは、新しい Rust セキュリティクエリが追加され、Java/Kotlin および C# に対するフレームワークの対応範囲が拡大され、複数の言語にわたる分析精度が向上しています。CodeQL は… 記事「CodeQL 2.27.0 で Linux ARM64 のサポートが追加」は、The GitHub Blog で最初に公開されました。]]></description>
             <content:encoded><![CDATA[<p><a href="https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fgithub.blog%2Fchangelog%2F2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>releases</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] アーティファクトの公開時にアップロード中に接続が切断され、データが切り捨てられていた問題を修正しました。Claude Code は、アップロードが完了しなかったと判断できる場合、1 回再試行を行い、結果が不明であることを報告する代わりに公開を完了させます。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-40e95c815004</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-40e95c815004</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[artifact の公開時に、アップロード中に接続が切断され、データが切り捨てられていた問題を修正しました。Claude Code は、アップロードが完了しなかったと判断できる場合、1 回再試行を行い、結果が不明であることを報告する代わりに公開を完了させます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-40e95c815004">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-40e95c815004">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] カスタムコマンド、スキル、サブエージェントの `effort:` フロントマターが、デフォルトの effort レベルが固定されているモデル（Opus 4.7、Opus 4.8、Fable 5）で無視される問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-9cff47b6c72e</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-9cff47b6c72e</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[カスタムコマンド、スキル、サブエージェントの `effort:` フロントマターが、デフォルトの effort レベルが固定されているモデル（Opus 4.7、Opus 4.8、Fable 5）で無視されてしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-9cff47b6c72e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-9cff47b6c72e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] ページファイルが有効な UTF-8 形式でない場合、または置換文字 (U+FFFD) を含む場合に、Artifact 公開が「役に立たない」というエラーで失敗する問題を修正しました。エラーに列と行が表示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-63728953d556</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-63728953d556</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[ページファイルが有効な UTF-8 形式でない場合、または置換文字 (U+FFFD) を含む場合に、Artifact の公開が「役に立たない」というエラーで失敗する問題を修正しました。エラーに列と行が表示されるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-63728953d556">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-63728953d556">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] `claude agents` の `@` ディレクトリメニューにおいて、セッション開始後に作成されたリポジトリが一覧に表示されない問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-10cf7734e0cc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-10cf7734e0cc</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[`claude agents` の `@` ディレクトリメニューにおいて、セッション開始後に作成されたリポジトリが一覧に表示されない問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-10cf7734e0cc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-10cf7734e0cc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] Claude Desktop または VS Code のセッションに参加した Remote Control クライアントが、権限モードが再度変更されるまで、古い権限モードを表示してしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-f1d729aa57c0</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-f1d729aa57c0</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[Claude Desktop または VS Code のセッションに参加した Remote Control クライアントが、権限モードが再度変更されるまで、以前の権限モードを表示してしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-f1d729aa57c0">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-f1d729aa57c0">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] サーバー認証情報の有効期限切れ（起動から約30日後）の際に、`claude remote-control` が終了し、接続中のセッションがすべて切断される問題を修正した。ホストが再登録を行い、動作を継続するようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-1d1344bad7db</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-1d1344bad7db</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[サーバー認証情報の有効期限切れ（起動から約30日後）の際に、`claude remote-control` が終了し、接続中のセッションがすべて切断される問題を修正した。ホストが再登録を行い、動作を継続するようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-1d1344bad7db">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-1d1344bad7db">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] 異なるモデルやモードへのリクエストに対して異なる制限ウィンドウが報告されることにより、セッション中に利用制限の警告が点滅する問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-2753e6c3f222</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-2753e6c3f222</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[異なるモデルやモードへのリクエストで異なる制限ウィンドウが報告されることにより、セッション中に利用制限の警告が点滅してしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-2753e6c3f222">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-2753e6c3f222">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] MCP サーバーがツールを再送信した場合や、組み込みツールがモデルにすでに読み込まれているツールを再レンダリングした場合に、直前の推論が破棄されてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-ad766066abcb</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ad766066abcb</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[MCPサーバーがツールを再送信した場合や、組み込みツールがモデルにすでに読み込まれているツールを再レンダリングした場合に、直前の推論が破棄されてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ad766066abcb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ad766066abcb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] 会話の途中で、MCP サーバーの切断やアップグレードによってツールが消えたことを原因として、ツールリストが更新され、以前の「thinking」が破棄されてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-ad10c69643ef</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ad10c69643ef</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[会話の途中で、MCP サーバーの切断やアップグレードによってツールが消えたことを原因として、ツールリストが書き換えられ、以前の「thinking」が破棄されてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ad10c69643ef">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ad10c69643ef">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] 会話からフォークされたバックグラウンドワーカーが、セッションの途中で会話のツールブロックに `EnterWorktree` を追加し、プロンプトキャッシュの再利用が機能しなくなる問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-f27e8fdfb80b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-f27e8fdfb80b</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[会話からフォークされたバックグラウンドワーカーが、セッションの途中で会話のツールブロックに `EnterWorktree` を追加し、プロンプトキャッシュの再利用が機能しなくなる問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-f27e8fdfb80b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-f27e8fdfb80b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] ToolSearchがないセッションにおいて、セッションの途中で追加されたMCPツールやプラグインツールがツールリストに追加され、プロンプトキャッシュの再利用が機能しなくなる問題を修正しました。対応モデルでは、これらのツールを遅延定義として受け付けます。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-1b2f9a889a29</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-1b2f9a889a29</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[ToolSearchがないセッションにおいて、セッションの途中で追加されたMCPツールやプラグインツールがツールリストに追加され、プロンプトキャッシュの再利用が機能しなくなる問題を修正しました。対応モデルでは、これらのツールを遅延定義として受け付けます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-1b2f9a889a29">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-1b2f9a889a29">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] /model コマンドでモデルを切り替える際に、すべてのツール定義が再送信され（プロンプトキャッシュが誤動作し）、キャッシュが無効化される問題を修正しました。コミットやPRの著作者情報（authorship attribution）テキストは、モデル変更時に内容が更新された会話ノートとして届くようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-abcc650d2096</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-abcc650d2096</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[/model でモデルを切り替える際に、すべてのツール定義が再送信され（プロンプトキャッシュが誤動作する）、キャッシュが無効化される問題を修正しました。コミットやPRの著作者情報（authorship attribution）テキストは、モデル変更時に内容が更新された会話ノートとして届くようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-abcc650d2096">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-abcc650d2096">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] MCP コネクタが以前とは異なるタイミングで再接続された場合でも、再開されたセッションによってインラインのツールセットが上書きされてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-21a5d157c01b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-21a5d157c01b</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[MCPコネクタが以前とは異なるタイミングで再接続された場合でも、再開されたセッションによってインラインのツールセットが上書きされてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-21a5d157c01b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-21a5d157c01b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] セッションを再開した際、最初のターンでツールを実行していた場合、記録済みのツール説明を再生する代わりに再レンダリングされてしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-c144df4d79dc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-c144df4d79dc</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[セッションを再開した際、最初のターンでツールを実行していた場合、記録済みのツール説明を再生する代わりに再レンダリングされてしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-c144df4d79dc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-c144df4d79dc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] セッション中およびセッション再開時に、claude.ai コネクタのツールが変更された場合に発生していた、プロンプトキャッシュの不具合および拡張思考の欠落を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-507ab8f79215</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-507ab8f79215</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[セッションとその再開の間に claude.ai コネクタのツールが変更された際に発生していた、プロンプトキャッシュの不具合と拡張思考の欠落を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-507ab8f79215">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-507ab8f79215">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] セッションを再開する際、MCPコネクタが再接続される前に、以前のMCPツールのアナウンス（ツール定義）が上書きされ、extended thinkingの設定が失われる問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-3cac53eb8cde</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-3cac53eb8cde</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[セッションを再開する際、MCPコネクタが再接続される前に、以前のMCPツールのアナウンス（ツール定義）が上書きされ、extended thinkingの設定が失われる問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-3cac53eb8cde">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-3cac53eb8cde">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] ...ja 翻訳済み... — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-a5735ac56522</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-a5735ac56522</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[...ja 翻訳...]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-a5735ac56522">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-a5735ac56522">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] - `/diff` パネルを改善しました：内容が確定する前に「0 files changed」というメッセージとスピナーが一瞬表示されることがなくなり、パネルの中央に空の状態が表示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-47205aaa8ec9</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-47205aaa8ec9</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- `/diff` パネルを改善しました：内容が確定する前に「0 files changed」というメッセージとスピナーが一瞬表示されることがなくなり、パネルの中央に空の状態が表示されるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-47205aaa8ec9">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-47205aaa8ec9">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] - Bash ツールの説明ガイダンスを改善し、Claude がコマンドをそのまま表示するのではなく、コマンドの内容をわかりやすい言葉で説明するようにしました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-adcfeeb57c0e</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-adcfeeb57c0e</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- Bash ツールの説明ガイドを改善し、Claude がコマンドをそのまま表示するのではなく、コマンドの内容をわかりやすい言葉で説明するようにしました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-adcfeeb57c0e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-adcfeeb57c0e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] サンドボックスに関するガイダンスを改善し、`pbcopy` などのクリップボードコマンドがサンドボックス内で失敗した場合、Claude が `/copy` を提案するようにしました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-de63bcedaa56</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-de63bcedaa56</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[サンドボックスのガイダンスを改善し、`pbcopy` などのクリップボードコマンドがサンドボックス内で失敗した場合に、Claude が `/copy` を提案するようにしました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-de63bcedaa56">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-de63bcedaa56">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] Bash ツールの呼び出しが多いセッションにおいて、`--resume` によるセッション再開時の初回描画時間を改善した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-92667abdcc5e</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-92667abdcc5e</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[Bash ツールの呼び出しが多いセッションにおいて、`--resume` によるセッション再開時の初回描画時間を改善する。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-92667abdcc5e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-92667abdcc5e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] プロンプト入力の応答性を改善：キーストロークがスピナーやストリーミングの再描画のせいで1フレーム遅れることがなくなりました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-f3fae2eab49c</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-f3fae2eab49c</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[プロンプト入力の応答性を改善：キーストロークがスピナーやストリーミングの再描画のせいで1フレーム遅れることがなくなりました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-f3fae2eab49c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-f3fae2eab49c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] - プロンプトキャッシュの安定性を改善しました：サブエージェントや `--system-prompt` / `--append-system-prompt` で開始されたセッションでは、システムプロンプトとツール定義を再レンダリングする代わりに、一度だけ記録するようになりました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-628ff6cd91ea</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-628ff6cd91ea</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- プロンプトキャッシュの安定性を改善しました：サブエージェントや `--system-prompt` / `--append-system-prompt` で開始されたセッションでは、システムプロンプトとツール定義を再レンダリングする代わりに、一度だけ記録するようになりました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-628ff6cd91ea">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-628ff6cd91ea">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [改善] Artifact ツールの公開エラーを改善した。公開が拒否された場合、その理由と対処法がメッセージに表示される。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-f163b33e4bbc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-f163b33e4bbc</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[Artifact ツールの公開エラーを改善した。公開が拒否された場合、その理由と対処法がメッセージに表示される。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-f163b33e4bbc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-f163b33e4bbc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [変更点] - セルフホストランナー：登録時に `--use-anthropic-git-proxy` がサーバーに報告されるようになり、従来の（レガシーな）Git プロキシ経由でクローン操作を継続している各セッションに対して警告が出力されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-527a9fb82ffa</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-527a9fb82ffa</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- セルフホストランナー：登録時に `--use-anthropic-git-proxy` がサーバーに報告されるようになり、従来の（レガシーな）Git プロキシ経由でクローン操作を継続している各セッションに対して警告が出力されるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-527a9fb82ffa">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-527a9fb82ffa">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [変更点] - ゲートウェイ：開発者のメールが転送される `forward_user_identity` のアップストリームが、次のアップストリームへフェイルオーバーする代わりに、そのまま 429 を返すように変更した。これにより、プロキシのユーザーごとの制限が正しく機能する — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-13e027d99bfd</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-13e027d99bfd</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- Gateway: 開発者のメールが転送される `forward_user_identity` アップストリームについて、次のアップストリームへフェイルオーバーする代わりに、そのまま 429 を返すように変更した。これにより、プロキシのユーザーごとの制限が正しく機能するようになった]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-13e027d99bfd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-13e027d99bfd">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] 保存済みのトランスクリプトに親リンクの循環が含まれる会話において、fork や過去のメッセージへの編集、rewind を実行した際に、拡張機能ホストが CPU 使用率 100% となりハングする問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-14fd00b9f5ab</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-14fd00b9f5ab</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 保存済みのトランスクリプトに親リンクの循環が含まれる会話において、fork や過去のメッセージへの編集、rewind を実行した際に、拡張機能ホストが CPU 使用率 100% となりハングする問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-14fd00b9f5ab">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-14fd00b9f5ab">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] WSL2/WSLg でスクリーンショットを貼り付けた際、生の画像バイト列がチャット入力欄に挿入される問題を修正しました。クリップボードに画像があれば添付され、なければ貼り付けは無視されます。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-1d448060065b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-1d448060065b</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] WSL2/WSLg でスクリーンショットを貼り付けた際、生の画像バイト列がチャット入力欄に挿入される問題を修正しました。クリップボードに画像があれば添付され、なければ貼り付けは無視されます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-1d448060065b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-1d448060065b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] チャットの差分ブロックが常にダークのエディタテーマで表示される問題を修正し、アクティブな VS Code のカラーテーマ（ハイコントラストを含む）に合わせて表示されるようにしました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-59a1a4970024</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-59a1a4970024</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] チャットの差分ブロックが常にダークのエディタテーマで表示される問題を修正し、アクティブな VS Code のカラーテーマ（ハイコントラストを含む）に合わせて表示されるようにした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-59a1a4970024">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-59a1a4970024">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] メッセージ入力欄で入力中に、右から左に書く言語と英語が混在したテキストが、誤った順序で表示される問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-ce82b03e403d</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ce82b03e403d</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] メッセージ入力欄で入力中に、右から左に書く言語と英語が混在したテキストが、誤った順序で表示される問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ce82b03e403d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ce82b03e403d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] Windows (CRLF) 形式の改行コードが使用されているファイルにおいて、差分ビューから編集を承認すると、「String not found in file」というエラーが発生して失敗する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-52640310c09d</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-52640310c09d</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] Windows (CRLF) 形式の改行コードが使用されているファイルにおいて、差分ビューから編集を承認すると、「String not found in file」というエラーで失敗する問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-52640310c09d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-52640310c09d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] - [VSCode] パスにスペースが含まれるファイルが @メンションから除外される問題を修正 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-748c1c370858</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-748c1c370858</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- [VSCode] パスにスペースが含まれるファイルが @メンションから除外されてしまう問題を修正]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-748c1c370858">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-748c1c370858">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] ワークスペースフォルダがリモートホストにのみ存在する場合、Remote-SSH で接続したウィンドウにおいて、セッション一覧ビューの読み込みに失敗する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-a540f4e6f8af</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-a540f4e6f8af</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] ワークスペースフォルダがリモートホストにのみ存在する場合、Remote-SSH で接続したウィンドウにおいて、セッション一覧ビューの読み込みに失敗する問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-a540f4e6f8af">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-a540f4e6f8af">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [VSCode] 大きなワークスペースやシンボリックリンクの多いワークスペースでファイルを表示する際に発生していた ripgrep プロセスの暴走を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-d7d0733c959b</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-d7d0733c959b</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 大規模なワークスペースやシンボリックリンクの多いワークスペースでファイルを表示する際に発生していた ripgrep プロセスの異常動作を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-d7d0733c959b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-d7d0733c959b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] - [Claude Code on the web] GitHub Enterprise Server のセッションにおいて、GitHub アカウントのトークンが期限切れになると、アカウントが切断状態と表示される問題を修正しました。PR やイシューに対する操作時に、トークンが自動的に更新されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-060ffd782cc4</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-060ffd782cc4</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- [Claude Code on the web] GitHub Enterprise Server のセッションにおいて、GitHub アカウントのトークンが期限切れになると、アカウントが「切断中」と表示される問題を修正しました。PR やイシューに対する操作時に、トークンが自動的に更新されるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-060ffd782cc4">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-060ffd782cc4">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] Claude GitHub App がインストールされていない組織でも、gh コマンドや GitHub API の呼び出しが失敗する不具合を修正した。接続済みの GitHub アカウントを使用するようになり、接続がない場合はその旨を通知する。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-63737ee04203</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-63737ee04203</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[Claude GitHub App がインストールされていない組織でも、gh コマンドや GitHub API の呼び出しが失敗する不具合を修正した。接続済みの GitHub アカウントを使用するようになり、接続されていない場合はその旨を通知する。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-63737ee04203">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-63737ee04203">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [追加] 「Claude Tag」の管理設定にあるプリセット接続フォームに、「Use a custom connector（カスタムコネクタを使用）」リンクを追加しました。設定を最初からやり直すことなく、カスタム接続に切り替えることができます。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-ff0de8b8f41a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ff0de8b8f41a</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[Claude Tag の管理設定にあるプリセット接続フォームに、「Use a custom connector（カスタムコネクタを使用）」というリンクを追加しました。設定を最初からやり直すことなく、カスタム接続に切り替えることができます。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ff0de8b8f41a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ff0de8b8f41a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [Claude Tag] 組織のクレジットを使い切った際に、「The API rejected the request as invalid（無効なリクエストとして API がリクエストを拒否しました）」という応答が返される問題を修正した。クレジットが切れていることを通知し、追加方法を案内するようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-ea5d88cac508</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ea5d88cac508</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[Claude Tag] 組織のクレジットを使い切った際に、「The API rejected the request as invalid（無効なリクエストとして API がリクエストを拒否しました）」という応答が返される問題を修正した。クレジットが切れていることを通知し、追加方法を案内するようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ea5d88cac508">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ea5d88cac508">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [Claudeタグ] チャンネルの最上位レベルでClaudeが投稿したメッセージを編集または削除するスレッドリクエストが、訂正応答として返されるのではなく、投稿元のセッションに届くように修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-f3a7bf510c77</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-f3a7bf510c77</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[Claude Tag] チャンネルの最上位レベルでClaudeが投稿したメッセージを編集または削除するスレッドリクエストが、訂正応答として返されるのではなく、投稿元のセッションに届くように修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-f3a7bf510c77">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-f3a7bf510c77">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.267] [修正] [Claude Tag] 「管理者設定」＞「レビューリクエスト」の「ツールアクセスリクエスト」において、**Connect** が「認証に失敗しました」と表示されて失敗したり、要求されたアクセスバンドルが「削除済み」と表示されたりする問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.267#item-2de6724921dc</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.267#item-2de6724921dc</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[Claude Tag] 「管理者設定」＞「レビューリクエスト」の「ツールへのアクセスリクエスト」において、**Connect** が「認証に失敗しました」と表示されて失敗したり、要求されたアクセスバンドルが削除済みであると表示されたりする問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-2de6724921dc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-2de6724921dc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [改善] ストリーミングのパフォーマンスを改善：すでに描画済みのブロックについては、更新のたびにレイアウトによる再チェックが行われなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-36e5cc77d8d1</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-36e5cc77d8d1</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[ストリーミングのパフォーマンスを改善：すでに描画済みのブロックについては、更新のたびにレイアウトによる再チェックが行われなくなった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-36e5cc77d8d1">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-36e5cc77d8d1">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [改善] 危険な`rm`コマンドに対する安全確認プロンプトを改善し、位置パラメータを伴う`rm -rf`や、二重引用符で囲まれた`sh -c`スクリプト内の`rm -rf`も検出するようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-2ff8f4c00289</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-2ff8f4c00289</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[危険な`rm`コマンドに対する安全確認のプロンプトを改善し、位置パラメータを伴う`rm -rf`や、ダブルクォートで囲まれた`sh -c`スクリプト内の`rm -rf`も検出できるようにした。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-2ff8f4c00289">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-2ff8f4c00289">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [改善] API がレスポンスヘッダーを返さない場合の処理を改善：リトライが最大 API_TIMEOUT_MS（デフォルト10分）まで待機するようになり、メッセージに修正内容が表示されるようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-3c6b19745b5c</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-3c6b19745b5c</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[API がレスポンスヘッダーを返さない場合の処理を改善：リトライが最大 API_TIMEOUT_MS（デフォルトは10分）まで待機するようになり、メッセージに修正内容が表示される。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-3c6b19745b5c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-3c6b19745b5c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [変更点] 起動時や `/login` の後に管理対象設定を読み込む際に、Claude apps gateway が 403 を返した場合、再サインインを促す代わりに、その組織で Claude Code が有効化されていない可能性があることを示すメッセージを表示するように変更しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-b2b57d1ff1d7</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-b2b57d1ff1d7</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[起動時や `/login` の後に管理対象設定を読み込む際に、Claude apps gateway が 403 を返した場合、再サインインを促す代わりに、その組織で Claude Code が有効化されていない可能性があることを示すメッセージが表示されるように変更しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-b2b57d1ff1d7">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-b2b57d1ff1d7">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [変更点] ... ゲートウェイ ... — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-96dbd7bbda7d</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-96dbd7bbda7d</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[... ゲートウェイ ...]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-96dbd7bbda7d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-96dbd7bbda7d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [変更点] 自動モードにおいて、公開ダイアグラムレンダラーのURLにコンテンツを埋め込むリンクを、そのサイトへのアップロードとして扱うように変更した。ユーザーが明示的に要求しない限り、自動的に承認されなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-a36b236328d4</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-a36b236328d4</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[自動モードにおいて、公開ダイアグラムレンダラーのURLにコンテンツを埋め込むリンクを、そのサイトへのアップロードとして扱うように変更した。ユーザーが明示的に要求しない限り、自動的に承認されなくなった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-a36b236328d4">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-a36b236328d4">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [変更点] プロンプトの単語編集キーをBashに合わせて変更した。Ctrl+Wは空白まで削除し、Alt+FとAlt+Dは単語の末尾で停止し、句読点は単語の区切りとして扱われる。設定キーkeybindingFlavorは無効化された。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-109d679b3932</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-109d679b3932</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[プロンプトの単語編集キーをBashに合わせて変更した。Ctrl+Wは空白まで削除し、Alt+FとAlt+Dは単語の末尾で停止し、句読点は単語の区切りとして扱われる。設定キーkeybindingFlavorは無効化された。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-109d679b3932">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-109d679b3932">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [変更] トークンカウントAPIが利用できない場合、小規模モデルへの追加リクエストを行う代わりに、ローカル推定値を使用するように `/context` のトークンカウントを変更しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-f8e4d4ed7ae5</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-f8e4d4ed7ae5</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[トークンカウントAPIが利用できない場合、小規模モデルへの追加リクエストを行う代わりに、ローカル推定値を使用するように、`/context` のトークンカウントを変更しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-f8e4d4ed7ae5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-f8e4d4ed7ae5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] [VSCode] 「出力スタイル」メニューに「カスタムスタイルの構築」ウォークスルーを追加しました。カスタム出力スタイルファイルをエクスポートし、その場でスタイル一覧に表示します。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-83f0b8274a80</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-83f0b8274a80</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 「出力スタイル」メニューに「カスタムスタイルの作成」チュートリアルを追加しました。カスタム出力スタイルファイルをエクスポートし、その場でスタイル一覧に表示します。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-83f0b8274a80">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-83f0b8274a80">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] [VSCode] MCPサーバーダイアログに「サーバーを追加」フォームと「削除」アクションを追加し、IDEを離れることなくMCPサーバーの追加・削除ができるようにした — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-75eeab86a9ab</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-75eeab86a9ab</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] MCPサーバーダイアログに「サーバーを追加」フォームと「削除」アクションを追加し、IDEを離れることなくMCPサーバーの追加・削除ができるようにした]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-75eeab86a9ab">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-75eeab86a9ab">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] セッションリストに、ターミナル、別のVS Codeウィンドウ、およびClaude Desktopで開かれているセッションを示す中空のリングを追加した。これにより、これらのセッションが閉じられているように見えることがなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-170637b921f5</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-170637b921f5</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[セッションリストに、ターミナル、別のVS Codeウィンドウ、およびClaude Desktopで開かれているセッションを示す中空のリングを追加した。これにより、それらのセッションが閉じられているように見えることはなくなった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-170637b921f5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-170637b921f5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] [VSCode] 権限プロンプトと質問プロンプトに折りたたみボタンを追加し、プロンプトを閉じなくてもその背後の会話を読めるようにした。また、プロンプトの横のスペースでも会話をスクロールできるようになった — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-4c133f022a49</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-4c133f022a49</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 権限プロンプトと質問プロンプトに折りたたみボタンを追加し、プロンプトを閉じなくてもその背後の会話が読めるようにした。また、プロンプトの横のスペースでも会話をスクロールできるようになった]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-4c133f022a49">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-4c133f022a49">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [追加] VS Code拡張機能のセッション一覧の右クリックメニューに「Archive session（セッションをアーカイブ）」を追加し、「Unarchive（アーカイブ解除）」には専用のアイコンを割り当てた。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-f6f1c18e854e</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-f6f1c18e854e</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[VS Code拡張機能のセッション一覧の右クリックメニューに「Archive session（セッションをアーカイブ）」を追加し、「Unarchive（アーカイブ解除）」には専用のアイコンを割り当てた。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-f6f1c18e854e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-f6f1c18e854e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正済み] [VSCode] 「Claude Code on the web」からテレポートされたセッションが、クラウドセッションのシャットダウン時に切断された際、質問が拒否されたものとして扱われる問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-74d15d3faef9</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-74d15d3faef9</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 「Claude Code on the web」からテレポートされたセッションが、クラウドセッションのシャットダウン時に切断された場合、その質問が拒否されたものとして扱われる問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-74d15d3faef9">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-74d15d3faef9">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] ウィンドウとともに復元されたタブにおいて、セッションタブの名前変更ボックスが空の状態で開く問題を修正した。ボックスは、現在の名前が入力された状態で開くようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-373d72c3475a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-373d72c3475a</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] ウィンドウとともに復元されたタブにおいて、セッションタブの名前変更ボックスが空の状態で開く問題を修正した。ボックスには現在の名前が入力された状態で開くようになった。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-373d72c3475a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-373d72c3475a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] - [VSCode] セッションリストパネルの折りたたまれたセクションが、パネルが読み込まれるたびに一瞬展開されて表示される不具合を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-8a17c0028fe9</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-8a17c0028fe9</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- [VSCode] セッションリストパネルで、折りたたまれているセクションが、パネルが読み込まれるたびに一瞬だけ展開されて表示されてしまう不具合を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-8a17c0028fe9">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-8a17c0028fe9">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] Claude が次の処理に移った後も、質問が回答を待っている間などに、フォーカスビューでツール呼び出しが実行中のまま表示される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-8b1808cbfab6</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-8b1808cbfab6</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] Claude が次の処理に移った後も、質問が回答を待っている間などに、フォーカスビューでツール呼び出しが実行中のまま表示される問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-8b1808cbfab6">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-8b1808cbfab6">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] VSCode] フォーカスが当たっていない Claude タブのセッション ID が修正された際、セッション一覧のアクティブな行のハイライトが古い状態のまま残ってしまう問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-d4e9c8646dbd</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-d4e9c8646dbd</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] フォーカスされていない「Claude」タブのセッション ID が修正された際、セッション一覧のアクティブな行のハイライトが古い状態のまま残る問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-d4e9c8646dbd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-d4e9c8646dbd">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] - [VSCode] Claude タブにフォーカスが当たっている状態で、Cmd/Ctrl+Shift+T によるセッションの再オープンやディープリンク経由でのオープンを実行しても、開かれたタブが Claude のエディターグループの外側に配置されなくなった — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-81ad0ea2313f</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-81ad0ea2313f</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- [VSCode] Claude タブにフォーカスが当たっている状態で、Cmd/Ctrl+Shift+T によるセッションの再オープンやディープリンク経由でのオープンを実行しても、開かれたタブが Claude のエディターグループの外側に配置されなくなった]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-81ad0ea2313f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-81ad0ea2313f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] セッションタブの「グループに追加」で、Claude Code on the Web から開いたセッションが 2 つのグループに入ってしまう問題を修正しました。現在は、セッションリストに表示されている項目を移動するようになっています。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-62e3219d4d34</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-62e3219d4d34</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] セッションタブの「グループに追加」機能において、Claude Code on the Web から開いたセッションが 2 つのグループに重複して追加されてしまう問題を修正しました。現在は、セッションリストに表示されている項目を移動するようになっています。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-62e3219d4d34">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-62e3219d4d34">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] 組織が後から無効化したモデルが、ウィンドウを 2 回リロードするまでモデルピッカーに表示され続けてしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-43899d1d88a7</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-43899d1d88a7</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 組織が後から無効化したモデルが、ウィンドウを 2 回リロードするまでモデルピッカーに表示され続ける問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-43899d1d88a7">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-43899d1d88a7">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] - [VSCode] セッション一覧から開いたタブがそのセッションに戻ってしまう問題、およびWebセッションから開いたタブでteleportが再実行されたり、空の状態になったりするという問題を、VS Codeがタブのビューを再読み込みした後に発生しないよう修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-86ec4f41cb85</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-86ec4f41cb85</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[- [VSCode] セッション一覧から開いたタブがそのセッションに戻ってしまう問題、および Web セッションから開いたタブで teleport が再実行されたり、空白のままになったりしてしまう問題について、VS Code がタブのビューを再読み込みした後に発生しないよう修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-86ec4f41cb85">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-86ec4f41cb85">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] ウィンドウのリロード直後や設定ファイルにエラーがある場合に質問すると、以前のセッションの /btw サイドクエスチョンの履歴が上書きされてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-88f84ea93e48</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-88f84ea93e48</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] ウィンドウのリロード直後や設定ファイルにエラーがある場合に質問すると、以前のセッションの /btw サイドクエスチョンの履歴が上書きされてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-88f84ea93e48">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-88f84ea93e48">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] Claude.ai アカウントまたは Console アカウントでサインインしている場合、Claude パネルを再読み込みした後、承認待ちの質問カードが再表示されない問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-20b4e7bf4f8f</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-20b4e7bf4f8f</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] Claude.ai アカウントまたは Console アカウントでサインインしている場合、Claude パネルを再読み込みした後、承認待ちの質問カードが再び表示されない問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-20b4e7bf4f8f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-20b4e7bf4f8f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] 1つのパネルが設定ファイルからサードパーティプロバイダーを検出した後も、ウィンドウ内の他のClaudeパネルでclaude.ai専用の機能が引き続き表示される問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-2b4efc50e0eb</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-2b4efc50e0eb</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 1つのパネルが設定ファイルからサードパーティプロバイダーを検出した後も、ウィンドウ内の他のClaudeパネルでclaude.ai専用の機能が引き続き表示されてしまう問題を修正しました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-2b4efc50e0eb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-2b4efc50e0eb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] Claude Code が「ログインなし」と報告した場合や、ログイン情報が不足しているためにリクエストが失敗した場合に、`Disable Login Prompt` 設定が有効になっていてもサインイン画面が表示される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-3683dc7ef8a1</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-3683dc7ef8a1</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] Claude Code が「ログインなし」と報告した場合や、ログイン情報が不足しているためにリクエストが失敗した場合に、`Disable Login Prompt` 設定が有効になっているにもかかわらずサインイン画面が表示される問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-3683dc7ef8a1">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-3683dc7ef8a1">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] VSCode拡張機能において、次にキューに入った権限プロンプトが、前のプロンプトで入力したテキストを保持したまま表示され、さらに即座に2回目のクリックを受け付けてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-41bc67118c43</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-41bc67118c43</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[VSCodeの拡張機能において、次にキューに入った権限プロンプトが、前のプロンプトで入力したテキストを保持したまま表示され、さらに即座に2回目のクリックを受け付けてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-41bc67118c43">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-41bc67118c43">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] セッションリストのみが表示されているウィンドウで、「install-plugin」リンクを開いても、インストールダイアログが表示されず、Claude サイドバーのみが開いてしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-cc311c590b18</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-cc311c590b18</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] セッションリストのみが表示されているウィンドウで、「install-plugin」リンクを開いても、インストールダイアログが表示されず、Claudeのサイドバーだけが開いてしまう問題を修正した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-cc311c590b18">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-cc311c590b18">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] アカウントダイアログを開くまで、新しいウィンドウのサイドバーにある使用量メーターが空のままになる問題と、残り 0% の使用制限がメーターに表示されない問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-12f0f6cb4b02</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-12f0f6cb4b02</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] アカウントダイアログが開くまで、新しいウィンドウでサイドバーの使用量メーターが空のままになる問題と、残り 0% の使用制限がメーターに表示されない問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-12f0f6cb4b02">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-12f0f6cb4b02">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] 「このグループ内で新しいセッションを開始」を実行した後、「新しい会話」を行ってもグループから外れなくなる問題、およびサイドバーの未読リストが読み込まれる前に完了したセッションに未読マークが表示されない問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-eb0736f8b153</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-eb0736f8b153</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 「このグループ内で新しいセッションを開始」を実行した後、「新しい会話」を行ってもグループから外れなくなる問題、およびサイドバーの未読リストが読み込まれる前に完了したセッションに未読マークが表示されない問題を修正しました]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-eb0736f8b153">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-eb0736f8b153">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] ターン実行中にエディタータブのバッジが「未読」として表示される問題、セッションリストから開いたタブでバッジが表示されない問題、およびアーカイブ済みのセッションで「セッションタブをグループに追加」が機能しない問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-efaa2e87d91e</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-efaa2e87d91e</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] ターン実行中にエディタタブのバッジが「未読」として表示される問題、セッションリストから開いたタブでバッジが表示されない問題、およびアーカイブ済みのセッションで「セッションタブをグループに追加」が機能しない問題を修正した]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-efaa2e87d91e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-efaa2e87d91e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] 「すべてのセッションでリモートコントロールを有効にする」の設定を修正し、設定を切り替えると、他の VS Code ウィンドウで開いているセッションにも即座に反映されるようにしました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-7b3ffd8be95a</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-7b3ffd8be95a</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] 「すべてのセッションでリモートコントロールを有効にする」の設定を修正し、設定を切り替えると、他の VS Code ウィンドウで開いているセッションにも即座に反映されるようになりました。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-7b3ffd8be95a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-7b3ffd8be95a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [修正] [VSCode] claude.ai から引き継いだセッションのうち、タブが依然として Web セッションの下に記録されていたものについて、セッションリストの「Open」フィルターを修正した。さらに、フィルターメニューの各セクションにスクリーンリーダー用のラベルを追加した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-9c39a9043668</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-9c39a9043668</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[[VSCode] claude.ai から引き継いだセッションのうち、タブが依然として Web セッションの下に記録されていたものについて、セッションリストの「Open」フィルターを修正した。さらに、フィルターメニューの各セクションにスクリーンリーダー用のラベルを追加した。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-9c39a9043668">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-9c39a9043668">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
+        </item>
+        <item>
+            <title><![CDATA[[v2.1.261] [変更点] VSCodeのモデルピッカーを、すべてのモデルを含む1つのフラットなリストに変更した。旧来のモデル名の表記も行として残され、リストの最後に表示される。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
+            <link>https://claude-code-log.com/changelog/v2.1.261#item-1b04038991e4</link>
+            <guid>https://claude-code-log.com/changelog/v2.1.261#item-1b04038991e4</guid>
+            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
+            <description><![CDATA[VSCodeのモデルピッカーを、すべてのモデルを含む1つのフラットなリストに変更した。旧来のモデル名の表記も行として残されており、リストの最後に表示される。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-1b04038991e4">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-1b04038991e4">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+            <category>claude</category>
         </item>
         <item>
             <title><![CDATA[[v2.1.266] [修正] LLM ゲートウェイおよびプロキシ構成に影響を及ぼしていた v2.1.265 のリグレッションを修正した。ドキュメントに記載されていない環境変数 CLAUDE_CODE_USE_GATEWAY は、以前は ANTHROPIC_BASE_URL と ANTHROPIC_AUTH_TOKEN の両方が設定されている場合にのみ無視されていたが、v2.1.265 では単独で Cloud Gateway へのサインインを強制するようになり、API キー、apiKeyHelper、カスタム認証ヘッダーを組み合わせた構成では、すべてのリクエストに対して「Not signed in to the Cloud」というエラーが発生するようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
@@ -232,681 +907,6 @@
             <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
             <description><![CDATA[Claude アプリのゲートウェイにおいて、OTLP テレメトリリレーが不正な形式またはサイズ超過のペイロードをいくつか拒否した後、コレクターへのすべての転送を 30 秒間停止してしまう問題を修正しました。]]></description>
             <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-50064e010a59">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-50064e010a59">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] `/plugin` の「Discover/Browse」および `claude plugin list --json --available` において、メタデータが plugin.json にのみ存在するマーケットプレイス・プラグインの description や displayName が表示されない不具合を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-668c566b7485</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-668c566b7485</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`/plugin` の「Discover/Browse」および `claude plugin list --json --available` において、メタデータが `plugin.json` にのみ存在するマーケットプレイスのプラグインの `description` や `displayName` が表示されない不具合を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-668c566b7485">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-668c566b7485">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] 管理対象設定で設定されたClaude appsゲートウェイにサインインしたセッション内で `/login` を再実行した際、「no gateway URL is configured（ゲートウェイURLが設定されていません）」と表示される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-080a4edd933a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-080a4edd933a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[管理対象設定で設定されたClaude appsゲートウェイにサインインしたセッション内で `/login` を再実行した際、「no gateway URL is configured（ゲートウェイURLが設定されていません）」と表示される問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-080a4edd933a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-080a4edd933a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] 設定ファイルへの書き込みに失敗した場合、`/model` が「デフォルトとして保存しました」と誤って表示される問題を修正しました。保存に失敗したことと、その理由が表示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-4eb14a1be0f2</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-4eb14a1be0f2</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[設定ファイルへの書き込みに失敗した場合、`/model` が「デフォルトとして保存しました」と誤って表示してしまう問題を修正しました。保存に失敗したことと、その理由が表示されるようになりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-4eb14a1be0f2">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-4eb14a1be0f2">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] リモートコントロールから /clear を実行した際、SessionStart フックの完了や、ターミナル上で開いているダイアログへの対応を待たずに処理が完了するように修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-2e7a9152f406</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-2e7a9152f406</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[リモートコントロールから /clear を実行した際、SessionStart フックの完了や、ターミナル上で開いているダイアログへの対応を待たずに処理を完了するように修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-2e7a9152f406">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-2e7a9152f406">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] /config ダイアログでタブを切り替えた際に高さが変化する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-7b0de4ad0795</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-7b0de4ad0795</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[/config ダイアログでタブを切り替えた際に高さが変わってしまう問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-7b0de4ad0795">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-7b0de4ad0795">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] コンテナの再起動後にワークフローの実行を再開する際の問題を修正した。実行ジャーナルが見つからない場合の再開では、すべてのエージェントを再実行する代わりに、明確なエラーで失敗するようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-84aff9ef6e18</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-84aff9ef6e18</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[コンテナの再起動後にワークフローの実行を再開する際の問題を修正した。実行ジャーナルが見つからない場合の再開では、すべてのエージェントを再実行する代わりに、明確なエラーで失敗するようになった。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-84aff9ef6e18">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-84aff9ef6e18">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] `claude-api` スキルのエラーコードの参照を修正した。モデルへのアクセス失敗は 404、利用不可のベータヘッダーは 403 ではなく 400 を返す — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-efd2bdf67d97</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-efd2bdf67d97</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`claude-api` スキルのエラーコードの参照を修正した。モデルへのアクセス失敗は 404、利用不可のベータヘッダーは 403 ではなく 400 を返す]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-efd2bdf67d97">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-efd2bdf67d97">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] 非対話セッション（`-p` および stream-json 入力、Agent SDK、クラウドセッション）において、ユーザーの新しいメッセージごとにシェルの作業ディレクトリがリセットされる問題を修正し、`cd` による移動がターンをまたいで維持されるようにした — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-0ac9792df800</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-0ac9792df800</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[非対話セッション（`-p` および stream-json 入力、Agent SDK、クラウドセッション）において、ユーザーからの新しいメッセージごとにシェルの作業ディレクトリがリセットされてしまう問題を修正し、`cd` による移動がターンをまたいで維持されるようにした]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-0ac9792df800">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-0ac9792df800">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] `http` として設定された MCP サーバーのうち、レガシーな HTTP+SSE トランスポートのみに対応しているサーバーに接続できなかった問題を修正し、Claude Code が MCP 仕様の記載通り SSE にフォールバックするようにしました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-f947aaa52add</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-f947aaa52add</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`http` として設定された MCP サーバーのうち、レガシーな HTTP+SSE トランスポートのみに対応しているサーバーに接続できなかった問題を修正し、Claude Code が MCP 仕様に従って SSE にフォールバックするようにしました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-f947aaa52add">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-f947aaa52add">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] クラウドセッションにおいて、claude.ai で接続済みのコネクタの一部が、誤って「認証が必要」と表示される問題を修正した（対応していないリクエストに対して HTTP 401 を返すサーバーが対象）。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-10670be43e70</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-10670be43e70</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[クラウドセッションにおいて、claude.ai に接続済みのコネクタの一部が、誤って「認証が必要」と表示される問題を修正しました（対応していないリクエストに対して HTTP 401 を返すサーバーが対象です）。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-10670be43e70">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-10670be43e70">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] コネクタの承認やサインインリンクの応答を待機している間、リモートセッションのサンドボックスコンテナが起動したまま残る問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-dbc960065e82</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-dbc960065e82</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[コネクタの承認やサインインリンクの応答を待機している間、リモートセッションのサンドボックスコンテナが起動したまま残る問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-dbc960065e82">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-dbc960065e82">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] 再開されたセッションにおいて、「バックグラウンドタスクが完了しなかった」という通知に表示される内容が、長いモデル向けの復旧手順ではなく、短いステータス行になっていた問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-2e1edab75dc6</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-2e1edab75dc6</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[再開されたセッションで「バックグラウンドタスクが完了しなかった」という通知に表示される内容が、長いモデル向けの復旧手順ではなく、短いステータス行になっていた問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-2e1edab75dc6">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-2e1edab75dc6">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [変更点] Windows：AppContainer や制限付きトークンのサンドボックス内で実行した際、すべてのファイルに対して読み取り・書き込み・編集が拒否される（「symlink resolution changed after permission was checked」）問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-98aed50761f0</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-98aed50761f0</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[Windows：AppContainer や制限付きトークンのサンドボックス内で実行した際、すべてのファイルに対して読み取り・書き込み・編集が拒否される（「権限の確認後にシンボリックリンクの解決結果が変更された」）問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-98aed50761f0">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-98aed50761f0">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] 大規模リポジトリでの `--worktree` の起動を改善：新しいワークツリーが並列でチェックアウトされるようになった（git 2.32 以降） — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-7c83e2fa05ee</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-7c83e2fa05ee</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[大規模リポジトリでの `--worktree` の起動を改善：新しいワークツリーが並列でチェックアウトされるようになった（git 2.32 以降）]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-7c83e2fa05ee">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-7c83e2fa05ee">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] `/workflows` のエージェント詳細を改善：ツール呼び出しに「実行中」「失敗」「完了」のマークが表示されるようになり、サブエージェントのタスクリストがある場合はそれが表示されるようになったほか、Enterキーを押すと、一覧表示された呼び出しを入力内容と結果ごと展開できるようになった — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-e2f16edcff7e</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-e2f16edcff7e</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`/workflows` のエージェント詳細を改善：ツール呼び出しに「実行中」「失敗」「完了」のマークが表示され、サブエージェントのタスクリストがある場合はそれが表示され、Enterキーを押すと一覧表示された呼び出しが、入力内容と結果ごと展開できるようになった]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-e2f16edcff7e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-e2f16edcff7e">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] プロンプト入力中にコマンド（スラッシュコマンド）を入力する際の改善：候補が単一の提案ではなくリスト形式で表示されるようになり（Tabキーでフルスクリーン外に開くことができる）、またプラグインのスキルを名前だけで検索できるようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-71f263da9aff</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-71f263da9aff</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[プロンプト入力中にコマンド（スラッシュコマンド）を入力する際の改善：候補が単一の提案ではなくリスト形式で表示されるようになり（Tabキーでフルスクリーン外で開ける）、またプラグインのスキルを名前だけで検索できるようになった。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-71f263da9aff">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-71f263da9aff">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] サインインが必要なリモート MCP サーバーにおいて、実際に認証が行われるまで、Claude Code が OAuth クライアントを登録しなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-e33793cf2a9b</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-e33793cf2a9b</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[サインインが必要なリモート MCP サーバーにおいて、実際に認証が行われるまで、Claude Code が OAuth クライアントを登録しなくなった。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-e33793cf2a9b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-e33793cf2a9b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] 多くのファイルを読み込んだ長いセッションを再開する際の所要時間を短縮した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-5c6bd69186dc</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-5c6bd69186dc</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[多数のファイルを読み込んだ長いセッションを再開する際の所要時間を改善した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-5c6bd69186dc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-5c6bd69186dc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] サイズ制限を超える画像をデコードできない場合に表示されるエラーメッセージを改善しました。制限値のみを表示する代わりに、原因と対処法を明示するようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-2538d2d2184b</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-2538d2d2184b</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[サイズ制限を超える画像をデコードできない場合に表示されるエラーを改善しました。単に制限値を示すだけでなく、原因と対処法を明示するようになりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-2538d2d2184b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-2538d2d2184b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [改善] 他のユーザーが作成したアーティファクトの読み取り機能を改善した。要約を「信頼できないコンテンツ」として扱い、埋め込まれた指示をそのまま転送するのではなく、それを検出して警告するようにした。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-3f7b0e5f2d62</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3f7b0e5f2d62</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[他者が作成したアーティファクトの読み取り機能を改善した。要約がページを信頼できないコンテンツとして扱い、埋め込まれた指示をそのまま転送するのではなく、それを検出して警告するようにした。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3f7b0e5f2d62">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3f7b0e5f2d62">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [更新] `​.claude` フォルダの権限オプションを、実際に許可される内容を反映するように更新した。具体的には、そのセッション中、プロジェクトの `.claude` フォルダ（または `~/.claude`）内のファイルを編集できることを明示した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-3be43f54126c</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3be43f54126c</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`​.claude` フォルダの権限オプションを、実際に許可される内容を反映するように更新した。具体的には、そのセッションの間、プロジェクトの `.claude` フォルダ（または `~/.claude`）内のファイルを編集できることを明示した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3be43f54126c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3be43f54126c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [変更点] 「管理設定」に `forceLoginGatewayUrl` が設定されている端末について、`forceLoginMethod: gateway` と同様に、起動時から Claude アプリゲートウェイのセッションとして扱うよう変更しました。残っている claude.ai のログイン情報や API キーは使用しません。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-1bc0f9a7afe3</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-1bc0f9a7afe3</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[「管理設定」に `forceLoginGatewayUrl` が設定されている端末について、`forceLoginMethod: gateway` と同様に、起動時から Claude アプリゲートウェイのセッションとして扱うよう変更しました。残っている claude.ai のログイン情報や API キーは使用しません。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-1bc0f9a7afe3">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-1bc0f9a7afe3">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [変更点] 画像処理を、ランタイムの組み込み画像サポートを利用する方式に変更した。これにより、CLI がネイティブ画像モジュールを一時ディレクトリに展開しなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-c5da32bc08f7</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-c5da32bc08f7</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[画像処理を、ランタイムの組み込み画像サポートを利用する方式に変更した。これにより、CLI がネイティブ画像モジュールを一時ディレクトリに展開しなくなった。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-c5da32bc08f7">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-c5da32bc08f7">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [変更点] プラグインの表示用メタデータについて、インストール済みタブや `claude plugin details` では、`plugin.json` よりもマーケットプレイスのエントリを優先して表示するようにした。マーケットプレイスのエントリにない項目については、`plugin.json` の値で補完する。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-66cbc4e11939</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-66cbc4e11939</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[プラグインの表示用メタデータについて、[インストール済み]タブや `claude plugin details` では、`plugin.json` よりもマーケットプレイスのエントリを優先して表示するようにした。マーケットプレイスのエントリにない項目については、`plugin.json` の値で補完する。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-66cbc4e11939">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-66cbc4e11939">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [変更点] Claude アプリのゲートウェイセッションにおいて、ゲートウェイの管理設定を、`OTEL_EXPORTER_OTLP_ENDPOINT` で指定されたコレクターへ OpenTelemetry を直接エクスポートするように変更しました。ゲートウェイのリレーを経由しません。コレクターが指定されていないセッションでは、引き続きリレーを利用します。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-4db48ca31799</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-4db48ca31799</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[Claude アプリのゲートウェイセッションにおいて、ゲートウェイの管理設定を変更し、`OTEL_EXPORTER_OTLP_ENDPOINT` で指定されたコレクターへ OpenTelemetry を直接エクスポートするようにした。ゲートウェイの中継を経由しない。コレクターが指定されていないセッションでは、引き続き中継を利用する。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-4db48ca31799">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-4db48ca31799">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [追加] [VSCode] 一定期間非アクティブなセッションを自動的にアーカイブする機能を追加（新設定「Archive inactive sessions」、デフォルトは14日） — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-1d62c992062d</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-1d62c992062d</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[[VSCode] 一定期間非アクティブなセッションを自動的にアーカイブする機能を追加（新しい設定「Archive inactive sessions」、デフォルトは14日）]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-1d62c992062d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-1d62c992062d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正] [VSCode] 会話を開いてから10分以上経過した状態で「Reload Window」を実行したり再起動を行ったりすると、サイドバーのチャットが空白のまま復元される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-3ddbb83b70aa</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-3ddbb83b70aa</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[[VSCode] 会話を開いてから10分以上経過した状態で「Reload Window」を実行したり再起動を行ったりすると、サイドバーのチャットが空白のまま復元されてしまう問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-3ddbb83b70aa">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-3ddbb83b70aa">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.265] [修正済み] [VSCode] 「Remote Control is active」というメッセージのテキストの下に、タイムラインのドットがずれて表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.265#item-8797026f73cc</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.265#item-8797026f73cc</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[[VSCode] 「Remote Control is active」というメッセージのテキストの下に、タイムラインのドットがずれて表示される問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.265#item-8797026f73cc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.265%23item-8797026f73cc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.263] [変更点] バグ修正と信頼性の向上 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.263#item-ccfc4941961a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.263#item-ccfc4941961a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[バグ修正と信頼性の向上]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.263#item-ccfc4941961a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.263%23item-ccfc4941961a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [追加] /status および claude doctor に「Organization policy（組織ポリシー）」の行を追加し、プロキシがエンドポイントへの通信を許可していないなど、組織のポリシーを読み込めなかった理由を表示するようにしました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-365792edccda</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-365792edccda</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[/status および claude doctor に「Organization policy（組織ポリシー）」の行を追加し、プロキシがエンドポイントへの通信を通さないなど、組織のポリシーを読み込めなかった理由が表示されるようにした。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-365792edccda">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-365792edccda">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [追加] コマンドやバックグラウンドタスクの出力をファイルに保存する前に、Claude がインラインで受け取れる文字数を増やす `bashOutputMaxChars` および `taskOutputMaxChars` の設定を追加しました（最大12万8千文字）。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-d16e05df083a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-d16e05df083a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[コマンドやバックグラウンドタスクの出力をファイルに保存する前に、Claudeがインラインで受け取れる文字数を増やすため、`bashOutputMaxChars` および `taskOutputMaxChars` の設定を追加しました（最大12万8千文字）。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-d16e05df083a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-d16e05df083a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [追加] `--append-subagent-system-prompt-file` フラグを追加し、サブエージェントのシステムプロンプトをファイルから読み込めるようにした。これは、コマンドラインで渡すには大きすぎるプロンプト向けの機能である。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-cb436e3f301f</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-cb436e3f301f</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`--append-subagent-system-prompt-file` フラグを追加し、サブエージェントのシステムプロンプトをファイルから読み込めるようにした。これは、コマンドラインで渡すには大きすぎるプロンプト向けの機能である。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-cb436e3f301f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-cb436e3f301f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [追加] - 使用されていない読み込み済みスキルと、それらがコンテキストで消費しているコストを表示し、スキルの整理（削除）ができる `/skill-doctor` を追加する — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-e2302600a451</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-e2302600a451</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- 使用されていない読み込み済みスキルと、それらがコンテキストで消費しているコストを表示し、スキルを整理（削除）できる `/skill-doctor` を追加する]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-e2302600a451">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-e2302600a451">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 高速入力やキーリピート時に、入力または貼り付けた文字が正しい順序で表示されない、あるいは欠落してしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-534236dc52cb</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-534236dc52cb</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[高速入力やキーリピート時に、入力または貼り付けた文字が正しい順序で表示されない、あるいは文字が欠落してしまう問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-534236dc52cb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-534236dc52cb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 作業ディレクトリが /net のオートマウント上に存在する場合に、/add-dir が誤った「couldn't be resolved」エラーを表示する問題を修正した — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-a7aca5c44c40</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-a7aca5c44c40</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[作業ディレクトリが /net のオートマウント上に存在する場合に、/add-dir が誤った「couldn't be resolved」エラーを表示する問題を修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-a7aca5c44c40">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-a7aca5c44c40">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] AWS や AWS 認証情報ヘルパーが応答しない際に Bedrock セットアップウィザードがフリーズする問題（現在は明確なエラーが表示された上でタイムアウトする）および、TLS インスペクションプロキシ環境においてモデルチェックが失敗する問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-4251a88b20c5</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-4251a88b20c5</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[AWS や AWS 認証情報ヘルパーが応答しない際に Bedrock セットアップウィザードが応答しなくなる問題（現在は明確なエラーが表示された上でタイムアウトする）、および TLS インスペクションプロキシ環境でモデルチェックが失敗する問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-4251a88b20c5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-4251a88b20c5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 「managed settings」が `enabledPlugins` で強制有効化されている場合、クラウドセッションが claude.ai から同期されたプラグインを破棄し、失敗する可能性のあるマーケットプレイスのクローンにフォールバックしてしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-8924bc123e1d</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-8924bc123e1d</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[「managed settings」が `enabledPlugins` で強制的に有効化されている場合、クラウドセッションが claude.ai から同期されたプラグインを破棄し、失敗する可能性のあるマーケットプレイスのクローンにフォールバックしてしまう問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-8924bc123e1d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-8924bc123e1d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] プロンプト入力時に、インラインの `[Image #N]` チップの直前にある文字を削除できなかった問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-1a74f92a0f11</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-1a74f92a0f11</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[プロンプト入力時に、インラインの `[Image #N]` チップの直前にある文字を削除できなかった問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-1a74f92a0f11">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-1a74f92a0f11">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 並列ツール呼び出しの付近で、hook 出力などのコンテキストが失われ、再開後のリクエストが変更されてしまうという、セッション再開に関する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-369c160be51a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-369c160be51a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[並列ツール呼び出しの付近で、hook 出力などのコンテキストが失われ、再開後のリクエストが変更されてしまうという、セッション再開に関する問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-369c160be51a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-369c160be51a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] スマートフォン、ブラウザ、claude.ai アプリがターミナルセッションに接続した際、またはターミナル側で権限モードを変更した後に、Remote Control が古い権限モードを表示してしまう問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-48d20bc19ccd</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-48d20bc19ccd</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[スマートフォン、ブラウザ、claude.ai アプリがターミナルセッションに接続した際、またはターミナル側で権限モードを変更した後に、Remote Control が古い権限モードを表示してしまう問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-48d20bc19ccd">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-48d20bc19ccd">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] リモートコントロールのセッションにおいて、接続したスマートフォンやブラウザからターンを停止した後、あるいは`/clear`のようなローカルのスラッシュコマンドを実行した後も、ローディングアイコンが止まらず、停止ボタンが表示され続ける問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-c7650ae88308</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-c7650ae88308</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[リモートコントロールセッションにおいて、接続したスマートフォンやブラウザからターンを停止した後、あるいは`/clear`のようなローカルのスラッシュコマンドを実行した後も、スピナーが止まらず、停止ボタンが表示され続ける問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-c7650ae88308">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-c7650ae88308">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] - SDK およびクラウドセッションにおいて、最初のプロンプトの直後かつターン開始前に送信された「Stop（中断）」が無視される問題を修正しました。これにより、ターンが最後まで完了することなく、正しく停止するようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-33b4bd21a75f</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-33b4bd21a75f</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- SDK およびクラウドセッションにおいて、最初のプロンプトの直後かつターン開始前に送信された「Stop（中断）」が無視される問題を修正しました。これにより、ターンが最後まで完了することなく、正しく停止するようになりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-33b4bd21a75f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-33b4bd21a75f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] /teleport でプルしたセッションが、接続中のセッションにアップロードされ、スマートフォンや Web 上で元のセッションに追記されて表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-850928458b2b</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-850928458b2b</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[/teleport で pull したセッションが、接続中のセッションにアップロードされ、スマートフォンや Web 上で元のセッションに追記されて表示される問題を修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-850928458b2b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-850928458b2b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] ネイティブ Windows 環境で、TLS 検査を行う企業プロキシの背後で、リモートコントロールの受信イベントストリームが失敗する問題を修正した — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-2b5b9a020187</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-2b5b9a020187</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[ネイティブ Windows において、TLS 検査を行う企業プロキシの背後で、リモートコントロールの受信イベントストリームが失敗する問題を修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-2b5b9a020187">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-2b5b9a020187">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] effort レベルが設定に基づいている場合、リモートコントロール セッションにおける claude.ai 上の表示がデフォルトの effort レベルになってしまう不具合を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-f6ba008fb694</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-f6ba008fb694</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[effort レベルが設定に由来している場合、リモートコントロール セッションにおける claude.ai 上の表示がデフォルトの effort レベルになってしまう不具合を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-f6ba008fb694">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-f6ba008fb694">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] Google 認証情報の確認に時間がかかった際、認証情報がまだ有効であるにもかかわらず、起動時に `gcpAuthRefresh` がブラウザを開いてしまう問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-651389c7de8d</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-651389c7de8d</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[Google 認証情報の確認に時間がかかった場合、認証情報がまだ有効であるにもかかわらず、起動時に `gcpAuthRefresh` がブラウザを開いてしまう問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-651389c7de8d">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-651389c7de8d">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 起動時の接続フェッチがタイムアウトした際、claude.aiコネクタがセッション全体を通じて接続されていない状態のままになる問題を修正した。CLIがバックグラウンドで再試行を行うようになった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-9abe8db9c057</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-9abe8db9c057</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[起動時の接続フェッチがタイムアウトした際、claude.aiコネクタがセッション全体を通じて接続されていない状態のままになる問題を修正しました。CLIがバックグラウンドで再試行を行うようになりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-9abe8db9c057">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-9abe8db9c057">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] バックグラウンドエージェントを再開できなかった際、起動処理が頻繁に再試行され、CPU使用率が高止まりする問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-6442e90cc13c</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-6442e90cc13c</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[バックグラウンドエージェントを再開できなかった際、起動処理が頻繁に再試行され、CPU使用率が高止まりする問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-6442e90cc13c">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-6442e90cc13c">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 同一マシン上で動作する旧バージョンのClaude Codeに、新バージョン向けにゲートされた機能フラグが適用されてしまうことがあった問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-ced0a4cbbf49</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-ced0a4cbbf49</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[同じマシン上で動作する旧バージョンのClaude Codeに、新しいバージョン向けにゲートされた機能フラグが適用されてしまうことがあった問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-ced0a4cbbf49">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-ced0a4cbbf49">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] `/usage` および VS Code の使用量パネルにおいて、usage エンドポイントがレート制限中である場合や、起動直後に開いた場合に、モデル固有の週間上限の行が表示されない問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-94c3b5df0bcb</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-94c3b5df0bcb</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`/usage` および VS Code の使用量パネルにおいて、usage エンドポイントがレート制限中である場合や、起動直後に開いた場合に、モデル固有の週間上限の行が表示されない問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-94c3b5df0bcb">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-94c3b5df0bcb">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] `claude -p --resume ` が、トランスクリプト内に記録された不正なセッションIDを採用してしまう問題を修正しました。現在は新しいセッションIDで再開されます。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-c53a90a2f285</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-c53a90a2f285</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`claude -p --resume ` が、トランスクリプト内に記録された不正なセッションIDを採用してしまう問題を修正しました。現在は、新しいセッションIDで再開されます。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-c53a90a2f285">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-c53a90a2f285">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] バックグラウンドのワークフローやエージェントがまだ実行中のにもかかわらず、ターミナルの進行状況インジケーター（iTerm2、Ghostty、ConEmu）でセッションが完了済みと表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-6f71d85902f5</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-6f71d85902f5</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[バックグラウンドのワークフローやエージェントがまだ実行中のにもかかわらず、ターミナルの進行状況インジケーター（iTerm2、Ghostty、ConEmu）でセッションが完了済みと表示される問題を修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-6f71d85902f5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-6f71d85902f5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] コンテナが行方向と列方向の間で切り替わった後、ボックスが誤った高さで描画されるという、まれに発生するレイアウトの不具合を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-4378813ccac1</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-4378813ccac1</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[コンテナが行方向と列方向の間で切り替わった後、ボックスが誤った高さで描画されるという、まれに発生するレイアウトの不具合を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-4378813ccac1">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-4378813ccac1">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 信頼されたプロキシが `X-Forwarded-For` にポート番号を追加する場合の、Claude apps ゲートウェイにおけるクライアント IP の解決に関する問題を修正しました。アクセスリストが設定されている場合、解読できないエントリに対しては 403 を返します。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-d55e0fad9687</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-d55e0fad9687</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[信頼されたプロキシが `X-Forwarded-For` にポート番号を追加する場合の、Claude apps ゲートウェイにおけるクライアント IP の解決に関する問題を修正しました。アクセスリストが設定されている場合、解読できないエントリに対しては 403 を返します。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-d55e0fad9687">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-d55e0fad9687">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] ターミナル CLI が protobuf を使用している場合でも、Claude apps ゲートウェイが Claude Desktop に対して OpenTelemetry を JSON 形式でエクスポートするよう指示していた問題を修正しました。protobuf のみを受け付けるコレクターが、Desktop のデータを拒否していました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-557fad343f7a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-557fad343f7a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[ターミナル CLI が protobuf を使用している場合でも、Claude apps ゲートウェイが Claude Desktop に対して OpenTelemetry を JSON 形式でエクスポートするよう指示していた問題を修正した。protobuf のみを受け付けるコレクターが、Desktop のデータを拒否していた。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-557fad343f7a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-557fad343f7a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] - デスクトップやウェブ上で、セッションがアーティファクトの更新を監視しているだけなのに、「busy」と表示される問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-b422d53765d8</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-b422d53765d8</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- デスクトップやWeb上で、セッションがアーティファクトの更新を監視しているだけなのに、「busy」と表示される問題を修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-b422d53765d8">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-b422d53765d8">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] - Chrome 拡張機能「Claude」において、Claude デスクトップアプリから実行したローカル Cowork セッションで、file_upload が「paths: expected array, received undefined」というエラーで失敗する問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-e38b4c4cfd07</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-e38b4c4cfd07</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- Chrome 拡張機能「Claude」において、Claude デスクトップアプリから実行したローカル Cowork セッションで、file_upload が「paths: expected array, received undefined」というエラーで失敗する問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-e38b4c4cfd07">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-e38b4c4cfd07">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] 別のマシン上のオフラインのRemote Controlセッションに送信した`SendMessage`が「配信済み」と表示される問題を修正しました。結果には、宛先のマシンが再接続するまで配信が保留されていることが示されるようになりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-564f8eef77b8</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-564f8eef77b8</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[別のマシン上のオフラインのRemote Controlセッションに送信した`SendMessage`が「配信済み」と表示される問題を修正しました。結果から、宛先のマシンが再接続するまで配信が保留されていることがわかるようになりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-564f8eef77b8">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-564f8eef77b8">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] バックグラウンドの Bash コマンドで実行された CLI によるプラグインのインストールに関するヒントを修正：ヒントが検出されるようになり、会話に「raw」タグが混入しなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-99a8c743bedc</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-99a8c743bedc</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[バックグラウンドの Bash コマンドで実行された CLI によるプラグインのインストールに関するヒントを修正しました。これにより、ヒントが正しく検出されるようになり、会話に「raw」タグが混入しなくなりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-99a8c743bedc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-99a8c743bedc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [修正] エージェントチームのインプロセスメンバーが、2ターン目に1ターン目と同じツールとスキルのアナウンスを再送信した際、リクエストのプレフィックスが変化し、プロンプトキャッシュの読み取りに失敗する問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-eecbf05ed8c2</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-eecbf05ed8c2</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[エージェントチームの処理中のチームメイトが、2ターン目に1ターン目と同じツールとスキルのアナウンスを再送信した際、リクエストのプレフィックスが変更されたためにプロンプトキャッシュが正しく機能しなくなる問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-eecbf05ed8c2">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-eecbf05ed8c2">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [改善] /model ピッカーおよび VS Code のモデルピッカーについて、Claude Code が認識可能なモデルの場合、生の Bedrock・Vertex AI・LLM ゲートウェイの ID ではなく、モデル名を表示するように改善した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-0ec7b4fe31ff</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-0ec7b4fe31ff</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[/model ピッカーと VS Code のモデルピルについて、Claude Code が認識できるモデルの場合、生の Bedrock・Vertex AI・LLM ゲートウェイの ID ではなく、モデル名を表示するように改善した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-0ec7b4fe31ff">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-0ec7b4fe31ff">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.261] [改善] `GOOGLE_APPLICATION_CREDENTIALS` が設定されている場合の Google Vertex AI での起動を改善：API クライアントの生成時に Google Cloud プロジェクトの検出を再実行したり、余分な `gcloud` プロセスを起動したりすることがなくなりました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.261#item-a735840076be</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.261#item-a735840076be</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[`GOOGLE_APPLICATION_CREDENTIALS` が設定されている場合の Google Vertex AI での起動を改善しました。これにより、API クライアントの生成時に Google Cloud プロジェクトの検出を再実行したり、余分な `gcloud` プロセスを起動したりすることがなくなりました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.261#item-a735840076be">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.261%23item-a735840076be">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [追加] 新しい `maxEffortLevel` 設定が追加されました（トップレベル、または `modelSettings` 配下のモデル単位で指定可能）。Bedrock、Vertex、Foundry を含むすべてのプロバイダーで効果レベルの上限を設定でき、ユーザーはその上限より低いレベルを選択することも可能です。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-838087e68e8f</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-838087e68e8f</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[新しい `maxEffortLevel` 設定を追加しました（トップレベル、または `modelSettings` 配下のモデル単位で指定可能です）。Bedrock、Vertex、Foundry を含むすべてのプロバイダーでエフェクトレベルの上限を設定でき、ユーザーはその上限より低いレベルを選択することも可能です。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-838087e68e8f">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-838087e68e8f">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [追加] - `--system-prompt-snapshot off` を追加しました。会話に記録されたプロンプトを再利用する代わりに、リクエストごとにシステムプロンプトを新たにレンダリングします（プロンプト本文の反復調整用）。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-f14205164887</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-f14205164887</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- `--system-prompt-snapshot off` を追加しました。会話に記録されたプロンプトを再利用する代わりに、リクエストのたびにシステムプロンプトを新たに生成します（プロンプト本文の反復調整用）。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-f14205164887">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-f14205164887">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] サンドボックス化が必須となる管理対象設定を持つ組織において、クラウド上の Cowork 予約タスクが起動時に失敗する問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-78af28b31443</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-78af28b31443</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[サンドボックス化が必須となる管理対象設定を持つ組織において、クラウド上のCowork予約タスクが起動時に失敗する問題を修正した。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-78af28b31443">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-78af28b31443">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] モバイルクライアントで `/context` などのローカルコマンドの出力が空白で表示される問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-cf07835ae1ae</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-cf07835ae1ae</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[モバイルクライアントで、`/context` などのローカルコマンドの出力が空白で表示される問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-cf07835ae1ae">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-cf07835ae1ae">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] agent ビュー内で tmux または ssh セッションに再接続した後、Shift+Enter および Option+Backspace が機能しなくなる問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-ab3ee889109a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ab3ee889109a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[agent view 内で tmux または ssh セッションに再接続した後、Shift+Enter および Option+Backspace が機能しなくなる問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ab3ee889109a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ab3ee889109a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] フルスクリーンモードで上にスクロールした際、薄く表示されていた直前のプロンプトのヘッダーが会話の先頭に表示されない問題を修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-9b528bf27b99</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-9b528bf27b99</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[フルスクリーンモードで上にスクロールした際、薄く表示されていた直前のプロンプトのヘッダーが会話の先頭に表示されない問題を修正しました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-9b528bf27b99">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-9b528bf27b99">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] - ワークフローの `agent()` 呼び出しで大規模な出力スキーマを指定した際、安全クラスファイアによるチェックではなく、auto mode で拒否されてしまう問題を修正した — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-e14bdf939c0b</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-e14bdf939c0b</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- Workflow の `agent()` 呼び出しで大規模な出力スキーマを指定した場合、安全クラスファイアによるチェックではなく、auto mode で拒否されてしまう問題を修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-e14bdf939c0b">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-e14bdf939c0b">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] macOSおよびLinuxにおいて、バックスラッシュを含むマーケットプレイスのエントリパスが、マーケットプレイスの境界チェックをバイパスする可能性がある問題を修正しました。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-7f2dfead6c3a</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-7f2dfead6c3a</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[macOSおよびLinuxにおいて、バックスラッシュを含むマーケットプレイスのエントリパスが検出された場合、マーケットプレイスの境界チェックをバイパスされる可能性がある問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-7f2dfead6c3a">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-7f2dfead6c3a">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] Claude Desktop などのホストアプリ上で、AWS または Google Cloud の認証情報が期限切れになった際、再認証エラーが表示される前に、汎用的な「request failed」というメッセージが表示され、10 回再試行される問題を修正した。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-ce4c9594b0f3</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-ce4c9594b0f3</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[Claude Desktop などのホストアプリ上で、AWS または Google Cloud の認証情報が期限切れになった際、再認証エラーが表示される前に、汎用的な「request failed」というメッセージが表示され、10 回再試行される問題を修正しました。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-ce4c9594b0f3">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-ce4c9594b0f3">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] - 修正：`/compact` などのスラッシュコマンドの実行後に `-p --resume` を使用してセッションを再開した際、存在しないターン（「Continue from where you left off.」）が挿入されなくなった。 — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-8373245a4a00</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-8373245a4a00</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- 修正：`/compact` などのスラッシュコマンドの実行後に `-p --resume` を使用してセッションを再開した際、存在しないターン（「Continue from where you left off.」）が挿入されなくなった。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-8373245a4a00">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-8373245a4a00">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] 大規模なセッション（トランスクリプト5 MB超）の再開に関する問題を修正しました：並列ツール呼び出しとそのフック出力が、再読み込みされた会話から欠落しなくなりました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-9e4ecc604f56</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-9e4ecc604f56</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[大規模なセッション（トランスクリプトが5 MBを超えるもの）の再開に関する修正を行いました：並列ツール呼び出しとそのフック出力が、再読み込みした会話から欠落しなくなりました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-9e4ecc604f56">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-9e4ecc604f56">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] - 読み取りできない場合、managed `allowedHttpHookUrls`、`httpHookAllowedEnvVars`、`allowedChannelPlugins` について、すべてを許可するのではなく、何も許可しないように修正しました — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-54b86bea2bb5</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-54b86bea2bb5</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[- 読み取りができない場合、managed `allowedHttpHookUrls`、`httpHookAllowedEnvVars`、`allowedChannelPlugins` について、すべてを許可するのではなく、何も許可しないように修正した]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-54b86bea2bb5">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-54b86bea2bb5">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-            <category>claude</category>
-        </item>
-        <item>
-            <title><![CDATA[[v2.1.267] [修正] 管理設定でClaude apps gateway経由のサインインが必要なマシンにおいて、`/login`が動作しない問題を修正：Escキーでダイアログを閉じられるようになった（以前は反応しなかった） — CCログ超訳（Claude Code CHANGELOG）]]></title>
-            <link>https://claude-code-log.com/changelog/v2.1.267#item-8ad8eb5722df</link>
-            <guid>https://claude-code-log.com/changelog/v2.1.267#item-8ad8eb5722df</guid>
-            <pubDate>Wed, 09 Sep 2026 20:13:04 GMT</pubDate>
-            <description><![CDATA[管理設定で、Claude Apps Gateway経由のサインインが必要なマシンにおいて`/login`が動作しない問題を修正：Escキーでダイアログを閉じられるようになった（以前は反応しなかった）]]></description>
-            <content:encoded><![CDATA[<p><a href="https://claude-code-log.com/changelog/v2.1.267#item-8ad8eb5722df">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.267%23item-8ad8eb5722df">Google 翻訳で全文を読む</a></p>]]></content:encoded>
             <category>claude</category>
         </item>
     </channel>
