@@ -4,11 +4,25 @@
         <title>Claude レポート — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>Claude 系の新着から重要な記事を Claude が選定した日次レポート</description>
-        <lastBuildDate>Thu, 10 Sep 2026 23:49:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 23:56:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。</copyright>
+        <item>
+            <title><![CDATA[Claude レポート 2026-09-12]]></title>
+            <link>https://ogontaro.github.io/rss/report/claude/2026-09-12.html</link>
+            <guid>https://ogontaro.github.io/rss/report/claude/2026-09-12.html</guid>
+            <pubDate>Sat, 12 Sep 2026 22:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>今日の 2 本</h2>
+<h3>シンボリックリンク越しのパスで permission の deny/confirm ルールが効いていなかった不具合を修正（Claude Code v2.1.268）</h3>
+<p>macOS の <code>/etc</code>・<code>/tmp</code>・<code>/var</code>、Linux の <code>/bin</code> のようにシンボリックリンクになっているディレクトリでは、deny ルールを実体パスで書いても、あるいはシンボリックリンクのパス表記で書いても、Bash コマンドから見ると適用されないケースがあった。意図したサンドボックス制限が実は抜け穴になっていたという話なので、権限設定でパスベースの deny/confirm ルールを運用している人は要チェック。
+<a href="https://claude-code-log.com/changelog/v2.1.268#item-b3613ac888db">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.268%23item-b3613ac888db">Google 翻訳で全文を読む</a></p>
+<h3>WebFetch が応答を開いたまま完了しないサーバーで無期限にハングする不具合を修正、300秒タイムアウトと環境変数での上書きに対応（Claude Code v2.1.268）</h3>
+<p>これまで WebFetch はサーバーがレスポンスを開始したまま完了させない場合に永久に待ち続けることがあったが、300秒で自動的に失敗するようになり、<code>CLAUDE_CODE_WEBFETCH_DEADLINE_MS</code> で時間を変更（<code>0</code> で無効化）できるようになった。フックやワークフローで WebFetch を組み込んでいると地味に刺さる不具合だったので、自動化を組んでいる人には実務的に効く修正。
+<a href="https://claude-code-log.com/changelog/v2.1.268#item-887656a3e44e">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https%3A%2F%2Fclaude-code-log.com%2Fchangelog%2Fv2.1.268%23item-887656a3e44e">Google 翻訳で全文を読む</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Claude レポート 2026-09-11]]></title>
             <link>https://ogontaro.github.io/rss/report/claude/2026-09-11.html</link>
