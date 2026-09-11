@@ -18,6 +18,14 @@
             <content:encoded><![CDATA[<p><a href="https://www.cncf.io/blog/2026/09/11/building-a-reliable-cloud-native-foundation-for-distributed-ai-training/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwww.cncf.io%2Fblog%2F2026%2F09%2F11%2Fbuilding-a-reliable-cloud-native-foundation-for-distributed-ai-training%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Machine speed, hold the AI: Hand-rolled marimo CVE-2026-39987 exploit — Sysdig]]></title>
+            <link>https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit</link>
+            <guid>https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit</guid>
+            <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sysdig TRT details a hand-rolled attack against marimo's CVE-2026-39987 without AI, building custom Python tools to breach a cloud bastion host.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://webflow.sysdig.com/blog/machine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwebflow.sysdig.com%2Fblog%2Fmachine-speed-hold-the-ai-hand-rolled-marimo-cve-2026-39987-exploit">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha) — Kubernetes Blog]]></title>
             <link>https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/</link>
             <guid>https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/</guid>
@@ -776,14 +784,6 @@
             <guid>https://webflow.sysdig.com/blog/dirty-frag-cve-2026-43284-and-cve-2026-43500-detecting-unpatched-local-privilege-escalation-via-linux-kernel-esp-and-rxrpc</guid>
             <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p><a href="https://webflow.sysdig.com/blog/dirty-frag-cve-2026-43284-and-cve-2026-43500-detecting-unpatched-local-privilege-escalation-via-linux-kernel-esp-and-rxrpc">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwebflow.sysdig.com%2Fblog%2Fdirty-frag-cve-2026-43284-and-cve-2026-43500-detecting-unpatched-local-privilege-escalation-via-linux-kernel-esp-and-rxrpc">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Kubernetes v1.36: More Drivers, New Features, and the Next Era of DRA — Kubernetes Blog]]></title>
-            <link>https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/</link>
-            <guid>https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/</guid>
-            <pubDate>Thu, 07 May 2026 18:35:00 GMT</pubDate>
-            <description><![CDATA[Dynamic Resource Allocation (DRA) has fundamentally changed how platform administrators handle hardware accelerators and specialized resources in Kubernetes. In the v1.36 release, DRA continues to mature, bringing a wave of feature graduations, critical usability improvements, and new capabilities that extend the flexibility of DRA to native resources like memory and CPU, and support for ResourceClaims in PodGroups. Driver availability continues to expand. Beyond specialized compute accelerators]]></description>
-            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/07/kubernetes-v1-36-dra-136-updates/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F07%2Fkubernetes-v1-36-dra-136-updates%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>

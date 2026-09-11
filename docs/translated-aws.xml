@@ -4,11 +4,35 @@
         <title>翻訳フィード: AWS — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>AWS 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Thu, 10 Sep 2026 21:58:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 18:26:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/</link>
+            <guid>9da22a53a45cf214e154c67bafd0a4bd7eefa26b</guid>
+            <pubDate>Fri, 11 Sep 2026 18:26:38 GMT</pubDate>
+            <description><![CDATA[Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fmonitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/</link>
+            <guid>4fe7cafaba3f92f547e3e291a89c2e4e2100f953</guid>
+            <pubDate>Fri, 11 Sep 2026 18:24:38 GMT</pubDate>
+            <description><![CDATA[Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fbeyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Build interactive MCP Apps using Amazon Bedrock AgentCore — AWS Machine Learning Blog]]></title>
+            <link>https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/</link>
+            <guid>1b81a239f751889181ea1d02ab731440b400b140</guid>
+            <pubDate>Fri, 11 Sep 2026 18:23:17 GMT</pubDate>
+            <description><![CDATA[Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Fmachine-learning%2Fbuild-interactive-mcp-apps-using-amazon-bedrock-agentcore%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference — AWS Machine Learning Blog]]></title>
             <link>https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/</link>
@@ -784,30 +808,6 @@
             <pubDate>Wed, 08 Apr 2026 04:33:48 GMT</pubDate>
             <description><![CDATA[EKS on Fargate で Pod のメトリクスを取得してみた（ADOT 編)]]></description>
             <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eksonfagate-containerinsights-adot/">原文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[EKS on Fargate で Pod のコンテナログを CloudWatch Logs に出力してみた（Built-in Fluent Bit 編） — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/eksonfagate-cloudwatchlogs-builtinfluentbit/</link>
-            <guid>6DRQfGNFXuhRJu7SdMt7eI</guid>
-            <pubDate>Wed, 08 Apr 2026 04:33:48 GMT</pubDate>
-            <description><![CDATA[EKS on Fargate で Pod のコンテナログを CloudWatch Logs に出力してみた（Built-in Fluent Bit 編）]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eksonfagate-cloudwatchlogs-builtinfluentbit/">原文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AWS DevOps Agent で、EKS の Pod クラッシュを調査させてみた — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/devops-agent-eks-pod-crash/</link>
-            <guid>3S6fmGDObWdWWVz9fczGow</guid>
-            <pubDate>Mon, 09 Mar 2026 05:44:07 GMT</pubDate>
-            <description><![CDATA[AWS DevOps Agent で、EKS の Pod クラッシュを調査させてみた]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/devops-agent-eks-pod-crash/">原文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[[アップデート] EKS Auto Mode で AWS 管理コンポーネントのログを出力できるようになりました — Amazon EKS | DevelopersIO]]></title>
-            <link>https://dev.classmethod.jp/articles/eks-auto-mode-aws-managed-component-logging/</link>
-            <guid>1J8F9wLwF6FBlEH1k9kD9W</guid>
-            <pubDate>Mon, 02 Mar 2026 02:47:34 GMT</pubDate>
-            <description><![CDATA[[アップデート] EKS Auto Mode で AWS 管理コンポーネントのログを出力できるようになりました]]></description>
-            <content:encoded><![CDATA[<p><a href="https://dev.classmethod.jp/articles/eks-auto-mode-aws-managed-component-logging/">原文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
