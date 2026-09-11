@@ -4,11 +4,19 @@
         <title>翻訳フィード: Kubernetes — ogontaro/rss</title>
         <link>https://ogontaro.github.io/rss/</link>
         <description>Kubernetes 系の購読フィードの新着エントリのタイトルと概要を日本語化したもの</description>
-        <lastBuildDate>Thu, 10 Sep 2026 11:37:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 18:30:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>各記事の著作権は原著者に帰属します。翻訳は機械翻訳です。</copyright>
+        <item>
+            <title><![CDATA[Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha) — Kubernetes Blog]]></title>
+            <link>https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/</link>
+            <guid>https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/</guid>
+            <pubDate>Thu, 10 Sep 2026 18:30:00 GMT</pubDate>
+            <description><![CDATA[In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive restarts or application downtime. However, in-place resizing introduced a unique resource scheduling gap]]></description>
+            <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F09%2F10%2Fkubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Kubernetes disaster recovery: Guidance from three reproducible failure scenarios — CNCF Blog]]></title>
             <link>https://www.cncf.io/blog/2026/09/10/kubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios/</link>
@@ -776,14 +784,6 @@
             <pubDate>Wed, 06 May 2026 18:35:00 GMT</pubDate>
             <description><![CDATA[As Kubernetes clusters grow to tens of thousands of nodes, controllers that watch high-cardinality resources like Pods face a scaling wall. Every replica of a horizontally scaled controller receives the full stream of events from the API server, paying the CPU, memory, and network cost to deserialize everything, only to discard the objects it is not responsible for. Scaling out the controller does not reduce per-replica cost; it multiplies it. Kubernetes v1.36 introduces server-side sharded list]]></description>
             <content:encoded><![CDATA[<p><a href="https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fkubernetes.io%2Fblog%2F2026%2F05%2F06%2Fkubernetes-v1-36-server-side-sharded-list-and-watch%2F">Google 翻訳で全文を読む</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Our founder's vision: Welcome to headless cloud security — Sysdig]]></title>
-            <link>https://webflow.sysdig.com/blog/welcome-to-headless-cloud-security</link>
-            <guid>https://webflow.sysdig.com/blog/welcome-to-headless-cloud-security</guid>
-            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[From the start, we built Sysdig around a simple belief: security should reflect how people and systems actually work. That’s why we focused on runtime. That’s why we built in the open. We’ve always aligned with where and how our customers operate.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://webflow.sysdig.com/blog/welcome-to-headless-cloud-security">原文を読む</a> / <a href="https://translate.google.com/translate?sl=auto&amp;tl=ja&amp;u=https%3A%2F%2Fwebflow.sysdig.com%2Fblog%2Fwelcome-to-headless-cloud-security">Google 翻訳で全文を読む</a></p>]]></content:encoded>
         </item>
     </channel>
 </rss>
